@@ -1,45 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-	<!-- Sample Lords -->
-		<NPCCharacter id="hmj_nim_king_battletemplate"
-			default_group="Infantry"
-			level="11"
-			name="{=Limitanei Conscript}hmj_nim_king_battletemplate"
-			occupation="Soldier"
-			is_basic_troop="true"
-			culture="Culture.empire_n">
-			<face>
-				<face_key_template value="BodyProperty.villager_empire"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="30"/>
-				<skill id="Riding" value="5"/>
-				<skill id="OneHanded" value="40"/>
-				<skill id="TwoHanded" value="20"/>
-				<skill id="Polearm" value="50"/>
-				<skill id="Bow" value="5"/>
-				<skill id="Crossbow" value="10"/>
-				<skill id="Throwing" value="5"/>
-			</skills>
-			<upgrade_targets></upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.empire_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_empire_sword_5_t5"/>
-					<equipment slot="Item2" id="Item.AR_shield_infantry_e"/>
-					<equipment slot="Head" id="Item.TV_empire_lord_helmet_f"/>
-					<equipment slot="Cape" id="Item.ao_imperial_noblemans_sash"/>
-					<equipment slot="Body" id="Item.TV_vlandia_armor_d"/>
-					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers"/>
-					<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
-					<equipment slot="Horse" id="Item.noble_horse_imperial"/>
-					<equipment slot="HorseHarness" id="Item.imperial_scale_barding"/>
-				</EquipmentRoster>
-				<EquipmentSet id="empire_troop_civilian_template_t1"
-							  civilian="true" />
-			</Equipments>
-		</NPCCharacter>
-		
 	<!-- #region NPCs -->
 	<!-- Culture: Republic -->
 	<!-- #region Northern Empire Common Roster -->
@@ -299,7 +259,6 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.small_bit_axe_t2"/>
 					<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
-					<equipment slot="Item2" id="Item.sturgia_old_shield_b"/>
 					<equipment slot="Head" id="Item.plain_headcloth"/>
 					<equipment slot="Body" id="Item.long_hemp_tunic"/>
 					<equipment slot="Gloves" id="Item.armwraps"/>
@@ -325,7 +284,6 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.small_bit_axe_t2"/>
 					<equipment slot="Item1" id="Item.sturgia_old_shield_b"/>
-					<equipment slot="Item2" id="Item.sturgia_old_shield_b"/>
 					<equipment slot="Head" id="Item.AR_roman_hat_e"/>
 					<equipment slot="Body" id="Item.peasant_costume"/>
 					<equipment slot="Gloves" id="Item.armwraps"/>
