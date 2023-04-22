@@ -2,6 +2,78 @@
 <!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
 For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 <Items>
+	<Item id="kettle_helm_1_v1"
+		  name="{=EWR2MNeM}Kettle Helmet"
+		  subtype="head_armor"
+		  mesh="kettle_helm_1_v1"
+		  culture="Culture.vlandia"
+		  weight="4.7"
+		  appearance="1"
+		  Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+				   has_gender_variations="false"
+				   hair_cover_type="type1"
+				   beard_cover_type="none"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="false" />
+	</Item>
+	<Item id="kettle_helm_1_v2"
+		  name="{=EWR2MNeM}Painted Kettle Helmet"
+		  subtype="head_armor"
+		  mesh="kettle_helm_1_v2"
+		  culture="Culture.vlandia"
+		  weight="4.7"
+		  appearance="1"
+		  Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+				   has_gender_variations="false"
+				   hair_cover_type="type1"
+				   beard_cover_type="none"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="kettle_helm_1_v3"
+		  name="{=EWR2MNeM}Painted Kettle Helmet"
+		  subtype="head_armor"
+		  mesh="kettle_helm_1_v3"
+		  culture="Culture.vlandia"
+		  weight="4.7"
+		  appearance="1"
+		  Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+				   has_gender_variations="false"
+				   hair_cover_type="type1"
+				   beard_cover_type="none"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
+	<Item id="kettle_helm_1_v4"
+		  name="{=EWR2MNeM}Painted Kettle Helmet"
+		  subtype="head_armor"
+		  mesh="kettle_helm_1_v4"
+		  culture="Culture.vlandia"
+		  weight="4.7"
+		  appearance="1"
+		  Type="HeadArmor">
+		<ItemComponent>
+			<Armor head_armor="42"
+				   has_gender_variations="false"
+				   hair_cover_type="type1"
+				   beard_cover_type="none"
+				   modifier_group="plate"
+				   material_type="Plate" />
+		</ItemComponent>
+		<Flags UseTeamColor="true" />
+	</Item>
 
 
 	<Item id="diamond_fluted_helm_heavy" name="{=osa_fluted_helm_heavy}Fluted Helmet with Mail Coif" mesh="fluted_nasal_helm_v1" culture="Culture.vlandia" weight="1.2" appearance="0.9" Type="HeadArmor">
