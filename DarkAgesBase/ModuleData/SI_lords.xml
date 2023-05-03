@@ -3123,6 +3123,40 @@
 			<EquipmentSet id="emp_civ_template_flamboyant"/>
 		</Equipments>
 	</NPCCharacter-->
+
+	<NPCCharacter id="lord_2_1"                 
+				name="{=rNrq6QdU}Raganvad"
+                age="37"
+                voice="curt"
+                is_hero="true"
+                default_group="Cavalry"
+                culture="Culture.sturgia"
+                occupation="Lord"
+                face_mesh_cache="true">
+    <face>
+      <!--face_key value="0000514140bc19029e3b66c84492388893a369b8b287576979538ac46b678b94000e28b50ec6b384000000000000000000000000000000000000000001585180" /-->
+		<BodyProperties version="4" age="37" weight="0.8781" build="0.9769"  key="0000500140B409429E895C86B34CA38993A369B8B287576979538AC46B678B9400BFD8030BC60384000000000000000000000000000000000000000001705180"  />
+    </face>
+		<skills/>
+		<Traits>
+			<Trait id="HuscarlFightingSkills" value="8" />
+			<Trait id="Commander" value="7" />
+			<Trait id="Politician" value="7" />
+			<Trait id="Manager" value="3" />
+			<Trait id="Mercy" value="-1" />
+			<Trait id="Honor" value="-1" />
+			<Trait id="Valor" value="1" />
+			<Trait id="Generosity" value="-1" />
+			<Trait id="Calculating" value="1" />
+			<Trait id="Authoritarian" value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="hmj_stu_king_battletemplate"/>
+			<EquipmentSet id="hmj_stu_king_civtemplate" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
 	  <NPCCharacter id="lord_4_1"
 					name="{=jEIsVazl}Derthert"
 					age="48"

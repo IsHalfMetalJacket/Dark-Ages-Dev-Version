@@ -1063,6 +1063,8 @@
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
+<!-- Sturgian Principalities -->
+	<!-- Raganvad -->
 	<xsl:template match='NPCCharacter[@id="lord_2_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1081,6 +1083,7 @@
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
+
 	<xsl:template match='NPCCharacter[@id="lord_4_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>

@@ -868,7 +868,76 @@
 		</EquipmentSet>
 		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsNoncombatantTemplate="true"/>
 	</EquipmentRoster>
-	
+
+<!-- Sturgian Principalities -->
+	<EquipmentRoster id="hmj_stu_king_battletemplate" culture="Culture.sturgia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5" />
+			<Equipment slot="Item1" id="Item.sturgia_lance_2_t5" />
+			<Equipment slot="Item2" id="Item.sturgia_2haxe_2_t5" />
+			<Equipment slot="Item3" id="Item.heavy_round_shield"/>
+			<Equipment slot="Head" id="Item.Rus_helm_noble_icon"/>
+			<Equipment slot="Cape" id="Item.AR_khuzait_cape_c"/>
+			<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+			<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_a"/>
+			<Equipment slot="Leg" id="Item.eastern_splint_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zd"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_sturgia_great_nord_battletemplate" culture="Culture.sturgia">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			<Equipment slot="Item1" id="Item.sturgia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_round_shield"/>
+			<Equipment slot="Head" id="Item.TV_nord_helmet_h"/>
+			<Equipment slot="Cape" id="Item.fur_cloak_b"/>
+			<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.AR_vlandian_throwing_spear_2_t4"/>
+			<Equipment slot="Item1" id="Item.sturgia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_round_shield"/>
+			<Equipment slot="Head" id="Item.decorated_goggled_helmet"/>
+			<Equipment slot="Cape" id="Item.vs_cape_with_furb"/>
+			<Equipment slot="Body" id="Item.sturgian_lamellar_fortified"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_lance_2_t5"/>
+			<Equipment slot="Item1" id="Item.sturgia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_round_shield"/>
+			<Equipment slot="Head" id="Item.Rus_helm_noble"/>
+			<Equipment slot="Cape" id="Item.vs_cape_with_fura"/>
+			<Equipment slot="Body" id="Item.TV_sturgia_armor_e"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentSet>
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.sturgia_2haxe_2_t5"/>
+			<Equipment slot="Item1" id="Item.sturgia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_round_shield"/>
+			<Equipment slot="Head" id="Item.sturgian_lord_helmet_b"/>
+			<Equipment slot="Cape" id="Item.TV_sturgia_shoulders_a"/>
+			<Equipment slot="Body" id="Item.TV_sturgia_armor_e2"/>
+			<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Horse" id="Item.t3_sturgia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsNoncombatantTemplate="true"/>
+	</EquipmentRoster>
+
 	<EquipmentRoster id="AR_vae_ruler_battletemplate" culture="Culture.byalic">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.sturgia_sword_5_t4"/>
@@ -2224,22 +2293,7 @@
 		</EquipmentSet>
 		<Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
 	</EquipmentRoster>
-	<EquipmentRoster id="hmj_stu_king_battletemplate" culture="Culture.sturgia">
-		<EquipmentSet>
-			<Equipment slot="Item0" id="Item.sturgia_noble_sword_1_t5" />
-			<Equipment slot="Item1" id="Item.sturgia_lance_2_t5" />
-			<Equipment slot="Item2" id="Item.sturgia_2haxe_2_t5" />
-			<Equipment slot="Item3" id="Item.heavy_round_shield"/>
-			<Equipment slot="Head" id="Item.Rus_helm_noble_icon"/>
-			<Equipment slot="Cape" id="Item.AR_khuzait_cape_c"/>
-			<Equipment slot="Body" id="Item.northern_brass_lamellar_over_mail"/>
-			<Equipment slot="Gloves" id="Item.AR_sturgia_gloves_a"/>
-			<Equipment slot="Leg" id="Item.eastern_splint_boots"/>
-			<Equipment slot="Horse" id="Item.noble_horse_northern"/>
-			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zd"/>
-		</EquipmentSet>
-		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" IsWoodlandTemplate="true" IsNoncombatantTemplate="true"/>
-	</EquipmentRoster>
+
 	<EquipmentRoster id="hmj_stu_king_civtemplate" culture="Culture.sturgia">
 		<EquipmentSet civilian="true">
 			<Equipment slot="Item0" id="Item.sturgia_noble_sword_2_t5"/>
