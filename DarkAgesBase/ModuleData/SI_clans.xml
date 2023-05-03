@@ -497,10 +497,7 @@
 	<!--Quraysh-like clan, established and mercantile -->
 
 	<!--
-	VLANDIA
-	Brotherhood of the Woods
-	Free Company
-	Vlandian warships first came to the western shores of Calradia as traders. Then, seeing how rich the land was, they decided to take it. First the Empire fought them, then when that failed granted them noble titles and estates to make them into imperial clients, and then - when they rebelled - fought them again. Now they are an independent kingdom, known for steel-forging and their horses, and their armored riders are a constant menace to the Empire's western marches. 	
+    Zwadane clans	
 	-->
 	<Faction id="clan_vlandia_2"
 	         name="{=qFntgcGy}dey Tihr"
@@ -510,13 +507,6 @@
 	         super_faction="Kingdom.zwadane"
 	         is_noble="true"
 	         banner_key="11.71.14.4000.4000.764.764.1.0.0.419.15.0.420.420.766.764.0.0.0.512.15.0.100.100.664.864.0.0.0.512.15.0.100.100.864.664.0.0.0.512.15.0.100.100.864.864.0.0.0.512.15.0.100.100.664.664.0.0.0.500.15.0.500.500.764.764.0.0.0"/>
-	<!--
-	Patriarch - Rendric.	Wealthy, entitled clan. Duc de Berry	
-	Rendric of the House of Tir is wealthy and notoriously avaricious, known for squeezing every last denar out of his subjects while neglecting his duty to defend them. His son meanwhile is considered depraved, and is almost as greatly feared as the Sturgian and Battanian raiders who he allows the rampage through the northlands as he pursues his desires. Rendric's daughter Liena is considered the saving grace of the family, who has donned armor and taken on the responsibilities that her male relatives neglect.
-	Heir is Furenhard - depraved and feared
-	Heiress is Liena, leads armies, somewhat feckless
-	Lieutenant - 	
-	-->
 	<Faction id="clan_vlandia_6"
 	         name="{=vbLAA0RF}dey Rovalt"
 	         tier="4"
@@ -534,10 +524,81 @@
 	         is_noble="true"
 	         banner_key="11.71.14.4922.4922.580.740.1.0.0.102.15.0.400.400.764.744.0.0.0.306.15.0.200.300.664.944.0.0.90.306.15.0.200.300.864.944.0.1.-90"/>
 	<!--
-	KHUZAITS
-	The Khuzaits thundered into the steppes west of Lake Baetiros two generations ago, driving other nomads before them. They and their vassal tribes, the Khergit and the Arkit, seized some of the cities on the fringe of the empire. They grew rich on the caravans from the lands of the Padishah to the east, trading in their yurts for carpeted palaces. But they still lead raids into the heart of the empire, their swift horse archers spreading terror for leagues around their armies.
-	(Minor faction:) The Hawlan are unsubjugated nomads, living on the fringes of the Khuzait's kingdom. Other Khuzait mock them for living only in yurts and smelling like the sheep dung they use for their fuel. They are what the Khuzait used to be, but despite this - or perhaps because of this - the newly rich, newly settled tribes treat them with scorn. Sons of Noyans have even been known to lead expeditions into the deep steppe to hunt them like animals. The Khergit however turned to them in their recent moment of crisis, using them as mercenaries.	
+     Vlandian Clans
 	-->
+	  <Faction id="clan_vlandia_1"
+           name="{=3o5s6L3y}dey Meroc"
+           tier="6"
+           owner="Hero.lord_4_1"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="11.142.142.1536.1536.768.768.1.0.0.160.132.132.512.512.769.764.1.0.0" />
+  <Faction id="clan_vlandia_3"
+           name="{=mpjp1MT2}dey Arromanc"
+           tier="4"
+           owner="Hero.lord_4_6"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="1.148.148.1823.1808.764.764.0.0.0.102.140.140.408.408.764.764.0.0.0" />
+  <!--
+	Calatild was her father's only child, and was named heir of the House of Arromanc in contrary to normal Vlandian custom. The claim to her lands staked by Ingalther of Cortain has allowed her to rally her relatives to her banner, overcoming any objections they might have to a female liege. 
+	Patriarch - Untheric, consort of queen
+	Queen - Calatild
+	Heir, Thomund - valiant but hotheaded, conventional
+	Uncle, Hecard
+	Heiress 
+	-->
+  <Faction id="clan_vlandia_4"
+           name="{=CS4rSk99}dey Cortain"
+           tier="5"
+           owner="Hero.lord_4_16"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="12.100.140.1823.1808.764.764.0.0.0.424.100.140.300.300.839.839.0.0.0.424.140.140.300.300.689.689.0.0.0" />
+  <Faction id="clan_vlandia_5"
+           name="{=9qAUWcfa}dey Gunric"
+           tier="2"
+           owner="Hero.lord_4_21"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="11.142.140.1500.1500.764.764.1.0.-90.505.140.140.2000.100.764.764.0.0.0.505.140.140.2000.100.764.764.0.0.90" />
+  <Faction id="clan_vlandia_7"
+           name="{=LZVzzczs}dey Fortes"
+           tier="3"
+           owner="Hero.lord_4_23"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="1.142.12.1772.2235.764.764.1.0.-90.158.127.116.312.312.764.913.1.0.0.503.127.116.231.231.764.585.1.1.0" />
+  <Faction id="clan_vlandia_8"
+           name="{=9NWQNInC}dey Molarn"
+           tier="3"
+           owner="Hero.lord_4_24"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="11.131.12.1772.2235.764.764.1.0.-90.146.116.116.250.250.764.914.0.0.0.146.116.116.250.250.899.714.0.0.0.146.116.116.250.250.629.714.0.0.0" />
+  <Faction id="clan_vlandia_9"
+           name="{=LygSwU3i}dey Jelind"
+           tier="2"
+           owner="Hero.lord_4_27"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="11.2.2.1772.2235.764.764.1.0.-90.138.116.2.500.500.764.764.1.0.0" />
+  <Faction id="clan_vlandia_10"
+           name="{=yQcZrUYi}dey Folcun"
+           tier="1"
+           owner="Hero.lord_4_28"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="4.141.140.1500.1500.764.764.1.0.-90.125.142.140.500.500.764.764.0.0.0" />
+	
 	<Faction id="clan_khuzait_9"
 	         name="{=cYTdzMQ4}Izgchit"
 	         tier="4"
@@ -584,65 +645,29 @@
 		     super_faction="Kingdom.norden"
 		     is_noble="true"
 		     banner_key="11.71.12.4922.4922.764.764.1.0.0.332.111.0.471.471.764.687.0.0.0.406.111.0.202.202.764.974.0.0.11" />
-
-
- <Faction id="clan_sturgia_1"
-           name="{=A4wIVnM4}Gundaroving"
-           tier="6"
-           owner="Hero.lord_2_1"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.333.111.0.454.454.764.764.0.0.0" />
-  <Faction id="clan_sturgia_2"
-           name="{=Eu932blQ}Kuloving"
-           tier="5"
-           owner="Hero.lord_2_3"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.332.111.0.471.471.764.687.0.0.0.406.111.0.202.202.764.974.0.0.1" />
-  <Faction id="clan_sturgia_4"
-           name="{=AppNvfPv}Ormidoving"
-           tier="4"
-           owner="Hero.lord_2_16"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.307.111.0.350.350.758.813.0.0.180.307.111.0.350.350.768.715.0.0.0.442.111.0.261.261.667.819.0.0.180.442.111.0.261.261.859.708.0.0.0" />
-  <Faction id="clan_sturgia_5"
-           name="{=s0AVQCbJ}Togaroving"
-           tier="3"
-           owner="Hero.lord_2_17"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.456.111.0.443.443.764.728.0.0.359.444.111.0.102.102.764.972.0.0.179.454.111.0.102.102.868.972.0.0.179.454.111.0.102.102.659.972.0.0.359" />
-  <Faction id="clan_sturgia_6"
-           name="{=EnZHNc2k}Isyaroving"
-           tier="4"
-           owner="Hero.lord_2_18"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.441.111.0.454.454.764.764.0.0.359" />
-  <Faction id="clan_sturgia_7"
-           name="{=xw0eTkkb}Vezhoving"
-           tier="3"
-           owner="Hero.lord_2_19"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.421.111.0.455.455.764.764.0.0.0.458.111.0.116.116.742.765.0.0.0" />
-  <Faction id="clan_sturgia_9"
-           name="{=WssI6mOE}Kostoroving"
-           tier="3"
-           owner="Hero.lord_S9_l"
-           culture="Culture.sturgia"
-           super_faction="Kingdom.sturgia"
-           is_noble="true"
-           banner_key="11.71.12.4922.4922.764.764.1.0.0.142.29.149.331.331.764.665.0.0.0.146.29.149.311.311.764.863.0.1.0" />
-
+	<Faction id="clan_sturgia_2"
+			 name="{=Eu932blQ}Kuloving"
+			 tier="5"
+			 owner="Hero.lord_2_3"
+			 culture="Culture.sturgia"
+			 super_faction="Kingdom.sturgia"
+			 banner_key="11.71.12.4922.4922.764.764.1.0.0.138.111.0.509.509.764.764.0.0.359" />
+	<Faction id="clan_sturgia_9"
+			 name="{=WssI6mOE}Kostoroving"
+			 tier="2"
+			 owner="Hero.lord_S9_l"
+			 culture="Culture.sturgia"
+			 super_faction="Kingdom.sturgia"
+			 is_noble="true"
+			 banner_key="11.71.12.4922.4922.764.764.1.0.0.142.29.149.331.331.764.665.0.0.0.146.29.149.311.311.764.863.0.1.0" />
+	<Faction id="clan_sturgia_5"
+			 name="{=s0AVQCbJ}Togaroving"
+		     tier="3"
+			 owner="Hero.lord_2_17"
+			 culture="Culture.sturgia"
+			 super_faction="Kingdom.sturgia"
+			 is_noble="true"
+			 banner_key="11.71.12.4922.4922.764.764.1.0.0.456.111.0.443.443.764.728.0.0.359.444.111.0.102.102.764.972.0.0.179.454.111.0.102.102.868.972.0.0.179.454.111.0.102.102.659.972.0.0.359" />
 	<!-- cut minor factions (4) -->
 	<Faction id="chosen_of_the_sky"
 	         initial_posX="629.0"
