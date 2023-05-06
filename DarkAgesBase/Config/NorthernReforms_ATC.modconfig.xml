@@ -4,12 +4,12 @@
 		<!-- Standard Sturgia configuration -->
 		<Culture id="default">
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -20,12 +20,12 @@
 		<Culture id="empire_n">
 			<!-- Sturgia for captured Northern Empire settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -36,12 +36,12 @@
 		<Culture id="empire">
 			<!-- Sturgia for captured Southern Empire settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -52,12 +52,12 @@
 		<Culture id="empire_w">
 			<!-- Sturgia for captured Western Empire settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -68,12 +68,12 @@
 		<Culture id="shariz">
 			<!-- Sturgia for captured Sharizan settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -84,12 +84,12 @@
 		<Culture id="aserai">
 			<!-- Sturgia for captured Aserai settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -100,12 +100,12 @@
 		<Culture id="darshi">
 			<!-- Sturgia for captured Darshi settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -116,12 +116,12 @@
 		<Culture id="khuzait">
 			<!-- Sturgia for captured Khuzait settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -132,12 +132,12 @@
 		<Culture id="nahasi">
 			<!-- Sturgia for captured Nahasan settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -148,12 +148,12 @@
 		<Culture id="vakken">
 			<!-- Sturgia for captured Vakken settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -164,12 +164,12 @@
 		<Culture id="vlandia">
 			<!-- Sturgia for captured Vlandia settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -180,12 +180,12 @@
 		<Culture id="battania">
 			<!-- Sturgia for captured Battania settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -196,12 +196,12 @@
 		<Culture id="oldcalradian">
 			<!-- Sturgia for captured Old Calradian settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
@@ -212,12 +212,12 @@
 		<Culture id="zwadane">
 			<!-- Sturgia for captured Zwadane settlements -->
 			<basicTroops>
-				<volunteer id="sturgia_hmj_mpt1" percent="38"/>
-				<volunteer id="sturgia_hmj_mit1" percent="19"/>
-				<volunteer id="sturgia_hmj_st2" percent="19"/>
-				<volunteer id="sturgia_hmj_mrt1" percent="10"/>
-				<volunteer id="sturgia_hmj_it2" percent="10"/>
-				<volunteer id="sturgia_hmj_pt4" percent="4"/>
+				<volunteer id="sturgia_hmj_mpt1" percent="31"/>
+				<volunteer id="sturgia_hmj_mit1" percent="20"/>
+				<volunteer id="sturgia_hmj_st2" percent="20"/>
+				<volunteer id="sturgia_hmj_mrt1" percent="11"/>
+				<volunteer id="sturgia_hmj_it2" percent="11"/>
+				<volunteer id="sturgia_hmj_pt4" percent="7"/>
 			</basicTroops>
 			<eliteTroops spawnChance="20" atPower="200" spawnChanceCap="20">
 				<volunteer id="sturgia_hmj_nrt3" percent="40"/>
