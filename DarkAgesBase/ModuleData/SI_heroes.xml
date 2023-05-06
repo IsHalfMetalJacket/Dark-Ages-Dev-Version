@@ -198,8 +198,6 @@
 	<Hero id="lord_2_2" spouse="Hero.lord_2_1" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_13_1" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_13_2" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_3" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
-	<Hero id="lord_2_13_4" father="Hero.lord_2_13" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_7" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_7_1" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
 	<Hero id="lord_2_10" father="Hero.lord_2_1" mother="Hero.lord_2_2" faction="Faction.clan_sturgia_1"/>
@@ -220,7 +218,6 @@
 	<!-- Sturgia clan 4 -->
 	<Hero id="lord_2_14" spouse="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
 	<Hero id="lord_2_14_1" spouse="Hero.lord_2_14" faction="Faction.clan_sturgia_4"/>
-	<Hero id="lord_2_14_2" father="Hero.lord_2_14" mother="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
 	<Hero id="lord_2_14_3" father="Hero.lord_2_14" mother="Hero.lord_2_14_1" faction="Faction.clan_sturgia_4"/>
 	<Hero id="lord_2_16" spouse="Hero.lord_2_16_1" faction="Faction.clan_sturgia_4"/>
 	<Hero id="lord_2_16_1" spouse="Hero.lord_2_16" faction="Faction.clan_sturgia_4"/>
@@ -238,6 +235,8 @@
 	<Hero id="lord_2_18_1" spouse="Hero.lord_2_18" faction="Faction.clan_sturgia_6"/>
 	<Hero id="lord_2_23" faction="Faction.clan_sturgia_6"/>
 	<Hero id="lord_2_23_1" father="Hero.lord_2_23" faction="Faction.clan_sturgia_6"/>
+	<Hero id="lord_2_14_2" father="Hero.lord_2_18" mother="Hero.lord_2_18_1" faction="Faction.clan_sturgia_6"/>
+	<Hero id="lord_2_13_4" faction="Faction.clan_sturgia_6"/>
 	<!-- Sturgia clan 7 -->
 	<Hero id="lord_2_15" faction="Faction.clan_sturgia_7"/>
 	<Hero id="lord_2_15_1" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
@@ -246,6 +245,12 @@
 	<Hero id="lord_2_15_4" father="Hero.lord_2_15" faction="Faction.clan_sturgia_7"/>
 	<Hero id="lord_2_19" spouse="Hero.lord_2_19_1" faction="Faction.clan_sturgia_7"/>
 	<Hero id="lord_2_19_1" spouse="Hero.lord_2_19" faction="Faction.clan_sturgia_7"/>
+	<!-- Kostaroving -->
+	<Hero id="lord_S9_l" mother="Hero.lord_S9_m" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_S9_m" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_S9_c" father="Hero.lord_S9_l" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_S9_u" faction="Faction.clan_sturgia_9"/>
+	<Hero id="lord_2_13_3" faction="Faction.clan_sturgia_9"/>
 	<!-- ASERAI clan 1 -->
 	<Hero id="lord_3_1" spouse="Hero.lord_3_2" faction="Faction.clan_aserai_1" text="{=L90aSR5J}The current Sultan of Aserai is Unqid. He wears his authority lightly, preferring to charm rather than to coerce, always deferring to the laws of the Banu Asera in his judgments. But there are some who say that Unqid is remiss in his duty to administer justice, allowing the wealthiest clans - such as his own - to use bribes and clever legal arguments to oppress the others." />
 	<Hero id="lord_3_2" spouse="Hero.lord_3_1" faction="Faction.clan_aserai_1"/>
@@ -452,11 +457,6 @@
 	<Hero id="lord_V11_u" faction="Faction.clan_vlandia_11"/>
 	<Hero id="lord_V11_c1" father="Hero.lord_V11_l" faction="Faction.clan_vlandia_11"/>
 	<Hero id="lord_V11_c2" father="Hero.lord_V11_l" faction="Faction.clan_vlandia_11"/>
-	<!-- Kostaroving -->
-	<Hero id="lord_S9_l" mother="Hero.lord_S9_m" faction="Faction.clan_sturgia_9"/>
-	<Hero id="lord_S9_m" faction="Faction.clan_sturgia_9"/>
-	<Hero id="lord_S9_c" father="Hero.lord_S9_l" faction="Faction.clan_sturgia_9"/>
-	<Hero id="lord_S9_u" faction="Faction.clan_sturgia_9"/>
 	<!-- Oburit -->
 	<Hero id="lord_K9_l" spouse="Hero.lord_K9_s" faction="Faction.clan_khuzait_9"/>
 	<Hero id="lord_K9_s" spouse="Hero.lord_K9_l" faction="Faction.clan_khuzait_9"/>
