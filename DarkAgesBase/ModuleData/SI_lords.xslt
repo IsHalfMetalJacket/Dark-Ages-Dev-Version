@@ -1135,8 +1135,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_7']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_medium" />
-      <EquipmentSet id="stu_noncom_template_default"
+      <EquipmentSet id="hmj_sturgia_light_bow_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1149,7 +1149,7 @@
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_2_7_1']/Traits">
     <Traits>
-      <Trait id="HuscarlFightingSkills" value="6" />
+      <Trait id="KnightFightingSkills" value="6" />
       <Trait id="Commander" value="4" />
       <Trait id="Politician" value="2" />
       <Trait id="Manager" value="2" />
@@ -1161,8 +1161,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_7_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="stu_bat_template_medium" />
-      <EquipmentSet id="stu_noncom_template_default"
+      <EquipmentSet id="hmj_sturgia_general_pole_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1256,7 +1256,7 @@
     <xsl:template match="NPCCharacter[@id='lord_2_13_2']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_sturgia_great_nord_battletemplate" />
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
       <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -1277,7 +1277,7 @@
     <xsl:template match="NPCCharacter[@id='lord_2_3']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_sturgia_general_pole_battletemplate" />
+      <EquipmentSet id="hmj_sturgia_heavy_pole_battletemplate" />
       <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -1305,12 +1305,12 @@
     <xsl:template match="NPCCharacter[@id='lord_2_4']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_general_pole_battletemplate" />
+      <EquipmentSet id="stu_civ_template_woodsman"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Apolanea -->
+	<!-- Elena -->
 	<xsl:template match='NPCCharacter[@id="lord_2_4_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1332,8 +1332,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_4_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_general_bow_battletemplate" />
+      <EquipmentSet id="stu_civ_template_woodsman"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1397,7 +1397,7 @@
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_2_111']/Traits">
 		<Traits>
-		  <Trait id="HuscarlFightingSkills" value="1" />
+		  <Trait id="KnightFightingSkills" value="1" />
 		  <Trait id="Commander" value="4" />
 		  <Trait id="Politician" value="10" />
 		  <Trait id="Manager" value="4" />
@@ -1409,8 +1409,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_111']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1435,8 +1435,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_16']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1523,7 +1523,7 @@
     <xsl:template match="NPCCharacter[@id='lord_2_14']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_sturgia_general_pole_battletemplate" />
+      <EquipmentSet id="hmj_sturgia_heavy_pole_battletemplate" />
       <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -1625,7 +1625,7 @@
     <xsl:template match="NPCCharacter[@id='lord_2_23']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_sturgia_general_bow_battletemplate" />
+      <EquipmentSet id="hmj_sturgia_heavy_bow_battletemplate" />
       <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -1661,8 +1661,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_14_2']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1679,12 +1679,12 @@
     <xsl:template match="NPCCharacter[@id='lord_2_13_4']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Vyldur -->
+	<!-- Vlastimir -->
 	<xsl:template match='NPCCharacter[@id="lord_2_17"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1704,8 +1704,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_17']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_general_pole_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1726,7 +1726,7 @@
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Lashonek -->
+	<!-- Lutobor -->
 	<xsl:template match='NPCCharacter[@id="lord_2_22"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1796,8 +1796,8 @@
     <xsl:template match="NPCCharacter[@id='lord_2_24']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_bow_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -1837,12 +1837,12 @@
     <xsl:template match="NPCCharacter[@id='lord_S9_m']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Rolan -->
+	<!-- Radomil -->
 	<xsl:template match='NPCCharacter[@id="lord_S9_l"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1869,7 +1869,7 @@
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Forim -->
+	<!-- Velimir -->
 	<xsl:template match='NPCCharacter[@id="lord_S9_c"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -1890,8 +1890,8 @@
     <xsl:template match="NPCCharacter[@id='lord_S9_c']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_stu_king_battletemplate" />
-      <EquipmentSet id="hmj_stu_king_civtemplate"
+      <EquipmentSet id="hmj_sturgia_light_knyaz_battletemplate" />
+      <EquipmentSet id="stu_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
