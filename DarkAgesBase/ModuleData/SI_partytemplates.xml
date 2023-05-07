@@ -461,19 +461,20 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_sturgia_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgia_hmj_nt2"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.sturgia_hmj_mpt2"/>
-			<PartyTemplateStack min_value="8" max_value="12" troop="NPCCharacter.sturgia_hmj_mrt2"/>
-			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.sturgia_hmj_it4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.sturgia_hmj_hit4"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.sturgia_hmj_hit5"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgia_hmj_st3"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgia_hmj_mct3"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgia_hmj_nrt5"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.sturgia_hmj_nhit3"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.sturgia_hmj_nct4"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.sturgia_hmj_nhit6"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.sturgia_hmj_nct6"/>
+			<!-- Common -->
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgia_hmj_mit3"/>
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgia_hmj_st3"/>
+            <PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.sturgia_hmj_mct3"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgia_hmj_it3"/>
+            <PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.sturgia_hmj_it4"/>
+            <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.sturgia_hmj_hit4"/>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.sturgia_hmj_pt4"/>
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.sturgia_hmj_hit5"/>
+            <!-- Noble -->
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.sturgia_hmj_nrt3"/>
+			<PartyTemplateStack min_value="2" max_value="5" troop="NPCCharacter.sturgia_hmj_nct4"/>
+            <PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.sturgia_hmj_nhit5"/>
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.sturgia_hmj_nct6"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_sturgia_template">
@@ -484,7 +485,7 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="char_creation_player_party_template_sturgia">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.sturgia_hmj_it3"/>
+			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.sturgia_hmj_mit3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgia_hmj_st3"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -522,7 +523,7 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_sturgia">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgia_hmj_nhit5"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.sturgia_hmj_nct5"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgia_hmj_nt2"/>
 		</stacks>
 	</MBPartyTemplate>
