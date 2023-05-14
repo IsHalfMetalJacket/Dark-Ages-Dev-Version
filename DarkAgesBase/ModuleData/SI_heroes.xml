@@ -391,8 +391,9 @@
 	<Hero id="lord_5_15_1" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
 	<Hero id="lord_5_15_2" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
 	<Hero id="lord_5_15_3" father="Hero.lord_5_15" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_14" spouse="Hero.lord_5_14_1" faction="Faction.clan_battania_4"/>
-	<Hero id="lord_5_14_1" spouse="Hero.lord_5_14" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_14" spouse="Hero.lord_5_14d" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_14d" alive="false" spouse="Hero.lord_5_14" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_14_1" spouse="Hero.lord_5_19" faction="Faction.clan_battania_4"/>
 	<Hero id="lord_5_16" spouse="Hero.lord_5_16_1" faction="Faction.clan_battania_5"/>
 	<Hero id="lord_5_16_1" spouse="Hero.lord_5_16" faction="Faction.clan_battania_5"/>
 	<Hero id="lord_5_16_2" father="Hero.lord_5_16" mother="Hero.lord_5_16_1" faction="Faction.clan_battania_5"/>
@@ -400,12 +401,13 @@
 	<Hero id="lord_5_17_1" spouse="Hero.lord_5_17" faction="Faction.clan_battania_6"/>
 	<Hero id="lord_5_18" father="Hero.lord_5_15" spouse="Hero.lord_5_18_1" faction="Faction.clan_battania_7"/>
 	<Hero id="lord_5_18_1" spouse="Hero.lord_5_18" faction="Faction.clan_battania_7"/>
-	<Hero id="lord_5_19" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_19" spouse="Hero.lord_5_14_1" faction="Faction.clan_battania_4"/>
 	<Hero id="lord_5_20" faction="Faction.clan_battania_5"/>
 	<Hero id="lord_5_21" spouse="Hero.lord_5_21_1" faction="Faction.clan_battania_6"/>
 	<Hero id="lord_5_21_1" spouse="Hero.lord_5_21" faction="Faction.clan_battania_6"/>
 	<Hero id="lord_5_21_2" father="Hero.lord_5_21" mother="Hero.lord_5_21_1" faction="Faction.clan_battania_6"/>
 	<Hero id="lord_5_22" faction="Faction.clan_battania_4"/>
+	<Hero id="lord_5_22_1" father="Hero.lord_5_22" faction="Faction.clan_battania_4"/>
 	<Hero id="lord_6_1" spouse="Hero.lord_6_2" faction="Faction.clan_khuzait_1" text="{=CzM6y3MT}Monchug, the current khan of the Khuzaits, looks upon the Empire in its state of disarray and dreams of glory, of surpassing his ancestor Urkhun and conquering even deeper into the settled lands. Some of the clans have been decimated by the Urkhunids' wars, however, and feel their sacrifices have not been properly rewarded. They yearn for a khan who is less interested in glory, and more interested in justice." />
 	<Hero id="lord_6_2" spouse="Hero.lord_6_1" faction="Faction.clan_khuzait_1"/>
 	<Hero id="lord_6_3" spouse="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
