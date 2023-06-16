@@ -2134,10 +2134,7 @@
       </beard_tags>-->
 		</face>
 		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_mas_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_mas_militia_archer"/>
-		</upgrade_targets>
+		<upgrade_targets></upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.cloth_tunic"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NPCCharacters>
+<NPCCharacters>		
 	<!-- Culture: Sturgia -->
 	<!-- #region Sturgian Common Roster -->
 		<!-- #region Sturgian Voi Footman Line -->
@@ -271,7 +271,7 @@
 				<skill id="Athletics" value="40"/>
 				<skill id="Riding" value="10"/>
 				<skill id="OneHanded" value="120"/>
-				<skill id="TwoHanded" value="20"/>
+				<skill id="TwoHanded" value="60"/>
 				<skill id="Polearm" value="20"/>
 				<skill id="Bow" value="10"/>
 				<skill id="Crossbow" value="5"/>
@@ -1765,7 +1765,7 @@
 		<NPCCharacter id="sturgia_hmj_nhit3"
 			default_group="Infantry"
 			level="16"
-			name="{=Vaegir Warrior}Vaegir Warrior"
+			name="{=Vaegir Foot Scion}Vaegir Foot Scion"
 			occupation="Soldier"
 			culture="Culture.sturgia">
 			<face>
@@ -1903,14 +1903,14 @@
 				<face_key_template value="BodyProperty.fighter_sturgia"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="220"/>
+				<skill id="Athletics" value="100"/>
 				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="300"/>
-				<skill id="TwoHanded" value="300"/>
-				<skill id="Polearm" value="180"/>
-				<skill id="Bow" value="20"/>
-				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="160"/>
+				<skill id="OneHanded" value="240"/>
+				<skill id="TwoHanded" value="240"/>
+				<skill id="Polearm" value="80"/>
+				<skill id="Bow" value="40"/>
+				<skill id="Crossbow" value="40"/>
+				<skill id="Throwing" value="40"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
@@ -1961,7 +1961,7 @@
 		<NPCCharacter id="sturgia_hmj_nct4"
 			default_group="Cavalry"
 			level="21"
-			name="{=Vaegir Rider}Vaegir Rider"
+			name="{=Vaegir Horse Scion}Vaegir Horse Scion"
 			occupation="Soldier"
 			upgrade_requires="ItemCategory.horse"
 			culture="Culture.sturgia">
