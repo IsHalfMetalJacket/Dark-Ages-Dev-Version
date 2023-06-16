@@ -543,6 +543,19 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 				   scale_factor="110" />
 		</Pieces>
 		</CraftedItem>
+	<CraftedItem id="battania_hmj_spear_t2"
+				 name="Highland Long Spear"
+				 crafting_template="TwoHandedPolearm"
+				 culture="Culture.battania">
+		<Pieces>
+			<Piece id="spear_blade_15"
+				   Type="Blade"
+				   scale_factor="90" />
+			<Piece id="spear_handle_13"
+				   Type="Handle"
+				   scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
 	<CraftedItem id="battania_spear_t3"
 				 name="Woodland Spear"
 				 crafting_template="TwoHandedPolearm"
@@ -1323,6 +1336,7 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
              scale_factor="80" />
     </Pieces>
   </CraftedItem>
+
 
 
 <!-- New Armour -->
