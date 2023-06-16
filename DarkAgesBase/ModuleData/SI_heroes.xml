@@ -489,7 +489,6 @@
   <Hero id="lord_7_8_3"  father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
   -->
 	<Hero id="AR_lord_5_1" spouse="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
-	<Hero id="AR_lord_5_15" faction="Faction.clan_battania_7"/>
 	<Hero id="AR_lord_4_23" faction="Faction.clan_vlandia_7"/>
 	<Hero id="AR_lord_4_28" alive="false" faction="Faction.clan_vlandia_10"/>
 	<!-- KHUZAIT -->

@@ -106,7 +106,7 @@
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_B3']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_battania_4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_B3_1']/@culture">
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
@@ -133,7 +133,7 @@
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_B4']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_battania_4</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_B4_1']/@culture">
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
@@ -151,7 +151,7 @@
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_B5']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_battania_7</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B5_1']/@culture">
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
@@ -175,7 +175,7 @@
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_B3']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_battania_3</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_battania_8</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B3_1']/@culture">
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
@@ -187,7 +187,19 @@
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_B1']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_battania_8</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_battania_7</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_B1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_B1']/@culture">
+		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_B1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_battania_7</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_B1_1']/@culture">
 		<xsl:attribute name='culture'>Culture.battania</xsl:attribute>

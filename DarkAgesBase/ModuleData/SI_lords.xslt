@@ -227,7 +227,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" age="39" weight="0.4429" build="0.6404"  key="00054408D48827875CA466A563442BD406899779A794573B86A7C473581AB48700DA76030D46C99D000000000000000000000000000000000000000001B83180"  />
+				<BodyProperties version="4" weight="0.4429" build="0.6404"  key="00054408D48827945CA466A563442BD406899779A794573B86A7C473581AB48700DA76030D46C99D000000000000000000000000000000000000000001B83180"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_1']/Traits">
@@ -274,7 +274,7 @@
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_7']/Traits">
 		<Traits>
-		  <Trait id="CavalryFightingSkills" value="4" />
+		  <Trait id="BalancedFightingSkills" value="4" />
 		  <Trait id="Commander" value="6" />
 		  <Trait id="Politician" value="6" />
 		  <Trait id="Mercy" value="-1" />
@@ -285,7 +285,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_7"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -311,7 +311,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_10"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_wild" />
+      <EquipmentSet id="hmj_battania_heavy_longbow_battletemplate" />
       <EquipmentSet id="bat_civ_template_wild"
                     civilian="true" />
     </Equipments>
@@ -335,8 +335,8 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_13"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_wild" />
-      <EquipmentSet id="bat_civ_template_wild"
+      <EquipmentSet id="hmj_battania_general_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -351,7 +351,6 @@
 		<Traits>
       <Trait id="CavalryFightingSkills" value="8" />
       <Trait id="Commander" value="4" />
-      <!-- Rath, Muinser's son-->
       <Trait id="Valor" value="1" />
 	  <Trait id="Calculating" value="-1" />
 		</Traits>
@@ -359,8 +358,8 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_131"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_wild" />
-      <EquipmentSet id="bat_civ_template_wild"
+      <EquipmentSet id="hmj_battania_heavy_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -374,7 +373,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_13_1"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -388,7 +387,7 @@
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_3']/Traits">
 		<Traits>
-		  <Trait id="CavalryFightingSkills" value="4" />
+		  <Trait id="BalancedFightingSkills" value="4" />
 		  <Trait id="Commander" value="10" />
 		  <Trait id="Politician" value="6" />
 		  <Trait id="Manager" value="16" />
@@ -401,12 +400,18 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_3"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_wild" />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
       <EquipmentSet id="bat_civ_template_wild"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
 	<!-- Nywin -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.7967" build="0.8773"  key="00056806007020108879465A53347C94973C75A5778495489D65EC3275332456029DC62409783641000000000000000000000000000000000000000073342082"  />
+		</xsl:copy>
+	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_4']/Traits">
 		<Traits>
 		  <Trait id="Politician" value="12" />
@@ -418,7 +423,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_4"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -427,7 +432,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_8"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.7439" build="0.8603"  key="00020C054E8801439E712A2C005486A876977C2D1472987636787B8481762547009DB0030974D383000000000000000000000000000000000000000057308081"  />
+				<BodyProperties version="4" weight="0.7439" build="0.8603"  key="00020C078E8801439E712A2C005486A876977C2D1472987636787B8481762547009DB0030974D383000000000000000000000000000000000000000057308081"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_8']/Traits">
@@ -444,7 +449,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_8"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_heavy" />
+      <EquipmentSet id="hmj_battania_general_teulu_battletemplate" />
       <EquipmentSet id="bat_civ_template_heavy"
                     civilian="true" />
     </Equipments>
@@ -453,7 +458,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_3_1"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -462,7 +467,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_11"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.7986" build="0.4567"  key="000058044D88000A5786655953636782884A77758E779328A9718E51703467650487C6460874C3760000000000000000000000000000000000000000051C0044"  />
+				<BodyProperties version="4" weight="0.6559" build="0.4567"  key="00005808D0FC000A5786655953636782884A77758E779328A9718E51703467650087A6030874C3760000000000000000000000000000000000000000051C0044"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_11']/Traits">
@@ -476,7 +481,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_11"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -503,7 +508,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_3_2"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_general_longbow_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -512,7 +517,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_5"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.8904" build="0.5717"  key="00026806C000244226700A207474A3848C9A751498816EA389779E6A832A15510099D0030965B6420000000000000000000000000000000000000000772070C5"  />
+				<BodyProperties version="4" weight="0.8904" build="0.5717"  key="00026806C000238D2671BA207474A3848C9A751498816EA389779E6A832A15510099D0030965B6420000000000000000000000000000000000000000772070C5"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_5']/Traits">
@@ -529,7 +534,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_5"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -551,7 +556,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_6"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -560,7 +565,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_5_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.5" build="0.5"  key="00155806CBFC100659AB88926A889A68AA779A998D8ED4767782AC7E2256AA740167761306A4744300000000000000000000000000000000000000003AC42003"  />
+				<BodyProperties version="4" weight="0.5" build="0.5"  key="00155806D1FC100659AB88926A889A68AA779A998D8ED4767782AC7E2256AA740067760306A4744300000000000000000000000000000000000000003AC42003"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_5_1']/Traits">
@@ -574,7 +579,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_5_1"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -583,12 +588,12 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_9"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.6484" build="0.8015"  key="000570055188080185611D291633E7A8434977A39731567986A7574582060843009CA0030979BCD1000000000000000000000000000000000000000027285004"  />
+				<BodyProperties version="4" weight="0.6484" build="0.8015"  key="0005700D1188018485616D291633E7A8434977A39731567986A7574582060843009CA0030979BCD1000000000000000000000000000000000000000027285004"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_9']/Traits">
 		<Traits>
-		  <Trait id="BalancedFightingSkills" value="7" />
+		  <Trait id="CavalryFightingSkills" value="7" />
 		  <Trait id="Commander" value="10" />
 		  <Trait id="Manager" value="6" />
 		  <Trait id="Honor" value="1" />
@@ -598,7 +603,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_9"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_general_teulu_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -607,7 +612,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_91"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.56" build="0.7874"  key="00105804000006496E711D2C02527AA4436974395B51CB6286A78917820A286600CC80030C58CBB800000000000000000000000000000000000000002BA06100"  />
+				<BodyProperties version="4" weight="0.56" build="0.7874"  key="00105804000000056E718D2C02527AA4436974395B51CB6286A78917820A286600CC80030C58CBB800000000000000000000000000000000000000002BA06100"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_91']/Traits">
@@ -623,7 +628,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_91"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_general_longbow_battletemplate" />
       <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -647,7 +652,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_12"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -661,7 +666,7 @@
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_14']/Traits">
 		<Traits>
-		  <Trait id="BalancedFightingSkills" value="8" />
+		  <Trait id="ArcherFIghtingSkills" value="8" />
 		  <Trait id="Commander" value="12" />
 		  <Trait id="Politician" value="1" />
 		  <Trait id="Manager" value="10" />
@@ -673,12 +678,12 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_14"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
-      <EquipmentSet id="bat_noncom_template_default"
+      <EquipmentSet id="hmj_battania_heavy_longbow_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Eabyr -->
+	<!-- Eibhlin -->
  	<xsl:template match='NPCCharacter[@id="lord_5_14_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
@@ -697,7 +702,7 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_14_1"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -706,12 +711,12 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_19"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.7116" build="0.6567"  key="000528040D8804412871092255527C67584A76DC34C1D85475798E598229351300DAB0030D681753000000000000000000000000000000000000000025C02082"  />
+				<BodyProperties version="4" weight="0.7116" build="0.6567"  key="00052804078804412871092255527C67584A76DC34C1D85475798E598229351300DAB0030D681753000000000000000000000000000000000000000025C02082"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_19']/Traits">
 		<Traits>
-		  <Trait id="BalancedFightingSkills" value="7" />
+		  <Trait id="CavalryFightingSkills" value="7" />
 		  <Trait id="Commander" value="6" />
 		  <Trait id="Valor" value="1" />
 		  <Trait id="Honor" value="1" />
@@ -722,21 +727,21 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_19"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
-      <EquipmentSet id="bat_noncom_template_default"
+      <EquipmentSet id="hmj_battania_general_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
-	<!-- Fiarad -->
+	<!-- Fearghas -->
  	<xsl:template match='NPCCharacter[@id="lord_5_22"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.4769" build="0.6559"  key="00050C060B881549CD71192B144364956988797B4E51924558999A068314332600DA70030D673752000000000000000000000000000000000000000023B82004"  />
+				<BodyProperties version="4" weight="0.4769" build="0.6559"  key="00050C0601881549CD71192B144364956988797B4E51924558999A068314332600DA70030D673752000000000000000000000000000000000000000023B82004"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_5_22']/Traits">
 		<Traits>
-		  <Trait id="BalancedFightingSkills" value="4" />
+		  <Trait id="CavalryFightingSkills" value="4" />
 		  <Trait id="Commander" value="6" />
 		  <Trait id="Politician" value="6" />
 		  <Trait id="Honor" value="1" />
@@ -746,8 +751,408 @@
  	<xsl:template match='NPCCharacter[@id="lord_5_22"]/Equipments'>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="bat_bat_template_medium" />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Pryndor -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.9677" build="0.7332"  key="0002600B9900235BAB62191815359CA8721876941F21B4384969AC5A82152752009BF0030957868200000000000000000000000000000000000000006F383042"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_15']/Traits">
+		<Traits>
+		  <Trait id="BalancedFightingSkills" value="4" />
+		  <Trait id="Commander" value="4" />
+		  <Trait id="Politician" value="4" />
+		  <Trait id="Manager" value="4" />
+		  <Trait id="Valor" value="1" />
+		  <Trait id="Mercy" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Floraidh -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.5" build="0.5"  key="0005300E54FC100B6286C88D999368A86A9678899D4447A323667BC9A844A3BA01877613083838690000000000000000000000000000000000000000430410C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_15_1']/Traits">
+		<Traits>
+		  <Trait id="Politician" value="6" />
+		  <Trait id="Manager" value="14" />
+		  <Trait id="Valor" value="1" />
+		  <Trait id="Mercy" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15_1"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
       <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Beitrin -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.321" build="0.2454"  key="00022C0A4FA0001C72557A7C9B879A5197CB1947DBA9DA87A53D947974F6DCB70064560306E83DA3000000000000000000000000000000000000000010CC0083"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_15_2']/Traits">
+		<Traits>
+		  <Trait id="BalancedFightingSkills" value="3" />
+		  <Trait id="Commander" value="4" />
+		  <Trait id="Politician" value="6" />
+		  <Trait id="Manager" value="4" />
+		  <Trait id="Valor" value="-1" />
+		  <Trait id="Honor" value="-1" />
+		  <Trait id="Generosity" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15_2"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Darerea -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_15_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.5" build="0.5"  key="00021C0C54440015B544487899A76DA897C66DA64B699855366D7BA96969758400577603059EA3A8000000000000000000000000000000000000000042AC3043"  />
+		</xsl:copy>
+	</xsl:template>
+	<!-- Branoc -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_18"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.9707" build="0.946"  key="000278060088220B2E611B2B242363C6799677AE9511745858A75E37832A312600BEF0030BFBAC9A00000000000000000000000000000000000000002D7830C0"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_18']/Traits">
+		<Traits>
+		  <Trait id="CavalryFightingSkills" value="7" />
+		  <Trait id="Commander" value="4" />
+		  <Trait id="Politician" value="2" />
+		  <Trait id="Honor" value="1" />
+		  <Trait id="Valor" value="1" />
+		  <Trait id="Calculating" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_18"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_general_teulu_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Servane -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_18_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" age="22.03" weight="0" build="0.5"  key="000A900E5100100A209D8E3BA67B69A87A486958763A58B9B675C3C78686798900970603091866AB000000000000000000000000000000000000000071241083"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_18_1']/Traits">
+		<Traits>
+		  <Trait id="Politician" value="4" />
+		  <Trait id="Manager" value="6" />
+		  <Trait id="Honor" value="1" />
+		  <Trait id="Valor" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_18_1"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Aeron -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_16"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.7814" build="0.7805"  key="00005C0288883A135A600A1A4572AAC767467AF814019D8867999F04822B2A42008CC00308953C42000000000000000000000000000000000000000003008082"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_16']/Traits">
+		<Traits>
+		  <Trait id="BalancedFightingSkills" value="7" />
+		  <Trait id="Commander" value="18" />
+		  <Trait id="Manager" value="8" />
+		  <Trait id="Valor" value="1" />
+		  <Trait id="Generosity" value="1" />
+		  <Trait id="Mercy" value="-1" />
+		  <Trait id="Calculating" value="-1" />
+		  <Trait id="Honor" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_16"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_general_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Siaramus -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_20"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.2608" build="0.7114"  key="00011002888821522B796C3422645D877577756D05415DB7855AA713832A0741009B400309878444000000000000000000000000000000000000000017381100"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_20']/Traits">
+		<Traits>
+		  <Trait id="BalancedFightingSkills" value="8" />
+		  <Trait id="Commander" value="4" />
+		  <Trait id="Calculating" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_20"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_heavy_teulu_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Taorse -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_21_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.5" build="0.5"  key="0000240AC400000F46983AA68546B58A13047B958748D17A5AA943439A5AA44B008776030835D45200000000000000000000000000000000000000004F1C30C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_21_2']/Traits">
+		<Traits>
+		  <Trait id="Politician" value="4" />
+		  <Trait id="Manager" value="8" />
+		  <Trait id="Honor" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_21_2"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Liasin -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_16_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.5" build="0.5"  key="00056004CE882004569443C64645995CDA6B7ABA5BC4357B7C8694BC995E487800A776030A87872B00000000000000000000000000000000000000001B443083"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_16_1']/Traits">
+		<Traits>
+		  <Trait id="Politician" value="12" />
+		  <Trait id="Manager" value="2" />
+		  <Trait id="Mercy" value="-1" />
+		  <Trait id="Calculating" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_16_1"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Gawen -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_16_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.5" build="0.5"  key="0005E006CD88000A976577688DC974CDB7648B819B9E7598D9BC69B331354EA40077760307552777000000000000000000000000000000000000000022FC1004"  />
+		</xsl:copy>
+	</xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_16_2"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Aric -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_17"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="1" build="0.9645"  key="00000006D60027815DE6691C7543999CA6DC75CE780133A738967B59FA779B6800FEF0030F449413000000000000000000000000000000000000000015F86100"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_17']/Traits">
+		<Traits>
+		  <Trait id="HuscarlFightingSkills" value="8" />
+		  <Trait id="Commander" value="14" />
+		  <Trait id="Calculating" value="1" />
+		  <Trait id="Mercy" value="1" />
+		  <Trait id="Honor" value="-1" />
+		  <Trait id="Valor" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_17"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_nord_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Brighan -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_17_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.0988" build="0.1867"  key="0005600791FC300B799DA3319A46DB4C77497515CB8AB436568CB7A5B9CA676800B316030B4BAA36000000000000000000000000000000000000000023644003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_17_1']/Traits">
+		<Traits>
+		  <Trait id="Politician" value="10" />
+		  <Trait id="Calculating" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_17_1"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_lady_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Carfyd -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_21"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.2948" build="0.4427"  key="000500054000134E1D61091C75439991568375CE780133A738967B5982B73B650097400309779B37000000000000000000000000000000000000000003282100"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_21']/Traits">
+		<Traits>
+		  <Trait id="Manager" value="10" />
+		  <Trait id="Honor" value="1" />
+		  <Trait id="Generosity" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_21"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Beathag -->
+ 	<xsl:template match='NPCCharacter[@id="lord_5_21_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.7257" build="0.8089" key="00025C07000024CAB77216196072AAE6728B78827641ED973887AC168234162503ACB0350A99E955000000000000000000000000000000000000000005405082" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_5_21_1']/Traits">
+		<Traits>
+		  <Trait id="ArcherFIghtingSkills" value="2" />
+		  <Trait id="Commander" value="6" />
+		  <Trait id="Honor" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_5_21_1"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_longbow_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Marein -->
+ 	<xsl:template match='NPCCharacter[@id="lord_B8_l"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.7901" build="0.7686" key="0011F40FC00015C31F80050E3578F78FC00E740704D0F71BF0C8EC145B060A4F013006440385C177000000000000000000000000000000000000000000143144" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_B8_l']/Traits">
+		<Traits>
+		  <Trait id="ArcherFIghtingSkills" value="2" />
+		  <Trait id="Commander" value="16" />
+		  <Trait id="Politician" value="10" />
+		  <Trait id="Manager" value="10" />
+		  <Trait id="Honor" value="-1" />
+		  <Trait id="Mercy" value="-1" />
+		  <Trait id="Generosity" value="1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_B8_l"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_longbow_battletemplate" />
+      <EquipmentSet id="bat_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Rhun -->
+ 	<xsl:template match='NPCCharacter[@id="lord_B8_s"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.6944" build="0.7361"  key="00082408D2FC050946983AA68546B58A13047B958748D17A5AA943439A5AA44B009BA6030935D45200000000000000000000000000000000000000002D3C30C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_B8_s']/Traits">
+		<Traits>
+		  <Trait id="CavalryFightingSkills" value="4" />
+		  <Trait id="Commander" value="1" />
+		  <Trait id="Mercy" value="-1" />
+		  <Trait id="Calculating" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_B8_s"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Gavan -->
+ 	<xsl:template match='NPCCharacter[@id="lord_B8_c"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+				<BodyProperties version="4" weight="0.892" build="0.2469"  key="00108C0FC044080649A67962000E2693E3EFFE7528914639236B99548BFBD5A50094D603099CA7B6000000000000000000000000000000000000000001344104"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_B8_c']/Traits">
+		<Traits>
+		  <Trait id="BalancedFightingSkills" value="1" />
+		  <Trait id="Commander" value="4" />
+		  <Trait id="Mercy" value="1" />
+		  <Trait id="Generosity" value="-1" />
+		</Traits>
+	    </xsl:template>
+ 	<xsl:template match='NPCCharacter[@id="lord_B8_c"]/Equipments'>
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_battania_light_teulu_battletemplate" />
+      <EquipmentSet id="bat_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
