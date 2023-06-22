@@ -3062,6 +3062,7 @@
     </Equipments>
 	</xsl:template>
 <!-- Zwadanes -->
+<!-- Aelfwuld -->
 	<xsl:template match="NPCCharacter[@id='lord_4_3']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3070,6 +3071,7 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+<!-- Aedilburh -->
 	<xsl:template match="NPCCharacter[@id='lord_4_3_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3078,6 +3080,13 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_3_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0797" build="0"  key="00000804C000100B25623C58425470B50956873973717A626A844C28812366410090100309757DB2000000000000000000000000000000000000000047282043"  />
+		</xsl:copy>
+	</xsl:template>
+<!-- CyneBurg -->
 	<xsl:template match="NPCCharacter[@id='lord_4_4']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3086,22 +3095,36 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+<!-- Aelfgeat -->
 	<xsl:template match="NPCCharacter[@id='lord_4_8']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_heavy" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="hmj_zwad_bat_template_axe" />
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_8"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0" build="0"  key="00006C06C000000977A84702762098A527AD8D4D54C9895378C97B1E27408574004000030488276B000000000000000000000000000000000000000000780000"  />
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_11']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_bat_template_lance" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_11"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2546" build="0.4552"  key="0002A40B80E43006AC796995C5B29683341A26E766976B6AB97878826BA86C9600274A0302147449000000000000000000000000000000000000000034382100"  />
+		</xsl:copy>
+	</xsl:template>
+
 	<xsl:template match="NPCCharacter[@id='lord_4_20']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3109,6 +3132,12 @@
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_20"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.946" build="0.9552"  key="0005EC099C88244299648D538A58BB4E496B07691CE8A494D95B79BCF75879A8009EE003090000000000000000000000000000000000000000000000652850C2"  />
+		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_20_1']/Equipments">
     <Equipments>
@@ -3118,6 +3147,7 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+<!-- Redmer -->
 	<xsl:template match="NPCCharacter[@id='lord_4_22']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3126,6 +3156,13 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_22"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4645" build="0.4213"  key="000BE0028000220372233A57C8658B97395B684B174BD5D7474584799D857BDD00A675030AADA5A9000000000000000000000000000000000000000001484000"  />
+		</xsl:copy>
+	</xsl:template>
+<!-- Adalgard -->
 	<xsl:template match="NPCCharacter[@id='lord_4_22_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3133,6 +3170,12 @@
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_4_22_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="000A940FC0CC300B5E978629B4A6CA781483E65C40A689896542A3579A64759500477603048AC7B500000000000000000000000000000000000000000C9420C3"  />
+		</xsl:copy>
 	</xsl:template>
 	
 	<xsl:template match="NPCCharacter[@id='lord_V11_l']/Equipments">
@@ -3143,6 +3186,13 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_V11_l"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.7" build="0.4645"  key="0000540E407012019D95A3A74EA8C8B848778365688C85437456344D437779680047A6030475B2940000000000000000000000000000000000000000268C30C4"  />
+		</xsl:copy>
+	</xsl:template>
+	
 	<xsl:template match="NPCCharacter[@id='lord_V11_u']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3151,6 +3201,13 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_V11_u"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.3843" build="0.5108"  key="00023C0FD1880182654AAC95A9972C89D33975D5959CC9D4C9754C08398B357700A866030AA5606700000000000000000000000000000000000000003F441083"  />
+		</xsl:copy>
+	</xsl:template>
+
 	<xsl:template match="NPCCharacter[@id='lord_V11_c1']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3159,6 +3216,13 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_V11_c1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4" build="0.9336"  key="00023C0D91880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B3577006E660306A5606700000000000000000000000000000000000000003EDC0083"  />
+		</xsl:copy>
+	</xsl:template>
+	
 	<xsl:template match="NPCCharacter[@id='lord_V11_c2']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -3166,5 +3230,11 @@
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="lord_V11_c2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.1188" build="0.2978"  key="000A3C0800880005654AAC95A9972C89D33975D5959CC9D4C9754C08398B357700C426030CA5606700000000000000000000000000000000000000003F844084"  />
+		</xsl:copy>
 	</xsl:template>
 </xsl:stylesheet>
