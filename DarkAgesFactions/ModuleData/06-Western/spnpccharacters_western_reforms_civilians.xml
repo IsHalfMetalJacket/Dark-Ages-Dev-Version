@@ -2134,7 +2134,9 @@
       </beard_tags>-->
 		</face>
 		<skills/>
-		<upgrade_targets></upgrade_targets>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.zwadane_hmj_tt3"/>
+		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.cloth_tunic"/>
