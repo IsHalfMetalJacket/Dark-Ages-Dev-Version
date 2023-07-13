@@ -563,7 +563,7 @@
 					<equipment slot="Item0" id="Item.western_spear_5_t4"/>
 					<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
 					<equipment slot="Item2" id="Item.broadseax"/>
-					<equipment slot="Head" id="Item.TV_nord_helmet_v"/>
+					<equipment slot="Head" id="Item.tall_helmet"/>
 					<equipment slot="Cape" id="Item.hood"/>
 					<equipment slot="Body" id="Item.AR_empire_armor_l"/>
 					<equipment slot="Leg" id="Item.leather_shoes"/>
@@ -572,7 +572,7 @@
 					<equipment slot="Item0" id="Item.western_spear_5_t4"/>
 					<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
 					<equipment slot="Item2" id="Item.vlandia_axe_1_t4"/>
-					<equipment slot="Head" id="Item.TV_pict_helmet_p"/>
+					<equipment slot="Head" id="Item.AR_vlandia_helmet_w"/>
 					<equipment slot="Cape" id="Item.wrapped_scarf"/>
 					<equipment slot="Body" id="Item.mercenary_mail_armor"/>
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
@@ -580,7 +580,7 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.western_spear_5_t4"/>
 					<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
-					<equipment slot="Head" id="Item.TV_nord_helmet_w"/>
+					<equipment slot="Head" id="Item.AR_empire_helmet_l"/>
 					<equipment slot="Body" id="Item.AR_vlandia_armor_d2"/>
 					<equipment slot="Gloves" id="Item.armwraps"/>
 					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
@@ -588,7 +588,7 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.western_spear_5_t4"/>
 					<equipment slot="Item1" id="Item.sturgia_old_shield_c"/>
-					<equipment slot="Head" id="Item.TV_pict_helmet_p"/>
+					<equipment slot="Head" id="Item.ao_eorling_guarded_nasal_helmet_with_leather"/>
 					<equipment slot="Body" id="Item.mail_shirt"/>
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
