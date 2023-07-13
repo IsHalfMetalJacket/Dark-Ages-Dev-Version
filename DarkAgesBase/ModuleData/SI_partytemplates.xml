@@ -935,34 +935,36 @@
 	<!-- party templates for Nords minor faction (1) -->
 	<MBPartyTemplate id="kingdom_hero_party_nord_template">
 		<stacks>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.viking_hmj_it2"/>
-			<PartyTemplateStack min_value="9" max_value="9" troop="NPCCharacter.nord_hmj_mit3"/>
-			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.zwadane_hmj_rt3"/>
-			<PartyTemplateStack min_value="6" max_value="10" troop="NPCCharacter.viking_hmj_it3"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.viking_hmj_it4"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nord_hmj_it3"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.nord_hmj_it4"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.nord_hmj_it5"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nord_hmj_it6"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nord_hmj_hit6"/>
-
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nord_hmj_mhit3"/>
+            <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nord_hmj_mst3"/>
+            <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.nord_hmj_mhst3"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.nord_hmj_pt3"/>
+            <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.nord_hmj_pt4"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.nord_hmj_hat4"/>
+            <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.nord_hmj_hit5"/>
+            <!-- Noble -->
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.nord_hmj_nat3"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgia_hmj_nct4"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.nord_hmj_nat5"/>
+            <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.nord_hmj_nst4"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_hmj_nhit6"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_nord_template">
 		<stacks>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_hmj_mit2"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.zwadane_hmj_rt3"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_hmj_mrt2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="char_creation_player_party_template_nord">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.nord_hmj_mit3"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.viking_hmj_it4"/>
+			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.nord_hmj_mhit3"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.nord_hmj_pt4"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_nord_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.viking_hmj_it2"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_hmj_mit2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="caravan_template_nord">
@@ -1000,8 +1002,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_nord">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_hmj_it5"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nord_hmj_it3"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nord_hmj_nhit5"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.nord_hmj_nhit2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Spahad minor faction (1) -->
@@ -1385,93 +1387,79 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="looters_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="24" troop="NPCCharacter.looter_hmj_it1"/>
-			<PartyTemplateStack min_value="2" max_value="8" troop="NPCCharacter.looter_hmj_it3"/>
-			<PartyTemplateStack min_value="0" max_value="4" troop="NPCCharacter.looter_hmj_it4"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="slavers_template">
-		<stacks>
-			<PartyTemplateStack min_value="6" max_value="12" troop="NPCCharacter.slave_hmj_it2"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.slave_hmj_it3"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.slave_hmj_it5"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="slavers_boss_party_template">
-		<stacks>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.slave_hmj_it2"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.slave_hmj_it3"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.slave_hmj_it4"/>
+			<PartyTemplateStack min_value="4" max_value="36" troop="NPCCharacter.looter_hmj_it1"/>
+			<PartyTemplateStack min_value="2" max_value="12" troop="NPCCharacter.looter_hmj_rt2"/>
+			<PartyTemplateStack min_value="0" max_value="6" troop="NPCCharacter.looter_hmj_it3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="sea_raiders_template">
 		<stacks>
-			<PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.viking_hmj_it2"/>
-			<PartyTemplateStack min_value="3" max_value="9" troop="NPCCharacter.viking_hmj_it3"/>
-			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.viking_hmj_it4"/>
+			<PartyTemplateStack min_value="6" max_value="24" troop="NPCCharacter.viking_hmj_it2"/>
+			<PartyTemplateStack min_value="3" max_value="12" troop="NPCCharacter.viking_hmj_it3"/>
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.viking_hmj_it4"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="sea_raiders_boss_party_template">
 		<stacks>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.viking_hmj_it3"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.viking_hmj_it4"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.viking_hmj_it4"/>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.viking_hmj_it5"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="mountain_bandits_template">
 		<stacks>
-			<PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.routier_hmj_rt2"/>
-			<PartyTemplateStack min_value="3" max_value="9" troop="NPCCharacter.routier_hmj_rt3"/>
-			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.routier_hmj_ct5"/>
+			<PartyTemplateStack min_value="6" max_value="24" troop="NPCCharacter.wood_hmj_bt2" />
+			<PartyTemplateStack min_value="3" max_value="12" troop="NPCCharacter.wood_hmj_bt3" />
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.wood_hmj_bt4" />
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="mountain_bandits_boss_party_template">
 		<stacks>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.routier_hmj_rt3"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.routier_hmj_ct5"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.routier_hmj_ct6"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.wood_hmj_bt3" />
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.wood_hmj_bt4" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.wood_hmj_bt5" />
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="forest_bandits_template">
 		<stacks>
-			<PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.wood_hmj_bt2" />
-			<PartyTemplateStack min_value="3" max_value="9" troop="NPCCharacter.wood_hmj_bt3" />
-			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.wood_hmj_bt4" />
+			<PartyTemplateStack min_value="6" max_value="24" troop="NPCCharacter.routier_hmj_rt2"/>
+			<PartyTemplateStack min_value="3" max_value="12" troop="NPCCharacter.routier_hmj_rt3"/>
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.routier_hmj_ct4"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="forest_bandits_boss_party_template" >
 		<stacks>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.wood_hmj_bt3" />
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.wood_hmj_bt4" />
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.wood_hmj_bt5" />
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.routier_hmj_rt3"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.routier_hmj_ct4"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.routier_hmj_ct5"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="desert_bandits_template">
 		<stacks>
-			<PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.jawwal_hmj_bt2"/>
-			<PartyTemplateStack min_value="3" max_value="9" troop="NPCCharacter.jawwal_hmj_bt3"/>
-			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.jawwal_hmj_bt5"/>
+			<PartyTemplateStack min_value="6" max_value="24" troop="NPCCharacter.jawwal_hmj_bt2"/>
+			<PartyTemplateStack min_value="3" max_value="12" troop="NPCCharacter.jawwal_hmj_bt3"/>
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.jawwal_hmj_bt4"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="desert_bandits_boss_party_template">
 		<stacks>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.jawwal_hmj_bt3"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.jawwal_hmj_bt5"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.jawwal_hmj_bt6"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.jawwal_hmj_bt4"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.jawwal_hmj_bt5"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="steppe_bandits_template">
 		<stacks>
-			<PartyTemplateStack min_value="6" max_value="18" troop="NPCCharacter.nomad_hmj_ct2"/>
-			<PartyTemplateStack min_value="3" max_value="9" troop="NPCCharacter.nomad_hmj_ct3"/>
-			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.nomad_hmj_hat5"/>
+			<PartyTemplateStack min_value="6" max_value="24" troop="NPCCharacter.nomad_hmj_ct2"/>
+			<PartyTemplateStack min_value="3" max_value="12" troop="NPCCharacter.nomad_hmj_ct3"/>
+			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.nomad_hmj_hat4"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="steppe_bandits_boss_party_template">
 		<stacks>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nomad_hmj_ct3"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nomad_hmj_hat5"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nomad_hmj_hat6"/>
+			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.nomad_hmj_hat4"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nomad_hmj_hat5"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_caravan_ambushers">

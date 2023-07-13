@@ -182,9 +182,6 @@
 	<xsl:template match="NPCCharacter[@id='lord_1_74_1']/@culture">
 		<xsl:attribute name="culture">Culture.empire_n</xsl:attribute>
 	</xsl:template>
-	<xsl:template match="NPCCharacter[@id='lord_4_3']/@culture">
-		<xsl:attribute name="culture">Culture.zwadane</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_4_3_1']/@culture">
 		<xsl:attribute name="culture">Culture.zwadane</xsl:attribute>
 	</xsl:template>
@@ -1191,9 +1188,6 @@
     </Equipments>
 	</xsl:template>
 
-	<xsl:template match="NPCCharacter[@id='lord_2_20']/@culture">
-		<xsl:attribute name="culture">Culture.nord</xsl:attribute>
-	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_20_1']/@culture">
 		<xsl:attribute name="culture">Culture.nord</xsl:attribute>
 	</xsl:template>
@@ -3039,10 +3033,14 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+	
+	<xsl:template match="NPCCharacter[@id='lord_2_20']/@culture">
+		<xsl:attribute name="culture">Culture.nord</xsl:attribute>
+	</xsl:template>
     <xsl:template match='NPCCharacter[@id="lord_2_20"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="23.46" weight="0.0177" build="0.8336"  key="00000004000005406E804F030003E018F03F71A5C6A40691AE1AFD6571FA00F900CD07030C997484000000000000000000000000000000000000000001905002"  />
+			<BodyProperties version="4" weight="0.0177" build="0.8336"  key="00000004000005406E804F030003E018F03F71A5C6A40691AE1AFD6571FA00F900CD07030C997484000000000000000000000000000000000000000001905002"  />
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match="NPCCharacter[@id='lord_2_20']/Equipments">
@@ -3061,13 +3059,19 @@
                     civilian="true" />
     </Equipments>
 	</xsl:template>
+    <xsl:template match='NPCCharacter[@id="lord_S8_u"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2284" build="0.7346"  key="000AC80D80440583B7A388848DA2B46798378B58269B28772C23873661A7A636004B3603042744BE000000000000000000000000000000000000000030942102"  />
+		</xsl:copy>
+	</xsl:template>
 <!-- Zwadanes -->
 <!-- Aelfwuld -->
 	<xsl:template match="NPCCharacter[@id='lord_4_3']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="hmj_zwad_light_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>
@@ -3075,7 +3079,7 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_3_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -3090,7 +3094,7 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_4']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -3128,8 +3132,8 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_20']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_heavy" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>
@@ -3142,7 +3146,7 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_20_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_heavy" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -3151,8 +3155,8 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_22']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="hmj_zwad_bat_template_axe" />
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>
@@ -3166,7 +3170,7 @@
 	<xsl:template match="NPCCharacter[@id='lord_4_22_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -3182,7 +3186,7 @@
     <Equipments>
       <EquipmentRoster />
       <EquipmentSet id="hmj_zwad_bat_template_medium" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>
@@ -3197,7 +3201,7 @@
     <Equipments>
       <EquipmentRoster />
       <EquipmentSet id="hmj_zwad_bat_template_medium" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>
@@ -3211,7 +3215,7 @@
 	<xsl:template match="NPCCharacter[@id='lord_V11_c1']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -3227,7 +3231,7 @@
     <Equipments>
       <EquipmentRoster />
       <EquipmentSet id="hmj_zwad_bat_template_medium" />
-      <EquipmentSet id="vla_noncom_template_default"
+      <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
 	</xsl:template>

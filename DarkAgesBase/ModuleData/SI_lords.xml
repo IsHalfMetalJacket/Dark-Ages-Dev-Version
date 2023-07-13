@@ -6592,17 +6592,18 @@
 			<EquipmentSet id="khu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_1" name="{=afefefef}Gundig Hairy-Breeks" age="28" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_1" name="{=afefefef}Gundig Hairy-Breeks" age="28" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="28" weight="0.9722" build="0.9707"  key="000500001D0004C3C57D99EDE7CA86C4CBCE866818A7C7A0A793197A0DC9CBED00FFF6030FFCDDCB000000000000000000000000000000000000000009F430C5"  />
+			<BodyProperties version="4" weight="0.9722" build="0.9707"  key="000500001D0004C3C57D99EDE7CA86C4CBCE866818A7C7A0A793197A0DC9CBED00FFF6030FFCDDCB000000000000000000000000000000000000000009F430C5"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="+2"/>
 			<Trait id="Mercy" value="-2"/>
 			<Trait id="Calculating" value="-2"/>
-			<Trait id="Politician" value="2"/>
-			<Trait id="Commander" value="4"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Commander" value="20"/>
+			<Trait id="Manager" value="4"/>
 			<Trait id="HuscarlFightingSkills" value="10"/>
 		</Traits>
 		<Equipments>
@@ -6610,85 +6611,83 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_2" name="{=afef36fef}Freydis" age="44" voice="curt" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_2" name="{=afef36fef}Freydis" age="44" voice="curt" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="44" weight="0" build="0.0123"  key="00005800121400076B7664884754DCBAA35ECC366257747689A7CCAC8C83368600E006030EEDEBDA00000000000000000000000000000000000000003DD41003"  />
+			<BodyProperties version="4" weight="0" build="0.0123"  key="00005800121400076B7664884754DCBAA35ECC366257747689A7CCAC8C83368600E006030EEDEBDA00000000000000000000000000000000000000003DD41003"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="-1"/>
 			<Trait id="Mercy" value="1"/>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="8"/>
-			<Trait id="Commander" value="3"/>
+			<Trait id="Politician" value="20"/>
+			<Trait id="Manager" value="20"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_3" name="{=af22ef}Oli" age="33" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_3" name="{=af22ef}Oli" age="33" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="33" weight="0.5926" build="0.588"  key="00080C0080000385937A969DB78A869486CE7978886477605793197A8DC9C58700D996030DA6B896000000000000000000000000000000000000000009B430C5"  />
+			<BodyProperties version="4" weight="0.5926" build="0.588"  key="00080C0080000385937A969DB78A869486CE7978886477605793197A8DC9C58700D996030DA6B896000000000000000000000000000000000000000009B430C5"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="+1"/>
 			<Trait id="Honor" value="+1"/>
 			<Trait id="Calculating" value="+1"/>
-			<Trait id="Politician" value="5"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="HuscarlFightingSkills" value="4"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HuscarlFightingSkills" value="6"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_4" name="{=afef36fef}Isa" age="30" voice="softspoken" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_4" name="{=afef36fef}Isa" age="30" voice="softspoken" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="30" weight="0.534" build="0.6497"  key="00100C04C0002005937546678764649486CE7978886477604443B2328DC9C587004A8603044655320000000000000000000000000000000000000000087C10C3"  />
+			<BodyProperties version="4" weight="0.534" build="0.6497"  key="00100C04C0002005937546678764649486CE7978886477604443B2328DC9C587004A8603044655320000000000000000000000000000000000000000087C10C3"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Politician" value="3"/>
-			<Trait id="Manager" value="8"/>
-			<Trait id="Commander" value="2"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="14"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_5" name="{=z33faa}Njall" age="26" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_5" name="{=z33faa}Njall" age="26" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="26" weight="0.0556" build="0.4645"  key="00050C0140000012B37A969DB7815694A6967A9AE3A2EB505793197A8864658700D716030DA6C876000000000000000000000000000000000000000009C420C5"  />
+			<BodyProperties version="4" weight="0.0556" build="0.4645"  key="00050C0140000012B37A969DB7815694A6967A9AE3A2EB505793197A8864658700D716030DA6C876000000000000000000000000000000000000000009C420C5"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="-1"/>
 			<Trait id="Honor" value="+1"/>
 			<Trait id="Generosity" value="+1"/>
-			<Trait id="Politician" value="9"/>
-			<Trait id="Manager" value="5"/>
-			<Trait id="Commander" value="1"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="HuscarlFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_6" name="{=m2f11dd}Raghild" age="22" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_6" name="{=m2f11dd}Raghild" age="22" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="23.2" weight="0.3194" build="0.4645"  key="00020C0A52FC0001237A9594673156A23EB67A9AE3A2EB575793197A866765640077560307A6587600000000000000000000000000000000FFFFFFFF88DC20FF"  />
+			<BodyProperties version="4" weight="0.1281" build="0.9722"  key="00007C060000200285B6839396C64B87A35E61282983957774414A498C833686007F260307A7B7A500000000000000000000000000000000000000003CFC0003"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Calculating" value="+1"/>
-			<Trait id="Manager" value="4"/>
-			<Trait id="Commander" value="8"/>
+			<Trait id="Commander" value="10"/>
 			<Trait id="HuscarlFightingSkills" value="5"/>
 		</Traits>
 		<Equipments>
@@ -6696,82 +6695,80 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_7" name="{=eeaajjyj}Vikar" age="50" voice="softspoken" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_7" name="{=eeaajjyj}Vikar" age="50" voice="softspoken" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="50" weight="0.2577" build="0.3457"  key="00082C05400013D22C4C82BAD7764B7D4236832599D88361247534317483364300454603044C813200000000000000000000000000000000000000003C948042"  />
+			<BodyProperties version="4" weight="0.2577" build="0.3457"  key="00082C05400013C62C4C82BAD7764B7D4236832599D88361247534317483364300454603044C813200000000000000000000000000000000000000003C948042"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Mercy" value="+1"/>
 			<Trait id="Calculating" value="+1"/>
 			<Trait id="Generosity" value="-1"/>
-			<Trait id="Politician" value="3"/>
-			<Trait id="Manager" value="7"/>
-			<Trait id="Commander" value="8"/>
-			<Trait id="HuscarlFightingSkills" value="3"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HuscarlFightingSkills" value="5"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_8" name="{=hhtbsxx}Brunhilda" age="40" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_8" name="{=hhtbsxx}Brunhilda" age="40" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="40" weight="1" build="0.8395"  key="00002C0D92FC000F9A96A3E66A635687868B8877377D74ABDCFA9F49096976B600ADF6030ADDEEEC00000000000000000000000000000000000000003D544003"  />
+			<BodyProperties version="4" weight="1" build="0.8395"  key="00002C0D92FC000F9A96A3E66A635687868B8877377D74ABDCFA9F49096976B600ADF6030ADDEEEC00000000000000000000000000000000000000003D544003"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="+1"/>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Politician" value="6"/>
+			<Trait id="Politician" value="10"/>
 			<Trait id="Manager" value="2"/>
-			<Trait id="Commander" value="5"/>
-			<Trait id="HuscarlFightingSkills" value="7"/>
+			<Trait id="Commander" value="20"/>
+			<Trait id="HuscarlFightingSkills" value="9"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_heavy_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_9" name="{=tatbsxx}Asny" age="21" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_9" name="{=tatbsxx}Asny" age="21" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="21" weight="0.6096" build="0.5015"  key="00052C0D10FC00063C96A3E66BB48846868B887599D98472DCBA9647096976B6007896030766849C00000000000000000000000000000000000000003CFC2003"  />
+			<BodyProperties version="4" weight="0.6096" build="0.5015"  key="00052C0D10FC00063C96A3E66BB48846868B887599D98472DCBA9647096976B6007896030766849C00000000000000000000000000000000000000003CFC2003"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="+1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Politician" value="2"/>
-			<Trait id="Manager" value="4"/>
-			<Trait id="Commander" value="7"/>
-			<Trait id="HuscarlFightingSkills" value="6"/>
+			<Trait id="Manager" value="10"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HuscarlFightingSkills" value="5"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_heavy_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_10" name="{=rr33g1}Erik" age="32" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_10" name="{=rr33g1}Erik" age="32" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Ranged">
 		<face>
-			<BodyProperties version="4" age="32" weight="0" build="0.9583"  key="00058C0780001954594C8263524A9278423681899887931574753C777483364300BE06030B35B1A600000000000000000000000000000000000000003D6C2042"  />
+			<BodyProperties version="4" weight="0" build="0.9583"  key="00058C0780001954594C8263524A9278423681899887931574753C777483364300BE06030B35B1A600000000000000000000000000000000000000003D6C2042"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Honor" value="-1"/>
 			<Trait id="Calculating" value="+1"/>
-			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="1"/>
-			<Trait id="Commander" value="5"/>
-			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="ArcherFIghtingSkills" value="6"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_archer_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_11" name="{=t4ad2}Harald" age="46" voice="curt" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_11" name="{=t4ad2}Harald" age="46" voice="curt" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="22.74" weight="0.8534" build="0.8719"  key="0005E004110024828865B6CA8997B74C6518C3C287681A9C3EBC78946889A48900ADD6030AA3283D00000000000000000000000000000000000000003D4C0002"  />
+			<BodyProperties version="4" weight="0.8534" build="0.8719"  key="0005E004110024828865B6CA8997B74C6518C3C287681A9C3EBC78946889A48900ADD6030AA3283D00000000000000000000000000000000000000003D4C0002"  />
 		</face>
 		<skills/>
 		<Traits>
@@ -6779,18 +6776,18 @@
 			<Trait id="Honor" value="+1"/>
 			<Trait id="Calculating" value="-2"/>
 			<Trait id="Generosity" value="+2"/>
-			<Trait id="Manager" value="4"/>
-			<Trait id="Commander" value="2"/>
-			<Trait id="HuscarlFightingSkills" value="10"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="HuscarlFightingSkills" value="8"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_heavy_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_12" name="{=t4ad2}Svala" age="65" voice="ironic" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_12" name="{=t4ad2}Svala" age="65" voice="ironic" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Ranged">
 		<face>
-			<BodyProperties version="4" age="65" weight="0.108" build="0.0772"  key="00054808C000300B468923589E71369385E34B5E7E15926A9878458998BC864E0041260304CBD66800000000000000000000000000000000000000003C842083"  />
+			<BodyProperties version="4" weight="0.108" build="0.0772"  key="00054808C000300B468923589E71369385E34B5E7E15926A9878458998BC864E0041260304CBD66800000000000000000000000000000000000000003C842083"  />
 		</face>
 		<skills/>
 		<Traits>
@@ -6799,31 +6796,34 @@
 			<Trait id="Honor" value="-1"/>
 			<Trait id="Generosity" value="-1"/>
 			<Trait id="Calculating" value="+2"/>
-			<Trait id="Manager" value="10"/>
-			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="16"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Commander" value="18"/>
+			<Trait id="ArcherFIghtingSkills" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_13" name="{=3eff27h}Helgi" age="43" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_13" name="{=3eff27h}Helgi" age="43" voice="curt" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Ranged">
 		<face>
-			<BodyProperties version="4" age="43" weight="0.2207" build="0.5941"  key="00054808C00033814B8923189A76365785E34BCD7E15726A9878458998BC864E008936030869766800000000000000000000000000000000000000003CFC2083"  />
+			<BodyProperties version="4" weight="0.2207" build="0.5941"  key="00054808C00033814B8923189A76365785E34BCD7E15726A9878458998BC864E008936030869766800000000000000000000000000000000000000003CFC2083"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Manager" value="1"/>
-			<Trait id="BalancedFightingSkills" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="ArcherFIghtingSkills" value="10"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_archer_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_14" name="{=j74ffq}Hosvir" age="41" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_14" name="{=j74ffq}Hosvir" age="41" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="41" weight="0.9707" build="0.0478"  key="00052408C000344B44842BA2655CC2DDC78B727D22A1425579BD7AA43884BAB70041F6030467DA7500000000000000000000000000000000000000003C8C0143"  />
+			<BodyProperties version="4" weight="0.9707" build="0.7237"  key="00052408DD00344444842BA2655CC2DDC78B727D22A1425579BD7AA43884BAB7004BF6030467DA7500000000000000000000000000000000000000003C8C0143"  />
 		</face>
 		<skills/>
 		<Traits>
@@ -6831,38 +6831,51 @@
 			<Trait id="Honor" value="+1"/>
 			<Trait id="Generosity" value="+1"/>
 			<Trait id="Calculating" value="+1"/>
-			<Trait id="Politician" value="7"/>
-			<Trait id="Manager" value="7"/>
-			<Trait id="HuscarlFightingSkills" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HuscarlFightingSkills" value="5"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_15" name="{=lwg335}Ingun" age="20" voice="curt" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_15" name="{=lwg335}Ingun" age="20" voice="curt" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="20" weight="0.2454" build="0.8472"  key="00022408D114300344842BA2655CC2DDC78B727D22A1425579BD7AA43884BAB7003D46030367DA7500000000000000000000000000000000000000003C5C00C3"  />
+			<BodyProperties version="4" weight="0.2454" build="0.8472"  key="00022408D114300344842BA2655CC2DDC78B727D22A1425579BD7AA43884BAB7003D46030367DA7500000000000000000000000000000000000000003C5C00C3"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Mercy" value="+1"/>
 			<Trait id="Honor" value="+1"/>
 			<Trait id="Generosity" value="+1"/>
-			<Trait id="Politician" value="4"/>
-			<Trait id="Manager" value="4"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="BalancedFightingSkills" value="2"/>
-			<Trait id="ArcherFIghtingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="BalancedFightingSkills" value="7"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_archer_battletemplate"/>
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_16" name="{=lwg335}Varin" age="30" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_16g" name="{=lwg335}Gudny" age="61" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="30" weight="0.2454" build="0.71"  key="0002540F151413439A84554278926746EEEB7578A9A1425664357A447164F57700A946030ABBBBB500000000000000000000000000000000000000003D5C20C3"  />
+			<BodyProperties version="4" weight="0.2454" build="0.71"  key="0002540F151413439A84554278926746EEEB7578A9A1425664357A447164F57700A946030ABBBBB500000000000000000000000000000000000000003D5C20C3"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HuscarlFightingSkills" value="4"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_nord_light_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_13_16" name="{=lwg335}Varin" age="30" voice="softspoken" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" weight="0.2454" build="0.71"  key="0002540F151413439A84554278926746EEEB7578A9A1425664357A447164F57700A946030ABBBBB500000000000000000000000000000000000000003D5C20C3"  />
 		</face>
 		<skills/>
 		<Traits>
@@ -6877,16 +6890,17 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_16" name="{=lwg335}Varin" age="30" voice="earnest" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_16d" name="{=lwg335}Siv" age="22" voice="earnest" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="30" weight="0.2454" build="0.71"  key="0002540F151413439A84554278926746EEEB7578A9A1425664357A447164F57700A946030ABBBBB500000000000000000000000000000000000000003D5C20C3"  />
+			<BodyProperties version="4" weight="0.2454" build="0.71"  key="0002540F151413449A84554278926746EEEB7578A9A14256643571447164F577008B460308BBBBB500000000000000000000000000000000000000003CFC20C3"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Mercy" value="+1"/>
 			<Trait id="Honor" value="+1"/>
-			<Trait id="Manager" value="4"/>
-			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Commander" value="10"/>
 			<Trait id="HuscarlFightingSkills" value="4"/>
 		</Traits>
 		<Equipments>
@@ -6894,14 +6908,14 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_17" name="{=lwg335}Ragnfast" age="25" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_17" name="{=lwg335}Ragnfast" age="25" voice="ironic" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="5" weight="0.6281" build="0.7577"  key="0002080296CC03C64899E76527D86898746C92BAB8DAA66B7B8B3698896A9831008B960308B47BA900000000000000000000000000000000000000005AFC0083"  />
+			<BodyProperties version="4" weight="0.6281" build="0.7577"  key="0002080296CC03C14899E76527D86898746C92BAB8DAA66B7B8B3698896A9831008B960308B47BA900000000000000000000000000000000000000005AFC0083"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Honor" value="+1"/>
-			<Trait id="Manager" value="2"/>
+			<Trait id="Politician" value="4"/>
 			<Trait id="Commander" value="4"/>
 			<Trait id="HuscarlFightingSkills" value="6"/>
 		</Traits>
@@ -6910,18 +6924,64 @@
 			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_13_18" name="{=lwg335}Bolla" age="23" voice="softspoken" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_13_18" name="{=lwg335}Bolla" age="23" voice="softspoken" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
 		<face>
-			<BodyProperties version="4" age="23.09" weight="0.8225" build="0.9676"  key="0002080280CC1010489687A545780558BB6A92BAB8DAA66B4C898BDA43B97249006FC6030639BB6700000000000000000000000000000000000000005ACC0043"  />
+			<BodyProperties version="4" weight="0.8225" build="0.9676"  key="0002080280CC1010489687A545780558BB6A92BAB8DAA66B4C898BDA43B97249006FC6030639BB6700000000000000000000000000000000000000005ACC0043"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Mercy" value="+1"/>
 			<Trait id="Calculating" value="-1"/>
-			<Trait id="Politician" value="4"/>
-			<Trait id="Manager" value="7"/>
-			<Trait id="Commander" value="2"/>
-			<Trait id="HuscarlFightingSkills" value="2"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HuscarlFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_nord_light_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_13_19" name="{=lwg335}Yri" age="21" voice="softspoken" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
+		<face>
+			<BodyProperties version="4" age="22.26" weight="0.2227" build="0.8619"  key="000088000000300D28856B3A773749529EC583B54C7A68D44A6C1450865597B5005D36030587A32500000000000000000000000000000000000000006AB41103"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="+1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="14"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_nord_light_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_13_20" name="{=lwg335}Alf" age="23" voice="softspoken" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
+		<face>
+			<BodyProperties version="4" weight="0.2227" build="0.8619"  key="000288080044300928856B3A773749529EC583B54C7A68D44A6C1450865597B5005D36030587A32500000000000000000000000000000000000000006AB41142"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="HuscarlFightingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_nord_light_battletemplate"/>
+			<EquipmentSet id="stu_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_13_21" name="{=lwg335}Hrefna" age="23" voice="softspoken" is_female="true" is_hero="true" culture="Culture.nord" occupation="Lord" default_group="Infantry">
+		<face>
+			<BodyProperties version="4" weight="0.8225" build="0.7365"  key="000AC408C0CC300D75668AA6717C559D762D576DC364CB99CD878AA74AB7A969005BC60305E6A68700000000000000000000000000000000000000004AAC1103"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="12"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_nord_light_battletemplate"/>
@@ -6933,24 +6993,24 @@
                 name="{=qKrOVIAq}Tovir"
                 age="29"
                 voice="earnest"
-                default_group="Cavalry"
+                default_group="Infantry"
                 is_hero="true"
                 culture="Culture.nord"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
-      <BodyProperties version="4" age="23.46" weight="0.0177" build="0.8336"  key="00000004000005406E804F030003E018F03F71A5C6A40691AE1AFD6571FA00F900CD07030C997484000000000000000000000000000000000000000001905002"  />
+      <BodyProperties version="4" weight="0.0177" build="0.8336"  key="00000004000005406E804F030003E018F03F71A5C6A40691AE1AFD6571FA00F900CD07030C997484000000000000000000000000000000000000000001905002"  />
     </face>
     <skills></skills>
     <Traits>
-      <Trait id="BalancedFightingSkills"
-             value="8" />
+      <Trait id="HuscarlFightingSkills"
+             value="9" />
       <Trait id="Commander"
-             value="5" />
+             value="8" />
       <Trait id="Politician"
-             value="2" />
+             value="10" />
       <Trait id="Manager"
-             value="3" />
+             value="4" />
       <Trait id="Valor"
              value="1" />
       <Trait id="Calculating"
@@ -6964,27 +7024,28 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="lord_2_20_1"
-                name="{=E5CKYEWf}Kisha"
+                name="{=E5CKYEWf}Katla"
                 age="22"
                 voice="earnest"
                 is_female="true"
-                default_group="Cavalry"
+                default_group="Infantry"
                 is_hero="true"
                 culture="Culture.nord"
                 occupation="Lord"
                 face_mesh_cache="true">
     <face>
-      <BodyProperties version="4"
-                      weight="0.5"
-                      build="0.5"
-                      key="000B080150CC30064899E76527D86898746C92BAB8DAA66B7B8B3698896A983101B776130BB47BA900000000000000000000000000000000000000005B6C0083" />
+      <BodyProperties version="4" weight="0.5" build="0.5" key="000B080150CC30064899E76527D86898746C92BAB8DAA66B7B8B3698896A983101B776130BB47BA900000000000000000000000000000000000000005B6C0083" />
     </face>
     <skills></skills>
     <Traits>
+      <Trait id="Politician"
+             value="12" />
       <Trait id="Manager"
-             value="3" />
+             value="8" />
       <Trait id="Valor"
              value="1" />
+      <Trait id="Calculating"
+             value="-1" />
     </Traits>
     <Equipments>
       <EquipmentRoster />
@@ -6994,7 +7055,7 @@
     </Equipments>
   </NPCCharacter>
   <NPCCharacter id="lord_S8_u"
-                name="{=uxt1DnZM}Galyk"
+                name="{=uxt1DnZM}Geirleif"
                 age="52"
                 voice="curt"
                 is_female="false"
@@ -7005,21 +7066,10 @@
                 face_mesh_cache="true">
     <face>
       <!-- PLACEHOLDER FACE KEY -->
-      <BodyProperties version="4"
-                      weight="0.5"
-                      build="0.5"
-                      key="0015C8054044068CB7A388848DA2B46798378B58269B28772C23873661A7A63600477603042744BE000000000000000000000000000000000000000030940102" />
+      <BodyProperties version="4" weight="0.2284" build="0.7346"  key="000AC80D80440583B7A388848DA2B46798378B58269B28772C23873661A7A636004B3603042744BE000000000000000000000000000000000000000030942102"  />
     </face>
     <skills></skills>
     <Traits>
-      <Trait id="BalancedFightingSkills"
-             value="4" />
-      <Trait id="Commander"
-             value="5" />
-      <Trait id="Politician"
-             value="4" />
-      <Trait id="Manager"
-             value="8" />
       <!-- Older, cautious, much better suited to governor -->
       <Trait id="Valor"
              value="-1" />
@@ -7029,6 +7079,10 @@
              value="1" />
       <Trait id="Oligarchic"
              value="1" />
+      <Trait id="Politician"
+             value="10" />
+      <Trait id="Manager"
+             value="10" />
     </Traits>
     <Equipments>
       <EquipmentRoster />
@@ -7059,7 +7113,7 @@
 			<EquipmentSet id="hmj_zwad_king_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_zwadane_11_1" name="Estrid" voice="ironic" age="45" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_zwadane_11_1" name="Estrid" voice="earnest" age="45" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.5586" build="0.9645"  key="000AAC06C0001002B979592D94B2A3BA0ABD86629511323B85413E2F8974826700BE86030BA8C37700000000000000000000000000000000000000003F6C1003"  />
 		</face>
@@ -7098,7 +7152,7 @@
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_zwadane_11_3" name="Herefrid" voice="softspoken" age="39" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_zwadane_11_3" name="Herefrid" voice="earnest" age="39" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.1219" build="0.3596"  key="00024406C00000CE2973692B556222A297C6774B2484D9978A68EF97873893A500A526030AB76AB200000000000000000000000000000000000000003F442004"  />
 		</face>
@@ -7113,7 +7167,7 @@
 			<Trait id="Manager" value="16"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_zwad_bat_template_heavy"/>
+			<EquipmentSet id="hmj_zwad_light_battletemplate"/>
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -7130,11 +7184,11 @@
 			<Trait id="Manager" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="hmj_zwad_lady_battletemplate"/>
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_zwadane_11_5" name="Leovenath" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_zwadane_11_5" name="Leovenath" voice="curt" age="22" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.5077" build="0.4429"  key="0002A806C000008307C629DBC7934B43F39C96886775C867C9A7327370AB46870087860308A8A28B00000000000000000000000000000000000000003F148042"  />
 		</face>
@@ -7168,7 +7222,7 @@
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_zwadane_11_7" name="Athilda" voice="softspoken" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_zwadane_11_7" name="Athilda" voice="softspoken" age="31" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.5756" build="0.8935"  key="000DDC0E5B88000372A84C9AB4A7A1D532875AB838678296686B3F6D78A8AC8600CD96030CAAC88E00000000000000000000000000000000000000004B841003"  />
 		</face>
@@ -7200,11 +7254,11 @@
 			<Trait id="Valor" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_zwad_bat_template_thane"/>
+			<EquipmentSet id="hmj_zwad_bat_template_rollo_thane"/>
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_11_9" name="Maethild" voice="softspoken" age="52" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_lord_11_9" name="Maethild" voice="softspoken" age="52" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.7207" build="0.1759"  key="00050C080000400569B421786795D733BA5B5B8876615B7684345B4852CB3449255C56140B878C2B3B48580026687322000000000000001B0000000001644003"  />		
 		</face>
@@ -7220,11 +7274,11 @@
 			<Trait id="Egalitarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_zwad_bat_template_medium"/>
+			<EquipmentSet id="hmj_zwad_marote_battletemplate"/>
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_11_10" name="Bilfrid" voice="softspoken" age="28" default_group="Infantry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_lord_11_10" name="Bilfrid" voice="earnest" age="28" default_group="Infantry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.2886" build="0.7886"  key="0000000AD70023CEB9B4449977656B4483785662336394A9DBB57C878B86C94434A776130B9879D9C4357A00075A6465000000000000001B00000000077C1146"  />
 		</face>
@@ -7237,11 +7291,11 @@
 			<Trait id="Valor" value="+1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_mas_bat_template_flamboyant"/>
+			<EquipmentSet id="hmj_zwad_bat_foot_lance"/>
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_11_11" name="Odard" voice="ironic" age="28" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_lord_11_11" name="Odard" voice="ironic" age="28" default_group="Infantry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.2886" build="0.7886"  key="0000000ACF0028C0B9B4449977656B4483785662336394A9DBB57C878B86C94434A776130B9879D9C4357A00075A6465000000000000001B00000000077C1145"  />
 		</face>
@@ -7254,7 +7308,7 @@
 			<Trait id="Egalitarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_zwad_bat_template_heavy"/>
+			<EquipmentSet id="hmj_zwad_bat_template_foot_medium"/>
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -7276,7 +7330,7 @@
 			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_11_13" name="Rachel" voice="softspoken" age="31" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.zwadane" occupation="Lord">
+	<NPCCharacter id="hmj_lord_11_13" name="Rachel" voice="earnest" age="31" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.vlandia" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.4352" build="0.375"  key="000A68055214000AB999527867858556574285837660665B64345B428B51544501B77614F9022775670006121A86005000000000000000190000000001340043"  />		</face>
 		<skills/>
@@ -7285,7 +7339,7 @@
 			<Trait id="Manager" value="10"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_zwad_bat_template_medium"/>
+			<EquipmentSet id="hmj_zwad_rachel_battletemplate"/>
 			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -7294,7 +7348,7 @@
   <NPCCharacter id="lord_4_3"
                 name="{=vEsKYrFR}Aelfwuld"
                 age="45"
-                voice="ironic"
+                voice="softspoken"
                 default_group="Cavalry"
                 is_hero="true"
                 culture="Culture.zwadane"
@@ -7320,7 +7374,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_light_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7328,7 +7382,7 @@
   <NPCCharacter id="lord_4_3_1"
                 name="{=36Y88cTv}Aedilburh"
                 age="22"
-                voice="ironic"
+                voice="softspoken"
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
@@ -7351,7 +7405,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7360,7 +7414,7 @@
   <NPCCharacter id="lord_4_4"
                 name="{=Pya9aCTd}Cyneburg"
                 age="45"
-                voice="earnest"
+                voice="ironic"
                 is_hero="true"
                 default_group="Infantry"
                 is_female="true"
@@ -7381,7 +7435,7 @@
              value="1" />
     </Traits>
     <Equipments>
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7468,7 +7522,7 @@
   <NPCCharacter id="hmj_zwadane_11_8"
                 name="{=36Y88cTv}Aelfgifu"
                 age="20"
-                voice="ironic"
+                voice="curt"
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
@@ -7491,7 +7545,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7500,7 +7554,7 @@
   <NPCCharacter id="lord_4_22"
                 name="{=a4E2pVDA}Redmer"
                 age="35"
-                voice="softspoken"
+                voice="earnest"
                 default_group="Cavalry"
                 is_hero="true"
                 culture="Culture.zwadane"
@@ -7529,7 +7583,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_bat_template_axe" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7560,7 +7614,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7595,7 +7649,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_heavy" />
+      <EquipmentSet id="hmj_zwad_bat_template_medium" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7627,7 +7681,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_heavy" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7652,7 +7706,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7660,7 +7714,7 @@
   <NPCCharacter id="hmj_zwadane_11_8"
                 name="{=36Y88cTv}Felke"
                 age="27"
-                voice="ironic"
+                voice="curt"
                 default_group="Cavalry"
                 is_hero="true"
                 culture="Culture.zwadane"
@@ -7678,7 +7732,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_zwad_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_bat_template_lance" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7686,7 +7740,7 @@
   <NPCCharacter id="lord_V11_l"
                 name="{=5g54Smqk}Ysbran"
                 age="48"
-                voice="curt"
+                voice="softspoken"
                 is_female="false"
                 default_group="Cavalry"
                 is_hero="true"
@@ -7716,7 +7770,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_bat_template_medium" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7736,7 +7790,7 @@
       <BodyProperties version="4" weight="0.3843" build="0.5108"  key="00023C0FD1880182654AAC95A9972C89D33975D5959CC9D4C9754C08398B357700A866030AA5606700000000000000000000000000000000000000003F441083"  />
     </face>
     <Traits>
-      <Trait id="KnightFightingSkills"
+      <Trait id="BalancedFightingSkills"
              value="5" />
       <Trait id="Commander"
              value="5" />
@@ -7752,7 +7806,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_bat_template_medium" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7788,7 +7842,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_noncom_template_default"
                     civilian="true" />
     </Equipments>
@@ -7820,7 +7874,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_bat_template_medium" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7856,7 +7910,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_light_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7864,7 +7918,7 @@
     <NPCCharacter id="hmj_zwadane_11_10"
                 name="{=TbluOCYP}Gisa"
                 age="44"
-                voice="earnest"
+                voice="softspoken"
                 is_female="true"
                 default_group="Cavalry"
                 is_hero="true"
@@ -7885,7 +7939,7 @@
     </Traits>
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_zwad_lady_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>

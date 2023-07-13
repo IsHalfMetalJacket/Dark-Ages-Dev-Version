@@ -503,12 +503,11 @@
 	</xsl:template>
 
 
-
 	<xsl:template match="Settlement[@id='castle_V4']/@culture">
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V4']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_massa_2</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_vlandia_11</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V4_1']/@culture">
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
@@ -532,7 +531,7 @@
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_V9']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vlandia_6</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_vlandia_2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_V9_1']/@culture">
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
@@ -544,7 +543,7 @@
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V6']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vlandia_11</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_massa_2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V6_1']/@culture">
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
@@ -556,7 +555,7 @@
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_V5']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vlandia_2</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_vlandia_6</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_V5_1']/@culture">
 		<xsl:attribute name='culture'>Culture.zwadane</xsl:attribute>

@@ -660,8 +660,8 @@
 	<Hero id="hmj_lord_13_2" faction="Faction.clan_norden_1"/>
 	<Hero id="hmj_lord_13_3" spouse="Hero.hmj_lord_13_4" faction="Faction.clan_norden_1"/>
 	<Hero id="hmj_lord_13_4" spouse="Hero.hmj_lord_13_3" faction="Faction.clan_norden_1"/>
-	<Hero id="hmj_lord_13_5" faction="Faction.clan_norden_1"/>
-	<Hero id="hmj_lord_13_6" faction="Faction.clan_norden_1"/>
+	<Hero id="hmj_lord_13_5" father="Hero.hmj_lord_13_1" mother="Hero.hmj_lord_13_2" faction="Faction.clan_norden_1"/>
+	<Hero id="hmj_lord_13_6" father="Hero.hmj_lord_13_1" mother="Hero.hmj_lord_13_2" faction="Faction.clan_norden_1"/>
 	<!-- Nords - Varfung -->
 	<Hero id="hmj_lord_13_7" spouse="Hero.hmj_lord_13_8" faction="Faction.clan_norden_2" />
 	<Hero id="hmj_lord_13_8" spouse="Hero.hmj_lord_13_7" faction="Faction.clan_norden_2"/>
@@ -673,13 +673,18 @@
 	<Hero id="hmj_lord_13_13" mother="Hero.hmj_lord_13_12" faction="Faction.clan_norden_3" />
 	<Hero id="hmj_lord_13_14" mother="Hero.hmj_lord_13_12" faction="Faction.clan_norden_3" />
 	<Hero id="hmj_lord_13_15" father="Hero.hmj_lord_13_14" faction="Faction.clan_norden_3" />
-	<Hero id="hmj_lord_13_16" faction="Faction.clan_norden_3" />
+	<Hero id="hmj_lord_13_16g" alive="false" faction="Faction.clan_norden_3" />
+	<Hero id="hmj_lord_13_16" mother="Hero.hmj_lord_13_16g" faction="Faction.clan_norden_3" />
+	<Hero id="hmj_lord_13_16d" mother="Hero.hmj_lord_13_16g" faction="Faction.clan_norden_3" />
 	<!-- Nords - Ubrovung -->
-	<Hero id="lord_2_20" spouse="Hero.lord_2_20_1" faction="Faction.clan_sturgia_8"/>
+	<Hero id="lord_2_20" father="Hero.lord_S8_u" spouse="Hero.lord_2_20_1" faction="Faction.clan_sturgia_8"/>
 	<Hero id="lord_2_20_1" spouse="Hero.lord_2_20" faction="Faction.clan_sturgia_8"/>
 	<Hero id="lord_S8_u" faction="Faction.clan_sturgia_8"/>
-	<Hero id="hmj_lord_13_17" faction="Faction.clan_sturgia_8" />
+	<Hero id="hmj_lord_13_17" spouse="Hero.hmj_lord_13_21" faction="Faction.clan_sturgia_8" />
 	<Hero id="hmj_lord_13_18" faction="Faction.clan_sturgia_8" />
+	<Hero id="hmj_lord_13_19" faction="Faction.clan_sturgia_8" />
+	<Hero id="hmj_lord_13_20" faction="Faction.clan_sturgia_8" />
+	<Hero id="hmj_lord_13_21" spouse="Hero.hmj_lord_13_17" faction="Faction.clan_sturgia_8" />
 	<!-- Diamonds -->
 	<Hero id="hmj_spc_diamonds_lord_0" faction="Faction.diamonds"/>
 	<!-- BANDITS -->
