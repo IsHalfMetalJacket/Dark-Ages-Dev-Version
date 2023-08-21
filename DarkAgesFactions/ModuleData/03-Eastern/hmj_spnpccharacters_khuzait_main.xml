@@ -76,73 +76,478 @@
 			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
 			</Equipments>
 		</NPCCharacter>
-		
-		<NPCCharacter id="khuzait_hmj_rddt4"
-			default_group="Ranged"
-			level="21"
-			name="{=Khuzait Fort Archer}Khuzait Fort Archer"
+		<NPCCharacter id="khuz_lord_heavy_warrior"
+			default_group="HorseArcher"
+			level="31"
+			name="{=Kits for Heavy Khuzait}Kits for Heavy Khuzait"
 			occupation="Soldier"
-			is_basic_troop="true"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="0"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="0"/>
+				<skill id="TwoHanded" value="0"/>
+				<skill id="Polearm" value="0"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_polearm_2_t5"/>
+					<equipment slot="Item3" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.AR_goth_helmet_g"/>
+					<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_z"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.steppe_war_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_x"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_lance_3_t5"/>
+					<equipment slot="Item3" id="Item.khuzait_mace_4_t5"/>
+					<equipment slot="Head" id="Item.AR_vaegir_helmet_d"/>
+					<equipment slot="Cape" id="Item.TV_khuzait_shoulder_i"/>
+					<equipment slot="Body" id="Item.brass_lamellar_over_mail"/>
+					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.steppe_war_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_x"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item3" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Head" id="Item.DZ_khuzait_helmet_d"/>
+					<equipment slot="Cape" id="Item.lamellar_shoulders"/>
+					<equipment slot="Body" id="Item.AR_khuzait_armor_b"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.steppe_war_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_x"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Item3" id="Item.AR_iltanlar_axe_t5"/>
+					<equipment slot="Head" id="Item.DZ_khuzait_helmet_c"/>
+					<equipment slot="Cape" id="Item.AR_khuzait_cape_c"/>
+					<equipment slot="Body" id="Item.AR_khuzait_armor_a"/>
+					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.steppe_war_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_x"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+					<equipment slot="Item2" id="Item.throwing_stone"/>
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="khuz_lord_normal_gen"
+			default_group="HorseArcher"
+			level="31"
+			name="{=Kits for General Khuzait}Kits for General Khuzait"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="0"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="0"/>
+				<skill id="TwoHanded" value="0"/>
+				<skill id="Polearm" value="0"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t5"/>
+					<equipment slot="Item3" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_g"/>
+					<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2"/>
+					<equipment slot="Body" id="Item.desert_lamellar"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Item3" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Head" id="Item.eastern_vendel_helmet"/>
+					<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+					<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Item3" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Head" id="Item.AR_khuzait_lord_helmet_g"/>
+					<equipment slot="Cape" id="Item.lamellar_shoulders"/>
+					<equipment slot="Body" id="Item.eastern_lamellar_armor"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+					<equipment slot="Item3" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Head" id="Item.AR_goth_helmet_l"/>
+					<equipment slot="Cape" id="Item.AR_khuzait_cape_c"/>
+					<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+					<equipment slot="Item2" id="Item.throwing_stone"/>
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="khuz_lord_melee_gen"
+			default_group="HorseArcher"
+			level="31"
+			name="{=Kits for Melee Gen}Kits for Khuzait Melee Gen"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="0"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="0"/>
+				<skill id="TwoHanded" value="0"/>
+				<skill id="Polearm" value="0"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Item3" id="Item.khuzait_polearm_2_t5"/>
+					<equipment slot="Head" id="Item.spiked_helmet_with_facemask"/>
+					<equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+					<equipment slot="Body" id="Item.hmj_DZ_khuzait_mailed_armor_a"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t5"/>
+					<equipment slot="Item3" id="Item.khuzait_lance_3_t5"/>
+					<equipment slot="Head" id="Item.AR_goth_helmet_l"/>
+					<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2"/>
+					<equipment slot="Body" id="Item.desert_lamellar"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Item3" id="Item.khuzait_lance_3_t5"/>
+					<equipment slot="Head" id="Item.AR_khuzait_lord_helmet_g"/>
+					<equipment slot="Cape" id="Item.lamellar_shoulders"/>
+					<equipment slot="Body" id="Item.eastern_lamellar_armor"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.noble_bow"/>
+					<equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+					<equipment slot="Item3" id="Item.khuzait_polearm_2_t5"/>
+					<equipment slot="Head" id="Item.TV_khuzait_helmet_y4"/>
+					<equipment slot="Cape" id="Item.AR_khuzait_cape_c"/>
+					<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+					<equipment slot="Item2" id="Item.throwing_stone"/>
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="khuz_lord_knight"
+			default_group="Cavalry"
+			level="31"
+			name="{=Kits for Khuzait Knight}Kits for Khuzait Knight"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="0"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="0"/>
+				<skill id="TwoHanded" value="0"/>
+				<skill id="Polearm" value="0"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_polearm_2_t5"/>
+					<equipment slot="Item1" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.khuzait_mace_4_t5"/>
+					<equipment slot="Head" id="Item.AR_goth_helmet_l"/>
+					<equipment slot="Cape" id="Item.brass_lamellar_shoulder"/>
+					<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+					<equipment slot="Item1" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t5"/>
+					<equipment slot="Head" id="Item.khuzait_noble_helmet_with_fur"/>
+					<equipment slot="Cape" id="Item.AR_aserai_shoulder_w2"/>
+					<equipment slot="Body" id="Item.desert_lamellar"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_polearm_2_t5"/>
+					<equipment slot="Item1" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.DZ_khuzait_helmet_c"/>
+					<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+					<equipment slot="Body" id="Item.hmj_DZ_khuzait_mailed_armor_b"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.AO_durkhan_boots_c"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_lance_3_t5"/>
+					<equipment slot="Item1" id="Item.noyans_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Head" id="Item.AR_khuzait_lord_helmet_g"/>
+					<equipment slot="Cape" id="Item.AR_khuzait_cape_b"/>
+					<equipment slot="Body" id="Item.eastern_lamellar_armor"/>
+					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+					<equipment slot="Leg" id="Item.eastern_splint_boots"/>
+					<equipment slot="Horse" id="Item.noble_horse_eastern"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_w"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+					<equipment slot="Item2" id="Item.throwing_stone"/>
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="khuz_lord_medium"
+			default_group="HorseArcher"
+			level="26"
+			name="{=Kits for Light Khuzait}Kits for Light Khuzait"
+			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="80"/>
-				<skill id="Riding" value="60"/>
-				<skill id="OneHanded" value="170"/>
-				<skill id="TwoHanded" value="60"/>
-				<skill id="Polearm" value="60"/>
-				<skill id="Bow" value="170"/>
-				<skill id="Crossbow" value="80"/>
-				<skill id="Throwing" value="40"/>
+				<skill id="Athletics" value="0"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="0"/>
+				<skill id="TwoHanded" value="0"/>
+				<skill id="Polearm" value="0"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Item3" id="Item.GRE_steppe_arrows"/>
+					<equipment slot="Head" id="Item.TV_khuzait_helmet_y3"/>
+					<equipment slot="Cape" id="Item.scarf"/>
+					<equipment slot="Body" id="Item.khuzait_civil_coat"/>
+					<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Item3" id="Item.steppe_guardian_shield_shoulder"/>
+					<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_a"/>
+					<equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+					<equipment slot="Body" id="Item.stitched_leather_over_mail"/>
+					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Item3" id="Item.GRE_steppe_arrows"/>
+					<equipment slot="Head" id="Item.TV_khuzait_helmet_p"/>
+					<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+					<equipment slot="Body" id="Item.hmj_DZ_khuzait_mailed_armor_a"/>
+					<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+					<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Item3" id="Item.steppe_guardian_shield_shoulder"/>
+					<equipment slot="Head" id="Item.TV_khuzait_helmet_w"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.hmj_DZ_khuzait_mailed_armor_b"/>
+					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+					<equipment slot="Item2" id="Item.throwing_stone"/>
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="khuz_lord_noncom"
+			is_female="true"
+			default_group="HorseArcher"
+			level="26"
+			name="{=Kits for Noncom Khuzait}Kits for Noncom Khuzait"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.villager_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="0"/>
+				<skill id="Riding" value="0"/>
+				<skill id="OneHanded" value="0"/>
+				<skill id="TwoHanded" value="0"/>
+				<skill id="Polearm" value="0"/>
+				<skill id="Bow" value="0"/>
+				<skill id="Crossbow" value="0"/>
+				<skill id="Throwing" value="0"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
-					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item3" id="Item.tribal_steppe_shield_shoulder"/>
-					<equipment slot="Head" id="Item.upturned_fur_cap"/>
-					<equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
-					<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
-					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
-					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows"/>
-					<equipment slot="Head" id="Item.fur_hood"/>
-					<equipment slot="Cape" id="Item.wrapped_scarf"/>
-					<equipment slot="Body" id="Item.TV_khuzait_armor_i"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
-					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item3" id="Item.tribal_steppe_shield_shoulder"/>
-					<equipment slot="Head" id="Item.fur_hat"/>
+					<equipment slot="Item0" id="Item.steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Head" id="Item.AR_khuzait_lord_helmet_h"/>
 					<equipment slot="Cape" id="Item.scarf"/>
-					<equipment slot="Body" id="Item.leather_lamellar_armor"/>
-					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+					<equipment slot="Body" id="Item.khuzait_civil_coat"/>
+					<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
-					<equipment slot="Item1" id="Item.GRE_heavy_steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item3" id="Item.GRE_heavy_steppe_arrows"/>
-					<equipment slot="Head" id="Item.eastern_cap"/>
-					<equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
-					<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<equipment slot="Item0" id="Item.steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_d"/>
+					<equipment slot="Cape" id="Item.AR_khuzait_cape_e"/>
+					<equipment slot="Body" id="Item.steppe_dress"/>
+					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
 				</EquipmentRoster>
-			<EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true"/>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_2_t5"/>
+					<equipment slot="Head" id="Item.AR_roman_hat_b"/>
+					<equipment slot="Cape" id="Item.TV_wolf_pelt_d"/>
+					<equipment slot="Body" id="Item.khuzait_dress_b"/>
+					<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+					<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.fur_hat"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.steppe_robe"/>
+					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+					<equipment slot="Horse" id="Item.t3_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_y3"/>
+				</EquipmentRoster>
+				<EquipmentRoster civilian="true">
+					<equipment slot="Item0" id="Item.peasant_2haxe_1_t1"/>
+					<equipment slot="Item2" id="Item.throwing_stone"/>
+					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
 			</Equipments>
 		</NPCCharacter>
 
@@ -152,7 +557,7 @@
 		<NPCCharacter id="khuzait_hmj_mit2"
 			default_group="Infantry"
 			level="11"
-			name="{=Khuzait Kharash Footman}Khuzait Alim Footman"
+			name="{=Alim Footman}Alim Footman"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -160,42 +565,45 @@
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="50"/>
-				<skill id="Riding" value="5"/>
+				<skill id="Athletics" value="30"/>
+				<skill id="Riding" value="0"/>
 				<skill id="OneHanded" value="50"/>
-				<skill id="TwoHanded" value="5"/>
-				<skill id="Polearm" value="5"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="50"/>
 				<skill id="Bow" value="5"/>
 				<skill id="Crossbow" value="5"/>
-				<skill id="Throwing" value="5"/>
+				<skill id="Throwing" value="10"/>
 			</skills>
 			<upgrade_targets></upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
-					<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
-					<equipment slot="Head" id="Item.plain_headcloth"/>
-					<equipment slot="Body" id="Item.ao_durkhan_leather_lamellar"/>
-					<equipment slot="Leg" id="Item.TV_moccasins_a"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.falchion_sword_t2"/>
-					<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
-					<equipment slot="Body" id="Item.studded_leather_waistcoat"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.empire_mace_1_t2"/>
-					<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
-					<equipment slot="Head" id="Item.desert_cap"/>
-					<equipment slot="Body" id="Item.ao_durkhan_chestplate"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
+					<equipment slot="Item1" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Head" id="Item.nomad_padded_hood"/>
+					<equipment slot="Body" id="Item.steppe_armor"/>
 					<equipment slot="Leg" id="Item.ragged_boots"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.falchion_sword_t2"/>
-					<equipment slot="Item1" id="Item.footmans_wicker_shield"/>
-					<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-					<equipment slot="Body" id="Item.ao_durkhan_sleeveless_leather_lamellar"/>
+					<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
+					<equipment slot="Item1" id="Item.khuzait_mace_1_t2"/>
+					<equipment slot="Item2" id="Item.aserai_spear_hmj_t2"/>
+					<equipment slot="Body" id="Item.ragged_robes"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
+					<equipment slot="Item1" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Head" id="Item.eastern_cap"/>
+					<equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.AR_shield_infantry_l"/>
+					<equipment slot="Item1" id="Item.khuzait_mace_1_t2"/>
+					<equipment slot="Item2" id="Item.aserai_spear_hmj_t2"/>
+					<equipment slot="Head" id="Item.wrapped_headcloth"/>
+					<equipment slot="Body" id="Item.ao_durkhan_hide_poncho"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
 				</EquipmentRoster>
 				<EquipmentSet id="khuzait_troop_civilian_template_t1"
 							  civilian="true" />
@@ -206,7 +614,7 @@
 		<NPCCharacter id="khuzait_hmj_mst2"
 			default_group="Infantry"
 			level="11"
-			name="{=Khuzait Kharash Skirmisher}Khuzait Alim Skirmisher"
+			name="{=Alim Skirmisher}Alim Skirmisher"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -214,46 +622,48 @@
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="20"/>
+				<skill id="Athletics" value="30"/>
 				<skill id="Riding" value="5"/>
-				<skill id="OneHanded" value="30"/>
-				<skill id="TwoHanded" value="10"/>
-				<skill id="Polearm" value="10"/>
-				<skill id="Bow" value="10"/>
+				<skill id="OneHanded" value="20"/>
+				<skill id="TwoHanded" value="5"/>
+				<skill id="Polearm" value="20"/>
+				<skill id="Bow" value="5"/>
 				<skill id="Crossbow" value="5"/>
-				<skill id="Throwing" value="30"/>
+				<skill id="Throwing" value="40"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.makeshift_hmj_javelin_1_t1"/>
+					<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
-					<equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
-					<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>
-					<equipment slot="Body" id="Item.ao_durkhan_trousers"/>
+					<equipment slot="Item2" id="Item.khuzait_mace_1_t2"/>
+					<equipment slot="Head" id="Item.wrapped_headcloth"/>
+					<equipment slot="Body" id="Item.ao_durkhan_hide_poncho"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Item3" id="Item.western_javelin_2_t3"/>
+					<equipment slot="Head" id="Item.nomad_padded_hood"/>
+					<equipment slot="Body" id="Item.steppe_armor"/>
 					<equipment slot="Leg" id="Item.ragged_boots"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.makeshift_hmj_javelin_1_t1"/>
+					<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
 					<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
-					<equipment slot="Item2" id="Item.khuzait_khanjar"/>
-					<equipment slot="Body" id="Item.bandit_envelope_dress_v1"/>
-					<equipment slot="Leg" id="Item.ao_leather_shoes"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.makeshift_hmj_javelin_1_t1"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
-					<equipment slot="Item2" id="Item.peasant_sickle_1_t1"/>
-					<equipment slot="Head" id="Item.desert_cap"/>
-					<equipment slot="Body" id="Item.bandit_envelope_dress_v2"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.makeshift_hmj_javelin_1_t1"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
-					<equipment slot="Item2" id="Item.peasant_club_hmj_t1"/>
-					<equipment slot="Head" id="Item.plain_headcloth"/>
-					<equipment slot="Body" id="Item.tattered_rags"/>
+					<equipment slot="Item2" id="Item.khuzait_mace_1_t2"/>
+					<equipment slot="Body" id="Item.ragged_robes"/>
 					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_javelin_1_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_zs"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Item3" id="Item.western_javelin_2_t3"/>
+					<equipment slot="Head" id="Item.eastern_cap"/>
+					<equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentSet id="khuzait_troop_civilian_template_t1"
 							  civilian="true" />
@@ -264,7 +674,7 @@
 		<NPCCharacter id="khuzait_hmj_mit3"
 			default_group="Infantry"
 			level="16"
-			name="{=Khuzait Fort Guard}Khuzait Fort Guard"
+			name="{=Akkanait Fort Guard}Akkanait Fort Guard"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -273,20 +683,20 @@
 			</face>
 			<skills >
 				<skill id="Athletics" value="20"/>
-				<skill id="Riding" value="20"/>
+				<skill id="Riding" value="10"/>
 				<skill id="OneHanded" value="50"/>
 				<skill id="TwoHanded" value="10"/>
-				<skill id="Polearm" value="50"/>
-				<skill id="Bow" value="20"/>
-				<skill id="Crossbow" value="10"/>
-				<skill id="Throwing" value="20"/>
+				<skill id="Polearm" value="60"/>
+				<skill id="Bow" value="10"/>
+				<skill id="Crossbow" value="5"/>
+				<skill id="Throwing" value="10"/>
 			</skills>
 			<upgrade_targets></upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
 					<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
-					<equipment slot="Item2" id="Item.simple_back_sword_t2"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
 					<equipment slot="Head" id="Item.AR_goth_helmet_h"/>
 					<equipment slot="Body" id="Item.ao_khuzait_leather_vest"/>
 					<equipment slot="Leg" id="Item.ragged_boots"/>
@@ -304,7 +714,7 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.eastern_spear_3_t3"/>
 					<equipment slot="Item1" id="Item.stronger_eastern_wicker_shield"/>
-					<equipment slot="Item2" id="Item.simple_back_sword_t2"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
 					<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
 					<equipment slot="Cape" id="Item.wrapped_scarf"/>
 					<equipment slot="Body" id="Item.khuzait_fortified_armor"/>
@@ -325,10 +735,10 @@
 		</NPCCharacter>
 
 		<!-- #region Khuzait Cherig Line -->
-		<NPCCharacter id="khuzait_hmj_mct2"
+		<NPCCharacter id="khuzait_hmj_mct1"
 			default_group="Cavalry"
-			level="11"
-			name="{=Khuzait Nomad}Khuzait Nomad"
+			level="6"
+			name="{=Jabayi Volunteer}Jabayi Volunteer"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -336,17 +746,17 @@
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="10"/>
-				<skill id="Riding" value="20"/>
-				<skill id="OneHanded" value="20"/>
-				<skill id="TwoHanded" value="10"/>
-				<skill id="Polearm" value="20"/>
-				<skill id="Bow" value="10"/>
+				<skill id="Athletics" value="5"/>
+				<skill id="Riding" value="10"/>
+				<skill id="OneHanded" value="15"/>
+				<skill id="TwoHanded" value="5"/>
+				<skill id="Polearm" value="15"/>
+				<skill id="Bow" value="5"/>
 				<skill id="Crossbow" value="5"/>
-				<skill id="Throwing" value="20"/>
+				<skill id="Throwing" value="15"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_mct3"/>
+				<upgrade_target id="NPCCharacter.khuzait_hmj_mct2"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
@@ -393,27 +803,27 @@
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_mct3"
+		<NPCCharacter id="khuzait_hmj_mct2"
 			default_group="Cavalry"
-			level="16"
-			name="{=Khuzait Nomad Raider}Khuzait Nomad Raider"
+			level="11"
+			name="{=Jabayi Skirmisher}Jabayi Skirmisher"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="20"/>
-				<skill id="Riding" value="50"/>
-				<skill id="OneHanded" value="40"/>
-				<skill id="TwoHanded" value="20"/>
-				<skill id="Polearm" value="50"/>
-				<skill id="Bow" value="20"/>
+				<skill id="Athletics" value="10"/>
+				<skill id="Riding" value="30"/>
+				<skill id="OneHanded" value="20"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="20"/>
+				<skill id="Bow" value="10"/>
 				<skill id="Crossbow" value="10"/>
-				<skill id="Throwing" value="40"/>
+				<skill id="Throwing" value="20"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_mct4"/>
+				<upgrade_target id="NPCCharacter.khuzait_hmj_mct3"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
@@ -466,24 +876,24 @@
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_mct4"
+		<NPCCharacter id="khuzait_hmj_mct3"
 			default_group="Cavalry"
-			level="21"
-			name="{=Khuzait Cherig Raider}Khuzait Jabayi Raider"
+			level="16"
+			name="{=Jabayi Marauder}Jabayi Marauder"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="40"/>
-				<skill id="Riding" value="100"/>
-				<skill id="OneHanded" value="60"/>
-				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="100"/>
-				<skill id="Bow" value="40"/>
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="40"/>
+				<skill id="TwoHanded" value="20"/>
+				<skill id="Polearm" value="40"/>
+				<skill id="Bow" value="20"/>
 				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="100"/>
+				<skill id="Throwing" value="40"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
@@ -539,211 +949,11 @@
 			</Equipments>
 		</NPCCharacter>
 
-		<!-- #region Khuzait Foot Warrior Line -->
-		<NPCCharacter id="khuzait_hmj_rt2"
-			default_group="Ranged"
-			level="11"
-			name="{=Khuzait Hunter}Khuzait Hunter"
-			occupation="Soldier"
-			is_basic_troop="true"
-			culture="Culture.khuzait">
-			<face>
-				<face_key_template value="BodyProperty.villager_khuzait"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="40"/>
-				<skill id="Riding" value="20"/>
-				<skill id="OneHanded" value="60"/>
-				<skill id="TwoHanded" value="20"/>
-				<skill id="Polearm" value="20"/>
-				<skill id="Bow" value="100"/>
-				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="5"/>
-			</skills>
-			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_rt3"/>
-			</upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_bow"/>
-					<equipment slot="Item1" id="Item.default_arrows"/>
-					<equipment slot="Item2" id="Item.simple_back_sword_t2"/>
-					<equipment slot="Head" id="Item.nomad_padded_hood"/>
-					<equipment slot="Body" id="Item.steppe_robe"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_bow"/>
-					<equipment slot="Item1" id="Item.default_arrows"/>
-					<equipment slot="Item2" id="Item.simple_back_sword_t2"/>
-					<equipment slot="Head" id="Item.upturned_fur_cap"/>
-					<equipment slot="Cape" id="Item.wrapped_scarf"/>
-					<equipment slot="Body" id="Item.khuzait_belt_leather"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_bow"/>
-					<equipment slot="Item1" id="Item.default_arrows"/>
-					<equipment slot="Item2" id="Item.simple_back_sword_t2"/>
-					<equipment slot="Head" id="Item.fur_hood"/>
-					<equipment slot="Body" id="Item.khuzait_civil_coat_b"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_bow"/>
-					<equipment slot="Item1" id="Item.default_arrows"/>
-					<equipment slot="Item2" id="Item.simple_back_sword_t2"/>
-					<equipment slot="Head" id="Item.fur_hat"/>
-					<equipment slot="Body" id="Item.steppe_armor"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentSet id="khuzait_troop_civilian_template_t1"
-							  civilian="true" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_rt3"
-			default_group="Ranged"
-			level="16"
-			name="{=Khuzait Footman}Khuzait Footman"
-			occupation="Soldier"
-			culture="Culture.khuzait">
-			<face>
-				<face_key_template value="BodyProperty.fighter_khuzait"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="60"/>
-				<skill id="Riding" value="40"/>
-				<skill id="OneHanded" value="80"/>
-				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="40"/>
-				<skill id="Bow" value="140"/>
-				<skill id="Crossbow" value="40"/>
-				<skill id="Throwing" value="10"/>
-			</skills>
-			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_rt4"/>
-			</upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.composite_bow"/>
-					<equipment slot="Item1" id="Item.barbed_arrows"/>
-					<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
-					<equipment slot="Item3" id="Item.barbed_arrows"/>
-					<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
-					<equipment slot="Cape" id="Item.scarf"/>
-					<equipment slot="Body" id="Item.khuzait_fortified_armor"/>
-					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.composite_bow"/>
-					<equipment slot="Item1" id="Item.barbed_arrows"/>
-					<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
-					<equipment slot="Item3" id="Item.barbed_arrows"/>
-					<equipment slot="Head" id="Item.AR_khuzait_helmet_e"/>
-					<equipment slot="Cape" id="Item.wrapped_scarf"/>
-					<equipment slot="Body" id="Item.khuzait_sturdy_armor"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.composite_bow"/>
-					<equipment slot="Item1" id="Item.barbed_arrows"/>
-					<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
-					<equipment slot="Item3" id="Item.barbed_arrows"/>
-					<equipment slot="Head" id="Item.AR_khuzait_helmet_p"/>
-					<equipment slot="Body" id="Item.ao_khuzait_leather_vest"/>
-					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.composite_bow"/>
-					<equipment slot="Item1" id="Item.barbed_arrows"/>
-					<equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
-					<equipment slot="Item3" id="Item.barbed_arrows"/>
-					<equipment slot="Head" id="Item.AR_khuzait_helmet_b"/>
-					<equipment slot="Body" id="Item.belted_leather_cuirass"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentSet id="khuzait_troop_civilian_template_t2"
-							  civilian="true" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_rt4"
-			default_group="Ranged"
-			level="21"
-			name="{=Khuzait Foot Warrior}Khuzait Foot Warrior"
-			occupation="Soldier"
-			culture="Culture.khuzait">
-			<face>
-				<face_key_template value="BodyProperty.fighter_khuzait"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="140"/>
-				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="180"/>
-				<skill id="TwoHanded" value="80"/>
-				<skill id="Polearm" value="80"/>
-				<skill id="Bow" value="220"/>
-				<skill id="Crossbow" value="80"/>
-				<skill id="Throwing" value="20"/>
-			</skills>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item3" id="Item.steppe_arrows"/>
-					<equipment slot="Head" id="Item.plumed_lamellar_helmet"/>
-					<equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-					<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
-					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
-					<equipment slot="Item3" id="Item.steppe_arrows"/>
-					<equipment slot="Head" id="Item.steppe_helmet"/>
-					<equipment slot="Cape" id="Item.TV_wolf_pelt_b"/>
-					<equipment slot="Body" id="Item.khuzait_leather_stitched"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item3" id="Item.steppe_arrows"/>
-					<equipment slot="Head" id="Item.AR_khuzait_helmet_g"/>
-					<equipment slot="Cape" id="Item.leather_lamellar_shoulders"/>
-					<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
-					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.leather_boots"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.steppe_war_bow"/>
-					<equipment slot="Item1" id="Item.steppe_arrows"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
-					<equipment slot="Item3" id="Item.steppe_arrows"/>
-					<equipment slot="Head" id="Item.ao_durkhan_guarded_bronze_helmet"/>
-					<equipment slot="Cape" id="Item.wolf_shoulder"/>
-					<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-				</EquipmentRoster>
-				<EquipmentSet id="khuzait_troop_civilian_template_t2"
-							  civilian="true" />
-			</Equipments>
-		</NPCCharacter>
-
 		<!-- #region Khuzait Horseman Line -->
 		<NPCCharacter id="khuzait_hmj_ct2"
 			default_group="Cavalry"
 			level="11"
-			name="{=Khuzait Horseman}Khuzait Nomad Warrior"
+			name="{=Qarak Soldier}Qarak Soldier"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -753,9 +963,9 @@
 			<skills >
 				<skill id="Athletics" value="10"/>
 				<skill id="Riding" value="30"/>
-				<skill id="OneHanded" value="10"/>
+				<skill id="OneHanded" value="40"/>
 				<skill id="TwoHanded" value="5"/>
-				<skill id="Polearm" value="30"/>
+				<skill id="Polearm" value="60"/>
 				<skill id="Bow" value="10"/>
 				<skill id="Crossbow" value="5"/>
 				<skill id="Throwing" value="10"/>
@@ -810,21 +1020,21 @@
 		<NPCCharacter id="khuzait_hmj_ct3"
 			default_group="Cavalry"
 			level="16"
-			name="{=Khuzait Hohuchi Flanker}Khuzait Zaryad Horseman"
+			name="{=Qarak Zaryad}Qarak Zaryad"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="40"/>
-				<skill id="Riding" value="120"/>
-				<skill id="OneHanded" value="120"/>
-				<skill id="TwoHanded" value="80"/>
-				<skill id="Polearm" value="120"/>
-				<skill id="Bow" value="40"/>
-				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="60"/>
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="50"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="80"/>
+				<skill id="Bow" value="20"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="20"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
@@ -878,7 +1088,7 @@
 		<NPCCharacter id="khuzait_hmj_ct4"
 			default_group="Cavalry"
 			level="21"
-			name="{=Khuzait Hohuchi Lancer}Khuzait Ardager Lancer"
+			name="{=Qarak Ardager}Qarak Ardager"
 			upgrade_requires="ItemCategory.war_horse"
 			occupation="Soldier"
 			culture="Culture.khuzait">
@@ -888,9 +1098,9 @@
 			<skills >
 				<skill id="Athletics" value="40"/>
 				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="80"/>
-				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="120"/>
+				<skill id="OneHanded" value="100"/>
+				<skill id="TwoHanded" value="20"/>
+				<skill id="Polearm" value="140"/>
 				<skill id="Bow" value="40"/>
 				<skill id="Crossbow" value="20"/>
 				<skill id="Throwing" value="40"/>
@@ -950,10 +1160,10 @@
 		</NPCCharacter>
 
 		<!-- #region Khuzait Horse Archer Line -->
-		<NPCCharacter id="khuzait_hmj_hat3"
+		<NPCCharacter id="khuzait_hmj_hat2"
 			default_group="HorseArcher"
-			level="16"
-			name="{=Khuzait Horse Archer}Khuzait Nomad Archer"
+			level="11"
+			name="{=Qarak Archer}Qarak Archer"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -961,17 +1171,17 @@
 				<face_key_template value="BodyProperty.villager_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="20"/>
-				<skill id="Riding" value="70"/>
-				<skill id="OneHanded" value="20"/>
-				<skill id="TwoHanded" value="20"/>
-				<skill id="Polearm" value="20"/>
-				<skill id="Bow" value="70"/>
-				<skill id="Crossbow" value="40"/>
-				<skill id="Throwing" value="20"/>
+				<skill id="Athletics" value="10"/>
+				<skill id="Riding" value="40"/>
+				<skill id="OneHanded" value="40"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="10"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="5"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_hat5"/>
+				<upgrade_target id="NPCCharacter.khuzait_hmj_hat3"/>
 				<upgrade_target id="NPCCharacter.khuzait_hmj_hat4"/>
 			</upgrade_targets>
 			<Equipments>
@@ -1025,24 +1235,24 @@
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_hat5"
+		<NPCCharacter id="khuzait_hmj_hat4"
 			default_group="HorseArcher"
-			level="26"
-			name="{=Khuzait Hoshiga Archer}Khuzait Mergen Horseman"
+			level="21"
+			name="{=Qarak Archer}Qarak Mergen"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="80"/>
-				<skill id="Riding" value="200"/>
-				<skill id="OneHanded" value="80"/>
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="80"/>
+				<skill id="OneHanded" value="40"/>
 				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="80"/>
-				<skill id="Bow" value="200"/>
-				<skill id="Crossbow" value="100"/>
-				<skill id="Throwing" value="60"/>
+				<skill id="Polearm" value="40"/>
+				<skill id="Bow" value="160"/>
+				<skill id="Crossbow" value="40"/>
+				<skill id="Throwing" value="20"/>
 			</skills>
 			<upgrade_targets></upgrade_targets>
 			<Equipments>
@@ -1053,7 +1263,7 @@
 					<equipment slot="Item3" id="Item.steppe_arrows"/>
 					<equipment slot="Head" id="Item.upturned_fur_cap"/>
 					<equipment slot="Cape" id="Item.scarf"/>
-					<equipment slot="Body" id="Item.ao_durkhan_chestplate"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_l"/>
 					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
 					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 					<equipment slot="Horse" id="Item.khuzait_horse"/>
@@ -1066,8 +1276,8 @@
 					<equipment slot="Item3" id="Item.steppe_arrows"/>
 					<equipment slot="Head" id="Item.peaked_fur_hood"/>
 					<equipment slot="Cape" id="Item.wrapped_scarf"/>
-					<equipment slot="Body" id="Item.khuzait_sturdy_armor"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Body" id="Item.AR_aserai_leather_a"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
 					<equipment slot="Leg" id="Item.leather_boots"/>
 					<equipment slot="Horse" id="Item.khuzait_horse"/>
 					<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
@@ -1079,8 +1289,8 @@
 					<equipment slot="Item3" id="Item.steppe_arrows"/>
 					<equipment slot="Head" id="Item.eastern_cap"/>
 					<equipment slot="Cape" id="Item.scarf"/>
-					<equipment slot="Body" id="Item.ao_khuzait_leather_vest"/>
-					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Body" id="Item.khuzait_fortified_armor"/>
+					<equipment slot="Gloves" id="Item.ragged_armwraps"/>
 					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
 					<equipment slot="Horse" id="Item.khuzait_horse"/>
 					<equipment slot="HorseHarness" id="Item.steppe_fur_harness"/>
@@ -1092,7 +1302,7 @@
 					<equipment slot="Item3" id="Item.steppe_arrows"/>
 					<equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
 					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
-					<equipment slot="Body" id="Item.khuzait_fortified_armor"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_k"/>
 					<equipment slot="Gloves" id="Item.armwraps"/>
 					<equipment slot="Leg" id="Item.leather_boots"/>
 					<equipment slot="Horse" id="Item.khuzait_horse"/>
@@ -1102,32 +1312,32 @@
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_hat4"
+		<NPCCharacter id="khuzait_hmj_hat3"
 			default_group="HorseArcher"
-			level="21"
-			name="{=Khuzait Warrior Archer}Khuzait Warrior Archer"
+			level="16"
+			name="{=Qarak Warrior}Qarak Warrior"
 			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="40"/>
-				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="80"/>
-				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="40"/>
-				<skill id="Bow" value="80"/>
-				<skill id="Crossbow" value="40"/>
-				<skill id="Throwing" value="20"/>
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="40"/>
+				<skill id="OneHanded" value="40"/>
+				<skill id="TwoHanded" value="20"/>
+				<skill id="Polearm" value="20"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="10"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_hat6"/>
+				<upgrade_target id="NPCCharacter.khuzait_hmj_hat5"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-					<equipment slot="Item1" id="Item.decorated_steppe_shield"/>
+					<equipment slot="Item1" id="Item.tribal_steppe_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.composite_bow"/>
 					<equipment slot="Item3" id="Item.range_arrows"/>
 					<equipment slot="Head" id="Item.plumed_fur_lined_helmet"/>
@@ -1140,7 +1350,7 @@
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_mace_1_t2"/>
-					<equipment slot="Item1" id="Item.decorated_steppe_shield"/>
+					<equipment slot="Item1" id="Item.tribal_steppe_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.composite_bow"/>
 					<equipment slot="Item3" id="Item.range_arrows"/>
 					<equipment slot="Head" id="Item.AR_khuzait_helmet_e"/>
@@ -1153,7 +1363,7 @@
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_sword_1_t2"/>
-					<equipment slot="Item1" id="Item.decorated_steppe_shield"/>
+					<equipment slot="Item1" id="Item.tribal_steppe_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.composite_bow"/>
 					<equipment slot="Item3" id="Item.range_arrows"/>
 					<equipment slot="Head" id="Item.AR_khuzait_helmet_d"/>
@@ -1166,7 +1376,7 @@
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_mace_1_t2"/>
-					<equipment slot="Item1" id="Item.decorated_steppe_shield"/>
+					<equipment slot="Item1" id="Item.tribal_steppe_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.composite_bow"/>
 					<equipment slot="Item3" id="Item.range_arrows"/>
 					<equipment slot="Head" id="Item.AR_khuzait_helmet_b"/>
@@ -1180,92 +1390,12 @@
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_hat6"
+		<NPCCharacter id="khuzait_hmj_hat5"
 			default_group="HorseArcher"
-			level="31"
-			name="{=Khuzait Nukeri}Khuzait Jawinger Marksman"
+			level="26"
+			name="{=Qarak Jawinger}Qarak Jawinger"
 			upgrade_requires="ItemCategory.war_horse"
 			occupation="Soldier"
-			culture="Culture.khuzait">
-			<face>
-				<face_key_template value="BodyProperty.fighter_khuzait"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="140"/>
-				<skill id="Riding" value="260"/>
-				<skill id="OneHanded" value="260"/>
-				<skill id="TwoHanded" value="80"/>
-				<skill id="Polearm" value="140"/>
-				<skill id="Bow" value="260"/>
-				<skill id="Crossbow" value="80"/>
-				<skill id="Throwing" value="40"/>
-			</skills>
-			<upgrade_targets></upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_sword_5_t4"/>
-					<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
-					<equipment slot="Item2" id="Item.steppe_war_bow"/>
-					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-					<equipment slot="Head" id="Item.AR_khuzait_helmet_g"/>
-					<equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-					<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.steppe_leather_boots"/>
-					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.eastern_steel_mace_t4"/>
-					<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
-					<equipment slot="Item2" id="Item.steppe_war_bow"/>
-					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-					<equipment slot="Head" id="Item.nomad_helmet"/>
-					<equipment slot="Cape" id="Item.wolf_shoulder"/>
-					<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
-					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
-					<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
-					<equipment slot="Item2" id="Item.steppe_war_bow"/>
-					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-					<equipment slot="Head" id="Item.ao_durkhan_fur_trimmed_helmet"/>
-					<equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
-					<equipment slot="Body" id="Item.leather_lamellar_armor"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
-					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.eastern_steel_mace_t4"/>
-					<equipment slot="Item1" id="Item.tribal_steppe_shield"/>
-					<equipment slot="Item2" id="Item.steppe_war_bow"/>
-					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
-					<equipment slot="Head" id="Item.ao_durkhan_guarded_iron_helmet"/>
-					<equipment slot="Cape" id="Item.leather_lamellar_shoulders"/>
-					<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
-					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentSet id="khuzait_troop_civilian_template_t3"
-							  civilian="true" />
-			</Equipments>
-		</NPCCharacter>
-
-		<!-- #region Khuzait Thunder Cavalry Line -->
-		<NPCCharacter id="khuzait_hmj_xt5"
-			default_group="Cavalry"
-			level="26"
-			name="{=Khuzait Thunder Rider}Khuzait Thunder Thrower"
-			occupation="Soldier"
-			is_basic_troop="true"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
@@ -1276,12 +1406,229 @@
 				<skill id="OneHanded" value="160"/>
 				<skill id="TwoHanded" value="80"/>
 				<skill id="Polearm" value="80"/>
-				<skill id="Bow" value="40"/>
+				<skill id="Bow" value="200"/>
+				<skill id="Crossbow" value="80"/>
+				<skill id="Throwing" value="40"/>
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_sword_5_t4"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.steppe_war_bow"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.AR_goth_helmet_e"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.leather_lamellar_armor"/>
+					<equipment slot="Gloves" id="Item.TV_khuzait_gloves_b"/>
+					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
+					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.eastern_steel_mace_t4"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.steppe_war_bow"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.TV_khuzait_helmet_w"/>
+					<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+					<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
+					<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+					<equipment slot="Leg" id="Item.steppe_leather_boots"/>
+					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.khuzait_sword_4_t4"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.steppe_war_bow"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.ao_durkhan_fur_trimmed_helmet"/>
+					<equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
+					<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+					<equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.eastern_steel_mace_t4"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
+					<equipment slot="Item2" id="Item.steppe_war_bow"/>
+					<equipment slot="Item3" id="Item.heavy_steppe_arrows"/>
+					<equipment slot="Head" id="Item.AR_goth_helmet_j"/>
+					<equipment slot="Cape" id="Item.TV_khuzait_shoulder_j"/>
+					<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
+					<equipment slot="Gloves" id="Item.strapped_leather_bracers"/>
+					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+					<equipment slot="Horse" id="Item.t2_khuzait_horse"/>
+					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
+				</EquipmentRoster>
+				<EquipmentSet id="khuzait_troop_civilian_template_t3"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<NPCCharacter id="khuzait_hmj_rt4"
+			default_group="Ranged"
+			level="21"
+			name="{=Akkanait Fort Archer}Akkanait Fort Archer"
+			occupation="Soldier"
+			is_basic_troop="true"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="100"/>
+				<skill id="Riding" value="20"/>
+				<skill id="OneHanded" value="80"/>
+				<skill id="TwoHanded" value="40"/>
+				<skill id="Polearm" value="40"/>
+				<skill id="Bow" value="140"/>
 				<skill id="Crossbow" value="40"/>
-				<skill id="Throwing" value="160"/>
+				<skill id="Throwing" value="20"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_xt6"/>
+				<upgrade_target id="NPCCharacter.khuzait_hmj_rt5"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Head" id="Item.eastern_cap"/>
+					<equipment slot="Cape" id="Item.scarf"/>
+					<equipment slot="Body" id="Item.ao_khuzait_leather_vest"/>
+					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Head" id="Item.upturned_fur_cap"/>
+					<equipment slot="Cape" id="Item.scarf"/>
+					<equipment slot="Body" id="Item.ao_durkhan_chestplate"/>
+					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Head" id="Item.peaked_fur_hood"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.khuzait_sturdy_armor"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.composite_steppe_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.AR_iltanlar_axe_t2"/>
+					<equipment slot="Head" id="Item.AR_khuzait_helmet_a"/>
+					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+					<equipment slot="Body" id="Item.khuzait_fortified_armor"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentSet id="khuzait_troop_civilian_template_t2"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="khuzait_hmj_rt5"
+			default_group="Ranged"
+			level="26"
+			name="{=Akkanait Fort Marksman}Akkanait Fort Marksman"
+			occupation="Soldier"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="120"/>
+				<skill id="Riding" value="40"/>
+				<skill id="OneHanded" value="120"/>
+				<skill id="TwoHanded" value="80"/>
+				<skill id="Polearm" value="80"/>
+				<skill id="Bow" value="200"/>
+				<skill id="Crossbow" value="80"/>
+				<skill id="Throwing" value="40"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
+					<equipment slot="Item3" id="Item.steppe_arrows"/>
+					<equipment slot="Head" id="Item.plumed_lamellar_helmet"/>
+					<equipment slot="Cape" id="Item.eastern_studded_shoulders"/>
+					<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
+					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+					<equipment slot="Item3" id="Item.steppe_arrows"/>
+					<equipment slot="Head" id="Item.steppe_helmet"/>
+					<equipment slot="Cape" id="Item.TV_wolf_pelt_b"/>
+					<equipment slot="Body" id="Item.khuzait_leather_stitched"/>
+					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
+					<equipment slot="Item3" id="Item.steppe_arrows"/>
+					<equipment slot="Head" id="Item.AR_khuzait_helmet_g"/>
+					<equipment slot="Cape" id="Item.leather_lamellar_shoulders"/>
+					<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
+					<equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.steppe_war_bow"/>
+					<equipment slot="Item1" id="Item.steppe_arrows"/>
+					<equipment slot="Item2" id="Item.khuzait_sword_4_t4"/>
+					<equipment slot="Item3" id="Item.steppe_arrows"/>
+					<equipment slot="Head" id="Item.steppe_helmet"/>
+					<equipment slot="Cape" id="Item.wolf_shoulder"/>
+					<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
+					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
+					<equipment slot="Leg" id="Item.ao_durkhan_tassled_boots"/>
+				</EquipmentRoster>
+				<EquipmentSet id="khuzait_troop_civilian_template_t2"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<!-- #region Khuzait Thunder Cavalry Line -->
+		<NPCCharacter id="khuzait_hmj_xt4"
+			default_group="Cavalry"
+			level="21"
+			name="{=Qizilar Thunder Thrower}Qizilar Thunder Thrower"
+			occupation="Soldier"
+			is_basic_troop="true"
+			culture="Culture.khuzait">
+			<face>
+				<face_key_template value="BodyProperty.fighter_khuzait"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="60"/>
+				<skill id="Riding" value="40"/>
+				<skill id="OneHanded" value="110"/>
+				<skill id="TwoHanded" value="40"/>
+				<skill id="Polearm" value="40"/>
+				<skill id="Bow" value="20"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="110"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.khuzait_hmj_xt5"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
@@ -1294,8 +1641,6 @@
 					<equipment slot="Body" id="Item.eastern_stitched_leather_coat"/>
 					<equipment slot="Gloves" id="Item.guarded_armwraps"/>
 					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-					<equipment slot="Horse" id="Item.khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
@@ -1307,8 +1652,6 @@
 					<equipment slot="Body" id="Item.eastern_plated_leather_vest"/>
 					<equipment slot="Gloves" id="Item.leather_gloves"/>
 					<equipment slot="Leg" id="Item.leather_boots"/>
-					<equipment slot="Horse" id="Item.khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_sword_3_t3"/>
@@ -1320,8 +1663,6 @@
 					<equipment slot="Body" id="Item.leather_lamellar_armor"/>
 					<equipment slot="Gloves" id="Item.guarded_armwraps"/>
 					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-					<equipment slot="Horse" id="Item.khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
@@ -1333,17 +1674,15 @@
 					<equipment slot="Body" id="Item.studded_leather_over_aketon"/>
 					<equipment slot="Gloves" id="Item.leather_gloves"/>
 					<equipment slot="Leg" id="Item.steppe_leather_boots"/>
-					<equipment slot="Horse" id="Item.khuzait_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_harness"/>
 				</EquipmentRoster>
 				<EquipmentSet id="khuzait_troop_civilian_template_t2"
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_xt6"
+		<NPCCharacter id="khuzait_hmj_xt5"
 			default_group="Cavalry"
-			level="31"
-			name="{=Khuzait Thunder Warrior}Khuzait Thunder Warrior"
+			level="26"
+			name="{=Qizilar Thunder Warrior}Qizilar Thunder Warrior"
 			upgrade_requires="ItemCategory.war_horse"
 			occupation="Soldier"
 			culture="Culture.khuzait">
@@ -1351,14 +1690,14 @@
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="140"/>
-				<skill id="Riding" value="220"/>
-				<skill id="OneHanded" value="220"/>
-				<skill id="TwoHanded" value="140"/>
-				<skill id="Polearm" value="140"/>
-				<skill id="Bow" value="80"/>
-				<skill id="Crossbow" value="80"/>
-				<skill id="Throwing" value="220"/>
+				<skill id="Athletics" value="80"/>
+				<skill id="Riding" value="140"/>
+				<skill id="OneHanded" value="160"/>
+				<skill id="TwoHanded" value="80"/>
+				<skill id="Polearm" value="80"/>
+				<skill id="Bow" value="40"/>
+				<skill id="Crossbow" value="40"/>
+				<skill id="Throwing" value="160"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
@@ -1498,7 +1837,7 @@
 		<NPCCharacter id="khuzait_hmj_it5"
 			default_group="Infantry"
 			level="26"
-			name="{=Khuzait Darkhan}Khuzait Qamqorsi Guard"
+			name="{=Akkanait Qamqorsi}Akkanait Qamqorsi"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -1506,14 +1845,14 @@
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="180"/>
-				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="220"/>
-				<skill id="TwoHanded" value="140"/>
-				<skill id="Polearm" value="220"/>
-				<skill id="Bow" value="60"/>
+				<skill id="Athletics" value="80"/>
+				<skill id="Riding" value="40"/>
+				<skill id="OneHanded" value="160"/>
+				<skill id="TwoHanded" value="80"/>
+				<skill id="Polearm" value="160"/>
+				<skill id="Bow" value="40"/>
 				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="100"/>
+				<skill id="Throwing" value="80"/>
 			</skills>
 			<upgrade_targets></upgrade_targets>
 			<Equipments>
@@ -1563,10 +1902,10 @@
 		</NPCCharacter>
 
 		<!-- #region Khuzait Blessed Lancer Line -->
-		<NPCCharacter id="khuzait_hmj_hct4"
+		<NPCCharacter id="khuzait_hmj_hct3"
 			default_group="Cavalry"
-			level="21"
-			name="{=Khuzait Chosen Horseman}Khuzait Chosen Horseman"
+			level="16"
+			name="{=Qamqorsi Horseman}Qamqorsi Horseman"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.khuzait">
@@ -1641,84 +1980,9 @@
 		<NPCCharacter id="khuzait_hmj_hct5"
 			default_group="Cavalry"
 			level="26"
-			name="{=Khuzait Qamqorsi Horseman}Khuzait Qamqorsi Horseman"
+			name="{=Qamqorsi Tandalgan}Qamqorsi Tandalgan"
+			occupation="Soldier"
 			upgrade_requires="ItemCategory.war_horse"
-			occupation="Soldier"
-			culture="Culture.khuzait">
-			<face>
-				<face_key_template value="BodyProperty.fighter_khuzait"/>
-			</face>
-			<skills >
-				<skill id="Athletics" value="40"/>
-				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="90"/>
-				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="110"/>
-				<skill id="Bow" value="40"/>
-				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="20"/>
-			</skills>
-			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.khuzait_hmj_hct6"/>
-			</upgrade_targets>
-			<Equipments>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
-					<equipment slot="Item1" id="Item.steppe_guardian_shield"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_3_t3"/>
-					<equipment slot="Head" id="Item.AR_khuzait_helmet_m"/>
-					<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
-					<equipment slot="Body" id="Item.AR_empire_brass_lamellar_d"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.TV_khuzait_boots_a"/>
-					<equipment slot="Horse" id="Item.steppe_war_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
-					<equipment slot="Item1" id="Item.steppe_guardian_shield"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_3_t3"/>
-					<equipment slot="Head" id="Item.AR_goth_helmet_e"/>
-					<equipment slot="Cape" id="Item.AR_khuzait_cape_d"/>
-					<equipment slot="Body" id="Item.ao_durkhan_light_lamellar"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.steppe_leather_boots"/>
-					<equipment slot="Horse" id="Item.steppe_war_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
-					<equipment slot="Item1" id="Item.steppe_guardian_shield"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_3_t3"/>
-					<equipment slot="Head" id="Item.TV_khuzait_helmet_x"/>
-					<equipment slot="Cape" id="Item.a_khuzait_leather_shoulder_b_a"/>
-					<equipment slot="Body" id="Item.AR_empire_brass_lamellar_b"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.eastern_leather_boots"/>
-					<equipment slot="Horse" id="Item.steppe_war_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.khuzait_lance_1_t3"/>
-					<equipment slot="Item1" id="Item.steppe_guardian_shield"/>
-					<equipment slot="Item2" id="Item.khuzait_sword_3_t3"/>
-					<equipment slot="Head" id="Item.TV_khuzait_helmet_w"/>
-					<equipment slot="Cape" id="Item.a_leather_lamellar_armor_shoulder_a"/>
-					<equipment slot="Body" id="Item.ao_durkhan_lamellar"/>
-					<equipment slot="Gloves" id="Item.steppe_leather_vambraces"/>
-					<equipment slot="Leg" id="Item.khuzait_curved_boots"/>
-					<equipment slot="Horse" id="Item.steppe_war_horse"/>
-					<equipment slot="HorseHarness" id="Item.steppe_half_barding"/>
-				</EquipmentRoster>
-				<EquipmentSet id="khuzait_troop_civilian_template_t3"
-							  civilian="true" />
-			</Equipments>
-		</NPCCharacter>
-		<NPCCharacter id="khuzait_hmj_hct6"
-			default_group="Cavalry"
-			level="31"
-			name="{=Khuzait Qamqorsi Lancer}Khuzait Qamqorsi Lancer"
-			occupation="Soldier"
 			culture="Culture.khuzait">
 			<face>
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
@@ -1736,7 +2000,7 @@
 			<Equipments>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.noyans_shield"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
 					<equipment slot="Head" id="Item.AR_goth_helmet_g"/>
 					<equipment slot="Cape" id="Item.TV_wolf_pelt_g"/>
@@ -1748,7 +2012,7 @@
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.noyans_shield"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
 					<equipment slot="Head" id="Item.TV_khuzait_helmet_x"/>
 					<equipment slot="Cape" id="Item.TV_khuzait_shoulder_m"/>
@@ -1760,7 +2024,7 @@
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.noyans_shield"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
 					<equipment slot="Head" id="Item.AR_goth_helmet_f"/>
 					<equipment slot="Cape" id="Item.TV_khuzait_shoulder_g"/>
@@ -1772,7 +2036,7 @@
 				</EquipmentRoster>
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.khuzait_lance_2_t4"/>
-					<equipment slot="Item1" id="Item.noyans_shield"/>
+					<equipment slot="Item1" id="Item.steppe_guardian_shield_shoulder"/>
 					<equipment slot="Item2" id="Item.khuzait_sword_5_t4"/>
 					<equipment slot="Head" id="Item.TV_khuzait_lord_helmet_f"/>
 					<equipment slot="Cape" id="Item.AR_khuzait_cape_a"/>
