@@ -427,7 +427,7 @@
 	<Hero id="lord_6_11" father="Hero.lord_6_3" mother="Hero.lord_6_4" faction="Faction.clan_khuzait_2"/>
 	<Hero id="lord_6_12" father="Hero.lord_6_5" faction="Faction.clan_khuzait_3"/>
 	<Hero id="lord_6_13" father="Hero.lord_6_1" faction="Faction.clan_khuzait_1"/>
-	<Hero id="lord_6_15" spouse="Hero.lord_6_15_1" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3"/>
+	<Hero id="lord_6_15" spouse="Hero.lord_6_15_1" father="Hero.dead_lord_6_3" faction="Faction.clan_khuzait_3" text="The second in command of the Arkits. Honourable, peerless in skill and mercilessness beyond doubt, Oragur is the exemplar to all Khuzait warriors and the executioner of his brother's will- the Khergits learned this all this all too closely." />
 	<Hero id="lord_6_15_1" spouse="Hero.lord_6_15" faction="Faction.clan_khuzait_3"/>
 	<Hero id="lord_6_15_2" father="Hero.lord_6_15" mother="Hero.lord_6_15_1" faction="Faction.clan_khuzait_3"/>
 	<Hero id="lord_6_16" spouse="Hero.lord_6_16_1" faction="Faction.clan_khuzait_4"/>

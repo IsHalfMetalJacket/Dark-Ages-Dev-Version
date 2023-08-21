@@ -442,10 +442,10 @@
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_0"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_1"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_2"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_0"/>
@@ -460,10 +460,10 @@
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_0"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_1"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_2"/>
-			<template name="NPCCharacter.spc_eleftheroi_leader_3"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_0"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_1"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_2"/>
+			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.AR_tournament_template_s_empire_one_participant_set_v1"/>
@@ -759,10 +759,6 @@
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_1"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_2"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_3"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_0"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_1"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_2"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_ghilman_leader_0"/>
@@ -773,10 +769,6 @@
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_1"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_2"/>
 			<template name="NPCCharacter.AR_spc_beni_zilal_leader_3"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_0"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_1"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_2"/>
-			<template name="NPCCharacter.AR_spc_jawwal_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.tournament_template_aserai_one_participant_set_v1"/>
@@ -1763,8 +1755,8 @@
 	<Culture id="khuzait"
 	         name="{=AR_khuzait_culture_name}Khuzait"
 	         is_main_culture="true"
-	         color="0xff1a1a1a"
-	         color2="FFCCBB89"
+             color="0xff429081"
+             color2="0xffEFC990"
 	         elite_basic_troop="NPCCharacter.khuzait_hmj_nct3"
 	         basic_troop="NPCCharacter.khuzait_hmj_mct2"
 	         melee_militia_troop="NPCCharacter.khuzait_hmj_mit2"
@@ -2032,20 +2024,12 @@
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_1"/>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_2"/>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_3"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_0"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_1"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_2"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_0"/>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_1"/>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_2"/>
 			<template name="NPCCharacter.AR_spc_karakhuzaits_leader_3"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_0"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_1"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_2"/>
-			<template name="NPCCharacter.AR_spc_hawlans_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.tournament_template_khuzait_one_participant_set_v1"/>
@@ -2535,7 +2519,7 @@
 	         melee_militia_troop="NPCCharacter.nimperial_hmj_mit2"
 	         ranged_militia_troop="NPCCharacter.nimperial_hmj_mrt2"
 	         melee_elite_militia_troop="NPCCharacter.nimperial_hmj_it4"
-	         ranged_elite_militia_troop="NPCCharacter.nimperial_hmj_mrt3"
+	         ranged_elite_militia_troop="NPCCharacter.nimperial_hmj_rt3"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_n_empire_template"
@@ -2988,7 +2972,7 @@
 			<template name="NPCCharacter.AR_tournament_template_n_empire_four_participant_set_v3"/>
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
-			<template name="NPCCharacter.nimperial_hmj_rt3"/>
+			<template name="NPCCharacter.nimperial_hmj_rt4"/>
 			<template name="NPCCharacter.ember_hmj_it2"/>
 			<template name="NPCCharacter.diamond_hmj_ct2"/>
 			<template name="NPCCharacter.eleftheroi_hmj_st2"/>
@@ -3662,20 +3646,12 @@
 			<template name="NPCCharacter.spc_sturgia_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_0"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_1"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_2"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_3"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_0"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_0"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_1"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_2"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_3"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_0"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
@@ -3998,20 +3974,12 @@
 			<template name="NPCCharacter.spc_vaegiria_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_0"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_1"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_2"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_3"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_0"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_0"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_1"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_2"/>
-			<template name="NPCCharacter.AR_spc_vezha_valkyries_leader_3"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_0"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_1"/>
 			<template name="NPCCharacter.AR_spc_forest_people_leader_2"/>
@@ -4073,6 +4041,18 @@
 			<name name="{=gG1O5V1n}Olianar" />
 			<name name="{=XAF12HV0}Vikka" />
 		</female_names>
+		<clan_names>
+			<name name="{=OLLYkaWd}Asraloving"/>
+			<name name="{=yUuM8a0j}Boranoving"/>
+			<name name="{=euyyBbjq}Folyoroving"/>
+			<name name="{=ODcWVL1a}Gendiroving"/>
+			<name name="{=UYqwbjTP}Iskanoving"/>
+			<name name="{=z2Oqk8aq}Maregoving"/>
+			<name name="{=lpbIXNdK}Suratoving"/>
+			<name name="{=RFapQLfR}Vyshoving"/>
+			<name name="{=gC1paDtD}Yerchoving"/>
+			<name name="{=qD72Ya4I}Zhanoving"/>
+		</clan_names>
 	</Culture>
 	<Culture id="darshi"
 	         name="{=hmj_darshi_culture_name}Darshi"
@@ -4610,16 +4590,16 @@
 			<template name="NPCCharacter.spc_massa_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_0"/>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_1"/>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_2"/>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_3"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_0"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_1"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_2"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_0"/>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_1"/>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_2"/>
-			<template name="NPCCharacter.AR_spc_swadicians_leader_3"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_0"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_1"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_2"/>
+			<template name="NPCCharacter.AR_spc_brotherhood_of_woods_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.tournament_template_massa_one_participant_set_v1"/>
@@ -4948,16 +4928,16 @@
 			<template name="NPCCharacter.spc_spahad_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_0"/>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_1"/>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_2"/>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_3"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_0"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_1"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_2"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_0"/>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_1"/>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_2"/>
-			<template name="NPCCharacter.AR_spc_ethawians_leader_3"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_0"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_1"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_2"/>
+			<template name="NPCCharacter.AR_spc_jawwal_leader_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.tournament_template_spahad_one_participant_set_v1"/>
@@ -5222,16 +5202,16 @@
 			<template name="NPCCharacter.spc_gotarnia_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_0"/>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_1"/>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_2"/>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_3"/>
+			<template name="NPCCharacter.hmj_lord_venatio_0"/>
+			<template name="NPCCharacter.hmj_lord_venatio_1"/>
+			<template name="NPCCharacter.hmj_lord_venatio_2"/>
+			<template name="NPCCharacter.hmj_lord_venatio_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_0"/>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_1"/>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_2"/>
-			<template name="NPCCharacter.AR_spc_lochanians_leader_3"/>
+			<template name="NPCCharacter.hmj_lord_venatio_0"/>
+			<template name="NPCCharacter.hmj_lord_venatio_1"/>
+			<template name="NPCCharacter.hmj_lord_venatio_2"/>
+			<template name="NPCCharacter.hmj_lord_venatio_3"/>
 		</rebellion_hero_templates>
 		<tournament_team_templates_one_participant>
 			<template name="NPCCharacter.tournament_template_gotarnia_one_participant_set_v1"/>
@@ -5252,105 +5232,6 @@
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.venatio_hmj_st2"/>
 		</basic_mercenary_troops>
-	</Culture>
-	<Culture id="dryatic"
-	         name="{=AR_dryatic_culture_name}Dryatic"
-	         is_main_culture="false"
-	         color="FF2D3F1D"
-	         color2="FFBFCBB0"
-	         elite_basic_troop="NPCCharacter.simperial_hmj_nrt2"
-	         basic_troop="NPCCharacter.simperial_hmj_mst1"
-	         can_have_settlement="true"
-	         town_edge_number="16"
-	         villager_party_template="PartyTemplate.villager_battania_template"
-	         encounter_background_mesh="encounter_battania"
-	         caravan_party_template="PartyTemplate.caravan_template_battania"
-	         militia_party_template="PartyTemplate.militia_battania_template"
-	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
-		<male_names>
-			<name name="{=VP9hqkxO}Aedid"/>
-			<name name="{=5oRDaemv}Aeric"/>
-			<name name="{=LpLL0m3O}Arlech"/>
-			<name name="{=Z7GxyIaC}Borun"/>
-			<name name="{=MpZCQ0z1}Breadan"/>
-			<name name="{=RfxXnZ8Z}Cadugan"/>
-			<name name="{=StJ9aR91}Cadfin"/>
-			<name name="{=IkTCwsB8}Col"/>
-			<name name="{=0CQgia2a}Culharn"/>
-			<name name="{=T9bXZA0W}Cynac"/>
-			<name name="{=vDGYMAmm}Dermot"/>
-			<name name="{=9vBp5E0Q}Derngil"/>
-			<name name="{=FNHFzVCU}Edwain"/>
-			<name name="{=TLZKQSb1}Egan"/>
-			<name name="{=cL1lO5iP}Ergeon"/>
-			<name name="{=fydMDGtL}Fercread"/>
-			<name name="{=6bBj5HgU}Garain"/>
-			<name name="{=68JEMvYl}Griff"/>
-			<name name="{=lMrP68Ba}Grynad"/>
-			<name name="{=rTGmgm4b}Ioren"/>
-			<name name="{=074bIPbm}Llum"/>
-			<name name="{=bDMmX9YI}Luichan"/>
-			<name name="{=K4UdL65N}Lyd"/>
-			<name name="{=MNFMqV3n}Lyfris"/>
-			<name name="{=d8D98oFG}Melidir"/>
-			<name name="{=SFybYZNK}Mengus"/>
-			<name name="{=tCTzsaIu}Muinser"/>
-			<name name="{=6AwXDgIK}Mych"/>
-			<name name="{=qhanbPZ9}Nal"/>
-			<name name="{=bbJLOMhl}Pelisor"/>
-			<name name="{=tHtt3HCn}Pryndor"/>
-			<name name="{=rgskh3ve}Rhagyd"/>
-			<name name="{=iTRV8m4Y}Rhylan"/>
-			<name name="{=fG19XSVm}Rugan"/>
-			<name name="{=Xnngcfg9}Sein"/>
-			<name name="{=e52LPp57}Udris"/>
-			<name name="{=TxKnmzwT}Urien"/>
-			<name name="{=uAS832LM}Ydwin"/>
-		</male_names>
-		<female_names>
-			<name name="{=6pAsFGvw}Abeil"/>
-			<name name="{=WuMGWUJ7}Addien"/>
-			<name name="{=4Vd1TXpN}Anwyn"/>
-			<name name="{=86L9ayRV}Athlian"/>
-			<name name="{=ZgGnqkki}Beniseth"/>
-			<name name="{=Wuiog2eu}Brigis"/>
-			<name name="{=9WMeUGTy}Caelis"/>
-			<name name="{=AYdwWae6}Ceatra"/>
-			<name name="{=xqC8yfah}Cidre"/>
-			<name name="{=gqJUdECJ}Daellian"/>
-			<name name="{=Gwfb6O5O}Eira"/>
-			<name name="{=jwcpnm8K}Eidenor"/>
-			<name name="{=7uj8QoPA}Fetheir"/>
-			<name name="{=w1a9E7a9}Fiasyn"/>
-			<name name="{=2s7Tb4NC}Fionara"/>
-			<name name="{=TWykLiFB}Gweth"/>
-			<name name="{=VWSA8EVV}Gwennein"/>
-			<name name="{=p4BMhcsQ}Iara"/>
-			<name name="{=tTmqewol}Ifrain"/>
-			<name name="{=6LRFHHqT}Imulir"/>
-			<name name="{=Ma855h44}Iona"/>
-			<name name="{=pVGKlS3W}Istiona"/>
-			<name name="{=ODSf45wh}Leadh"/>
-			<name name="{=RZ5bYYmX}Lisaradh"/>
-			<name name="{=WNu6dKHe}Lliari"/>
-			<name name="{=jMPWSzAi}Loen"/>
-			<name name="{=rtljufhM}Mariwyn"/>
-			<name name="{=eCCuztOS}Moera"/>
-			<name name="{=iNFahwv3}Nia"/>
-			<name name="{=gU5cMdTT}Norena"/>
-			<name name="{=YEqDIbir}Oana"/>
-			<name name="{=jCrbe08Y}Olawyn"/>
-			<name name="{=h6dabKXz}Reissen"/>
-			<name name="{=aYr6ovxb}Rhagin"/>
-			<name name="{=ncEWiljT}Rhia"/>
-			<name name="{=SVruYnYb}Selag"/>
-			<name name="{=Y49TwXg4}Sionna"/>
-			<name name="{=Fe90zVYF}Soeras"/>
-			<name name="{=W4VYqLYc}Veraghid"/>
-			<name name="{=UtfVuNN0}Vivein"/>
-			<name name="{=vb2rv3OK}Una"/>
-			<name name="{=PlGiSfwr}Ylen"/>
-		</female_names>
 	</Culture>
 	<Culture id="zhan"
 			 name="{=IHhWB1aa}Zhan"
@@ -5443,7 +5324,7 @@
 	         encounter_background_mesh="encounter_desert_bandits"
 	         bandit_boss_party_template="PartyTemplate.desert_bandits_boss_party_template"/>
 	<Culture id="steppe_bandits"
-	         name="{=e6csp4ha}Nomads"
+	         name="{=e6csp4ha}Gokkanait"
 	         bandit_chief="NPCCharacter.nomad_hmj_hat4"
 	         bandit_raider="NPCCharacter.nomad_hmj_ct3"
 	         bandit_bandit="NPCCharacter.nomad_hmj_ct2"

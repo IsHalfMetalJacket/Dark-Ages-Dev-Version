@@ -322,12 +322,13 @@
 	         name="{=hmj_kingdom_zwadane_name}Zwadane League"
 	         short_name="{=hmj_kingdom_zwadane_short_name}Zwadane"
 	         title="{=hmj_kingdom_zwadane_title}The Zwadane League"
-	         ruler_title="{=hmj_kingdom_zwadane_ruler_title}Kyning"
+	         ruler_title="{=hmj_kingdom_zwadane_ruler_title}Cynning"
 	         text="{=hmj_kingdom_zwadane_text}To be written">
 		<relationships>
 			<relationship kingdom="Kingdom.battania"
-			              value="-1"
-			              isAtWar="true"/>
+			              value="-1"/>
+			<relationship kingdom="Kingdom.norden"
+			              value="-1"/>
 		</relationships>
 		<policies>
 			<policy id="policy_lawspeakers"/>
@@ -415,6 +416,10 @@
 		<relationships>
 			<relationship kingdom="Kingdom.battania"
 			              value="-1"/>
+			<relationship kingdom="Kingdom.zwadane"
+			              value="-1"/>	
+			<relationship kingdom="Kingdom.byals"
+			              value="-1"/>							  
 		</relationships>
 		<policies>
 			<policy id="policy_royal_privilege"/>

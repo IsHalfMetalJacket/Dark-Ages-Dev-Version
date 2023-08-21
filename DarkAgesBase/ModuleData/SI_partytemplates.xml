@@ -230,7 +230,7 @@
 		<stacks>
 			<!-- Common -->
             <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nimperial_hmj_mpt3"/>
-            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nimperial_hmj_mrt3"/>
+            <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.nimperial_hmj_rt3"/>
             <PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.nimperial_hmj_hat3"/>
             <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.nimperial_hmj_st3"/>
             <PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.nimperial_hmj_it4"/>
@@ -381,19 +381,12 @@
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.khuzait_hmj_mit3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.khuzait_hmj_mct2"/>
 			<PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.khuzait_hmj_mct3"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_hct6"/>
 			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.khuzait_hmj_hat4"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_hat6"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_rt3"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_rt4"/>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_hat5"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.khuzait_hmj_ct2"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.khuzait_hmj_mct4"/>
 			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.khuzait_hmj_ct4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat7"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_hmj_hct4"/>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_hct5"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.khuzait_hmj_hat3"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_hmj_it5"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_nhct4"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat5"/>
@@ -410,7 +403,7 @@
 	<MBPartyTemplate id="char_creation_player_party_template_khuzait">
 		<stacks>
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.khuzait_hmj_mit3"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_hat3"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_hat2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_khuzait_template">
@@ -1290,33 +1283,6 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.eleftheroi_hmj_hst5"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="kingdom_hero_party_outlaw_empire_s_template">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_guardians_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_guardians_t4_archer"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_guardians_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_guardians_t5_cavalry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_guardians_t4_cavalry"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="kingdom_hero_party_chosen_of_the_sky_template">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_chosensky_t5_cav_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_chosensky_t4_cav_archer"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_chosensky_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_chosensky_t5_lancer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_chosensky_t4_lancer"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="kingdom_hero_party_swadician_template">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_swadician_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_swadician_t4_archer"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_swadician_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_swadician_t5_melee"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_swadician_t4_melee"/>
-		</stacks>
-	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_venatio_template">
 		<stacks>
 			<PartyTemplateStack min_value="24" max_value="24" troop="NPCCharacter.venatio_hmj_st2"/>
@@ -1334,33 +1300,6 @@
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.diamond_hmj_ct5"/>
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate id="party_template_hawlans">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_hawlan_t5_infantry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_hawlan_t4_infantry"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_hawlan_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_hawlan_t5_archer"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_hawlan_t4_archer"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="party_template_seax">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_seax_t5_infantry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_seax_t4_infantry"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_seax_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_seax_t5_shock_inf"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_seax_t4_shock_inf"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="party_template_ethawians">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_ethawian_t5_infantry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_ethawian_t4_infantry"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_ethawian_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_ethawian_t5_skirmisher"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_ethawian_t4_skirmisher"/>
-		</stacks>
-	</MBPartyTemplate>
 	<MBPartyTemplate id="party_template_khuzopole">
 		<stacks>
 			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.khuzopole_hmj_hat2"/>
@@ -1368,15 +1307,6 @@
 			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.khuzopole_hmj_hat4"/>
 			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.khuzopole_hmj_ct4"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzopole_hmj_ct5"/>
-		</stacks>
-	</MBPartyTemplate>
-	<MBPartyTemplate id="party_template_aracathans">
-		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_aracathans_t5_cavalry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_aracathans_t4_cavalry"/>
-			<PartyTemplateStack min_value="20" max_value="20" troop="NPCCharacter.AR_min_aracathans_t3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_min_aracathans_t5_infantry"/>
-			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.AR_min_aracathans_t4_infantry"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Bandits -->
