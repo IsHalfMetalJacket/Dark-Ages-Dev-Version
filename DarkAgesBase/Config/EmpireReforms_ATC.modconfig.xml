@@ -6,12 +6,12 @@
 		<!-- Northern Empire configuration with subcultures -->
 		<Culture id="default">
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -22,12 +22,12 @@
 		<Culture id="empire_s">
 			<!-- Northern Empire for captured Southern Empire settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -38,12 +38,12 @@
 		<Culture id="empire_w">
 			<!-- Northern Empire for captured Western Empire settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -54,12 +54,12 @@
 		<Culture id="shariz">
 			<!-- Northern Empire for captured Shariz settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -70,12 +70,12 @@
 		<Culture id="aserai">
 			<!-- Northern Empire for captured Aserai settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -86,12 +86,12 @@
 		<Culture id="darshi">
 			<!-- Northern Empire for captured Darshi settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -102,12 +102,12 @@
 		<Culture id="khuzait">
 			<!-- Northern Empire for captured Khuzait settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -118,12 +118,12 @@
 		<Culture id="nahasi">
 			<!-- Northern Empire for captured Nahasan settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -134,12 +134,12 @@
 		<Culture id="sturgia">
 			<!-- Northern Empire for captured Sturgia settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -150,12 +150,12 @@
 		<Culture id="vakken">
 			<!-- Northern Empire for captured Vakken settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -166,12 +166,12 @@
 		<Culture id="vlandia">
 			<!-- Northern Empire for captured Vlandia settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -182,12 +182,12 @@
 		<Culture id="zwadane">
 			<!-- Northern Empire for captured Zwadane settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -198,12 +198,12 @@
 		<Culture id="battania">
 			<!-- Northern Empire for captured Battania settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
@@ -214,12 +214,12 @@
 		<Culture id="oldcalradian">
 			<!-- Northern Empire for captured Old Calradia settlements -->
 			<basicTroops>
-				<volunteer id="nimperial_hmj_mit2" percent="26"/>
-				<volunteer id="nimperial_hmj_mrt2" percent="26"/>
+				<volunteer id="nimperial_hmj_mit1" percent="26"/>
+				<volunteer id="nimperial_hmj_mrt1" percent="26"/>
 				<volunteer id="nimperial_hmj_mpt1" percent="14"/>
-				<volunteer id="nimperial_hmj_mrt3" percent="14"/>
-				<volunteer id="nimperial_hmj_it4" percent="8"/>
-				<volunteer id="nimperial_hmj_hat3" percent="8"/>
+				<volunteer id="nimperial_hmj_rt2" percent="14"/>
+				<volunteer id="nimperial_hmj_it3" percent="8"/>
+				<volunteer id="nimperial_hmj_hat2" percent="8"/>
 				<volunteer id="nimperial_hmj_st3" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
