@@ -1110,7 +1110,6 @@
 			level="16"
 			name="{=Foederati Rider}Foederati Veteran Rider"
 			occupation="Soldier"
-			is_basic_troop="true"
 			culture="Culture.empire_n">
 			<face>
 				<face_key_template value="BodyProperty.fighter_empire"/>
