@@ -7539,9 +7539,32 @@
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="hmj_darshi_10_1" name="{=Toj0vayQ}Narimanzadeh" age="72" voice="earnest" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.8133" build="0.1435"  key="001BC80F16000A12007565C4E75A91623C5988D0C4833A45F1FBF5347FE346470072C60307DAB655000000000000000000000000000000000000000004E47002"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="7"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="Mercy" value="-2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Authoritarian" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="hmj_darshi_king_battletemplate"/>
+			<EquipmentSet id="khu_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
 	<NPCCharacter id="AR_lord_10_1" name="{=Toj0vayQ}Khomar" age="42" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.darshi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="42" weight="0.4182" build="0.7361" key="0016F80E40003788B8568C85AB94D36964AB8B3ABDFE344C5538797A5B344A77007B6603077B718700000000000000000000000000000000000000003EF41002"/>
+			<BodyProperties version="4" weight="0.4182" build="0.0077"  key="001BC80F16000A14B0756DC7E73A91E83C598336C8A3EA45F1FBF5347FE346470060660306DAB655000000000000000000000000000000000000000004D46002"  />
 		</face>
 		<skills/>
 		<Traits>

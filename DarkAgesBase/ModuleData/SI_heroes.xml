@@ -560,10 +560,10 @@
 	<Hero id="hmj_lord_9_19" spouse="Hero.hmj_lord_9_18" faction="Faction.clan_quyaz_5"/>
 	<Hero id="hmj_lord_9_20" father="Hero.hmj_lord_9_16" mother="Hero.hmj_lord_9_17" faction="Faction.clan_quyaz_5"/>
 	<!-- CIZYGIANS - Cizghunait -->
-	<Hero id="AR_lord_10_1" spouse="Hero.AR_lord_10_2" faction="Faction.clan_cizygian_1" text="Khomar is the eldest living descendent of the mythical god-khan Cizghun the Chosen, and so is hailed as divine ruler of the Cizygians. A merciless and cruel ruler, he has driven the tribes harshly onwards in a bloody march of conquest, destroying vast hosts of Iltanlar and Darshi to carve out a sizeable kingdom on Calradia's eastern steppes. Faced now with the borders of the Calradian Empire, he bides his time, waiting for the perfect time to use the civil unrest in the Empire to his advantage."/>
-	<Hero id="AR_lord_10_2" spouse="Hero.AR_lord_10_1" faction="Faction.clan_cizygian_1"/>
-	<Hero id="AR_lord_10_3" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_cizygian_1"/>
-	<Hero id="AR_lord_10_4" father="Hero.AR_lord_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_cizygian_1"/>
+	<Hero id="hmj_darshi_10_1" spouse="Hero.AR_lord_10_2" faction="Faction.clan_cizygian_1" text="Khomar is the eldest living descendent of the mythical god-khan Cizghun the Chosen, and so is hailed as divine ruler of the Cizygians. A merciless and cruel ruler, he has driven the tribes harshly onwards in a bloody march of conquest, destroying vast hosts of Iltanlar and Darshi to carve out a sizeable kingdom on Calradia's eastern steppes. Faced now with the borders of the Calradian Empire, he bides his time, waiting for the perfect time to use the civil unrest in the Empire to his advantage."/>
+	<Hero id="AR_lord_10_2" spouse="Hero.hmj_darshi_10_1" faction="Faction.clan_cizygian_1"/>
+	<Hero id="AR_lord_10_3" father="Hero.hmj_darshi_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_cizygian_1"/>
+	<Hero id="AR_lord_10_4" father="Hero.hmj_darshi_10_1" mother="Hero.AR_lord_10_2" faction="Faction.clan_cizygian_1"/>
 	<Hero id="AR_lord_10_19" spouse="Hero.AR_lord_10_20" faction="Faction.clan_cizygian_1"/>
 	<Hero id="AR_lord_10_20" spouse="Hero.AR_lord_10_19" faction="Faction.clan_cizygian_1"/>
 	<Hero id="AR_lord_10_21" father="Hero.AR_lord_10_19" mother="Hero.AR_lord_10_20" faction="Faction.clan_cizygian_1"/>

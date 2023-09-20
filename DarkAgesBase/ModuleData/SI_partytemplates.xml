@@ -155,19 +155,18 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_s_empire_template">
 		<stacks>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_nrt2"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_nrt3"/>
 			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.simperial_hmj_mit2"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_mst2"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_it5"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_fit5"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_it3"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_mat3"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_mat4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_hat5"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_mct3"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_mct2"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_nhit4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_nct5"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_nct7"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_nct6"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_s_empire_template">
@@ -179,12 +178,12 @@
 	<MBPartyTemplate id="char_creation_player_party_template_s_empire">
 		<stacks>
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.simperial_hmj_it3"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.simperial_hmj_mct3"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.simperial_hmj_mct2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_s_empire_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.simperial_hmj_mst1"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.simperial_hmj_mit1"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="caravan_template_s_empire">
@@ -377,21 +376,24 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_khuzait_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.khuzait_hmj_nhct7"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.khuzait_hmj_mit3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.khuzait_hmj_mct2"/>
-			<PartyTemplateStack min_value="2" max_value="6" troop="NPCCharacter.khuzait_hmj_mct3"/>
-			<PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.khuzait_hmj_hat4"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_hat5"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.khuzait_hmj_ct2"/>
-			<PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.khuzait_hmj_ct4"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat7"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_hct5"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_hmj_it5"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_nhct4"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat5"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.khuzait_hmj_nhct6"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.khuzait_hmj_nct3"/>
+			<!-- Common -->
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.khuzait_hmj_it3"/>
+            <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.khuzait_hmj_mct3"/>
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.khuzait_hmj_ct3"/>
+            <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.khuzait_hmj_hat3"/>
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.khuzait_hmj_hat4"/>
+            <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.khuzait_hmj_ct4"/>
+            <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.khuzait_hmj_rt4"/>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_hat5"/>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_rt5"/>
+            <!-- Noble -->
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat3"/>
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat4"/>
+            <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_it5"/>
+            <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.khuzait_hmj_hct5"/>
+            <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.khuzait_hmj_nhct5"/>
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.khuzait_hmj_nhat6"/>
+            <PartyTemplateStack min_value="0" max_value="2" troop="NPCCharacter.khuzait_hmj_nhct6"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_khuzait_template">
@@ -781,43 +783,25 @@
 	<!-- party templates for Cizgyian minor faction (1) -->
 	<MBPartyTemplate id="kingdom_hero_party_cizygian_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_ciz_recruit"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_ciz_t2_axeman"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_ciz_t3_cav_arch"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_ciz_t4_cav_arch"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ciz_t5_cav_arch"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_ciz_t3_elite_cav"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_ciz_t5_axeman"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_ciz_t2_cav_arch"/>
-			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.AR_ciz_t3_axeman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_ciz_t4_axeman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_ciz_t5_elite_cav"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_ciz_elite_recruit"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AR_ciz_t4_elite_cav"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AR_ciz_t5_elite_lancer"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.darshi_hmj_hat2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="char_creation_player_party_template_cizygian">
 		<stacks>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_ciz_t2_axeman"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_ciz_t3_cav_arch"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_ciz_t4_elite_lancer"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_ciz_elite_recruit"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.darshi_hmj_hat2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_cizygian_template">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_ciz_militia_spearman"/>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AR_ciz_militia_archer"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_ciz_militia_veteran_spearman"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AR_ciz_militia_veteran_archer"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ciz_orda_guard"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ciz_orda_archer"/>
+			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.darshi_hmj_mit2"/>
+			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.darshi_hmj_mst2"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.darshi_hmj_mpt3"/>
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.darshi_hmj_xt4"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_cizygian_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ciz_recruit"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.darshi_hmj_hat2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="caravan_template_cizygian">
@@ -855,8 +839,7 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_cizygian">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AR_ciz_t5_elite_lancer"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AR_ciz_t4_elite_lancer"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.darshi_hmj_hct3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- party templates for Massa minor faction (1) -->

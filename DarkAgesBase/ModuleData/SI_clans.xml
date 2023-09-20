@@ -1028,7 +1028,7 @@
 	<Faction id="clan_cizygian_1"
 	         name="Cizghunait"
 	         tier="6"
-	         owner="Hero.AR_lord_10_1"
+	         owner="Hero.hmj_darshi_10_1"
 	         culture="Culture.darshi"
 	         super_faction="Kingdom.shahdom"
 	         is_noble="true"
