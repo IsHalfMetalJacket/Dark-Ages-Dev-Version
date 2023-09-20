@@ -2581,7 +2581,7 @@
 			level="21"
 			name="{=Numerii Guard}Numerii Guard"
 			occupation="Soldier"
-			culture="Culture.empire">
+			culture="Culture.empire_n">
 			<face>
 				<face_key_template value="BodyProperty.fighter_empire"/>
 			</face>

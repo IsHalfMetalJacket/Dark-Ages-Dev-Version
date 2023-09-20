@@ -2219,8 +2219,8 @@
 			</face>
 			<skills >
 				<skill id="Athletics" value="20"/>
-				<skill id="Riding" value="40"/>
-				<skill id="OneHanded" value="50"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="70"/>
 				<skill id="TwoHanded" value="20"/>
 				<skill id="Polearm" value="70"/>
 				<skill id="Bow" value="20"/>
@@ -2293,14 +2293,14 @@
 				<face_key_template value="BodyProperty.fighter_khuzait"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="20"/>
-				<skill id="Riding" value="40"/>
-				<skill id="OneHanded" value="50"/>
-				<skill id="TwoHanded" value="20"/>
-				<skill id="Polearm" value="70"/>
-				<skill id="Bow" value="20"/>
-				<skill id="Crossbow" value="10"/>
-				<skill id="Throwing" value="10"/>
+				<skill id="Athletics" value="80"/>
+				<skill id="Riding" value="160"/>
+				<skill id="OneHanded" value="160"/>
+				<skill id="TwoHanded" value="80"/>
+				<skill id="Polearm" value="200"/>
+				<skill id="Bow" value="80"/>
+				<skill id="Crossbow" value="40"/>
+				<skill id="Throwing" value="40"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
