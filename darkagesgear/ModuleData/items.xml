@@ -2,6 +2,219 @@
 <!--You can add new or override old items(weapons and armors) by adding nodes to this xml.
 For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 <Items>
+  <CraftedItem id="darshi_polesword_t3"
+               name="{=34gg4}Darshi Short Glaive"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.darshi"
+               modifier_group="polearm">
+    <Pieces>
+      <Piece id="spear_blade_22"
+             Type="Blade"
+             scale_factor="50" />
+      <Piece id="default_polearm_guard"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_1"
+             Type="Handle"
+             scale_factor="70" />
+      <Piece id="default_polearm_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="darshi_polesword_t4"
+               name="{=343fdd2}Darshi Sabarbarah"
+               crafting_template="TwoHandedPolearm"
+               culture="Culture.darshi"
+               modifier_group="polearm">
+    <Pieces>
+      <Piece id="spear_blade_22"
+             Type="Blade"
+             scale_factor="70" />
+      <Piece id="default_polearm_guard"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="spear_handle_1"
+             Type="Handle"
+             scale_factor="80" />
+      <Piece id="default_polearm_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+	<Item id="hmj_t5_comp_bow" name="151 Pound Composite War Bow" body_name="bo_composite_shotbow_b" mesh="shortbow_b" weight="0.3" difficulty="106" appearance="1" Type="Bow" value="600" item_holsters="bow_back_2:bow_hip:bow_hip_2:bow_back" is_merchandise="false">
+		<ItemComponent>
+			<Weapon weapon_class="Bow" ammo_class="Arrow" thrust_speed="170" speed_rating="70" missile_speed="151" weapon_length="106" thrust_damage="100" item_usage="bow" physics_material="wood_weapon" center_of_mass="0.0,0,-0.1" ammo_limit="3" accuracy="80" thrust_damage_type="Pierce" modifier_group="bow">
+				<WeaponFlags RangedWeapon="true" NotUsableWithOneHand="true" TwoHandIdleOnMount="true" HasString="true" StringHeldByHand="true" AutoReload="true"/>
+			</Weapon>
+		</ItemComponent>
+		<Flags ForceAttachOffHandPrimaryItemBone="true"/>
+	</Item>
+
+  <Item id="hmj_lord_long_coat_mail"
+        name="{=SsCM14Xu}Heavy Clothes over Armour"
+        subtype="body_armor"
+        mesh="sturgia_costume_d"
+        culture="Culture.zwadane"
+        weight="14"
+        difficulty="0"
+        appearance="1"
+        Type="BodyArmor">
+    <ItemComponent>
+		<Armor body_armor="98" 
+			   leg_armor="80" 
+			   covers_body="true" 
+			   modifier_group="cloth" 
+			   material_type="Chainmail" 
+			   arm_armor="40" />
+    </ItemComponent>
+    <Flags UseTeamColor="true"
+           Civilian="true" />
+  </Item>
+	<Item id="hmj_queen_fur_coat_armour" 
+		  name="{=uHIVkxVt}Northern Rich Coat over Armour" 
+		  mesh="costume_merchant_v4" 
+		  culture="Culture.zwadane" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Plate" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+
+	<Item id="hmj_DZ_khuzait_mailed_armor_a" 
+		  name="{=osa_dz_khuzait_armor_a}Eastern Luxury Silk Robes over Mail" 
+		  mesh="DZ_khuzait_armor_a" 
+		  culture="Culture.khuzait" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Chainmail" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="hmj_DZ_khuzait_mailed_armor_b" 
+		  name="{=osa_dz_khuzait_armor_b}Eastern Decorated Coat over Mail" 
+		  mesh="DZ_khuzait_armor_b" 
+		  culture="Culture.khuzait" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Chainmail" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="khuzait_civil_coat_with_mail" 
+		  name="{=khuzait_civil_coat_with_mail}Luxury Coat over Mail" 
+		  mesh="khuzait_civil_coat" 
+		  culture="Culture.khuzait" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Chainmail" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="female_khuzait_dress_with_mail" 
+		  name="{=female_khuzait_dress_with_mail}Envelope Dress over Mail" 
+		  mesh="female_khuzait_dress" 
+		  culture="Culture.khuzait" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Chainmail" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="khuzait_dress_b_with_mail" 
+		  name="{=khuzait_dress_b_with_mail}Fur Dress over Mail" 
+		  mesh="khuzait_dress_b" 
+		  culture="Culture.khuzait" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Chainmail" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+	<Item id="steppe_robe_over_mail" 
+		  name="{=steppe_robe_over_mail}Steppe Robe over Mail" 
+		  mesh="mongol_cloth_a" 
+		  culture="Culture.khuzait" 
+		  weight="15" 
+		  Type="BodyArmor" 
+		  value="20250" 
+		  appearance="1.3" 
+		  difficulty="0" 
+		  subtype="body_armor">
+		<ItemComponent>
+			<Armor body_armor="100" 
+				   leg_armor="90" 
+				   covers_body="true" 
+				   modifier_group="leather" 
+				   material_type="Chainmail" 
+				   arm_armor="70" />
+		</ItemComponent>
+		<Flags UseTeamColor="true"/>
+	</Item>
+
 	<Item id="kettle_helm_1_v1"
 		  name="{=EWR2MNeM}Kettle Helmet"
 		  subtype="head_armor"
