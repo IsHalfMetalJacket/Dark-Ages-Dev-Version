@@ -48,7 +48,7 @@
 		<xsl:attribute name="vassal_reward_party_template">PartyTemplate.vassal_reward_troops_s_empire</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@villager">
-		<xsl:attribute name="villager">NPCCharacter.AR_s_emp_villager</xsl:attribute>
+		<xsl:attribute name="villager">NPCCharacter.hmj_s_emp_villager</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@caravan_master">
 		<xsl:attribute name="caravan_master">NPCCharacter.AR_s_emp_caravan_master</xsl:attribute>
@@ -63,16 +63,16 @@
 		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_s_emp_vet_caravan_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@prison_guard">
-		<xsl:attribute name="prison_guard">NPCCharacter.AR_s_emp_prison_guard</xsl:attribute>
+		<xsl:attribute name="prison_guard">NPCCharacter.hmj_s_emp_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@townswoman">
-		<xsl:attribute name="townswoman">NPCCharacter.AR_s_emp_townswoman</xsl:attribute>
+		<xsl:attribute name="townswoman">NPCCharacter.hmj_s_emp_townswoman</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@townsman">
-		<xsl:attribute name="townsman">NPCCharacter.AR_s_emp_townsman</xsl:attribute>
+		<xsl:attribute name="townsman">NPCCharacter.hmj_s_emp_townsman</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@village_woman">
-		<xsl:attribute name="village_woman">NPCCharacter.AR_s_emp_village_woman</xsl:attribute>
+		<xsl:attribute name="village_woman">NPCCharacter.hmj_s_emp_village_woman</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@elite_basic_troop">
 		<xsl:attribute name="elite_basic_troop">NPCCharacter.aserai_hmj_nit2</xsl:attribute>
@@ -93,7 +93,7 @@
 		<xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.aserai_hmj_mat3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@villager">
-		<xsl:attribute name="villager">NPCCharacter.AR_villager_aserai</xsl:attribute>
+		<xsl:attribute name="villager">NPCCharacter.hmj_aserai_villager</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@caravan_master">
 		<xsl:attribute name="caravan_master">NPCCharacter.AR_ase_caravan_master</xsl:attribute>
@@ -108,13 +108,13 @@
 		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_ase_vet_caravan_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@townswoman">
-		<xsl:attribute name="townswoman">NPCCharacter.AR_townswoman_aserai</xsl:attribute>
+		<xsl:attribute name="townswoman">NPCCharacter.hmj_aserai_townswoman</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@townsman">
-		<xsl:attribute name="townsman">NPCCharacter.AR_townsman_aserai</xsl:attribute>
+		<xsl:attribute name="townsman">NPCCharacter.hmj_aserai_townsman</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@village_woman">
-		<xsl:attribute name="village_woman">NPCCharacter.AR_village_woman_aserai</xsl:attribute>
+		<xsl:attribute name="village_woman">NPCCharacter.hmj_aserai_village_woman</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@name">
 		<xsl:attribute name="name">{=PjO7oY16}Sturgian</xsl:attribute>
@@ -138,7 +138,7 @@
 		<xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.sturgia_hmj_st3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@villager">
-		<xsl:attribute name="villager">NPCCharacter.AR_villager_sturgia</xsl:attribute>
+		<xsl:attribute name="villager">NPCCharacter.hmj_villager_sturgia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@caravan_master">
 		<xsl:attribute name="caravan_master">NPCCharacter.sturgia_hmj_cgt5</xsl:attribute>
@@ -153,13 +153,13 @@
 		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_stu_vet_caravan_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@townswoman">
-		<xsl:attribute name="townswoman">NPCCharacter.AR_townswoman_sturgia</xsl:attribute>
+		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_sturgia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@townsman">
-		<xsl:attribute name="townsman">NPCCharacter.AR_townsman_sturgia</xsl:attribute>
+		<xsl:attribute name="townsman">NPCCharacter.hmj_townsman_sturgia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@village_woman">
-		<xsl:attribute name="village_woman">NPCCharacter.AR_village_woman_sturgia</xsl:attribute>
+		<xsl:attribute name="village_woman">NPCCharacter.hmj_village_woman_sturgia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@name">
 		<xsl:attribute name="name">{=FjwRsf1C}Vlandian</xsl:attribute>
@@ -186,7 +186,7 @@
 		<xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.vlandia_hmj_at4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@villager">
-		<xsl:attribute name="villager">NPCCharacter.AR_villager_vlandia</xsl:attribute>
+		<xsl:attribute name="villager">NPCCharacter.hmj_villager_vlandia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@caravan_master">
 		<xsl:attribute name="caravan_master">NPCCharacter.AR_vla_caravan_master</xsl:attribute>
@@ -201,13 +201,13 @@
 		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_vla_vet_caravan_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@townswoman">
-		<xsl:attribute name="townswoman">NPCCharacter.AR_townswoman_vlandia</xsl:attribute>
+		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_vlandia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@townsman">
-		<xsl:attribute name="townsman">NPCCharacter.AR_townsman_vlandia</xsl:attribute>
+		<xsl:attribute name="townsman">NPCCharacter.hmj_townsman_vlandia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@village_woman">
-		<xsl:attribute name="village_woman">NPCCharacter.AR_village_woman_vlandia</xsl:attribute>
+		<xsl:attribute name="village_woman">NPCCharacter.hmj_village_woman_vlandia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@name">
 		<xsl:attribute name="name">{=0B27RrYJ}Battanian</xsl:attribute>
@@ -231,7 +231,7 @@
 		<xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.battanian_hmj_rt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@villager">
-		<xsl:attribute name="villager">NPCCharacter.AR_villager_battania</xsl:attribute>
+		<xsl:attribute name="villager">NPCCharacter.hmj_villager_battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@caravan_master">
 		<xsl:attribute name="caravan_master">NPCCharacter.AR_bat_caravan_master</xsl:attribute>
@@ -246,13 +246,13 @@
 		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_bat_vet_caravan_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@townswoman">
-		<xsl:attribute name="townswoman">NPCCharacter.AR_townswoman_battania</xsl:attribute>
+		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@townsman">
-		<xsl:attribute name="townsman">NPCCharacter.AR_townsman_battania</xsl:attribute>
+		<xsl:attribute name="townsman">NPCCharacter.hmj_townsman_battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@village_woman">
-		<xsl:attribute name="village_woman">NPCCharacter.AR_village_woman_battania</xsl:attribute>
+		<xsl:attribute name="village_woman">NPCCharacter.hmj_village_woman_battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@name">
 		<xsl:attribute name="name">{=AR_iltanlar_culture_name}Iltanlar</xsl:attribute>
@@ -282,7 +282,7 @@
 		<xsl:attribute name="text">{=v5bWtXj1}The tribes that live in the great sea of grass east of the Sulan Dag mountains have many names: Ingchits, Charaits, Tanizts, Yujits. Rarely seen in imperial territory, except in special envoys to the emperor, the common folk of the empire refer to these peoples as the 'Iltanlar'; a name which refers to the lakes on the western edge of their territory. A nomadic people, tempered by the saddle, the tribes of the Iltanlar may occasionally band together to raid their neighbours, though most tribes prefer to fight amongst themselves.</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@villager">
-		<xsl:attribute name="villager">NPCCharacter.AR_villager_khuzait</xsl:attribute>
+		<xsl:attribute name="villager">NPCCharacter.hmj_villager_khuzait</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@caravan_master">
 		<xsl:attribute name="caravan_master">NPCCharacter.AR_khu_caravan_master</xsl:attribute>
@@ -297,13 +297,13 @@
 		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_khu_vet_caravan_guard</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@townswoman">
-		<xsl:attribute name="townswoman">NPCCharacter.AR_townswoman_khuzait</xsl:attribute>
+		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_khuzait</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@townsman">
-		<xsl:attribute name="townsman">NPCCharacter.AR_townsman_khuzait</xsl:attribute>
+		<xsl:attribute name="townsman">NPCCharacter.hmj_townsman_khuzait</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@village_woman">
-		<xsl:attribute name="village_woman">NPCCharacter.AR_village_woman_khuzait</xsl:attribute>
+		<xsl:attribute name="village_woman">NPCCharacter.hmj_village_woman_khuzait</xsl:attribute>
 	</xsl:template>
 	
 	<xsl:template match="Culture[@id='nord']/@caravan_master">

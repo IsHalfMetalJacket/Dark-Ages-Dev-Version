@@ -45,7 +45,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aserai_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aserai_hmj_cgt3"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.aserai_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_aserai"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_aserai_villager"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_aserai"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -54,7 +54,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aserai_hmj_tt3"/>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.aserai_hmj_cgt3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.aserai_hmj_cgt4"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_aserai"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.hmj_aserai_villager"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_aserai"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -63,7 +63,7 @@
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.aserai_hmj_tt3"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.aserai_hmj_cgt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.aserai_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_aserai"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_aserai_villager"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_aserai"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -75,8 +75,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_aserai_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_villager_aserai"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_village_woman_aserai"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_aserai_villager"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_aserai_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_battania_template">
@@ -119,7 +119,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.battanian_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.battanian_hmj_cgt3"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.battanian_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_battania"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_battania"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -128,7 +128,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.battanian_hmj_tt3"/>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.battanian_hmj_cgt3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.battanian_hmj_cgt4"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.hmj_villager_battania"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_battania"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -137,7 +137,7 @@
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.battanian_hmj_tt3"/>
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.battanian_hmj_cgt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.battanian_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_battania"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_battania"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_battania"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -149,8 +149,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_battania_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_villager_battania"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_village_woman_battania"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_villager_battania"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_village_woman_battania"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_s_empire_template">
@@ -163,7 +163,7 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_mat3"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_mat4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_hat5"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_mct2"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_mct3"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_nhit4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_nct5"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_nct6"/>
@@ -191,8 +191,8 @@
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_cgt3"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_cgt4"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_s_emp_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_s_emp_village_woman"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.hmj_s_emp_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.hmj_s_emp_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="elite_caravan_template_s_empire">
@@ -200,8 +200,8 @@
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_cgt3"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_cgt4"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_s_emp_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_s_emp_village_woman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.hmj_s_emp_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.hmj_s_emp_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="char_creation_caravan_template_s_empire">
@@ -209,14 +209,14 @@
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_cgt3"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.simperial_hmj_cgt4"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.AR_s_emp_villager"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AR_s_emp_village_woman"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.hmj_s_emp_villager"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.hmj_s_emp_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_s_empire_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_s_emp_villager"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_s_emp_village_woman"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_s_emp_villager"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_s_emp_village_woman"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_s_empire">
@@ -418,7 +418,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.khuzait_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_cgt3"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.khuzait_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_khuzait"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_khuzait"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_khuzait"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -427,7 +427,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.khuzait_hmj_tt3"/>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.khuzait_hmj_cgt3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.khuzait_hmj_cgt4"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_khuzait"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.hmj_villager_khuzait"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_khuzait"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -436,7 +436,7 @@
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.khuzait_hmj_tt3"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.khuzait_hmj_cgt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_khuzait"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_khuzait"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_khuzait"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -448,8 +448,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_khuzait_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_villager_khuzait"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_village_woman_khuzait"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_villager_khuzait"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_village_woman_khuzait"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_sturgia_template">
@@ -492,7 +492,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgia_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgia_hmj_cgt3"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.sturgia_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_sturgia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_sturgia"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_sturgia"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -501,7 +501,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgia_hmj_tt3"/>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.sturgia_hmj_cgt3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.sturgia_hmj_cgt4"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_sturgia"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.hmj_villager_sturgia"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_sturgia"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -510,7 +510,7 @@
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.sturgia_hmj_tt3"/>
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.sturgia_hmj_cgt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.sturgia_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_sturgia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_sturgia"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_sturgia"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -522,8 +522,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_sturgia_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_villager_sturgia"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_village_woman_sturgia"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_villager_sturgia"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_village_woman_sturgia"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_vlandia_template">
@@ -569,7 +569,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.vlandia_hmj_tt3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.vlandia_hmj_cgt3"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.vlandia_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_vlandia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_vlandia"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_vlandia"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -578,7 +578,7 @@
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.vlandia_hmj_tt3"/>
 			<PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.vlandia_hmj_cgt3"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.vlandia_hmj_cgt4"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_villager_vlandia"/>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.hmj_villager_vlandia"/>
 			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AR_camp_follower_vlandia"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -587,7 +587,7 @@
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.vlandia_hmj_tt3"/>
 			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.vlandia_hmj_cgt3"/>
 			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.vlandia_hmj_cgt4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_villager_vlandia"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.hmj_villager_vlandia"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.AR_camp_follower_vlandia"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -599,8 +599,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_vlandia_template">
 		<stacks>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_villager_vlandia"/>
-			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.AR_village_woman_vlandia"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_villager_vlandia"/>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.hmj_village_woman_vlandia"/>
 		</stacks>
 	</MBPartyTemplate>
 	<!-- Conspiracy Faction Parties -->
