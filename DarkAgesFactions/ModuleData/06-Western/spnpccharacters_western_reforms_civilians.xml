@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- VLANDIAN CIVILIANS -->
-	<NPCCharacter id="AR_villager_vlandia" default_group="Infantry" level="1" name="{=JMZiICD8}Vlandian Peasant" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
+	<NPCCharacter id="hmj_villager_vlandia" default_group="Infantry" level="1" name="{=JMZiICD8}Vlandian Peasant" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
 		<face>
 			<!--face_key value="0000017880000001000000000000000000070000000000000000000000000000000a00060000000000000000000000000000000000000000fffffffffc800000" max_value="0011fffe403c36cffff99bffaaaffffffffffffeeff0ffffffff6fffffffffff0008ffdff8ffffff000000000000000000000000000000000000000001189141" /-->
 			<BodyProperties version="4" age="24.29" weight="0.162" build="0.3657" key="00000007800000800160000000114151100471100000100021111101800101000055200305111101000000000000000000000000000000000000000000A00000"/>
@@ -154,7 +154,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_village_woman_vlandia" default_group="Infantry" is_female="true" level="1" name="{=JMZiICD8}Vlandian Peasant" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_village_woman_vlandia" default_group="Infantry" is_female="true" level="1" name="{=JMZiICD8}Vlandian Peasant" occupation="Villager" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
@@ -227,7 +227,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townsman_vlandia" default_group="Infantry" name="{=muu5cofb}Vlandian Townsman" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_townsman_vlandia" default_group="Infantry" name="{=muu5cofb}Vlandian Townsman" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_vlandia"/>
 		</face>
@@ -318,7 +318,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townswoman_vlandia" default_group="Infantry" is_female="true" level="1" name="{=baAQDdE5}Vlandian Townswoman" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_townswoman_vlandia" default_group="Infantry" is_female="true" level="1" name="{=baAQDdE5}Vlandian Townswoman" occupation="Townsfolk" culture="Culture.vlandia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.2731" build="0.4583" key="0000000800CC000A1060001110120111120961121030121122215410710110120057460305111102000000000000000000000000000000000000000006A40003"/>
 			<BodyPropertiesMax version="4" age="61.06" weight="0.8596" build="0.8503" key="0013D80E40CC0010EF7FFFFEDEEEEEEEFEFF7EFEFEF7FFEEEEEEFEEE8FFEEEFF06BDD6670BEEFEEE0000000000000000000000000000000000000000717440C3"/>
@@ -2929,7 +2929,7 @@
 	</NPCCharacter>
 	<!-- WANDERERS OF VLANDIA -->
 	<!-- Talkative philosopher of medicine. Chatty monk -->
-	<NPCCharacter id="spc_wanderer_massa_0" name="{=XuxARPTM}{HERO.FIRSTNAME} Bitterdraught" voice="earnest" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_0" name="{=XuxARPTM}{FIRSTNAME} Bitterdraught" voice="earnest" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -2950,7 +2950,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- boorish noble -->
-	<NPCCharacter id="spc_wanderer_massa_1" name="{=ntkipfCV}{HERO.FIRSTNAME} the Loud" voice="earnest" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_1" name="{=ntkipfCV}{FIRSTNAME} the Loud" voice="earnest" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -2969,7 +2969,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- bastard who went away to avoid complications for his family -->
-	<NPCCharacter id="spc_wanderer_massa_2" name="{=7lg12a57}{HERO.FIRSTNAME} the Brave" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_2" name="{=7lg12a57}{FIRSTNAME} the Brave" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -2987,7 +2987,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
-	<NPCCharacter id="spc_wanderer_massa_3" name="{=ZCc3VFat}{HERO.FIRSTNAME} the Grizzled" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_3" name="{=ZCc3VFat}{FIRSTNAME} the Grizzled" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -3005,7 +3005,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--the shark, butcher/criminal -->
-	<NPCCharacter id="spc_wanderer_massa_4" name="{=8o5SDCCJ}{HERO.FIRSTNAME} the Shark" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_4" name="{=8o5SDCCJ}{FIRSTNAME} the Shark" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -3024,7 +3024,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- longshoreman, fled dominating guild. revenge against gang leader -->
-	<NPCCharacter id="spc_wanderer_massa_5" name="{=WvwWX4me}{HERO.FIRSTNAME} Barrelchest" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_5" name="{=WvwWX4me}{FIRSTNAME} Barrelchest" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -3042,7 +3042,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
-	<NPCCharacter id="spc_wanderer_massa_6" name="{=OArAImbM}{HERO.FIRSTNAME} of the Hills" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_6" name="{=OArAImbM}{FIRSTNAME} of the Hills" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -3060,7 +3060,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--female. ex brother of the woods. Like any other group of bandits. -->
-	<NPCCharacter id="spc_wanderer_massa_7" name="{=zoaTZMm7}{HERO.FIRSTNAME} the Huntress" voice="ironic" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_7" name="{=zoaTZMm7}{FIRSTNAME} the Huntress" voice="ironic" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
@@ -3079,7 +3079,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- smith, struck dead a young knight who ran a boy down with his horse -->
-	<NPCCharacter id="spc_wanderer_massa_8" name="{=hrMatilh}{HERO.FIRSTNAME} the Smith" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_female="false" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_8" name="{=hrMatilh}{FIRSTNAME} the Smith" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_female="false" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
@@ -3099,7 +3099,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- female bandit, left the woods because life expectancy too short -->
-	<NPCCharacter id="spc_wanderer_massa_9" name="{=7apnGFz7}{HERO.FIRSTNAME} the Black" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_9" name="{=7apnGFz7}{FIRSTNAME} the Black" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
@@ -3119,7 +3119,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--female engineer, father emigrant to empire, killed in riots -->
-	<NPCCharacter id="spc_wanderer_massa_10" name="{=6CAbkgS4}{HERO.FIRSTNAME} the Wainwright" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_10" name="{=6CAbkgS4}{FIRSTNAME} the Wainwright" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_vlandia"/>
 		</face>
@@ -3138,7 +3138,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--free company -->
-	<NPCCharacter id="spc_wanderer_massa_11" name="{=nDtjEazo}{HERO.FIRSTNAME} Deadeye" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_11" name="{=nDtjEazo}{FIRSTNAME} Deadeye" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>
@@ -3157,7 +3157,7 @@
 			<EquipmentSet id="npc_companion_equipment_template_vlandia"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_wanderer_massa_12" name="{=N4taBJyx}{HERO.FIRSTNAME} the Tracker" voice="softspoken" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_massa_12" name="{=N4taBJyx}{FIRSTNAME} the Tracker" voice="softspoken" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.zwadane" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
 		</face>

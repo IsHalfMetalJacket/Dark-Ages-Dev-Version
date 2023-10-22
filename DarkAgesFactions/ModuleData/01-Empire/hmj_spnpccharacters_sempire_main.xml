@@ -149,9 +149,9 @@
 			</Equipments>
 		</NPCCharacter>
 
-		<NPCCharacter id="simperial_hmj_mct1"
+		<NPCCharacter id="simperial_hmj_mct2"
 			default_group="Cavalry"
-			level="6"
+			level="11"
 			name="{=Calsean Tzaousios}Calsean Tzaousios"
 			upgrade_requires="ItemCategory.horse"
 			occupation="Soldier"
@@ -161,53 +161,53 @@
 				<face_key_template value="BodyProperty.villager_empire"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="5"/>
-				<skill id="Riding" value="20"/>
-				<skill id="OneHanded" value="10"/>
-				<skill id="TwoHanded" value="0"/>
-				<skill id="Polearm" value="35"/>
-				<skill id="Bow" value="0"/>
-				<skill id="Crossbow" value="5"/>
-				<skill id="Throwing" value="0"/>
+				<skill id="Athletics" value="10"/>
+				<skill id="Riding" value="30"/>
+				<skill id="OneHanded" value="20"/>
+				<skill id="TwoHanded" value="5"/>
+				<skill id="Polearm" value="40"/>
+				<skill id="Bow" value="5"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="5"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.simperial_hmj_mct2"/>
+				<upgrade_target id="NPCCharacter.simperial_hmj_mct3"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+					<equipment slot="Item0" id="Item.AR_imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_imperial_axe_t2"/>
 					<equipment slot="Cape" id="Item.wrapped_scarf"/>
 					<equipment slot="Body" id="Item.tied_cloth_tunic"/>
 					<equipment slot="Leg" id="Item.ragged_boots"/>
-					<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
 					<equipment slot="HorseHarness" id="Item.light_harness"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+					<equipment slot="Item0" id="Item.AR_imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_imperial_axe_t2"/>
 					<equipment slot="Body" id="Item.tied_cloth_tunic"/>
 					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-					<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
 					<equipment slot="HorseHarness" id="Item.light_harness"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_2_t2"/>
-					<equipment slot="Item1" id="Item.peasant_hatchet_1_t1"/>
+					<equipment slot="Item0" id="Item.AR_imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_imperial_axe_t2"/>
 					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
 					<equipment slot="Body" id="Item.tied_cloth_tunic"/>
 					<equipment slot="Gloves" id="Item.armwraps"/>
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
-					<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
 					<equipment slot="HorseHarness" id="Item.light_harness"/>
 				</EquipmentRoster>
 				<EquipmentSet id="empire_troop_civilian_template_t1"
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="simperial_hmj_mct2"
+		<NPCCharacter id="simperial_hmj_mct3"
 			default_group="Cavalry"
-			level="11"
+			level="16"
 			name="{=Calsean Trapezitai}Calsean Trapezitai"
 			occupation="Soldier"
 			culture="Culture.empire">
@@ -215,52 +215,47 @@
 				<face_key_template value="BodyProperty.villager_empire"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="10"/>
-				<skill id="Riding" value="40"/>
-				<skill id="OneHanded" value="20"/>
-				<skill id="TwoHanded" value="5"/>
-				<skill id="Polearm" value="50"/>
-				<skill id="Bow" value="5"/>
-				<skill id="Crossbow" value="10"/>
-				<skill id="Throwing" value="5"/>
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="50"/>
+				<skill id="OneHanded" value="40"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="100"/>
+				<skill id="Bow" value="10"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="10"/>
 			</skills>
 			<upgrade_targets></upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-					<equipment slot="Item1" id="Item.small_spurred_axe_t2"/>
-					<equipment slot="Item2" id="Item.northern_round_sparring_shield"/>
-					<equipment slot="Head" id="Item.simple_helmet"/>
-					<equipment slot="Cape" id="Item.TV_battania_cloak_o"/>
-					<equipment slot="Body" id="Item.hemp_tunic"/>
-					<equipment slot="Leg" id="Item.ragged_boots"/>
-					<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-					<equipment slot="HorseHarness" id="Item.light_harness"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-					<equipment slot="Item1" id="Item.small_spurred_axe_t2"/>
-					<equipment slot="Item2" id="Item.northern_round_sparring_shield"/>
-					<equipment slot="Head" id="Item.simple_helmet_headcloth"/>
-					<equipment slot="Cape" id="Item.scarf"/>
-					<equipment slot="Body" id="Item.hemp_tunic"/>
-					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-					<equipment slot="Horse" id="Item.empire_horse_tournament"/>
-					<equipment slot="HorseHarness" id="Item.light_harness"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.western_spear_1_t2"/>
-					<equipment slot="Item1" id="Item.small_spurred_axe_t2"/>
-					<equipment slot="Item2" id="Item.northern_round_sparring_shield"/>
+					<equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+					<equipment slot="Item1" id="Item.western_kite_shield"/>
+					<equipment slot="Item2" id="Item.AR_imperial_axe_t2"/>
 					<equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
-					<equipment slot="Cape" id="Item.TV_battania_cloak_q"/>
-					<equipment slot="Body" id="Item.hemp_tunic"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-					<equipment slot="Leg" id="Item.wrapped_shoes"/>
-					<equipment slot="Horse" id="Item.empire_horse_tournament"/>
+					<equipment slot="Body" id="Item.leather_coat"/>
+					<equipment slot="Leg" id="Item.ragged_boots"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
 					<equipment slot="HorseHarness" id="Item.light_harness"/>
 				</EquipmentRoster>
-
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+					<equipment slot="Item1" id="Item.western_kite_shield"/>
+					<equipment slot="Item2" id="Item.AR_imperial_axe_t2"/>
+					<equipment slot="Head" id="Item.simple_helmet"/>
+					<equipment slot="Body" id="Item.leather_tunic"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.light_harness"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.AR_imperial_spear_t3"/>
+					<equipment slot="Item1" id="Item.western_kite_shield"/>
+					<equipment slot="Item2" id="Item.AR_imperial_axe_t2"/>
+					<equipment slot="Head" id="Item.ao_imperial_spangenhelm_over_padded_coif"/>
+					<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.light_harness"/>
+				</EquipmentRoster>
 				<EquipmentSet id="empire_troop_civilian_template_t1"
 							  civilian="true" />
 			</Equipments>
@@ -1576,7 +1571,7 @@
 
 	<!-- CALRADIAN EMPIRE: Levy Troops -->
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_s_emp_villager" default_group="Infantry" level="6" name="{=si_ar_s_emp_villager}Calradian Civis" occupation="Villager" culture="Culture.empire" is_basic_troop="true">
+	<NPCCharacter id="hmj_s_emp_villager" default_group="Infantry" level="6" name="{=si_ar_s_emp_villager}Calradian Civis" occupation="Villager" culture="Culture.empire" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1600,7 +1595,7 @@
 	<!-- CALRADIAN EMPIRE: Caravans -->
 	<!-- T3 Armed Trader Light Skill 40-70 -->
 	<!-- CALRADIAN EMPIRE: Guards -->
-	<NPCCharacter id="AR_s_emp_prison_guard" default_group="Infantry" level="21" culture="Culture.empire" occupation="PrisonGuard" name="{=si_ar_s_emp_prison_guard}Calradian Protector Carceris">
+	<NPCCharacter id="hmj_s_emp_prison_guard" default_group="Infantry" level="21" culture="Culture.empire" occupation="PrisonGuard" name="{=si_ar_s_emp_prison_guard}Calradian Protector Carceris">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -1620,7 +1615,7 @@
 			<EquipmentSet id="AR_s_emp_prison_guard_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_s_emp_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_w" name="{=guardnoun}Guard" is_hidden_encyclopedia="true">
+	<NPCCharacter id="hmj_s_emp_guard" default_group="Infantry" level="21" occupation="Soldier" culture="Culture.empire_w" name="{=guardnoun}Guard" is_hidden_encyclopedia="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -1642,7 +1637,7 @@
 	</NPCCharacter>
 	<!-- CALRADIAN EMPIRE: Civilians -->
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_s_emp_village_woman" default_group="Infantry" level="6" name="{=si_ar_s_emp_village_woman}Calradian Femina" occupation="Villager" culture="Culture.empire" is_basic_troop="true" is_female="true">
+	<NPCCharacter id="hmj_s_emp_village_woman" default_group="Infantry" level="6" name="{=si_ar_s_emp_village_woman}Calradian Femina" occupation="Villager" culture="Culture.empire" is_basic_troop="true" is_female="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1664,7 +1659,7 @@
 			<EquipmentSet id="AR_s_emp_village_woman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_s_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_s_emp_townsman}Calradian Civis Urbani" occupation="Townsfolk" culture="Culture.empire">
+	<NPCCharacter id="hmj_s_emp_townsman" default_group="Infantry" level="1" name="{=si_ar_s_emp_townsman}Calradian Civis Urbani" occupation="Townsfolk" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.villager_empire"/>
 		</face>
@@ -1686,7 +1681,7 @@
 			<EquipmentSet id="AR_s_emp_townsman_civiliantemplate" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_s_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_s_emp_townswoman}Calradian Femina Urbani" occupation="Townsfolk" culture="Culture.empire">
+	<NPCCharacter id="hmj_s_emp_townswoman" default_group="Infantry" is_female="true" level="1" name="{=si_ar_s_emp_townswoman}Calradian Femina Urbani" occupation="Townsfolk" culture="Culture.empire">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>

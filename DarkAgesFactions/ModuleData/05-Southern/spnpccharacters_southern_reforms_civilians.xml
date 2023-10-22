@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- ASERAI CIVILIANS -->
-	<NPCCharacter id="AR_villager_aserai" default_group="Infantry" level="1" age="30" name="{=d6vsgKnp}Aserai Peasant" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
+	<NPCCharacter id="hmj_aserai_villager" default_group="Infantry" level="1" age="30" name="{=d6vsgKnp}Aserai Peasant" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
 		<face>
 			<!--face_key value="001dc54e40000000000000000000700000000000000000000000000006650003000a00050000000000000000000000000000000000000000fffffffffc780000" max_value="0033ffffc000390ffff9aaffaa8ffffffff1ffffffb7ffffffffffffffffffff0007fffff7ffffff000000000000000000000000000000000000000001289183" /-->
 			<BodyProperties version="4" age="24.69" weight="0.304" build="0.3225" key="001EA40C400000000100110121111110053000001111000000000001480101330125501302100000000000000000000000000000000000000000000000401000"/>
@@ -180,7 +180,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_village_woman_aserai" default_group="Infantry" is_female="true" level="1" name="{=d6vsgKnp}Aserai Peasant" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
+	<NPCCharacter id="hmj_aserai_village_woman" default_group="Infantry" is_female="true" level="1" name="{=d6vsgKnp}Aserai Peasant" occupation="Villager" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_aserai"/>
 		</face>
@@ -266,7 +266,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townsman_aserai" default_group="Infantry" name="{=muu5cofb}Aserai Townsman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
+	<NPCCharacter id="hmj_aserai_townsman" default_group="Infantry" name="{=muu5cofb}Aserai Townsman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_aserai"/>
 		</face>
@@ -342,7 +342,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townswoman_aserai" default_group="Infantry" is_female="true" level="1" name="{=ansW4mx2}Aserai Townswoman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
+	<NPCCharacter id="hmj_aserai_townswoman" default_group="Infantry" is_female="true" level="1" name="{=ansW4mx2}Aserai Townswoman" occupation="Townsfolk" culture="Culture.aserai" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_hidden_encyclopedia="true">
 		<face>
 			<BodyProperties version="4" age="22.94" weight="0.2546" build="0.2731" key="001EA40C500000071172111110111020111071111110211108121100782222130034460303001100000000000000000000000000000000000000000012640003"/>
 			<BodyPropertiesMax version="4" age="59.91" weight="0.8565" build="0.8287" key="0036F40FD22C3015FF8EFFFFEFEFEFFF7FE78FFFEEF8EFFEFFFEFFEEFEFFEEEF05CCD6570CEFFFFE00000000000000000000000000000000000000006B9440C4"/>
@@ -2974,7 +2974,7 @@
 	</NPCCharacter>
 	<!-- WANDERERS OF ASERAI -->
 	<!-- misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
-	<NPCCharacter id="spc_wanderer_spahad_0" name="{=bvjFhiDr}{HERO.FIRSTNAME} the Scholar" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_0" name="{=bvjFhiDr}{FIRSTNAME} the Scholar" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -2993,7 +2993,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--Obsessed with own genealogy -->
-	<NPCCharacter id="spc_wanderer_spahad_1" name="{=vtXRptVa}{HERO.FIRSTNAME} the Golden" voice="earnest" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_1" name="{=vtXRptVa}{FIRSTNAME} the Golden" voice="earnest" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3012,7 +3012,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--The falcon, chivalrous, but thinks great clans hog the glory -->
-	<NPCCharacter id="spc_wanderer_spahad_2" name="{=TyxXbqVw}{HERO.FIRSTNAME} the Falcon" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_2" name="{=TyxXbqVw}{FIRSTNAME} the Falcon" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3031,7 +3031,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
-	<NPCCharacter id="spc_wanderer_spahad_3" name="{=4GIoPUen}{HERO.FIRSTNAME} the Swordsman" voice="softspoken" age="33" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_3" name="{=4GIoPUen}{FIRSTNAME} the Swordsman" voice="softspoken" age="33" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3051,7 +3051,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
-	<NPCCharacter id="spc_wanderer_spahad_4" name="{=rgdi5Sxa}{HERO.FIRSTNAME} the Prince" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_4" name="{=rgdi5Sxa}{FIRSTNAME} the Prince" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3071,7 +3071,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- "The Hyena" (contemptuous killer) -->
-	<NPCCharacter id="spc_wanderer_spahad_5" name="{=OFWvD0xe}{HERO.FIRSTNAME} the Hyena" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_5" name="{=OFWvD0xe}{FIRSTNAME} the Hyena" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3091,7 +3091,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--of the Wastes - 'the searing gravel plain knows me' -->
-	<NPCCharacter id="spc_wanderer_spahad_6" name="{=muC2SGlM}{HERO.FIRSTNAME} of the Wastes" voice="curt" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_6" name="{=muC2SGlM}{FIRSTNAME} of the Wastes" voice="curt" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3110,7 +3110,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- female member of clan that lost power -->
-	<NPCCharacter id="spc_wanderer_spahad_7" name="{=28tWEFNi}{HERO.FIRSTNAME} the Wanderer" voice="curt" age="25" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_7" name="{=28tWEFNi}{FIRSTNAME} the Wanderer" voice="curt" age="25" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3130,7 +3130,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--unlucky merchant -->
-	<NPCCharacter id="spc_wanderer_spahad_8" name="{=XBJtv4mD}{HERO.FIRSTNAME} the Spicevendor" voice="softspoken" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_8" name="{=XBJtv4mD}{FIRSTNAME} the Spicevendor" voice="softspoken" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3149,7 +3149,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- female alley urchin -->
-	<NPCCharacter id="spc_wanderer_spahad_9" name="{=NWuGUi4p}{HERO.FIRSTNAME} the Leopardess" voice="ironic" age="22" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_9" name="{=NWuGUi4p}{FIRSTNAME} the Leopardess" voice="ironic" age="22" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
@@ -3167,7 +3167,7 @@
 			<EquipmentSet id="npc_companion_equipment_template_aserai"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="spc_wanderer_spahad_10" name="{=ACqta1a5}{HERO.FIRSTNAME} the Engineer" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_spahad_10" name="{=ACqta1a5}{FIRSTNAME} the Engineer" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.nahasi" occupation="Wanderer">
 		<face>
 			<BodyProperties version="4" age="22.57" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>

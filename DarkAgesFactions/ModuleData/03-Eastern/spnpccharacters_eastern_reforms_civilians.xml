@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- ILTANLAR CIVILIANS -->
-	<NPCCharacter id="AR_villager_khuzait" default_group="Infantry" level="1" name="{=LFUaO6rG}Iltanlar Tribesman" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
+	<NPCCharacter id="hmj_villager_khuzait" default_group="Infantry" level="1" name="{=LFUaO6rG}Iltanlar Tribesman" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
 		<face>
 			<BodyProperties version="4" age="22.49" weight="0.0417" build="0.0324" key="000DC40D800005C6507011122CB700080603060883A8010100000000800001000000100300001000000000000000000000000000000000000000000006000000"/>
 			<BodyPropertiesMax version="4" age="66.85" weight="0.9182" build="0.5231" key="001EFC0FC00038D4FFFBCEFEEFFE9E6FEFFEFFEFFEEFEFFFEFFEEFFF898EFEFA0698E06809FFFFFF000000000000000000000000000000000000000079209100"/>
@@ -182,7 +182,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_village_woman_khuzait" default_group="Infantry" is_female="true" level="1" name="{=LFUaO6rG}Iltanlar Tribeswoman" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_village_woman_khuzait" default_group="Infantry" is_female="true" level="1" name="{=LFUaO6rG}Iltanlar Tribeswoman" occupation="Villager" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_khuzait"/>
 		</face>
@@ -259,7 +259,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townsman_khuzait" default_group="Infantry" name="{=muu5cofb}Iltanlar Townsman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_townsman_khuzait" default_group="Infantry" name="{=muu5cofb}Iltanlar Townsman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_khuzait"/>
 		</face>
@@ -394,7 +394,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townswoman_khuzait" default_group="Infantry" is_female="true" level="1" name="{=V8GrFH4B}Iltanlar Townswoman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_townswoman_khuzait" default_group="Infantry" is_female="true" level="1" name="{=V8GrFH4B}Iltanlar Townswoman" occupation="Townsfolk" culture="Culture.khuzait" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<BodyProperties version="4" age="22.27" weight="0.1744" build="0.267" key="000AA80C5000000C001111007770015240060118859910010505500060011010000436030011001000000000000000000000000000000000000000001C040003"/>
 			<BodyPropertiesMax version="4" age="69.17" weight="0.9738" build="0.8133" key="001EFC0FD3143010EDEFFFEFFFFFFFEFEF7FFFEFEFFFDDDEEEFFFFFFAEDDCEC9079CF6780996FBEF00000000000000000000000000000000000000006B2C40C4"/>
@@ -3206,7 +3206,7 @@
 	</NPCCharacter>
 	<!--WANDERERS OF KHUZAIT -->
 	<!--engineer, sent to learn trade -->
-	<NPCCharacter id="spc_wanderer_cizygian_0" name="{=sdzaip5J}{HERO.FIRSTNAME} the Knowing" voice="softspoken" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_0" name="{=sdzaip5J}{FIRSTNAME} the Knowing" voice="softspoken" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3224,7 +3224,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
-	<NPCCharacter id="spc_wanderer_cizygian_1" name="{=j2nVPqIX}{HERO.FIRSTNAME} the Hawk" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_1" name="{=j2nVPqIX}{FIRSTNAME} the Hawk" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3243,7 +3243,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- the fatherless, backed out of a family feud -->
-	<NPCCharacter id="spc_wanderer_cizygian_2" name="{=agS5lIg7}{HERO.FIRSTNAME} the Fatherless" voice="earnest" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_2" name="{=agS5lIg7}{FIRSTNAME} the Fatherless" voice="earnest" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3263,7 +3263,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- ironeye, professional soldier. infantryman -->
-	<NPCCharacter id="spc_wanderer_cizygian_3" name="{=QWbgE4bw}{HERO.FIRSTNAME} Ironeye" voice="curt" age="32" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_3" name="{=QWbgE4bw}{FIRSTNAME} Ironeye" voice="curt" age="32" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3283,7 +3283,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--the proud, turned on protectors. lord as nemesis -->
-	<NPCCharacter id="spc_wanderer_cizygian_4" name="{=ykTARD4b}{HERO.FIRSTNAME} the Outcast" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_4" name="{=ykTARD4b}{FIRSTNAME} the Outcast" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3301,7 +3301,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
-	<NPCCharacter id="spc_wanderer_cizygian_5" name="{=q5QjQyde}{HERO.FIRSTNAME} the Mad" voice="softspoken" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_5" name="{=q5QjQyde}{FIRSTNAME} the Mad" voice="softspoken" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3320,7 +3320,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--the grey falcon, lone survivor of a hunted steppe clan -->
-	<NPCCharacter id="spc_wanderer_cizygian_6" name="{=seS9ZZUW}{HERO.FIRSTNAME} the Grey Falcon" voice="curt" age="20" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_6" name="{=seS9ZZUW}{FIRSTNAME} the Grey Falcon" voice="curt" age="20" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>
@@ -3340,7 +3340,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
-	<NPCCharacter id="spc_wanderer_cizygian_7" name="{=3wzexaA7}{HERO.FIRSTNAME} the She-Wolf" voice="curt" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_7" name="{=3wzexaA7}{FIRSTNAME} the She-Wolf" voice="curt" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_khuzait"/>
 		</face>
@@ -3360,7 +3360,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- lone daughter of mother -->
-	<NPCCharacter id="spc_wanderer_cizygian_8" name="{=OIXub6bS}{HERO.FIRSTNAME} the Alone" voice="curt" age="29" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_8" name="{=OIXub6bS}{FIRSTNAME} the Alone" voice="curt" age="29" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_khuzait"/>
 		</face>
@@ -3379,7 +3379,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- tomboy daughter of caravan guard -->
-	<NPCCharacter id="spc_wanderer_cizygian_9" name="{=KY2zbWkj}{HERO.FIRSTNAME} the Swift" voice="ironic" age="21" is_female="true" is_hero="false" default_group="Infantry" is_template="true" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_9" name="{=KY2zbWkj}{FIRSTNAME} the Swift" voice="ironic" age="21" is_female="true" is_hero="false" default_group="Infantry" is_template="true" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_khuzait"/>
 		</face>
@@ -3400,7 +3400,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- former 'horsethief' -->
-	<NPCCharacter id="spc_wanderer_cizygian_10" name="{=CQOlMayc}{HERO.FIRSTNAME} the Ragged" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_cizygian_10" name="{=CQOlMayc}{FIRSTNAME} the Ragged" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.darshi" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_darshi"/>
 		</face>

@@ -814,7 +814,7 @@
 
 	<!-- WANDERERS OF EMPIRE -->
 	<!-- Engineer who refused to comply with guild backscratching -->
-	<NPCCharacter id="spc_wanderer_empire_w_0" name="{=bvjFhiDr}{HERO.FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_0" name="{=bvjFhiDr}{FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -832,7 +832,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Very boastful -->
-	<NPCCharacter id="spc_wanderer_empire_w_1" name="{=xTQPfmS9}{HERO.FIRSTNAME} the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_1" name="{=xTQPfmS9}{FIRSTNAME} the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -851,7 +851,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Family lost military land grant, must work for merchants -->
-	<NPCCharacter id="spc_wanderer_empire_w_2" name="{=Ivx4uJVp}{HERO.FIRSTNAME} the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_2" name="{=Ivx4uJVp}{FIRSTNAME} the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -870,7 +870,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--  Die-hard legionary -->
-	<NPCCharacter id="spc_wanderer_empire_w_3" name="{=1OZBZZCi}{HERO.FIRSTNAME} the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_3" name="{=1OZBZZCi}{FIRSTNAME} the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -889,7 +889,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Bandit who found bandits too sociopathic -->
-	<NPCCharacter id="spc_wanderer_empire_w_4" name="{=t9e34kgH}{HERO.FIRSTNAME} the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_4" name="{=t9e34kgH}{FIRSTNAME} the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -908,7 +908,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- the butcher, doesn't give much away about himself -->
-	<NPCCharacter id="spc_wanderer_empire_w_5" name="{=pZSAdyC0}{HERO.FIRSTNAME} the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_5" name="{=pZSAdyC0}{FIRSTNAME} the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -927,7 +927,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- maquisard, ex-messianic rebel turned mafiosi -->
-	<NPCCharacter id="spc_wanderer_empire_w_6" name="{=OArAImbM}{HERO.FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_6" name="{=OArAImbM}{FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -947,7 +947,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- posed as man to join army. needed the money -->
-	<NPCCharacter id="spc_wanderer_empire_w_7" name="{=28tWEFNi}{HERO.FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_7" name="{=28tWEFNi}{FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -964,7 +964,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- upper-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
-	<NPCCharacter id="spc_wanderer_empire_w_8" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_8" name="{=KTObbG71}{FIRSTNAME} the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -982,7 +982,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
-	<NPCCharacter id="spc_wanderer_empire_w_9" name="{=7apnGFz7}{HERO.FIRSTNAME} the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_9" name="{=7apnGFz7}{FIRSTNAME} the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -1002,7 +1002,7 @@
 	</NPCCharacter>
 	<!-- extra imperials -->
 	<!--  Doctor, forced to torture -->
-	<NPCCharacter id="spc_wanderer_empire_w_10" name="{=cud22JY1}{HERO.FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_10" name="{=cud22JY1}{FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -1022,7 +1022,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--upper-class dispossessed, refused a bad marriage -->
-	<NPCCharacter id="spc_wanderer_empire_w_11" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_w_11" name="{=KTObbG71}{FIRSTNAME} the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_w" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -4847,7 +4847,7 @@
 	</NPCCharacter>
 	<!-- WANDERERS OF EMPIRE -->
 	<!-- Engineer who refused to comply with guild backscratching -->
-	<NPCCharacter id="spc_wanderer_empire_n_0" name="{=bvjFhiDr}{HERO.FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_0" name="{=bvjFhiDr}{FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4865,7 +4865,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Very boastful -->
-	<NPCCharacter id="spc_wanderer_empire_n_1" name="{=xTQPfmS9}{HERO.FIRSTNAME} the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_1" name="{=xTQPfmS9}{FIRSTNAME} the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4884,7 +4884,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Family lost military land grant, must work for merchants -->
-	<NPCCharacter id="spc_wanderer_empire_n_2" name="{=Ivx4uJVp}{HERO.FIRSTNAME} the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_2" name="{=Ivx4uJVp}{FIRSTNAME} the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4903,7 +4903,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--  Die-hard legionary -->
-	<NPCCharacter id="spc_wanderer_empire_n_3" name="{=1OZBZZCi}{HERO.FIRSTNAME} the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_3" name="{=1OZBZZCi}{FIRSTNAME} the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4922,7 +4922,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- Bandit who found bandits too sociopathic -->
-	<NPCCharacter id="spc_wanderer_empire_n_4" name="{=t9e34kgH}{HERO.FIRSTNAME} the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_4" name="{=t9e34kgH}{FIRSTNAME} the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4941,7 +4941,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- the butcher, doesn't give much away about himself -->
-	<NPCCharacter id="spc_wanderer_empire_n_5" name="{=pZSAdyC0}{HERO.FIRSTNAME} the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_5" name="{=pZSAdyC0}{FIRSTNAME} the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4960,7 +4960,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- maquisard, ex-messianic rebel turned mafiosi -->
-	<NPCCharacter id="spc_wanderer_empire_n_6" name="{=OArAImbM}{HERO.FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_6" name="{=OArAImbM}{FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -4980,7 +4980,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- posed as man to join army. needed the money -->
-	<NPCCharacter id="spc_wanderer_empire_n_7" name="{=28tWEFNi}{HERO.FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_7" name="{=28tWEFNi}{FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -4997,7 +4997,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- upper-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
-	<NPCCharacter id="spc_wanderer_empire_n_8" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_8" name="{=KTObbG71}{FIRSTNAME} the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -5015,7 +5015,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
-	<NPCCharacter id="spc_wanderer_empire_n_9" name="{=7apnGFz7}{HERO.FIRSTNAME} the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_9" name="{=7apnGFz7}{FIRSTNAME} the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>
@@ -5035,7 +5035,7 @@
 	</NPCCharacter>
 	<!-- extra imperials -->
 	<!--  Doctor, forced to torture -->
-	<NPCCharacter id="spc_wanderer_empire_n_10" name="{=cud22JY1}{HERO.FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_10" name="{=cud22JY1}{FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
@@ -5055,7 +5055,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--upper-class dispossessed, refused a bad marriage -->
-	<NPCCharacter id="spc_wanderer_empire_n_11" name="{=KTObbG71}{HERO.FIRSTNAME} the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_empire_n_11" name="{=KTObbG71}{FIRSTNAME} the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire_n" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_empire"/>
 		</face>

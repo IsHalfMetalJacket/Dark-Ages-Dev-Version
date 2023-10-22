@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
 	<!-- STURGIA CIVILIANS -->
-	<NPCCharacter id="AR_villager_sturgia" default_group="Infantry" level="1" name="{=0Xku0LQD}Sturgian Peasant" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
+	<NPCCharacter id="hmj_villager_sturgia" default_group="Infantry" level="1" name="{=0Xku0LQD}Sturgian Peasant" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_basic_troop="true">
 		<face>
 			<!--face_key value="0000012000000000000000000001700000000000000000000000000000000000000a160400000000000000000000000000000000000000000000000000f80000" max_value="00118bfa00002914eff88effeefffffbfecfff888ee3feeff7efffcefffffeff000ff7afffffffef000000000000000000000000000000000000000001c88140" /-->
 			<BodyProperties version="4" age="24.03" weight="0.1867" build="0.2423" key="00000400000002412110000001211010010411111010002221111001301101000064300306112000000000000000000000000000000000000000000000D00000"/>
@@ -133,7 +133,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_village_woman_sturgia" default_group="Infantry" is_female="true" level="1" name="{=0Xku0LQD}Sturgian Peasant" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_village_woman_sturgia" default_group="Infantry" is_female="true" level="1" name="{=0Xku0LQD}Sturgian Peasant" occupation="Villager" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
@@ -262,7 +262,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townsman_sturgia" default_group="Infantry" name="{=muu5cofb}Sturgian Townsman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_townsman_sturgia" default_group="Infantry" name="{=muu5cofb}Sturgian Townsman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<face_key_template value="BodyProperty.villager_sturgia"/>
 		</face>
@@ -342,7 +342,7 @@
 			</EquipmentRoster>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_townswoman_sturgia" default_group="Infantry" is_female="true" level="1" name="{=qMqRkvWu}Sturgian Townswoman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
+	<NPCCharacter id="hmj_townswoman_sturgia" default_group="Infantry" is_female="true" level="1" name="{=qMqRkvWu}Sturgian Townswoman" occupation="Townsfolk" culture="Culture.sturgia" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills">
 		<face>
 			<BodyProperties version="4" age="22" weight="0.2083" build="0.4579" key="00000400007000010371010011222150300660010010010030234101702221230047360304313220000000000000000000000000000000000000000012840000"/>
 			<BodyPropertiesMax version="4" age="76.5" weight="0.9182" build="0.8781" key="0008DC0D00703010EECDBCCEDDDDEDDDFFFEFFFA7FF7FEFFFFEEFFFFAEEEFFEF08DDE6890DFFFEEF000000000000000000000000000000000000000067C440C4"/>
@@ -3374,7 +3374,7 @@
 	</NPCCharacter>
 	<!-- WANDERERS OF STURGIA -->
 	<!-- Herbalist, female, driven from village-->
-	<NPCCharacter id="spc_wanderer_vaegiria_0" name="{=yr5pa0hs}{HERO.FIRSTNAME} Willowbark" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_0" name="{=yr5pa0hs}{FIRSTNAME} Willowbark" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
@@ -3392,7 +3392,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--braggart backstory - claims he found skolderbrotva too soft -->
-	<NPCCharacter id="spc_wanderer_vaegiria_1" name="{=W7aa22Yl}{HERO.FIRSTNAME} Breakskull" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_1" name="{=W7aa22Yl}{FIRSTNAME} Breakskull" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -3409,7 +3409,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--enterprising young would-be raider, wants to do his father proud -->
-	<NPCCharacter id="spc_wanderer_vaegiria_2" name="{=aE8abvsQ}{HERO.FIRSTNAME} the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_2" name="{=aE8abvsQ}{FIRSTNAME} the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -3426,7 +3426,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- vaegir guard veteran backstory - bitter about riots -->
-	<NPCCharacter id="spc_wanderer_vaegiria_3" name="{=LmlL8fVu}{HERO.FIRSTNAME} Bloodaxe" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_3" name="{=LmlL8fVu}{FIRSTNAME} Bloodaxe" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -3443,7 +3443,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--outlaw backstory,  easily angered  -->
-	<NPCCharacter id="spc_wanderer_vaegiria_4" name="{=WU5GnkvR}{HERO.FIRSTNAME} the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_4" name="{=WU5GnkvR}{FIRSTNAME} the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -3461,7 +3461,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- coalbiter backstory -->
-	<NPCCharacter id="spc_wanderer_vaegiria_5" name="{=NSaetzNJ}{HERO.FIRSTNAME} Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_5" name="{=NSaetzNJ}{FIRSTNAME} Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -3479,7 +3479,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
-	<NPCCharacter id="spc_wanderer_vaegiria_6" name="{=zXjdb1zT}{HERO.FIRSTNAME} Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_6" name="{=zXjdb1zT}{FIRSTNAME} Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
 		</face>
@@ -3498,7 +3498,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- dispossessed because of birthmark -->
-	<NPCCharacter id="spc_wanderer_vaegiria_7" name="{=QyQPJJ9B}{HERO.FIRSTNAME} the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_7" name="{=QyQPJJ9B}{FIRSTNAME} the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
@@ -3517,7 +3517,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!-- shield maiden -->
-	<NPCCharacter id="spc_wanderer_vaegiria_8" name="{=rtsnnL2J}{HERO.FIRSTNAME} the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_8" name="{=rtsnnL2J}{FIRSTNAME} the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
@@ -3535,7 +3535,7 @@
 		</Equipments>
 	</NPCCharacter>
 	<!--proud hireling who will do any task, values professionalism -->
-	<NPCCharacter id="spc_wanderer_vaegiria_9" name="{=akALDUs0}{HERO.FIRSTNAME} Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
+	<NPCCharacter id="spc_wanderer_byalic_9" name="{=akALDUs0}{FIRSTNAME} Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.byalic" occupation="Wanderer">
 		<face>
 			<face_key_template value="BodyProperty.townswoman_sturgia"/>
 		</face>
