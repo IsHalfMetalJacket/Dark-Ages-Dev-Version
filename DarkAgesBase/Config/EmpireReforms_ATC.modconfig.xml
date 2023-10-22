@@ -234,7 +234,7 @@
 		<Culture id="default">
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -249,7 +249,7 @@
 			<!-- Southern Empire for captured Northern Empire settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -264,7 +264,7 @@
 			<!-- Southern Empire for captured Western Empire settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -279,7 +279,7 @@
 			<!-- Southern Empire for captured Shariz settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -294,7 +294,7 @@
 			<!-- Southern Empire for captured Aserai settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -309,7 +309,7 @@
 			<!-- Southern Empire for captured Darshi settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -324,7 +324,7 @@
 			<!-- Southern Empire for captured Khuzait settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -339,7 +339,7 @@
 			<!-- Southern Empire for captured Nahasi settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -354,7 +354,7 @@
 			<!-- Southern Empire for captured Sturgia settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -369,7 +369,7 @@
 			<!-- Southern Empire for captured Vakken settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -384,7 +384,7 @@
 			<!-- Southern Empire for captured Vlandia settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -399,7 +399,7 @@
 			<!-- Southern Empire for captured Zwadane settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -414,7 +414,7 @@
 			<!-- Southern Empire for captured Battania settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
@@ -429,7 +429,7 @@
 			<!-- Southern Empire for captured Old Calradia settlements -->
 			<basicTroops>
 				<volunteer id="simperial_hmj_mst1" percent="38"/>
-				<volunteer id="simperial_hmj_mct1" percent="24"/>
+				<volunteer id="simperial_hmj_mct2" percent="24"/>
 				<volunteer id="simperial_hmj_mat3" percent="15"/>
 				<volunteer id="simperial_hmj_it2" percent="15"/>
 				<volunteer id="simperial_hmj_fit4" percent="6"/>
