@@ -168,7 +168,7 @@
 	<!-- South 5: (DONE) -->
 	<Hero id="lord_1_63_2" father="Hero.lord_1_63" mother="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_63_3" father="Hero.lord_1_63" mother="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
-	<Hero id="lord_1_63" spouse="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5"/>
+	<Hero id="lord_1_63" spouse="Hero.lord_1_63_1" faction="Faction.clan_empire_south_5" text="{=bararrr223}The head of clan Julios. Once a distinguished captain of Arenicos's guard, he now serves as a powerful and loyal General to the Empress. Notably, the creation of the Imperial Pelekyphoroi had been his idea, as replacement for the old Vaegir Guard."/>
 	<Hero id="lord_1_63_1" spouse="Hero.lord_1_63" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_74" spouse="Hero.lord_1_74_1" faction="Faction.clan_empire_south_5"/>
 	<Hero id="lord_1_74_1" spouse="Hero.lord_1_74" faction="Faction.clan_empire_south_5"/>

@@ -4314,7 +4314,7 @@
 		is_female="true"
 		culture="Culture.empire"
 		occupation="Lord"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" weight="0.1836" build="0.625"  key="001BD00E400010076363325B44A5287159DA89AADD789458A99BBE7878360676008937030884C39B00000000000000000000000000000000000000003B181003"  />
@@ -4346,9 +4346,9 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="hmj_sim_gen_bow_battletemplate" />
 			<EquipmentSet
-				id="emp_civ_template_default"
+				id="hmj_sim_queen_civtemplate"
 				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
@@ -4388,7 +4388,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="hmj_sim_gen_lance_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -4437,7 +4437,7 @@
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key value="000b6d22c0bc100679d8455aa9684859888735557c6493786867627857b28958000d8894038735d900001105000030a30000001f000000000000000000006000" /-->
@@ -4466,7 +4466,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="hmj_sim_gen_bow_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -4540,7 +4540,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="hmj_sim_gen_lance_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -4642,7 +4642,7 @@
 		id="lord_1_15"
 		name="{=48bvCvb2}Pharon"
 		age="62"
-		voice="softspoken"
+		voice="ironic"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -4680,7 +4680,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_flamboyant" />
+				id="hmj_sim_gen_lance_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_flamboyant"
 				civilian="true" />
@@ -4690,7 +4690,7 @@
 		id="lord_1_155"
 		name="{=UTFGUeVQ}Zeno"
 		age="18"
-		voice="ironic"
+		voice="softspoken"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -4723,7 +4723,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="hmj_sim_light_horsearcher_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_southfrontier"
 				civilian="true" />
@@ -4773,11 +4773,11 @@
 		id="lord_1_28"
 		name="{=HGBWqbhQ}Temion"
 		age="25"
-		voice="earnest"
+		voice="ironic"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		face_mesh_cache="true">
 		<face>
 			<!--face_key value="0011500700fc0008697797684ab7518ca479a943769585b39599b4916b7ba668000b7e700797a98d000000000000000000000000000000000000000000043001" /-->
@@ -4812,7 +4812,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="hmj_sim_gen_bow_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -4880,7 +4880,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="hmj_sim_heavy_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5001,10 +5001,10 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="8" />
+				value="10" />
 			<Trait
 				id="Politician"
-				value="8" />
+				value="10" />
 			<Trait
 				id="Manager"
 				value="10" />
@@ -5019,7 +5019,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_flamboyant" />
+				id="hmj_sim_gen_lance_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_flamboyant"
 				civilian="true" />
@@ -5047,10 +5047,7 @@
 				value="6" />
 			<Trait
 				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="2" />
+				value="6" />
 			<Trait
 				id="Calculating"
 				value="-1" />
@@ -5059,7 +5056,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="hmj_sim_gen_lance_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_southfrontier"
 				civilian="true" />
@@ -5070,7 +5067,7 @@
 		id="lord_1_18"
 		name="{=OMkSgsV2}Jathea"
 		age="48"
-		voice="curt"
+		voice="ironic"
 		is_hero="true"
 		is_female="true"
 		culture="Culture.empire"
@@ -5086,10 +5083,10 @@
 			<!-- NONCOMBATANT -->
 			<Trait
 				id="Politician"
-				value="8" />
+				value="12" />
 			<Trait
 				id="Manager"
-				value="6" />
+				value="8" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -5129,13 +5126,13 @@
 				value="8" />
 			<Trait
 				id="Commander"
-				value="8" />
+				value="10" />
 			<Trait
 				id="Politician"
-				value="6" />
+				value="2" />
 			<Trait
 				id="Manager"
-				value="10" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -5148,7 +5145,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="hmj_sim_heavy_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5173,13 +5170,10 @@
 			<!--NONCOMBATANT FEMALE-->
 			<Trait
 				id="Politician"
-				value="6" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="10" />
-			<Trait
-				id="Mercy"
-				value="-1" />
+				value="12" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -5201,9 +5195,9 @@
 	<NPCCharacter
 		id="lord_1_30"
 		name="{=P7iNhhPl}Turiados"
-		voice="earnest"
+		voice="ironic"
 		age="24"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5214,7 +5208,7 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="BalancedFightingSkills"
+				id="HorseArcherFightingSkills"
 				value="3" />
 			<Trait
 				id="Commander"
@@ -5224,7 +5218,7 @@
 				value="17" />
 			<Trait
 				id="Manager"
-				value="3" />
+				value="1" />
 			<Trait
 				id="Honor"
 				value="-1" />
@@ -5241,7 +5235,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="hmj_sim_light_horsearcher_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5270,7 +5264,7 @@
 		<Traits>
 			<Trait
 				id="Manager"
-				value="6" />
+				value="10" />
 			<Trait
 				id="Calculating"
 				value="1" />
@@ -5308,10 +5302,7 @@
 				value="2" />
 			<Trait
 				id="Commander"
-				value="6" />
-			<Trait
-				id="Politician"
-				value="6" />
+				value="8" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -5321,11 +5312,14 @@
 			<Trait
 				id="Honor"
 				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="hmj_sim_light_knight_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5336,8 +5330,8 @@
 		name="{=BosCJ3Rb}Tristania"
 		is_female="true"
 		age="37"
-		default_group="Cavalry"
-		voice="ironic"
+		default_group="HorseArcher"
+		voice="earnest"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5348,14 +5342,14 @@
 		<skills></skills>
 		<Traits>
 			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
 				id="Commander"
-				value="8" />
+				value="12" />
 			<Trait
 				id="Politician"
-				value="8" />
-			<Trait
-				id="Manager"
-				value="10" />
+				value="12" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -5366,7 +5360,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="hmj_sim_light_horsearcher_battletemplate" />
 			<EquipmentSet
 				id="bat_noncom_template_default"
 				civilian="true" />
@@ -5376,8 +5370,8 @@
 		id="lord_1_49_2"
 		name="{=mpgkzY0Y}Gordiana"
 		is_female="true"
-		default_group="Cavalry"
-		age="17"
+		default_group="HorseArcher"
+		age="18"
 		voice="earnest"
 		is_hero="true"
 		culture="Culture.empire"
@@ -5388,12 +5382,23 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<!-- TEENAGER -->
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="hmj_sim_gen_bow_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5454,7 +5459,7 @@
 		name="{=MBKTyzXQ}Rustica"
 		is_female="true"
 		voice="softspoken"
-		age="17"
+		age="15"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -5465,18 +5470,7 @@
 		</face>
 		<skills></skills>
 		<Traits>
-			<Trait
-				id="Commander"
-				value="2" />
-			<Trait
-				id="Politician"
-				value="2" />
-			<Trait
-				id="Manager"
-				value="4" />
-			<Trait
-				id="Mercy"
-				value="1" />
+			<!-- TEENAGER, NO TRAITS OR SKILLS FOR UNDER-18s -->
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
@@ -5504,34 +5498,25 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="BalancedFightingSkills"
-				value="4" />
+				id="KnightFightingSkills"
+				value="10" />
 			<Trait
 				id="Commander"
 				value="10" />
 			<Trait
-				id="Politician"
-				value="10" />
-			<Trait
-				id="Manager"
-				value="18" />
-			<Trait
 				id="Valor"
-				value="-1" />
+				value="1" />
 			<Trait
 				id="Mercy"
 				value="1" />
 			<Trait
 				id="Generosity"
 				value="-1" />
-			<Trait
-				id="Calculating"
-				value="-1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_heavy" />
+				id="hmj_sim_baranor_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5543,7 +5528,7 @@
 		voice="curt"
 		age="32"
 		is_female="true"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5558,10 +5543,10 @@
 				value="3" />
 			<Trait
 				id="Commander"
-				value="4" />
+				value="7" />
 			<Trait
 				id="Politician"
-				value="6" />
+				value="2" />
 			<Trait
 				id="Manager"
 				value="6" />
@@ -5572,7 +5557,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_lady" />
+				id="hmj_sim_light_horsearcher_battletemplate" />
 			<EquipmentSet
 				id="emp_noncom_template_default"
 				civilian="true" />
@@ -5634,7 +5619,7 @@
 		name="{=26W8jFm9}Zachanis"
 		voice="softspoken"
 		age="30"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5647,19 +5632,13 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="5" />
+				value="3" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="10" />
 			<Trait
 				id="Politician"
-				value="14" />
-			<Trait
-				id="Manager"
-				value="12" />
-			<Trait
-				id="Honor"
-				value="-1" />
+				value="4" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -5669,7 +5648,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="hmj_sim_light_horsearcher_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5678,7 +5657,7 @@
 	<NPCCharacter
 		id="lord_1_74_1"
 		name="{=7DJgows0}Zena"
-		voice="curt"
+		voice="earnest"
 		is_female="true"
 		age="30"
 		default_group="Cavalry"
@@ -5693,8 +5672,11 @@
 		<skills></skills>
 		<Traits>
 			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
 				id="Manager"
-				value="4" />
+				value="10" />
 			<Trait
 				id="Calculating"
 				value="1" />
@@ -5724,13 +5706,13 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="5" />
+				value="2" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="9" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="17" />
 			<Trait
 				id="Manager"
 				value="8" />
@@ -5744,7 +5726,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_stoic" />
+				id="hmj_sim_light_knight_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5768,10 +5750,10 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="12" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="10" />
+				value="12" />
 			<Trait
 				id="Mercy"
 				value="-1" />
@@ -5809,13 +5791,7 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="12" />
-			<Trait
-				id="Politician"
-				value="4" />
-			<Trait
-				id="Manager"
-				value="6" />
+				value="8" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -5828,7 +5804,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="hmj_sim_gen_lance_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5837,7 +5813,7 @@
 		<NPCCharacter
 		id="lord_1_68_1"
 		name="{=bujI7g96}Silvina"
-		voice="curt"
+		voice="softspoken"
 		age="23"
 		is_female="true"
 		default_group="Cavalry"
@@ -5852,8 +5828,14 @@
 		<skills></skills>
 		<Traits>
 			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
 				id="Manager"
-				value="6" />
+				value="8" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -5871,7 +5853,7 @@
 		id="lord_1_55"
 		name="{=txyVEr0U}Satros"
 		voice="softspoken"
-		age="28"
+		age="50"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
@@ -5883,17 +5865,17 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="BalancedFightingSkills"
-				value="6" />
+				id="KnightFightingSkills"
+				value="3" />
 			<Trait
 				id="Commander"
-				value="10" />
+				value="6" />
 			<Trait
 				id="Politician"
-				value="12" />
+				value="6" />
 			<Trait
 				id="Manager"
-				value="8" />
+				value="2" />
 			<Trait
 				id="Valor"
 				value="-1" />
@@ -5901,13 +5883,13 @@
 				id="Mercy"
 				value="1" />
 			<Trait
-				id="Calculating"
+				id="Generosity"
 				value="1" />
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="emp_bat_template_southfrontier" />
+				id="hmj_sim_light_knight_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5942,9 +5924,9 @@
 	<NPCCharacter
 		id="lord_1_69"
 		name="{=4YOoGhpK}Niphon"
-		voice="softspoken"
+		voice="curt"
 		age="33"
-		default_group="Infantry"
+		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -5956,16 +5938,13 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="5" />
+				value="1" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="14" />
-			<Trait
-				id="Manager"
-				value="12" />
+				value="10" />
 			<Trait
 				id="Honor"
 				value="-1" />
@@ -5978,7 +5957,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_medium" />
+				id="hmj_sim_light_knight_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -5990,7 +5969,7 @@
 		voice="earnest"
 		is_female="true"
 		age="28"
-		default_group="Infantry"
+		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -6001,8 +5980,11 @@
 		<skills></skills>
 		<Traits>
 			<Trait
+				id="Politician"
+				value="1" />
+			<Trait
 				id="Manager"
-				value="4" />
+				value="9" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -6056,7 +6038,7 @@
 		name="{=RYksq67N}Darius"
 		voice="softspoken"
 		age="33"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		is_hero="true"
 		culture="Culture.darshi"
 		occupation="Lord"
@@ -6068,16 +6050,19 @@
 		<Traits>
 			<Trait
 				id="BalancedFightingSkills"
-				value="5" />
+				value="7" />
 			<Trait
 				id="Commander"
-				value="12" />
+				value="10" />
 			<Trait
 				id="Politician"
-				value="14" />
+				value="3" />
 			<Trait
 				id="Manager"
-				value="12" />
+				value="3" />
+			<Trait
+				id="Honor"
+				value="1" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -6087,7 +6072,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentSet
-				id="emp_bat_template_stoic" />
+				id="hmj_sim_gen_bow_battletemplate" />
 			<EquipmentSet
 				id="emp_civ_template_default"
 				civilian="true" />
@@ -6112,10 +6097,10 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="4" />
+				value="5" />
 			<Trait
 				id="Manager"
-				value="6" />
+				value="5" />
 			<Trait
 				id="Generosity"
 				value="1" />
@@ -6134,7 +6119,7 @@
 		is_female="true"
 		voice="earnest"
 		age="19"
-		default_group="Cavalry"
+		default_group="HorseArcher"
 		is_hero="true"
 		culture="Culture.empire"
 		occupation="Lord"
@@ -6146,17 +6131,17 @@
 		<skills></skills>
 		<Traits>
 			<Trait
-				id="BalancedFightingSkills"
-				value="4" />
+				id="HorseArcherFightingSkills"
+				value="3" />
 			<Trait
 				id="Commander"
-				value="8" />
+				value="6" />
 			<Trait
 				id="Politician"
 				value="4" />
 			<Trait
 				id="Manager"
-				value="6" />
+				value="4" />
 			<!-- eager warrior -->
 			<Trait
 				id="Valor"

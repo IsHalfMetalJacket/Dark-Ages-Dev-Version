@@ -20,7 +20,7 @@
 			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.aserai_hmj_ct5"/>
 			<PartyTemplateStack min_value="1" max_value="4" troop="NPCCharacter.aserai_hmj_nit2"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.aserai_hmj_nit6"/>
-			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.aserai_hmj_nct7"/>
+			<PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.aserai_hmj_nct6"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_aserai_template">

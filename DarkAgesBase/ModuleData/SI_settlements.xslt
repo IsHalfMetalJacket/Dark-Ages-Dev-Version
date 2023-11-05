@@ -1272,6 +1272,43 @@
 		<xsl:attribute name='culture'>Culture.aserai</xsl:attribute>
 	</xsl:template>
 	
+	<xsl:template match="Settlement[@id='castle_SI_V4']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V4']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_quyaz_5</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V4_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V4_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_EW1']/@culture">
+		<xsl:attribute name='culture'>Culture.shariz</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_EW1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_quyaz_5</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_EW1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.shariz</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_EW1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.shariz</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A3']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_A3']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_quyaz_5</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A3_1']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_A3_2']/@culture">
+		<xsl:attribute name='culture'>Culture.empire_w</xsl:attribute>
+	</xsl:template>
+
 	<xsl:template match="Settlement[@id='town_S2']/@culture">
 		<xsl:attribute name='culture'>Culture.sturgia</xsl:attribute>
 	</xsl:template>

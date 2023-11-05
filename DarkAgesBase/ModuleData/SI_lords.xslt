@@ -2183,7 +2183,7 @@
     <xsl:template match="NPCCharacter[@id='lord_1_37']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="emp_bat_template_southfrontier" />
+      <EquipmentSet id="hmj_sim_gen_bow_battletemplate" />
       <EquipmentSet id="hmj_sim_queen_civtemplate"
                     civilian="true" />
     </Equipments>
@@ -2220,8 +2220,8 @@
     <xsl:template match="NPCCharacter[@id='lord_1_27']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="emp_bat_template_southfrontier" />
-      <EquipmentSet id="hmj_sim_queen_civtemplate"
+      <EquipmentSet id="hmj_sim_gen_lance_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -2276,14 +2276,14 @@
 				value="1" />
 		</Traits>
 	    </xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_27_2']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="emp_bat_template_southfrontier" /> -->
-      <!-- <EquipmentSet id="hmj_sim_queen_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_27_2']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_bow_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Vasilia -->
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_27_3']/Equipments"> -->
     <!-- <Equipments> -->
@@ -2322,8 +2322,8 @@
     <xsl:template match="NPCCharacter[@id='lord_1_47']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="emp_bat_template_southfrontier" />
-      <EquipmentSet id="hmj_sim_queen_civtemplate"
+      <EquipmentSet id="hmj_sim_gen_lance_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -2390,14 +2390,14 @@
 				value="1" />
 		</Traits>
 	    </xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_15']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_15']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_lance_battletemplate" />
+      <EquipmentSet id="emp_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Zeno -->
  	<xsl:template match='NPCCharacter[@id="lord_1_155"]/face'>
 		<xsl:copy>
@@ -2430,8 +2430,8 @@
     <xsl:template match="NPCCharacter[@id='lord_1_155']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="hmj_wim_king_battletemplate" />
-      <EquipmentSet id="hmj_wim_king_civtemplate"
+      <EquipmentSet id="hmj_sim_light_horsearcher_battletemplate" />
+      <EquipmentSet id="emp_civ_template_southfrontier"
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
@@ -2516,14 +2516,14 @@
 				value="1" />
 		</Traits>
 	    </xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_28']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_28']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_bow_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Joron -->
  	<xsl:template match='NPCCharacter[@id="lord_1_48"]/face'>
 		<xsl:copy>
@@ -2547,14 +2547,14 @@
 				value="-1" />
 		</Traits>
 	    </xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_48']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_heavy_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Alympia -->
  	<xsl:template match='NPCCharacter[@id="lord_1_48_1"]/face'>
 		<xsl:copy>
@@ -2620,14 +2620,36 @@
 				<BodyProperties version="4" weight="0.8966" build="0.6404"  key="0015940F00000404FE5D69C410BA93BB796DA09F60B40E09597790888658234A005AD0030597967900001105000030A30000001F000000000000000028A47000"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_17']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_17']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_lance_battletemplate" />
+      <EquipmentSet id="emp_civ_template_flamboyant"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Honoratus -->
  	<xsl:template match='NPCCharacter[@id="lord_1_177"]/face'>
 		<xsl:copy>
@@ -2635,22 +2657,57 @@
 				<BodyProperties version="4" weight="0.4367" build="0.3627"  key="0000980FC0000002A879693710A403A4796D8A795948634759779E888658234A0065700306A1948700001105000030A30000001F00000000000000005CC40005"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_177']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_177']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_lance_battletemplate" />
+      <EquipmentSet id="emp_civ_template_southfrontier"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Jathea -->
- 	<!-- <xsl:template match='NPCCharacter[@id="lord_1_177"]/face'> -->
+ 	<!-- <xsl:template match='NPCCharacter[@id="lord_1_18"]/face'> -->
 		<!-- <xsl:copy> -->
 			<!-- <xsl:apply-templates select="@*"/> -->
 				<!-- <BodyProperties version="4" weight="0.088" build="0.1343"  key="0018940F000030026E5D645B10625364DB8AA09F60B40E75577D3C4E8BCB2343006210030671C28100001105000030A30000001F00000000000000004EC42000"  /> -->
 		<!-- </xsl:copy> -->
 	<!-- </xsl:template> -->
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_18']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <!-- <xsl:template match="NPCCharacter[@id='lord_1_18']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
       <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
@@ -2665,14 +2722,39 @@
 				<BodyProperties version="4" weight="0.6528" build="0.9336"  key="0018940F1800334F6E8D643B106C565CDB8AA09F60B40E75577D3E4E8BCB2347009EA0030971C28100001105000030A30000001F0000000000000000292C2000"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_29']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Manager"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_29']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_heavy_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Debana -->
  	<xsl:template match='NPCCharacter[@id="lord_1_39"]/face'>
 		<xsl:copy>
@@ -2680,6 +2762,25 @@
 				<BodyProperties version="4" weight="0.1991" build="0.5"  key="0018940F10000004989894A76970A45377E7B762B969B5A85B759958865696BD00673003065185560000000000000FFE00000000000000000000000000C00000"  />
 		</xsl:copy>
 	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_39']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -2695,14 +2796,42 @@
 				<BodyProperties version="4" weight="0.0139" build="0.3472"  key="0015C80F0000008E024597352121068858D69939BBECA72166C78F3A823A45530055030305B1876400001105000030A30000001F00000000000000006C981005"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_30']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="17" />
+			<Trait
+				id="Manager"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_30']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_horsearcher_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Justina -->
  	<!-- <xsl:template match='NPCCharacter[@id="lord_1_30_1"]/face'> -->
 		<!-- <xsl:copy> -->
@@ -2710,6 +2839,19 @@
 				<!-- <BodyProperties version="4" weight="0.0139" build="0.3472"  key="0015C80F0000008E024597352121068858D69939BBECA72166C78F3A823A45530055030305B1876400001105000030A30000001F00000000000000006C981005"  /> -->
 		<!-- </xsl:copy> -->
 	<!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_30_1']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Authoritarian"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_30_1']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -2725,14 +2867,36 @@
 				<BodyProperties version="4" weight="0.5401" build="0.6235"  key="0010BC0CD700038BA5508899487841954B4F9A57D5C7D811C889B5068C4A7666004986030468769500000000000000000000000000000000000000003C8480C2"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_49']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="2" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_49']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_knight_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Tristania -->
  	<xsl:template match='NPCCharacter[@id="lord_1_49_1"]/face'>
 		<xsl:copy>
@@ -2740,14 +2904,33 @@
 				<BodyProperties version="4" weight="0.5417" build="0.5"  key="0005200FD2FC3015B38B674C24E68B77237687A658475B47BC78592D78C593BB00978603092C8799000000000000000000000000000000000000000031340003"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_49_1']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_49_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_horsearcher_battletemplate" />
+      <EquipmentSet id="emp_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Gordiana -->
  	<xsl:template match='NPCCharacter[@id="lord_1_49_2"]/face'>
 		<xsl:copy>
@@ -2755,16 +2938,32 @@
 				<BodyProperties version="4" weight="0.5" build="0.5"  key="0010B00D12FC3006743ADC795BA745B786DABD951B876537A8C6AA5B96B893590067760306485E6600000000000000000000000000000000000000004ACC00C3"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_49_2']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_49_2']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_bow_battletemplate" />
+      <EquipmentSet id="emp_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Synesios -->
- 	<xsl:template match='NPCCharacter[@id="lord_1_49_2"]/face'>
+ 	<xsl:template match='NPCCharacter[@id="lord_1_48_3"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 				<BodyProperties version="4" weight="0.4" build="0.3" key="00117C0E50CC200D73C3265E79C3998BBE65798569D73495C6D87BD3AA57B6D501C776130CD465380000000000000000000000000000000000000000358C20C3" />
@@ -2800,14 +2999,33 @@
 				<BodyProperties version="4" weight="0.9" build="0.9"  key="00105C0E5170300D88566B74DA8577A325C64A9B6AA35AD26A5B2DB39752565500ADDB030A57885E00001105000030A30000001F000000000000000001503000"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_63']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="10" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_63']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_baranor_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Valaria -->
  	<xsl:template match='NPCCharacter[@id="lord_1_63_1"]/face'>
 		<xsl:copy>
@@ -2815,29 +3033,33 @@
 				<BodyProperties version="4" weight="0.7" build="0.8"  key="001B700D00CC30056C969C364498D4369D8A57A9A772768983E88354BB2B1BCE006CA60306D7CD8B000000000000000000000000000000000000000050DC4083"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
-	<!-- Valaria -->
- 	<xsl:template match='NPCCharacter[@id="lord_1_63_1"]/face'>
-		<xsl:copy>
-			<xsl:apply-templates select="@*"/>
-				<BodyProperties version="4" weight="0.7" build="0.8"  key="001B700D00CC30056C969C364498D4369D8A57A9A772768983E88354BB2B1BCE006CA60306D7CD8B000000000000000000000000000000000000000050DC4083"  />
-		</xsl:copy>
-	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_63_1']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="7" />
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_63_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_horsearcher_battletemplate" />
+      <EquipmentSet id="emp_noncom_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Comatasa -->
  	<xsl:template match='NPCCharacter[@id="lord_1_63_2"]/face'>
 		<xsl:copy>
@@ -2875,14 +3097,33 @@
 				<BodyProperties version="4" weight="0.5725" build="0.75"  key="0010B40AC02C10068733440E80468F1FFF4F9274C862B448941B5637963E5D3E003B9803037247A6000000000000000000000000000000000000000000683101"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+   <xsl:template match="NPCCharacter[@id='lord_1_74']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_74']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_horsearcher_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Zena -->
  	<xsl:template match='NPCCharacter[@id="lord_1_74_1"]/face'>
 		<xsl:copy>
@@ -2890,6 +3131,19 @@
 				<BodyProperties version="4" weight="0.5" build="0.5"  key="00115C0FD4A0000E3A7C7A85CC64D75ABE9B4974647554498CAA97499766E5860047760304B85D0800000000000000000000000000000000000000005C943003"  />
 		</xsl:copy>
 	</xsl:template>
+   <xsl:template match="NPCCharacter[@id='lord_1_74_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -2905,14 +3159,36 @@
 				<BodyProperties version="4" weight="0" build="0.0108"  key="0005A00980B41400A85B899C8A71E497A32461B62479196C55058E724567441600C006030C356542000000000000000000000000000000000000000063884180"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+   <xsl:template match="NPCCharacter[@id='lord_1_54']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="2" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="17" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_54']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_knight_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Constalia -->
  	<xsl:template match='NPCCharacter[@id="lord_1_54_1"]/face'>
 		<xsl:copy>
@@ -2920,6 +3196,22 @@
 				<BodyProperties version="4" weight="0.5" build="0.5"  key="0005780E54B40005274C088C838671B78588B5549A7B79D979386C9D75A83863006776030698556700000000000000000000000000000000000000003ACC4083"  />
 		</xsl:copy>
 	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_54_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -2935,21 +3227,56 @@
 				<BodyProperties version="4" weight="0.713" build="0.662"  key="000AB00998FC10059A75657577A39A87B3D89A8E9774BD7677A867A97D3A634D00AABC030A67C68700001105000030A30000001F000000000000000001587000"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
-	<!-- Tharos -->
+    <xsl:template match="NPCCharacter[@id='lord_1_68']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_68']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_lance_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
+	<!-- Silvina -->
  	<xsl:template match='NPCCharacter[@id="lord_1_68_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 				<BodyProperties version="4" weight="0.5" build="0.5"  key="00105C0814B42003C486966CA6A39396395EBC15947764737B762A7963D6584200777603075A596B00000000000000000000000000000000000000005AF44003"  />
 		</xsl:copy>
 	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_68_1']/Traits">
+		<Traits>
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -2965,14 +3292,39 @@
 				<BodyProperties version="4" weight="0.5" build="0.6" key="000BDC0FCFCC038F3D38B65122600AD02FEE2A646411F7F894359F648858075D064976670485629500000000000000000000000044FC1002000000007E7C4084" />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_55']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_55']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_knight_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Dorathila -->
  	<xsl:template match='NPCCharacter[@id="lord_1_69_2"]/face'>
 		<xsl:copy>
@@ -2995,14 +3347,36 @@
 				<BodyProperties version="4" weight="0.733" build="0.162"  key="0016C40E403C1406E436C9A4849415C6909E955997C1BD57CB837C9596548C150062BB030671DA76000000000000000000000000000000000000000000C03141"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_69']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_69']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_knight_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Areliana -->
  	<xsl:template match='NPCCharacter[@id="lord_1_69_1"]/face'>
 		<xsl:copy>
@@ -3010,6 +3384,22 @@
 				<BodyProperties version="4" weight="0.3" build="0.4"  key="000ABC0FC0143002E1789C45A6A4429352B8238BB9B683DBAB95A8778B89BAC500964603097656360000000000000000000000000000000000000000372410C3"  />
 		</xsl:copy>
 	</xsl:template>
+   <xsl:template match="NPCCharacter[@id='lord_1_69_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="1" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -3025,6 +3415,16 @@
 				<BodyProperties version="4" weight="0.5" build="0.5"  key="000B5C06C058300454262B4CA6A899758988B348E4A3854B7B2BD7728796946400177603013359560000000000000000000000000000000000000000362C10C3"  />
 		</xsl:copy>
 	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_55_1']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -3040,14 +3440,39 @@
 				<BodyProperties version="4" weight="0.2543" build="0.4028"  key="001BB40F152C14432133440E80468F17BEF30274C8925446374962587DE343340066480306E2A141000000000000000000000000000000000000000000B83001"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_1_72']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="3" />
+			<Trait
+				id="Manager"
+				value="3" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_72']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_gen_bow_battletemplate" />
+      <EquipmentSet id="emp_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 	<!-- Viviana -->
  	<xsl:template match='NPCCharacter[@id="lord_1_72_1"]/face'>
 		<xsl:copy>
@@ -3055,6 +3480,19 @@
 				<BodyProperties version="4" weight="0.2022" build="0.2269"  key="0015CC0B80CC1002DB7A6885624465654C4C79A4B88775778679A6D4BA71778B0023360302A782A700000000000000000000000000000000000000003C4C0043"  />
 		</xsl:copy>
 	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_1_72_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
     <!-- <Equipments> -->
       <!-- <EquipmentRoster /> -->
@@ -3070,14 +3508,37 @@
 				<BodyProperties version="4" weight="0.1278" build="0.125"  key="001BB40D002C14442133440E80468F17BEF30274C8925446374962587DE343340052280305E2A141000000000000000000000000000000000000000000A82001"  />
 		</xsl:copy>
 	</xsl:template>
-    <!-- <xsl:template match="NPCCharacter[@id='lord_1_48_3']/Equipments"> -->
-    <!-- <Equipments> -->
-      <!-- <EquipmentRoster /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_battletemplate" /> -->
-      <!-- <EquipmentSet id="hmj_wim_king_civtemplate" -->
-                    <!-- civilian="true" /> -->
-    <!-- </Equipments> -->
-	    <!-- </xsl:template> -->
+    <xsl:template match="NPCCharacter[@id='lord_SE8_c']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<!-- eager warrior -->
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_SE8_c']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_sim_light_horsearcher_battletemplate" />
+      <EquipmentSet id="emp_civ_template_southfrontier"
+                    civilian="true" />
+    </Equipments>
+	    </xsl:template>
 
  	<xsl:template match='NPCCharacter[@id="lord_1_7"]/face'>
 		<xsl:copy>
