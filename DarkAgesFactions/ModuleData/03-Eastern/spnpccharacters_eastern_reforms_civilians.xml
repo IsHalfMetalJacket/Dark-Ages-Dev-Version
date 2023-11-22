@@ -2327,8 +2327,8 @@
 		</face>
 		<skills/>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_ciz_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_ciz_militia_archer"/>
+			<upgrade_target id="NPCCharacter.darshi_hmj_mit1"/>
+			<upgrade_target id="NPCCharacter.darshi_hmj_mst1"/>
 		</upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">

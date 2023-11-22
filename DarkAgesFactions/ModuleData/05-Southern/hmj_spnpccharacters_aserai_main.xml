@@ -2569,7 +2569,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="aserai_hmj_nct5"
 			default_group="Cavalry"
-			level="21"
+			level="26"
 			name="{=Aserai Noble Askari}Halqa Mounted Askari"
 			occupation="Soldier"
 			culture="Culture.aserai">

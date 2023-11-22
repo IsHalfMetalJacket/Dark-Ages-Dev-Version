@@ -1796,7 +1796,7 @@
 		</NPCCharacter>
 		<NPCCharacter id="nimperial_hmj_pt3"
 			default_group="Infantry"
-			level="11"
+			level="16"
 			name="{=Laconian Pikeman}Laconian Pikeman"
 			occupation="Soldier"
 			culture="Culture.empire_n">

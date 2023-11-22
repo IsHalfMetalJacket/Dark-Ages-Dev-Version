@@ -1215,7 +1215,7 @@
 				</skills>
 				<upgrade_targets>
 					<upgrade_target id="NPCCharacter.simperial_hmj_nrt5"/>
-			</upgrade_targets>
+				</upgrade_targets>
 				<Equipments>
 					<EquipmentRoster>
 						<equipment slot="Item0" id="Item.AR_empire_polearm_1_t3"/>

@@ -890,9 +890,7 @@
 			<skill id="Crossbow" value="20"/>
 			<skill id="Throwing" value="40"/>
 		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
-		</upgrade_targets>
+		<upgrade_targets></upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
@@ -1064,9 +1062,7 @@
 			<skill id="Crossbow" value="20"/>
 			<skill id="Throwing" value="40"/>
 		</skills>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
-		</upgrade_targets>
+		<upgrade_targets></upgrade_targets>
 		<Equipments>
 			<EquipmentRoster>
 				<equipment slot="Item0" id="Item.northern_spear_1_t2"/>
