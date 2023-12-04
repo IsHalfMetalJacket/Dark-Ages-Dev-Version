@@ -6226,9 +6226,7 @@
 			</hair_tags>
 		</face>
 		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_merc_fem_recruit"/>
-		</upgrade_targets>
+		<upgrade_targets></upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Body" id="Item.empire_dress"/>
