@@ -1,5 +1,1949 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+	<!-- Unqid. Cautious, pragmatic, generous. A trader by temperament -->
+	<NPCCharacter
+		id="lord_3_1"
+		name="{=r3oIoCr8}Unqid"
+		age="44"
+		voice="ironic"
+		culture="Culture.aserai"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="hmj_ase_king_battletemplate" />
+		  <EquipmentSet id="ase_civ_template_flamboyant"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Jinda. Fierce, and retains strong grudges -->
+	<NPCCharacter
+		id="lord_3_2"
+		name="{=JhLPgr5x}Jinda"
+		age="45"
+		voice="curt"
+		is_female="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="0025512fd13c0001a7e3c8a64757b4876ba6785e867c96d8249d763f3bb7d86400057c5481a663680000000000000ce600000000000000000000000000006000" /-->
+			<BodyProperties version="4" weight="0" build="0"  key="0022500FD1000001A7E3C8A64757B4876BA6785E867C96D8249D763F3BB7D86400000C5401A663680000000000000CE600000000000000000000000000286000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Dhiyul, decent but impulsive rich youth. Not especially martial -->
+	<NPCCharacter
+		id="lord_3_7"
+		name="{=xC3kCGte}Dhiyul"
+		age="24"
+		voice="earnest"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6991" build="0.3164"  key="0020640E40000390AB86473C7577ACD8BB5C83453698737279B68E18780D2B260065A6030668931500000000000000000000000000000000000000001CDC3002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- unqidh the merchant's daughter, conventional -->
+	<NPCCharacter
+		id="lord_3_10"
+		name="{=TfNSLFNF}Anidha"
+		age="20"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="0030dd2e0000040497d3427635d39ca7a837954a579662459958a8898646766a0000000406b767790000000000000ce600000000000000000000000000000000" /-->
+			<BodyProperties version="4" weight="0.2377" build="0"  key="0026600E5000040497D3427635D69CA7A837954A579662459958A8898646766A0030400303B767790000000000000CE600000000000000000000000052600000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nuqar, warrior, devious but clever -->
+	<NPCCharacter
+		id="lord_3_13"
+		name="{=WTCIOhvV}Nuqar"
+		age="38"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.375" build="0.3534"  key="001EB40D100039D4C782350B3B71AFB7098A8017A2755525A9B9AD468B0C5D6800B560030B64A704000000000000000000000000000000000000000061707042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nuqar's wife -->
+	<NPCCharacter
+		id="lord_3_13_1"
+		name="{=psnfaZbC}Sira"
+		is_female="true"
+		age="37"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020880E504430048D6DA84AA9B668434696F8AC7F826778683B65553B844B7A007776030785794900000000000000000000000000000000000000005CFC2044"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_13_2"
+		name="{=13YN3S79}Taamira"
+		is_female="true"
+		age="18"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020D40D80FC000279615D88977453634B8B895C74B382164C93D947647785A7006776030625634100000000000000000000000000000000000000006ACC40C3"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Tais al-Qildi, harsh patriarch -->
+	<NPCCharacter
+		id="lord_3_5"
+		name="{=iOZtAOgk}Tais"
+		age="50"
+		voice="curt"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.716" build="0.5431"  key="001BE00D000013C09B83263A297C7DE62CD881249354432699A85C598A0A58590088B00308986484000000000000000000000000000000000000000035085041"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_51"
+		name="{=891zDKIl}Haqan"
+		age="19"
+		voice="ironic"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6914" build="0.4645"  key="001EB00D00003005988235094C7C27AC09598337A14534159A897A068A1E49330047A0030473C822000000000000000000000000000000000000000038807044"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Manan,  moralist but curious about solving ills of the world -->
+	<NPCCharacter
+		id="lord_3_12"
+		name="{=MlmPJ502}Manan"
+		age="22"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7751" build="0.2584"  key="001BD80FC00030055C816132B9B2D7429B34737A82668521BAD6A558884D5C690074C603073568AC00000000000000000000000000000000000000002AEC2044"  />
+		</face>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Karith, misanthropic  -->
+	<NPCCharacter
+		id="lord_3_20"
+		name="{=IgSZcCW0}Karith 'Sharizani'"
+		age="36"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.shariz"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.2106" build="0.6775"  key="001B5408000014016B8252793A714DBCB3B58659D77AE165AA792C688B185645009A300309467560000000000000000000000000000000000000000069203084"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_sharizani_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_20_1"
+		name="{=NiOxe8Y2}Judira"
+		age="35"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.shariz"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BA40A521410068A9277BB6B3788C8B8A9C36AB6AAC46A436AB719877B88740077760307A539B7000000000000000000000000000000000000000018EC3003"  />
+		</face>
+		<Traits>
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_20_2"
+		name="{=brZGZw7D}Azina"
+		age="16"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0029540FD114000ABB6D8984A3778C5557A97866E85A9D87A87587757CA534BB0067760306A5866B00000000000000000000000000000000000000006CCC2003"  />
+		</face>
+		<Traits>
+			<!-- TEENAGER, NO SKILLS OR TRAITS -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ruma, fierce, shames lords who do not uphold honor. Zeinab al-Ghazali type -->
+	<NPCCharacter
+		id="lord_3_6"
+		name="{=nBDKxiyC}Ruma"
+		age="41"
+		voice="curt"
+		is_female="true"
+		default_group="Infantry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3981" build="0.2729"  key="0020D80D8000200E8982510588A2A7348A60717AC375A0229E99C736896F575500846603081CB332000000000000000000000000000000000000000007142043"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Usair al-Qildi, much younger than his father. Smart, friendly zealot. fanatically devoted to values of the Faction. Friendly but capable of turning quickly -->
+	<NPCCharacter
+		id="lord_3_9"
+		name="{=LJ6Intaq}Usair"
+		age="21"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5293" build="0.6445"  key="001CF40D800029D3988044094881DCF25D518415A18656179A8899478D2C5A5300AA80030A3CC435000000000000000000000000000000000000000037402000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Suruq, cautious but deadly when cornered. Politically ambitious. Chooses words carefully -->
+	<NPCCharacter
+		id="lord_3_16"
+		name="{=Er3eFLdH}Suruq"
+		age="28"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6466" build="0.6072"  key="001CD80E4000030D998335193B81CD944A998317B1718116AA98A7278C098A440099A00309299520000000000000000000000000000000000000000057281041"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Thamza, somewhat grizzled fighter, aware of his role keeping youth of clan out of danger -->
+	<!-- //fitiwi face: 001afd2fc0004300ff5d5f37c7c186e7f0f08000f0ff00007f8f0f0dfff0f0ff000000000000000c000000000000000000000000000000000000000000000004 -->
+	<NPCCharacter
+		id="lord_3_14"
+		name="{=HSlqsoPK}Thamza"
+		age="47"
+		voice="softspoken"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7752" build="0.5081"  key="001CD40D14001480BC10243829815A955AA16339B27543258DB878180B178D450068C0030659885500000000000000000000000000000000000000006AD07081"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Thamza's confidante and wife-->
+	<NPCCharacter
+		id="lord_3_14_1"
+		name="{=sPSqyA4R}Sasaitha"
+		age="25"
+		is_female="true"
+		voice="softspoken"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="002BE00E50881003A5C589888A5675AAC7B2869B794AB978A79C47747B19B58800577603057CC3E6000000000000000000000000000000000000000042B41003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ghuzid, Qild clan attack dog -->
+	<NPCCharacter
+		id="lord_3_15"
+		name="{=NOchnEwX}Ghuzid 'Alsawda'"
+		age="31"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.nahasi"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.6"  key="003F000FD6FC29DA0CFC208F1001FBEF2D01FA0000F01110500B1EF068E672B000B970030B0D87810000000000000000000000000000000000000000217800C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_alsawda_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_15_1"
+		name="{=VPnW6rA1}Shimra"
+		age="26"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.nahasi"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00368C0F10881007A395E7AA463A6E134BA943633B1986E5A898E7745CAB736C0067760306667684000000000000000000000000000000000000000066C41003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_15_2"
+		name="{=DADHWcX4}Bushila"
+		age="5"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0036E00E52E4001157A8EAA7469C9552DEABB756A9349BC76A7768A8D898CA880087760308BAA6890000000000000000000000000000000000000000731C0083"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- AGE 5 -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_16_1"
+		name="{=aVkqqEOx}Farina"
+		age="24"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BA80D91FC3001A555B462CE8A55A6578B58BB799A8ACCAA7D8CC7765CB31200277603025AAA3B0000000000000000000000000000000000000000583C4043"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Adram. Like Unqidh, a strong sense of being protector of his clan, but unlike the former aggressive -->
+	<NPCCharacter
+		id="lord_3_3"
+		name="{=n2FdWOtE}Adram"
+		age="49"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7762" build="0.7083"  key="001B600ADA0017D2864C5A8B7780749AAE92A64639947345843A8657C94A23E900BBC0030B9687970000000000000CE60000000000000000000000002D680000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Addas, models himself on Nimr's daring. Roguish -->
+	<NPCCharacter
+		id="lord_3_8"
+		name="{=saaeExBg}Addas"
+		age="24"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4769" build="0.6713"  key="001ED00A520019549A8325164C717EB41DB68247C1766706898A27398C1C6557004A7003046695710000000000000000000000000000000000000000308850C5"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_heavy_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Arwa, of the sarran. Leads warriors. Somewhat devious and manipulative -->
+	<NPCCharacter
+		id="lord_3_11"
+		name="{=vAKB54zO}Arwa"
+		age="22"
+		voice="ironic"
+		default_group="HorseArcher"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4861" build="0.9738"  key="0020CC0C51FC30066982442CABD127719C46724BA187A130BBA3EA457A6C5747007F76030702B35C000000000000000000000000000000000000000058DC4001"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_3_1"
+		name="{=JPBz1blG}Tariq"
+		age="19"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.0046" build="0.2793"  key="001B900D80FC18868689D3314233048488E588765AA3947958825CAD467C7D47008406030857A12A0000000000000000000000000000000000000000490C3044"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Maraa - patroness -->
+	<NPCCharacter
+		id="lord_3_4"
+		name="{=6WWJpv88}Maraa"
+		age="45"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="0030d52ec0000001869c5a8b7786749aab77564639947345843a8657994575e500000000789687970000000000000ce600000000000000000000000000000000" /-->
+			<BodyProperties version="4" weight="0.0509" build="0"  key="001ED40E40000001869C5A8B7786749AAB77564639947345843A8657994575E500E010030E9687970000000000000CE600000000000000000000000001E00000"  />
+		</face>
+		<skills>
+			<!--NONCOMBATANT FEMALE-->
+		</skills>
+		<Traits>
+			<!--NONCOMBATANT FEMALE-->
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Nimr -->
+	<NPCCharacter
+		id="dead_lord_3_1"
+		name="{=x9LbvJYp}Nimr"
+		age="32"
+		voice="ironic"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="003f892fc03c314064666a926c71c85988588a453c598d6a663ac7ab7d9b6b7a00031ac49796c8950000037f0000000f00000037049140010000000000003140" /-->
+			<BodyProperties version="4" weight="0.1343" build="0.9923"  key="001B5C0D183C3A4064666A926C75C85988588A453C598D6A663AC7AB7D9B6B7A003F2A030396C8950000037F0000000F00000037049140010000000000583140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="10" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_heavy_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Iyalas, mild and generally goodnatured -->
+	<NPCCharacter
+		id="lord_3_17"
+		name="{=kvxnbHjF}Iyalas"
+		age="30"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.568" build="0.5195"  key="001E0808C00038857881460A2B7129E25BAA85149355561688997A298E1D795300689003064BC72600000000000000000000000000000000000000001CC070C5"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_17_1"
+		name="{=Atuo4eR7}Shaima"
+		age="26"
+		voice="curt"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001E8808C0B4000422AA8868B68367A9346A54A66984B75BB1AA59782B2B6773005776030586542600000000000000000000000000000000000000003E9C2043"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_17_2"
+		name="{=DsduCz91}Sanit"
+		age="6"
+		voice="curt"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001E400A4044300D7B7421B1984A6141392DDD94B48251365E6857BBD67B978B0077760307968385000000000000000000000000000000000000000032F42003"  />
+		</face>
+		<skills></skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ukhai, true believer in whatever cause he gravitates to, not much given to independent thought  -->
+	<NPCCharacter
+		id="lord_3_21"
+		name="{=gQ1JZ8ow}Ukhai"
+		age="28"
+		voice="earnest"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5818" build="0.5617"  key="001CD40D80001302C9823315378118F46C84843482727016978A6A088D2B4E480088900308774A7100000000000000000000000000000000000000003F182084"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_21_1"
+		name="{=5xOBW2Qz}Ashisa"
+		age="25"
+		is_female="true"
+		voice="ironic"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0029580D1100000598A7094768948C7BBC777A3B9939A865A968C3CE8A95D3CA0037760303865A560000000000000000000000000000000000000000587440C3"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="2" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Talas, abrasive but generally benevolent -->
+	<NPCCharacter
+		id="lord_3_18"
+		name="{=VAAIYJqI}Talas"
+		age="48"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6768" build="0.6779"  key="001BA40B80001704A982443A39718ED53DA28416A353712599A86A478E184657006AA003065A8854000000000000000000000000000000000000000008C040C4"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_18_1"
+		name="{=DuTdWRbB}Farzana"
+		age="22"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00313C0E502C100A7A75B5227776955DAA32B8696C098CE8698934134582A3780037760303C954A5000000000000000000000000000000000000000052740003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_18_2"
+		name="{=t31RboMa}Hafisa"
+		age="20"
+		voice="ironic"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00281C0B40FC10014495955AC76645777ACE633B7A944788995887A99C8DDBA50157761305557C45000000000000000000000000000000000000000030B410C3" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Talas' daughter, combatant-->
+	<NPCCharacter
+		id="lord_3_18_3"
+		name="{=OtzsT453}Zuad"
+		age="18"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6953" build="0.9619"  key="001BA40B90003704A982443A39718E6B3DA28416A353712599A86A478E184657006EA003065A8854000000000000000000000000000000000000000008C04004"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="3" />
+			<Trait
+				id="Manager"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_18_4"
+		name="{=FP1nudkE}Jalfar"
+		age="7"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3441" build="0.5633"  key="0029580E40CC39527557978A334A25E982C384356C3687C239B7CAA58768795800A856030AA69CA60000000000000000000000000000000000000000314C1002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- AGE 7 -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_medium" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Hashan, gallant -->
+	<NPCCharacter
+		id="lord_3_22"
+		name="{=Xs2Ffm4I}Hashan"
+		age="39"
+		voice="earnest"
+		default_group="HorseArcher"
+		is_hero="true"
+		culture="Culture.khuzait"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="001971249300340a9772c4c436aa7887a435497444328e72db8c48519d57749a0007a13480ba29780000387a00000aeb00000033000000000000000000005000" /-->
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0015F80D8000339028708BD6CDC81195D3698B82BDFE9443D22D7DD538898868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_heavy_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_22_1"
+		name="{=Zq11L8aO}Yamina"
+		age="38"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.khuzait"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="001971249300340a9772c4c436aa7887a435497444328e72db8c48519d57749a0007a13480ba29780000387a00000aeb00000033000000000000000000005000" /-->
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BD80DA15810064737A5886AE5564AACB6874E689C1979B7965D8AC653462500877603086278970000000000000000000000000000000000000000270C3043"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_22_2"
+		name="{=KFYNhxLC}Suna"
+		age="19"
+		voice="ironic"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BF80D9000338228708BD6CDC8119568898B82BDFE9443D22D7DD53889D868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_22_3"
+		name="{=buvim3t7}Zanuwa"
+		age="16"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020700D8014344E88B8C87941868498779B3DF0E9955638C2778EB8C8AE7595008776030895A6650000000000000000000000000000000000000000391490C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_22_4"
+		name="{=MOH80RNb}Hajara"
+		age="13"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001E800E5088300E38B5E59AB258BA6668952E7A5AD5B8797BC7A8E8796233690077760307C6896400000000000000000000000000000000000000003EEC10C3"  />
+		</face>
+		<skills></skills>
+		<Traits></Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="dead_lord_3_22"
+		name="{=degeadd33434}Abas"
+		age="58"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020700D8014344E88B8C87941868498779B3DF0E9955638C2778EB8C8AE759500B776030B95A6650000000000000000000000000000000000000000396C90C2"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="20" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Mercy"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_A9_l"
+		name="{=ndSKTPib}Aqar"
+		age="43"
+		voice="earnest"
+		is_female="false"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!-- PLACEHOLDER FACE KEY -->
+			<BodyProperties version="4" weight="0.912" build="0.7793"  key="001E700D1114340EE7D8AD83875C35B9EA43774B969D87007CCCC1676A89755A005CE60305B03A99000000000000000000000000000000000000000038A49004"  />
+		</face>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<!-- Banu Ruwaid. Patriarch who dominate his clan by fear and the force of his personality. -->
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-2" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_A9_s"
+		name="{=j3iaqr6v}Thiqa"
+		age="42"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028240E5088200E38B5E59AB258BA6668952E7A5AD5B8797BC7A8E8796233690177761307C6896400000000000000000000000000000000000000003EEC10C3" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="7" />
+			<Trait
+				id="Manager"
+				value="3" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_A9_c"
+		name="{=03vNcoOt}Dhila"
+		age="15"
+		voice="curt"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6389" build="0.5926"  key="0023840E401410059AB8C8794186849896635A43A91AA68AC27788B88A37A6B60059A6030595A665000000000000000000000000000000000000000046AC00C3"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_A9_u"
+		name="{=lRjHdd5l}Qaban"
+		age="27"
+		voice="earnest"
+		is_female="false"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.1667" build="0.3349"  key="0020240E4088100D3895E59BB255BA6668952E7A5AD5B8797BC7A8E87962336900E526030EC6896400000000000000000000000000000000000000003FCC10C3"  />
+		</face>
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<!-- Cousin, part of Nimr's generation -->
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Unqid. Cautious, pragmatic, generous. A trader by temperament -->
+	<NPCCharacter
+		id="hmj_lord_10_1"
+		name="{=r3oIoCr8}George"
+		age="44"
+		voice="ironic"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="hmj_ase_king_battletemplate" />
+		  <EquipmentSet id="ase_civ_template_flamboyant"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
 	<!--NPCCharacter id="AR_dead_lord_AA" name="{=AR100002}Apolytea" age="46" voice="softspoken" is_female="true" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
 			<BodyProperties version="4" age="46" weight="0.4" build="0.5" key="0015A00AC01410157A8C9A7026BD5B79B6689D99CB38C67C33619853876956DA009776030944A2830000000000000000000000000000000000000000593C2003"/>
@@ -17,26 +1961,6 @@
 			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter-->
-	<NPCCharacter id="AR_lord_3_18" name="{=DuTdWRbB}Farzana" age="42" voice="softspoken" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord" face_mesh_cache="true">
-		<face>
-			<BodyProperties version="4" weight="0.0335" build="0.0504" key="0028AC0E90FC30045948A3188A417665575C8897843A8925A7E38F3985789874C0080635F873752100000000000B7000000000000000380000000000011C1043"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="CavalryFightingSkills" value="5"/>
-			<Trait id="Commander" value="5"/>
-			<Trait id="Politician" value="8"/>
-			<Trait id="Manager" value="6"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentRoster/>
-			<EquipmentSet id="ase_bat_template_lady"/>
-			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
 
 <!-- Battania -->
   <NPCCharacter id="lord_5_1"
@@ -11331,20 +13255,22 @@
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
-  </NPCCharacter>
+	</NPCCharacter>
 
-	<NPCCharacter id="AR_lord_12_1" name="Athenais" voice="softspoken" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+
+	<NPCCharacter id="dead_lord_12_1" name="Ashabios" voice="softspoken" age="66" default_group="Ranged" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="21" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
+			<BodyProperties version="4" weight="0.909" build="0.8164"  key="003CB40FC0B429803888B78E777E1876C7517BCBE044FFAF8FFFE6EE784BAACA00DCE6030DF3E7F722246678787787F700000000000015770000000037AC0042"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Commander" value="20"/>
+			<Trait id="ArcherFIghtingSkills" value="10"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11352,35 +13278,54 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_2" name="Janab" voice="softspoken" is_female="true" age="44" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_1" name="Athenais" voice="earnest" age="22" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="44" weight="0.5" build="0.5" key="0039F80F002C20149D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800577603059FC47900000000000000000000000000000000000000003EB41004"/>
+			<BodyProperties version="4" weight="0.1929" build="0.1466"  key="003CF40FD0000A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0042360304F3E7F722246678787787F70000000000001577000000006E742043"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Politician" value="16"/>
+			<Trait id="Manager" value="16"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="ArcherFIghtingSkills" value="3"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="AR_spa_bat_template_heavy"/>
+			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_12_2" name="Massawa" voice="ironic" age="49" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.929" build="0.8318"  key="0039D80F002C33402D8E7651870F0FEDC3CE8EA6898EFA63AFFFFE779817A1E500ACE6030AEFEDEE00000000000000000000000000000000000000000B648006"  />
+		</face>
+		<skills/>
+		<Traits>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="CavalryFightingSkills" value="7"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_3" name="Wusur" voice="softspoken" age="28" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_3" name="Zufan" voice="softspoken" age="44" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="28" weight="0.5" build="0.5" key="003FF80F002C20009D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900073A800A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0034E40FC0001A4635676132689679D23B579617C7702C598FFFE0FE870488D50067760306F3E7F722246678787787F70000000000001577000000002ECC2043"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="17"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11388,36 +13333,37 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_4" name="Sabila" voice="earnest" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_4" name="Timotheos" voice="earnest" age="21" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyPropertiesMax version="4" age="21" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
+			<BodyProperties version="4" weight="0.2145" build="0.6867"  key="003CF40FC0B409183888B78E7776187656FA7BCBE044FFAF8FFFE6EE8001677A009A360309F3E7F722246678787787F7000000000000157700000000372C2042"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="CavalryFightingSkills" value="8"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_5" name="Lath" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_5" name="Asmeret" voice="ironic" age="24" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="42" weight="0.5" build="0.5" key="0039B40FC0B43014783CACD732239529953892675E629A7787673CA6B534D7D30067760306B8BB5A22246678787787F70000000000001577000000002ECC9083"/>
+			<BodyProperties version="4" weight="0.2515" build="0.9213"  key="002EF00F002C3013A7722A163835FEEF8945787E299826498FFEFD5F823CDEF6006E46030696B5A7000000000000000000000000000000000000000006BC2043"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="CavalryFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11425,35 +13371,295 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_6" name="Dima" voice="softspoken" is_female="true" age="38" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_6" name="Tell" voice="softspoken" age="38" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="38" weight="0.5" build="0.5" key="0039CC0FC0B4201166CD31CA9B87AA44324ACA6AB772B37DA577664B92767B530067760306AB572822246678787787F70000000000001577000000002ECC5103"/>
+			<BodyProperties version="4" weight="0.8133" build="0.9583"  key="003FF40FD9B439403887A9AB0A4FB2EED6937DCBE044FB23ABFAE6EE800AACB300BEC6030B57F7DA22246678787787F700000000000015770000000037745042"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Honor" value="2"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="BalancedFightingSkills" value="8"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_7" name="Taq" voice="curt" age="21" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<!-- Awdhan, competent warlord.  -->
+	<NPCCharacter
+		id="lord_3_19"
+		name="{=sABDrRyF}Izmaeel"
+		age="35"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" age="21" weight="0.5" build="0.5" key="0039CC0FC0B4201966CD31CA9B87AA44324ACA6AB772B37DA577664B92767B530067760306AB572822246678787787F70000000000001577000000002ECC5103"/>
+			<BodyProperties version="4" weight="0.7793" build="0.2207"  key="0036600E40B419D3778549EA3D9ED882743F96E3A94A7C41CA5AFE5F8B0676A60063C60306A4C32622246678787787F700000000000015770000000036CC2042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="16" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_medium" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_19_1"
+		name="{=7ZFm3GTF}Raysha"
+		age="46"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5355" build="0.5046"  key="00236C0D105810043D37769D284D7474536BAD6148BA8C4AA24875C69D56857800588603057A739500000000000000000000000000000000000000005CA43003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_lady" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_19_2"
+		name="{=EFgG35sB}Hussein"
+		age="25"
+		voice="curt" 
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.nahasi"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4429" build="0.4244"  key="002E600E40B41092C78549EA3D9ED882BACA9AD5A9C2AC97CA5DD6598B06FEC10066760306A4C32622246678787787F700000000000015770000000036CC6042"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_lady" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_19_3"
+		name="{=iU8D2Psj}Omar"
+		age="31"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4244" build="0.696"  key="00296C0D125819403D37769D284D74D4546BAD6148BA8C4A5FDFD0F29617D7D3008A6603087EE3CD00000000000000000000000000000000000000005D0C5003"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_lady" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_23"
+		name="{=yWPpaXij}Naya"
+		age="24"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3441" build="0.3719"  key="0031E40F1200395279B31678635B8A7B42B74D7AA36B6679D857829598B29ACD00965603094DB55C000000000000000000000000000000000000000017247002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_medium" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_3_23_1"
+		name="{=q72YO5vb}Salma"
+		age="22"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.aserai"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="001971249300340a9772c4c436aa7887a435497444328e72db8c48519d57749a0007a13480ba29780000387a00000aeb00000033000000000000000000005000" /-->
+			<BodyProperties version="4" weight="0.5355" build="0.5046"  key="0029DC0F005800029A77587627566A85B9A28C2D8279FA59A6CBAD79A4A5B3E80058860305C93788000000000000000000000000000000000000000016A410C3"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Commander"
+				value="3" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="ase_bat_template_lady" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_12_7" name="Theofeleios" voice="softspoken" age="39" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.3287" build="0.517"  key="0034E00FD8B4161A7E854154067988FD96A47D8F50645D23BFDEF213800BEB9200B856030B66A99522246678787787F7000000000000157700000000376C1042"  />
 		</face>
 		<skills/>
 		<Traits>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Commander" value="20"/>
+			<Trait id="BalancedFightingSkills" value="6"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11461,71 +13667,72 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_8" name="Dula" voice="earnest" age="18" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_8" name="Basina" voice="curt" age="37" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="18" weight="0.5" build="0.5" key="003FC00FC0B42A52A6167796445A662556FA5AE8A6C676739696A9168001677A00677603068B667522246678787787F70000000000001577000000002ECC1003"/>
+			<BodyProperties version="4" weight="0.2392" build="0.4491"  key="0036E00FC0B430037E854154067488F896A47D8F50645D23BFDEF213800BEB92003746030366A99522246678787787F7000000000000157700000000365C1043"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="-1"/>
 			<Trait id="Honor" value="1"/>
 			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="16"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_9" name="Zahara" voice="softspoken" age="17" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_9" name="Megethia" voice="earnest" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="17" weight="0.5" build="0.5" key="0036B40FC0B41A5995676775B99979D256FA9672C7A458588FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
+			<BodyProperties version="4" weight="0.5386" build="0.2948"  key="0036F40E50003A47388877351CDB167256FA7BCB937D3B1813FFE6EE8001677A006486030673C74022246678787787F70000000000001577000000006ECC2043"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Politician" value="7"/>
+			<Trait id="Manager" value="3"/>
 			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="CavalryFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_10" name="Ghalaza" voice="softspoken" is_female="true" age="47" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_10" name="Viator" voice="softspoken" age="19" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="47" weight="0.5" build="0.5" key="003FF80F002C30119D595D934ED8885A80CE8EA68986FDDFAFF7FEBF900073A800577603059FC47900000000000000000000000000000000000000003EB41004"/>
+			<BodyProperties version="4" weight="0.0509" build="0.3102"  key="0036E00FC0B426162B85C11801512BA7CBC47D8F5082EDA32A799D468E777993007516030731644422246678787787F700000000000015770000000036F48042"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="+1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="CavalryFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spa_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_12_11" name="Estefanos" voice="ironic" age="43" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.375" build="0.4383"  key="0034F00F002C19C057780A163E34FEEFB81A787E299826B8DFF7FD5FC34360F2009766030990D5790000000000000000000000000000000000000000073C0004"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spa_bat_template_lady"/>
-			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_11" name="Sudais" voice="curt" age="27" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
-		<face>
-			<BodyProperties version="4" age="27" weight="0.5" build="0.5" key="003FD40F002C1000572878569A652BC6967D7576299AB6B8AFF7FEBF57A9386900A776030A9FC4790000000000000000000000000000000000000000074C6004"/>
-		</face>
-		<skills/>
-		<Traits>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="7"/>
+			<Trait id="Commander" value="10"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11533,34 +13740,15 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_12" name="Ruwa" voice="earnest" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="dead_hmj_lord_12_11" name="Sasiane" voice="curt" age="43" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="21" weight="0.5" build="0.5" key="002BC40FC0B4201189A262CB8BB8856B5377AB989793AC7B7DA64C6855578578006776030647988A22246678787787F70000000000001577000000002ECC2043"/>
+			<BodyProperties version="4" weight="0.5602" build="0.5"  key="001E440D0000000E8877D45C8A5CC6147577D9788A494AB3C4B64F398C95A0370077860307A74F7300000000000000000000000000000000000000003AF41003"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
+			<Trait id="Calculating" value="2"/>
 			<Trait id="Commander" value="6"/>
 			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spa_bat_template_lady"/>
-			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_13" name="Hivan" voice="curt" age="25" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
-		<face>
-			<BodyProperties version="4" age="25" weight="0.5" build="0.5" key="0039F80F002C20149D8B091487060FFD80CE8EA68986FDDFAFF7FEBF900973A800577603059FC47900000000000000000000000000000000000000003EB41004"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="8"/>
-			<Trait id="BalancedFightingSkills" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11568,35 +13756,70 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_14" name="Anahita" voice="earnest" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_12" name="Lukas" voice="earnest" age="23" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="21" weight="0.2407" build="0.6235" key="0039F80F002C10079D385A888739808C80CE8EA68986FDDFB8777898900973A8007946030784C49200000000000000000000000000000000000000003EDC2004"/>
+			<BodyProperties version="4" weight="0.375" build="0.8935"  key="002EF00F002C100FA7722A163835FEEF891A787E299826498FF7FD56894330A2009D66030996B5A70000000000000000000000000000000000000000073C4004"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Manager" value="6"/>
+			<Trait id="CavalryFightingSkills" value="7"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_15" name="Saidh" voice="curt" age="26" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_13" name="Kidane" voice="curt" age="31" default_group="Ranged" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="26" weight="0.3673" build="0.6235" key="003FD40F002C091A578325689646D7C8967D7576299AB6B8AFF7FEBF57A9386900896603089FC479000000000000000000000000000000000000000007046004"/>
+			<BodyProperties version="4" weight="0" build="0.446"  key="003FE00FDEB416400E85400A3D94D8EAA98A7D8F50645D2233DAE15F850BD61500F706030FA4C32622246678787787F700000000000015770000000037FC8042"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="ArcherFIghtingSkills" value="10"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster/>
+			<EquipmentSet id="AR_spa_bat_template_flamboyant"/>
+			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_12_14" name="Ayni" voice="earnest" age="28" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.1157" build="0.4938"  key="003CE00FD0B410056E8540083B94C8EAB98B7D8F50645D22EEFAE16F820AEDF30097260309A4C32622246678787787F700000000000015770000000037241043"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Manager" value="10"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spa_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_12_15" name="Idris" voice="ironic" age="29" default_group="Ranged" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.3673" build="0.7639"  key="0036EC0FC02C360050815E8B420353A8967D7879295536B8AC9A6C17568CEA6200AB66030AD8B8BA000000000000000000000000000000000000000007547042"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Politician" value="9"/>
+			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="15"/>
+			<Trait id="ArcherFIghtingSkills" value="6"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11604,52 +13827,48 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_16" name="Ilzar" voice="earnest" age="24" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_16" name="Mehret" voice="softspoken" age="14" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="24" weight="0.2253" build="0.591" key="0036DC0D802C39017E8B39C67467C8CB9679C6436A7A76B974A858983D656B88006936030684D28C00000000000000000000000000000000000000004ABC2084"/>
+			<BodyProperties version="4" weight="0" build="0.446"  key="003FE80FC0B419167C85457D362AD8E797814EE9B9AB987633DDE18FA735C87200B706030BA4C32622246678787787F7000000000000157700000000376C2002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="BalancedFightingSkills" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_17" name="Belana" voice="earnest" age="21" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_17" name="Semere" voice="earnest" age="18" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="21" weight="0.0278" build="0.466" key="003FD00F002C190657A87B7AC6191839967D7576299AB6B88667958A57A9386900770603075B778B00000000000000000000000000000000000000004AEC1044"/>
+			<BodyProperties version="4" weight="0" build="0.446"  key="003FE80FC0B413167C85457D362AD8E797814EE9B9AB987633DDE18FA735C87200B706030BA4C32622246678787787F7000000000000157700000000376C2002"  />
 		</face>
 		<skills/>
 		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Commander" value="2"/>
+			<Trait id="CavalryFightingSkills" value="4"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_spa_bat_template_lady"/>
+			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_12_18" name="Tahe" voice="curt" age="48" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.7701" build="0.7716"  key="0034DC0F0000300E547A69B3A30A41C9C5DA8C3D3141140CAFFBECDF7103EEF1006CC60306DBFAEB000000000000000000000000000000000000000042CC1003"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
 			<Trait id="Mercy" value="1"/>
 			<Trait id="Generosity" value="1"/>
 			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="5"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="7"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_spa_bat_template_lady"/>
-			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_18" name="Ghulassen" voice="curt" age="42" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
-		<face>
-			<BodyProperties version="4" age="42" weight="0.2253" build="0.591" key="0036B40D802C0A128AD847B78D679A688976A7CB53745D9C66A853A853332C180069360306A493D600000000000000000000000000000000000000004ABC3002"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="8"/>
-			<Trait id="BalancedFightingSkills" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Politician" value="13"/>
+			<Trait id="Commander" value="13"/>
+			<Trait id="CavalryFightingSkills" value="2"/>
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
@@ -11657,54 +13876,53 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_19" name="Siyafan" voice="earnest" age="41" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_19" name="Musa" voice="curt" age="52" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="41" weight="0" build="0.591" key="002BE40F002C1A0D65D637886B46A76CA6D6C5E75392C8776C87647415D874BC00790603077532A500000000000000000000000000000000000000004AF430C2"/>
+			<BodyProperties version="4" weight="0.1775" build="0.4352"  key="003CDC0FC0001095EA75653AAB6341C93881883D31A3640AABBBEC9D7CA3ABB10057360305CAA6B4000000000000000000000000000000000000000042B44002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
 			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Politician" value="3"/>
+			<Trait id="Manager" value="12"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_noncom_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_20" name="Jalyar" voice="earnest" age="22" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_20" name="Adebir" voice="earnest" age="22" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="22" weight="0" build="0.591" key="002BE40F002C091A65D637886B46A76CA6D6C5E75392C8776C87647415D874BC00790603077532A500000000000000000000000000000000000000004AF43002"/>
+			<BodyProperties version="4" weight="0.054" build="0.4645"  key="002B7C0F132C219465D27A8E3941A766C39AC5E753CB78773EFBF25C7524E443007716030732D29300000000000000000000000000000000000000004AF42002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
 			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="BalancedFightingSkills" value="6"/>
-			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="CavalryFightingSkills" value="8"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_12_21" name="Daria" voice="earnest" age="20" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_21" name="Zahara" voice="earnest" age="24" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="20" weight="0" build="0.591" key="0036B40F002C0A028A9CA57947A8A9788976A7CB53745D9C7867441E53332C18007906030795377400000000000000000000000000000000000000004AF43042"/>
+			<BodyProperties version="4" weight="0.054" build="0.4645"  key="0031B80FD0FC10018392563D41416D82B79CCB7F53A5E8121EFFF03E7524C9C4007716030752E1D800000000000000000000000000000000000000004AF41003"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Mercy" value="1"/>
-			<Trait id="Generosity" value="1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="5"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="7"/>
+			<Trait id="Politician" value="1"/>
+			<Trait id="Manager" value="15"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_spa_bat_template_lady"/>

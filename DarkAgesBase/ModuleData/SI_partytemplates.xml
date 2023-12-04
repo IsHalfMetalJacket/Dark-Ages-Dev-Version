@@ -222,7 +222,7 @@
 	<MBPartyTemplate id="vassal_reward_troops_s_empire">
 		<stacks>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.simperial_hmj_nct5"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.simperial_hmj_nrt2"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.simperial_hmj_nrt3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_n_empire_template">

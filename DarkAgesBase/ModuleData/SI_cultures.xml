@@ -5218,6 +5218,313 @@
 			<template name="NPCCharacter.venatio_hmj_st2"/>
 		</basic_mercenary_troops>
 	</Culture>
+	<Culture id="akkazi"
+	         name="{=hmj_akkan_culture_name}Akkaz"
+	         is_main_culture="false"
+	         color="0xffce9697"
+	         color2="0xff5a1310"
+			 elite_basic_troop="NPCCharacter.simperial_hmj_nrt3"
+	         basic_troop="NPCCharacter.simperial_hmj_mit1"
+	         melee_militia_troop="NPCCharacter.simperial_hmj_mit2"
+	         ranged_militia_troop="NPCCharacter.simperial_hmj_mst2"
+	         melee_elite_militia_troop="NPCCharacter.simperial_hmj_it3"
+	         ranged_elite_militia_troop="NPCCharacter.simperial_hmj_mat4"
+	         can_have_settlement="true"
+	         town_edge_number="16"
+	         villager_party_template="PartyTemplate.villager_s_empire_template"
+	         default_party_template="PartyTemplate.kingdom_hero_party_s_empire_template"
+	         caravan_party_template="PartyTemplate.caravan_template_s_empire"
+	         elite_caravan_party_template="PartyTemplate.elite_caravan_template_s_empire"
+	         militia_party_template="PartyTemplate.militia_s_empire_template"
+	         rebels_party_template="PartyTemplate.rebels_s_empire_template"
+	         vassal_reward_party_template="PartyTemplate.vassal_reward_troops_s_empire"
+	         faction_banner_key="11.45.123.6296.6296.764.764.1.0.0.460.0.3.509.509.764.764.1.0.0"
+	         default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000"
+	         text="The myriad tribes of the Myzeans once inhabited the rich grasslands of north-eastern Calradia. Originally just comprising a single ethnic people, this land soon became a melding pot for migrating peoples from both east and west. Descended from Laconian adventurers who intermarried with the local Myzean peoples, the Gotarnians became the primary tribal group in the region after the empire's many eastern wars drove most of the Myzean population to the point of extinction. Now the sole Myzean cultural group, the Gotarnians fight to preserve their way of life."
+	         tournament_master="NPCCharacter.tournament_master_gotarnia"
+	         villager="NPCCharacter.villager_gotarnia"
+	         caravan_master="NPCCharacter.zend_hmj_cgt5"
+	         armed_trader="NPCCharacter.zend_hmj_tt3"
+	         caravan_guard="NPCCharacter.dryatic_hmj_cgt3"
+	         veteran_caravan_guard="NPCCharacter.dryatic_hmj_cgt4"
+	         prison_guard="NPCCharacter.prison_guard_gotarnia"
+	         guard="NPCCharacter.guard_gotarnia"
+	         blacksmith="NPCCharacter.blacksmith_gotarnia"
+	         weaponsmith="NPCCharacter.weaponsmith_gotarnia"
+	         townswoman="NPCCharacter.townswoman_gotarnia"
+	         townswoman_infant="NPCCharacter.townswoman_infant_gotarnia"
+	         townswoman_child="NPCCharacter.townswoman_child_gotarnia"
+	         townswoman_teenager="NPCCharacter.townswoman_teenager_gotarnia"
+	         townsman="NPCCharacter.townsman_gotarnia"
+	         townsman_infant="NPCCharacter.townsman_infant_gotarnia"
+	         townsman_child="NPCCharacter.townsman_child_gotarnia"
+	         townsman_teenager="NPCCharacter.townsman_teenager_gotarnia"
+	         village_woman="NPCCharacter.village_woman_gotarnia"
+	         villager_male_child="NPCCharacter.villager_child_gotarnia"
+	         villager_male_teenager="NPCCharacter.villager_teenager_gotarnia"
+	         villager_female_child="NPCCharacter.village_woman_child_gotarnia"
+	         villager_female_teenager="NPCCharacter.village_woman_teenager_gotarnia"
+	         ransom_broker="NPCCharacter.ransom_broker_gotarnia"
+	         gangleader_bodyguard="NPCCharacter.gangleader_bodyguard_gotarnia"
+	         merchant_notary="NPCCharacter.merchant_notary_gotarnia"
+	         artisan_notary="NPCCharacter.artisan_notary_gotarnia"
+	         preacher_notary="NPCCharacter.preacher_notary_gotarnia"
+	         rural_notable_notary="NPCCharacter.rural_notable_notary_gotarnia"
+	         shop_worker="NPCCharacter.shop_worker_gotarnia"
+	         tavernkeeper="NPCCharacter.tavernkeeper_gotarnia"
+	         taverngamehost="NPCCharacter.taverngamehost_gotarnia"
+	         musician="NPCCharacter.musician_gotarnia"
+	         tavern_wench="NPCCharacter.tavern_wench_gotarnia"
+	         armorer="NPCCharacter.armorer_gotarnia"
+	         horseMerchant="NPCCharacter.horseMerchant_gotarnia"
+	         barber="NPCCharacter.barber_gotarnia"
+	         merchant="NPCCharacter.merchant_gotarnia"
+	         beggar="NPCCharacter.beggar_gotarnia"
+	         female_beggar="NPCCharacter.female_beggar_gotarnia"
+	         female_dancer="NPCCharacter.female_dancer_gotarnia"
+	         gear_practice_dummy="NPCCharacter.gear_practice_dummy_gotarnia"
+	         weapon_practice_stage_1="NPCCharacter.weapon_practice_stage_1_gotarnia"
+	         weapon_practice_stage_2="NPCCharacter.weapon_practice_stage_2_gotarnia"
+	         weapon_practice_stage_3="NPCCharacter.weapon_practice_stage_3_gotarnia"
+	         gear_dummy="NPCCharacter.gear_dummy_gotarnia"
+	         board_game_type="BaghChal">
+		<vassal_reward_items>
+			<item id="Item.reaper_falx"/>
+		</vassal_reward_items>
+		<banner_bearer_replacement_weapons>
+			<item id="Item.battania_sword_1_t2"/>
+			<item id="Item.battania_sword_2_t3"/>
+			<item id="Item.battania_sword_4_t4"/>
+			<item id="Item.battania_sword_5_t5"/>
+		</banner_bearer_replacement_weapons>
+		<default_policies>
+			<policy id="policy_cantons"/>
+			<policy id="policy_lawspeakers"/>
+		</default_policies>
+		<male_names>
+			<name name="{=!*}Arzagos"/>
+			<name name="{=!*}Bastiza"/>
+			<name name="{=!*}Bikiliz"/>
+			<name name="{=!*}Blegiza"/>
+			<name name="{=!*}Blaesuz"/>
+			<name name="{=!*}Blaikisa"/>
+			<name name="{=!*}Brazos"/>
+			<name name="{=!*}Burebista"/>
+			<name name="{=!*}Charnabon"/>
+			<name name="{=!*}Cotheliz"/>
+			<name name="{=!*}Cotizos"/>
+			<name name="{=!*}Dabloza"/>
+			<name name="{=!*}Dadaz"/>
+			<name name="{=!*}Damaiz"/>
+			<name name="{=!*}Dardanoz"/>
+			<name name="{=!*}Denzibalos"/>
+			<name name="{=!*}Didaz"/>
+			<name name="{=!*}Diengiz"/>
+			<name name="{=!*}Dieri"/>
+			<name name="{=!*}Diernaiz"/>
+			<name name="{=!*}Diordanoz"/>
+			<name name="{=!*}Dotouzi"/>
+			<name name="{=!*}Drilgiza"/>
+			<name name="{=!*}Duraz"/>
+			<name name="{=!*}Kaigiza"/>
+			<name name="{=!*}Komakiza"/>
+			<name name="{=!*}Komozoi"/>
+			<name name="{=!*}Mucapor"/>
+			<name name="{=!*}Mucatra"/>
+			<name name="{=!*}Natoz"/>
+			<name name="{=!*}Rhemaxoz"/>
+			<name name="{=!*}Rholz"/>
+			<name name="{=!*}Rigozas"/>
+			<name name="{=!*}Roouzis"/>
+			<name name="{=!*}Rubobostez"/>
+			<name name="{=!*}Tarbuz"/>
+			<name name="{=!*}Thiadicem"/>
+			<name name="{=!*}Thiamarkoz"/>
+			<name name="{=!*}Tiaper"/>
+			<name name="{=!*}Tiati"/>
+			<name name="{=!*}Zalmoxis"/>
+			<name name="{=!*}Zebeleizis"/>
+			<name name="{=!*}Zoutula"/>
+			<name name="{=!*}Zyraxes"/>
+		</male_names>
+		<female_names>
+			<name name="{=!*}Avizina"/>
+			<name name="{=!*}Abrotova"/>
+			<name name="{=!*}Agiva"/>
+			<name name="{=!*}Aza"/>
+			<name name="{=!*}Brigiza"/>
+			<name name="{=!*}Caeliza"/>
+			<name name="{=!*}Cidre"/>
+			<name name="{=!*}Dallia"/>
+			<name name="{=!*}Dacina"/>
+			<name name="{=!*}Dellina"/>
+			<name name="{=!*}Dicotana"/>
+			<name name="{=!*}Gotela"/>
+			<name name="{=!*}Hormeza"/>
+			<name name="{=!*}Mindruza"/>
+			<name name="{=!*}Mizela"/>
+			<name name="{=!*}Nimia"/>
+			<name name="{=!*}Olia"/>
+			<name name="{=!*}Pegrina"/>
+			<name name="{=!*}Rescuturme"/>
+			<name name="{=!*}Riboraza"/>
+			<name name="{=!*}Salia"/>
+			<name name="{=!*}Saba"/>
+			<name name="{=!*}Stirova"/>
+			<name name="{=!*}Tanidila"/>
+			<name name="{=!*}Tutaztra"/>
+			<name name="{=!*}Tzinna"/>
+			<name name="{=!*}Temea"/>
+			<name name="{=!*}Tolbela"/>
+			<name name="{=!*}Uzasila"/>
+			<name name="{=!*}Ulbela"/>
+			<name name="{=!*}Zia"/>
+			<name name="{=!*}Zevea"/>
+			<name name="{=!*}Xena"/>
+			<name name="{=!*}Vezina"/>
+			<name name="{=!*}Zia"/>
+		</female_names>
+		<clan_names>
+			<name name="{=!*}Ariz"/>
+			<name name="{=!*}Aracathos"/>
+			<name name="{=!*}Calsos"/>
+			<name name="{=!*}Drytaz"/>
+			<name name="{=!*}Erithyz"/>
+			<name name="{=!*}Galchioz"/>
+			<name name="{=!*}Ornios"/>
+			<name name="{=!*}Laconiz"/>
+			<name name="{=!*}Myzos"/>
+			<name name="{=!*}Nevia"/>
+			<name name="{=!*}Palainos"/>
+			<name name="{=!*}Sethyz"/>
+			<name name="{=!*}Tanaiz"/>
+			<name name="{=!*}Vastriz"/>
+			<name name="{=!*}Zeos"/>
+		</clan_names>
+		<cultural_feats>
+			<feat id="battanian_forest_speed"/>
+			<feat id="battanian_militia_production"/>
+			<feat id="battanian_slower_construction"/>
+		</cultural_feats>
+		<possible_clan_banner_icon_ids>
+			<icon id="131"/>
+			<icon id="132"/>
+			<icon id="133"/>
+			<icon id="134"/>
+			<icon id="135"/>
+			<icon id="136"/>
+			<icon id="137"/>
+			<icon id="145"/>
+			<icon id="149"/>
+			<icon id="151"/>
+			<icon id="203"/>
+			<icon id="406"/>
+			<icon id="407"/>
+			<icon id="408"/>
+			<icon id="412"/>
+			<icon id="413"/>
+			<icon id="414"/>
+			<icon id="415"/>
+		</possible_clan_banner_icon_ids>
+		<notable_and_wanderer_templates>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_0"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_1"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_2"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_3"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_4"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_5"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_6"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_7"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_8"/>
+			<template name="NPCCharacter.spc_wanderer_gotarnia_9"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_merchant_1"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_0b"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_0c"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_0d"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_0e"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_1"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_1b"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_2"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_3"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_4"/>
+			<template name="NPCCharacter.spc_notable_gotarnia_5"/>
+			<template name="NPCCharacter.spc_gotarnia_artisan_1"/>
+			<template name="NPCCharacter.spc_gotarnia_artisan_2"/>
+			<template name="NPCCharacter.spc_gotarnia_artisan_3"/>
+			<template name="NPCCharacter.spc_gotarnia_rural_notable_1"/>
+			<template name="NPCCharacter.spc_gotarnia_rural_notable_2"/>
+			<template name="NPCCharacter.spc_gotarnia_headman_1"/>
+			<template name="NPCCharacter.spc_gotarnia_headman_2"/>
+			<template name="NPCCharacter.spc_gotarnia_headman_3"/>
+		</notable_and_wanderer_templates>
+		<lord_templates>
+			<template name="NPCCharacter.hmj_lord_venatio_0"/>
+			<template name="NPCCharacter.hmj_lord_venatio_1"/>
+			<template name="NPCCharacter.hmj_lord_venatio_2"/>
+			<template name="NPCCharacter.hmj_lord_venatio_3"/>
+		</lord_templates>
+		<rebellion_hero_templates>
+			<template name="NPCCharacter.hmj_lord_venatio_0"/>
+			<template name="NPCCharacter.hmj_lord_venatio_1"/>
+			<template name="NPCCharacter.hmj_lord_venatio_2"/>
+			<template name="NPCCharacter.hmj_lord_venatio_3"/>
+		</rebellion_hero_templates>
+		<tournament_team_templates_one_participant>
+			<template name="NPCCharacter.tournament_template_gotarnia_one_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_one_participant_set_v2"/>
+		</tournament_team_templates_one_participant>
+		<tournament_team_templates_two_participant>
+			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v3"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v4"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_two_participant_set_v5"/>
+		</tournament_team_templates_two_participant>
+		<tournament_team_templates_four_participant>
+			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v1"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v2"/>
+			<template name="NPCCharacter.tournament_template_gotarnia_four_participant_set_v3"/>
+		</tournament_team_templates_four_participant>
+		<basic_mercenary_troops>
+			<template name="NPCCharacter.venatio_hmj_st2"/>
+		</basic_mercenary_troops>
+	</Culture>
+	<Culture id="jeshtya"
+			 name="{=indda331}Jeshtya"
+			 is_main_culture="false"
+	         elite_basic_troop="NPCCharacter.simperial_hmj_nrt3"
+	         basic_troop="NPCCharacter.simperial_hmj_mit1"
+			 can_have_settlement="true"
+			 town_edge_number="16"
+			 villager_party_template="PartyTemplate.villager_aserai_template"
+			 encounter_background_mesh="encounter_khuzait"
+			 caravan_party_template="PartyTemplate.caravan_template_aserai"
+			 militia_party_template="PartyTemplate.militia_aserai_template"
+			 default_face_key="000fa92e90004202aced5d976886573d5d679585a376fdd605877a7764b8987c00000000000007520000037f0000000f00000037049140010000000000000000">
+		<male_names>
+			<name name="{=3fafefeeee}Andeep" />
+			<name name="{=ugg554}Amar" />
+			<name name="{=5534r}Chand" />
+			<name name="{=h55wddar}Dakshan" />
+			<name name="{=uu4yrtr}Kamal" />
+			<name name="{=n3r3r3r3}Nirvar" />
+			<name name="{=11d3333}Rithian" />
+			<name name="{=h2fff3}Sameer" />
+		</male_names>
+		<female_names>
+			<name name="{=74fff33f}Aasa" />
+			<name name="{=qq3432d}Chitanis" />
+			<name name="{=ZPHdPglH}Hasna" />
+			<name name="{=wadd32}Kavuri" />
+			<name name="{=62ffrf}Kiran" />
+			<name name="{=er333}Nafiah" />
+
+			<name name="{=vvfvr443}Shanti" />
+			<name name="{=m5554t4tg}Teknam" />
+			<name name="{=q3342}Veenoba" />
+			<name name="{=iujkj5}Yasika" />
+		</female_names>
+	</Culture>
 	<Culture id="zhan"
 			 name="{=IHhWB1aa}Zhan"
 			 is_main_culture="false"

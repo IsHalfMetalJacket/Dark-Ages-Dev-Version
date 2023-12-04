@@ -284,7 +284,6 @@
 	<Hero id="lord_3_21" spouse="Hero.lord_3_21_1" faction="Faction.clan_aserai_5"/>
 	<Hero id="lord_3_21_1" spouse="Hero.lord_3_21" faction="Faction.clan_aserai_5"/>
 	<!-- Aserai 6, Banu Atij-->
-	<Hero id="AR_lord_3_18" spouse="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18" spouse="Hero.AR_lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_1" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_2" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
@@ -301,8 +300,9 @@
 	<Hero id="lord_3_22" spouse="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
 	<Hero id="lord_3_22_1" spouse="Hero.lord_3_22" faction="Faction.clan_aserai_8"/>
 	<Hero id="lord_3_22_2" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
-	<Hero id="lord_3_22_3" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
-	<Hero id="lord_3_22_4" father="Hero.lord_3_22" mother="Hero.lord_3_22_1" faction="Faction.clan_aserai_8"/>
+	<Hero id="dead_lord_3_22" alive="false" faction="Faction.clan_aserai_8"/>
+	<Hero id="lord_3_22_3" father="Hero.dead_lord_3_22" faction="Faction.clan_aserai_8"/>
+	<Hero id="lord_3_22_4" father="Hero.dead_lord_3_22" faction="Faction.clan_aserai_8"/>
 	<!-- Vlandia clan 1 -->
 	<Hero id="lord_4_1" spouse="Hero.lord_4_2" faction="Faction.clan_vlandia_1" text="{=EHiQI7ps}The current king of Vlandia is Derthert. In his youth, he dreamt of glorious conquest. In fact he spent most of his reign simply putting down revolts, quashing pretenders, and keeping the fractious barons in line. When possible, he prefers to rule by arbitration, cajoling his vassals to set aside claims to each other's lands and enjoy what they have. But some Vlandians murmur that a warrior people deserve a more virile king." />
 	<Hero id="lord_4_2" spouse="Hero.lord_4_1" faction="Faction.clan_vlandia_1"/>
@@ -597,31 +597,40 @@
 	<Hero id="hmj_lord_11_11" father="Hero.hmj_lord_11_8" mother="Hero.hmj_lord_11_9" faction="Faction.clan_massa_2"/>
 	<Hero id="hmj_lord_11_12" father="Hero.hmj_lord_11_8" mother="Hero.hmj_lord_11_9" faction="Faction.clan_massa_2"/>
 	<Hero id="hmj_lord_11_13" spouse="Hero.hmj_lord_11_10" faction="Faction.clan_massa_2"/>
-	<!-- SPAHAD - Banu Spahan -->
-	<Hero id="AR_lord_12_1" spouse="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1" text="Athenais of Clan Amensios is the current queen of the Nahasi. Intelligent and charismatic, many saw her potential as a great peace time ruler. But with the death of her father Ashabios, wars still raging on and no other heir, Athenais is now regent. Though she lacks her father's might and experience, she was quick to establish her authority- with help from her father's generals. Still, her people remain unclear about her direction for the kingdom- whether that is with the Empire or without."/>
-	<Hero id="AR_lord_12_2" spouse="Hero.AR_lord_12_1" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_3" spouse="Hero.AR_lord_12_4" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_4" spouse="Hero.AR_lord_12_3" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_13" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
-	<Hero id="AR_lord_12_14" father="Hero.AR_lord_12_1" mother="Hero.AR_lord_12_2" faction="Faction.clan_spahad_1"/>
-	<!-- SPAHAD - Banu Dhamin -->
-	<Hero id="AR_lord_12_5" spouse="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_6" spouse="Hero.AR_lord_12_5" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_7" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" spouse="Hero.AR_lord_12_8" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_8" spouse="Hero.AR_lord_12_7" faction="Faction.clan_spahad_2"/>
-	<Hero id="AR_lord_12_9" father="Hero.AR_lord_12_5" mother="Hero.AR_lord_12_6" faction="Faction.clan_spahad_2"/>
-	<!-- SPAHAD - Banu Mushala -->
-	<Hero id="AR_lord_12_10" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_11" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_12" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_12" spouse="Hero.AR_lord_12_11" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_15" mother="Hero.AR_lord_12_10" spouse="Hero.AR_lord_12_16" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_16" spouse="Hero.AR_lord_12_15" faction="Faction.clan_spahad_3"/>
-	<Hero id="AR_lord_12_17" mother="Hero.AR_lord_12_10" faction="Faction.clan_spahad_3"/>
-	<!-- SPAHAD - Banu Aska -->
-	<Hero id="AR_lord_12_18" spouse="Hero.AR_lord_12_19" faction="Faction.clan_spahad_4"/>
-	<Hero id="AR_lord_12_19" spouse="Hero.AR_lord_12_18" faction="Faction.clan_spahad_4"/>
-	<Hero id="AR_lord_12_20" father="Hero.AR_lord_12_19" mother="Hero.AR_lord_12_18" faction="Faction.clan_spahad_4"/>
-	<Hero id="AR_lord_12_21" father="Hero.AR_lord_12_19" mother="Hero.AR_lord_12_18" faction="Faction.clan_spahad_4"/>
+	<!-- NAHASI - Amensios -->
+	<Hero id="dead_lord_12_1" alive="false" faction="Faction.clan_spahad_1" />
+	<Hero id="hmj_lord_12_1" father="Hero.dead_lord_12_1" faction="Faction.clan_spahad_1" text="Athenais of Clan Amensios is the current queen of the Nahasi. Intelligent and charismatic, many saw her potential as a great peace time ruler. But with the death of her father Ashabios, wars still raging on and no other heir, Athenais is now regent. Though she lacks her father's might and experience, she was quick to establish her authority- with help from her father's generals. Still, her people remain unclear about her direction for the kingdom- whether that is with the Empire or without."/>
+	<Hero id="hmj_lord_12_2" spouse="Hero.hmj_lord_12_3" faction="Faction.clan_spahad_1"/>
+	<Hero id="hmj_lord_12_3" spouse="Hero.hmj_lord_12_2" faction="Faction.clan_spahad_1"/>
+	<Hero id="hmj_lord_12_4" father="Hero.dead_lord_12_1" faction="Faction.clan_spahad_1"/>
+	<Hero id="hmj_lord_12_5" father="Hero.hmj_lord_12_2" mother="Hero.hmj_lord_12_3" faction="Faction.clan_spahad_1"/>
+	<Hero id="hmj_lord_12_6" faction="Faction.clan_spahad_1"/>
+	<!-- Aserai 7, Zamani-->
+	<Hero id="lord_3_19" spouse="Hero.lord_3_19_1" faction="Faction.clan_aserai_7" />
+	<Hero id="lord_3_19_1" spouse="Hero.lord_3_19" faction="Faction.clan_aserai_7" />
+	<Hero id="lord_3_19_2" father="Hero.lord_3_19" mother="Hero.lord_3_19_1" faction="Faction.clan_aserai_7" />
+	<Hero id="lord_3_19_3" father="Hero.lord_3_19" mother="Hero.lord_3_19_1" faction="Faction.clan_aserai_7" />
+	<Hero id="lord_3_23" faction="Faction.clan_aserai_7" />
+	<Hero id="lord_3_23_1" spouse="Hero.lord_3_19_2" faction="Faction.clan_aserai_7" />
+	<!-- Nahasi - Tedros -->
+	<Hero id="hmj_lord_12_7" spouse="Hero.hmj_lord_12_8" faction="Faction.clan_spahad_2"/>
+	<Hero id="hmj_lord_12_8" spouse="Hero.hmj_lord_12_7" faction="Faction.clan_spahad_2"/>
+	<Hero id="hmj_lord_12_9" father="Hero.hmj_lord_12_7" mother="Hero.hmj_lord_12_8" faction="Faction.clan_spahad_2"/>
+	<Hero id="hmj_lord_12_10" father="Hero.hmj_lord_12_7" mother="Hero.hmj_lord_12_8" faction="Faction.clan_spahad_2"/>
+	<Hero id="hmj_lord_12_11" spouse="Hero.dead_hmj_lord_12_11" faction="Faction.clan_spahad_2"/>
+	<Hero id="dead_hmj_lord_12_11" alive="false" spouse="Hero.hmj_lord_12_11" faction="Faction.clan_spahad_2"/>
+	<Hero id="hmj_lord_12_12" father="Hero.hmj_lord_12_11" mother="Hero.dead_hmj_lord_12_11" faction="Faction.clan_spahad_2"/>
+	<!-- Nahasi - Husni -->
+	<Hero id="hmj_lord_12_13" spouse="Hero.hmj_lord_12_14" faction="Faction.clan_spahad_3"/>
+	<Hero id="hmj_lord_12_14" spouse="Hero.hmj_lord_12_13" faction="Faction.clan_spahad_3"/>
+	<Hero id="hmj_lord_12_15" faction="Faction.clan_spahad_3"/>
+	<Hero id="hmj_lord_12_16" father="Hero.hmj_lord_12_13" mother="Hero.hmj_lord_12_14" faction="Faction.clan_spahad_3"/>
+	<Hero id="hmj_lord_12_17" faction="Faction.clan_spahad_3"/>
+	<!-- Nahasi - Sussenyos -->
+	<Hero id="hmj_lord_12_18" spouse="Hero.hmj_lord_12_19" faction="Faction.clan_spahad_4"/>
+	<Hero id="hmj_lord_12_19" spouse="Hero.hmj_lord_12_18" faction="Faction.clan_spahad_4"/>
+	<Hero id="hmj_lord_12_20" father="Hero.hmj_lord_12_19" mother="Hero.hmj_lord_12_18" faction="Faction.clan_spahad_4"/>
+	<Hero id="hmj_lord_12_21" father="Hero.hmj_lord_12_19" mother="Hero.hmj_lord_12_18" faction="Faction.clan_spahad_4"/>
 	<!-- OLD CALRADIAN - Palaic -->
 	<Hero id="hmj_lord_old_1" spouse="Hero.hmj_lord_old_2" faction="Faction.clan_gotarnia_1"/>
 	<Hero id="hmj_lord_old_2" spouse="Hero.hmj_lord_old_1" faction="Faction.clan_gotarnia_1"/>
@@ -680,6 +689,8 @@
 	<Hero id="hmj_lord_13_19" faction="Faction.clan_sturgia_8" />
 	<Hero id="hmj_lord_13_20" faction="Faction.clan_sturgia_8" />
 	<Hero id="hmj_lord_13_21" spouse="Hero.hmj_lord_13_17" faction="Faction.clan_sturgia_8" />
+	<!-- Akkazis - Geros -->
+	<Hero id="hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
 	<!-- Diamonds -->
 	<Hero id="hmj_spc_diamonds_lord_0" faction="Faction.diamonds"/>
 	<!-- BANDITS -->

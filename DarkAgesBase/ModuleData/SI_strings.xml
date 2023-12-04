@@ -108,6 +108,8 @@
 	<string id="str_culture_rich_name.darshi" text="{=darshimembers}Darshi"/>
 	<string id="str_culture_rich_name.oldcalradian" text="{=oldcalradianmembers}Central Calradians"/>
 	<string id="str_culture_rich_name.byalic" text="{=byalmembers}Byals"/>
+	<string id="str_culture_rich_name.akkazi" text="{=akkazimembers}Akkazi"/>
+
 	<string id="str_char_creation_generic_selection" text="{=yCEMiKjB}Choose your {SELECTION}"/>
 	<string id="str_town_new_tournament_text" text="{=1PwQxaOu}Preparations seem to be under way for a tournament. Prize is {ITEM}."/>
 	<string id="str_town_empty_arena_text" text="{=8bSHlWBL}There is no tournament currently in this town."/>
@@ -153,6 +155,11 @@
 	<string id="str_faction_ruler.sturgia" text="{=xD9xlbXt}Grand Prince"/>
 	<string id="str_faction_ruler.sturgia_f" text="{=cBY2MxY0}Grand Princess"/>
 	<string id="str_faction_ruler_term_in_speech.sturgia" text="{=GPW3ku2Y}{?RULER.GENDER}Princess{?}Prince{\?} {RULER.NAME}"/>
+	<string id="str_faction_official.akkazi" text="{=0zz1iDMY}a Eristavi"/>
+	<string id="str_faction_official.akkazi_f" text="{=0zz1iDMY}a Eristavi"/>
+	<string id="str_faction_ruler.akkazi" text="{=sKnYLPkn}Mepes"/>
+	<string id="str_faction_ruler.akkazi_f" text="{=anHqaNK0}Mepes"/>
+	<string id="str_faction_ruler_term_in_speech.akkazi" text="{=pcy8IXDf}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
 	<!-- "The southern imperial forces have withdrawn" -->
 	<string id="str_adjective_for_faction.khuzait" text="{=sZLd6VHi}Khuzait"/>
 	<string id="str_adjective_for_faction.aserai" text="{=aseraifaction}Aserai"/>
@@ -169,6 +176,7 @@
 	<string id="str_adjective_for_faction.darshi" text="{=dargh}Darshi"/>
 	<string id="str_adjective_for_faction.oldcalradian" text="{=oldcalradg}Central Calradian"/>
 	<string id="str_adjective_for_faction.byalic" text="{=byadgh}Byalic"/>
+	<string id="str_adjective_for_faction.akkazi" text="{=t4takk}Akkazian"/>
 	<!-- "Not much left after the Southern Empire raided the place" -->
 	<string id="str_short_term_for_faction.khuzait" text="{=vJOWy1QF}Khuzait"/>
 	<string id="str_short_term_for_faction.aserai" text="{=aseraimembers}Aserai"/>
@@ -185,6 +193,7 @@
 	<string id="str_short_term_for_faction.darshi" text="{=dsttts}Darshi"/>
 	<string id="str_short_term_for_faction.oldcalradian" text="{=oldcalrsttts}Central Calradians"/>
 	<string id="str_short_term_for_faction.byalic" text="{=bysttts}Byals"/>
+	<string id="str_short_term_for_faction.byalic" text="{=ajjtgf}Akkazi"/>
 	<!-- The formal name for a faction is derived from the culture, as the southern Empire doesn't consider itself the 'southern Empire,' it considers itself the sole legitimate empire -->
 	<!-- "In the name of the Calradian Empire, I welcome you" -->
 	<string id="str_faction_formal_name_for_culture.vlandia" text="{=lAWwcO6b}Kingdom of Vlandia"/>
@@ -224,6 +233,7 @@
 	<string id="str_neutral_term_for_culture.darshi" text="{=str.str_neutral_term_for_culture.darshi}Darshi"/>
 	<string id="str_neutral_term_for_culture.oldcalradian" text="{=str.str_neutral_term_for_culture.oldcalradian}Gotarnians"/>
 	<string id="str_neutral_term_for_culture.byalic" text="{=str.str_neutral_term_for_culture.byalic}Byals"/>
+	<string id="str_neutral_term_for_culture.akkazi" text="{=str.str_neutral_term_for_culture.akkazi}Akkazi"/>
 	<string id="str_adjective_for_culture.empire_n" text="{=sZLd6VHi}Northern Calradian"/>
 	<string id="str_adjective_for_culture.empire_s" text="{=sZLd6VHi}Southern Calradian"/>
 	<string id="str_adjective_for_culture.empire_w" text="{=sZLd6VHi}Western Calradian"/>
@@ -234,15 +244,17 @@
 	<string id="str_adjective_for_culture.vakken" text="{=Ohdrbpiw}Vakken"/>
 	<string id="str_adjective_for_culture.darshi" text="{=OxiaKT0G}Darshi"/>
 	<string id="str_adjective_for_culture.oldcalradian" text="{=5S1zPgTm}Gotarnian"/>
+	<string id="str_adjective_for_culture.akkazi" text="{=a1rads}Akkazian"/>
 	<string id="str_culture_rich_name.byalic" text="{=str.str_culture_rich_name.byalic}Byals"/>
-	<string id="str_culture_rich_name.massa" text="{=str.str_culture_rich_name.massa}Massans"/>
+	<string id="str_culture_rich_name.zwadane" text="{=str.str_culture_rich_name.massa}Massans"/>
 	<string id="str_culture_rich_name.oldcalradian" text="{=str.str_culture_rich_name.oldcalradian}Myzean"/>
 	<string id="str_culture_rich_name.cizygian" text="{=str.str_culture_rich_name.cizygian}Cizygians"/>
 	<string id="str_culture_rich_name.vakken" text="{=str.str_culture_rich_name.vakken}Vakken"/>
 	<string id="str_culture_rich_name.darshi" text="{=str.str_culture_rich_name.darshi}Darshi"/>
 	<string id="str_culture_rich_name.shariz" text="{=str.str_culture_rich_name.shariz}Sharizans"/>
-	<string id="str_culture_rich_name.empire_n" text="{=str.str_culture_rich_name.empire_n}byals Calradians"/>
+	<string id="str_culture_rich_name.empire_n" text="{=str.str_culture_rich_name.empire_n}North Calradians"/>
 	<string id="str_culture_rich_name.empire_w" text="{=str.str_culture_rich_name.empire_w}Western Calradians"/>
+	<string id="str_culture_rich_name.akkazi" text="{=str.str_culture_rich_name.akkazi}Akkazis"/>
 	<string id="str_culture_description.massa" text="{=str.str_culture_description.massa}The Massa are a hardy migrant people from the lands of Jumne. Like their Vlandian cousins, they are famed across Calradia as stalwart mercenaries and masters of horse, axe and lance, serving across the continent in the myriad wars of the Calradian Empire. Recently, they have declared themselves an independent kingdom, conquering one of the Empire's rich north-western provinces."/>
 	<string id="str_culture_description.oldcalradian" text="{=str.str_culture_description.gotarni}The Gotarnians are a remnant of the once-proud Myzean people, a Palaic tribal group from north-eastern Calradia. They are a brutal society, tempered by centuries of constant warfare, though also not unaccustomed to urban life, building great cities on the verdant eastern plains. Their warriors are known as great riders, and feared for their use of the deadly falx."/>
 	<string id="str_culture_description.cizygian" text="{=str.str_culture_description.cizygian}The tribes of the Cizygians are a recent arrival in Calradia, having descended from the eastern Calradian Steppe within living memory. A formidable nomadic people, those from the court of the Darshi Padishah to the halls of Vlandia speak in hushed whispers of their vast hordes galloping across the plains. Like their Khuzait cousins, they are masters of mounted archery, shooting and then galloping out of reach."/>
@@ -251,6 +263,7 @@
 	<string id="str_culture_description.shariz" text="{=str.str_culture_description.shariz}The Kannic people are the ancient inhabitants of coastal regions of the western Nahasa desert. From their capital at Quyaz, they once ruled over a vast empire. However, they were conquered centuries ago by the Calradian Empire, forming the southernmost of its provinces. Recently independent, they now vie for control of the Nahasa, sending their legions against both their former Calradian rulers and Aserai neighbours."/>
 	<string id="str_culture_description.empire_n" text="{=str.str_culture_description.empire_n}The Calradian Empire is in crisis. Political rivalries have torn the land in three, with claimants attempting to seize power for themselves, whilst enemies close on all sides, carving new kingdoms from imperial territory. They are technologically more advanced than their neighbors and their mastery of engineering is not just evident in their aqueducts, beautiful architecture and massive city walls. It also makes them experts in siege warfare."/>
 	<string id="str_culture_description.empire_w" text="{=str.str_culture_description.empire_w}The Calradian Empire is in crisis. Political rivalries have torn the land in three, with claimants attempting to seize power for themselves, whilst enemies close on all sides, carving new kingdoms from imperial territory. They are technologically more advanced than their neighbors and their mastery of engineering is not just evident in their aqueducts, beautiful architecture and massive city walls. It also makes them experts in siege warfare."/>
+	<string id="str_culture_description.akkazi" text="{=str.str_culture_description.akkazi}The Calradian Empire is in crisis. Political rivalries have torn the land in three, with claimants attempting to seize power for themselves, whilst enemies close on all sides, carving new kingdoms from imperial territory. They are technologically more advanced than their neighbors and their mastery of engineering is not just evident in their aqueducts, beautiful architecture and massive city walls. It also makes them experts in siege warfare."/>
 	<string id="str_faction_official.empire_w" text="{=2CgZVkDj}a Praetor"/>
 	<string id="str_faction_official.empire_w_f" text="{=u3c9M8vx}a Praeteira"/>
 	<string id="str_faction_ruler.empire_w" text="{=jbQ3LYBl}Domestikos"/>
@@ -314,6 +327,13 @@
 	<string id="str_faction_ruler_name_with_title.oldcalradian" text="{=7pAZatbz}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
 	<string id="str_faction_noble_name_with_title.oldcalradian" text="{=nAaT19CC}{?RULER.GENDER}Chieftess{?}Chieftain{\?} {RULER.NAME}"/>
 	<string id="str_faction_ruler_term_in_speech.oldcalradian" text="{=lpbDPuuW}{?RULER.GENDER}the Queen{?}the King{\?} {RULER.NAME}"/>
+	<string id="str_faction_official.akkazi" text="{=2CgZVkDj}a Strategos"/>
+	<string id="str_faction_official.akkazi_f" text="{=u3c9M8vx}a Strategeira"/>
+	<string id="str_faction_ruler.akkazi" text="{=jbQ3LYBl}Autocrator"/>
+	<string id="str_faction_ruler.akkazi_f" text="{=tDA5dhn3}Autocrateira "/>
+	<string id="str_faction_ruler_name_with_title.akkazi" text="{=7pAZatbz}{?RULER.GENDER}Autocrateira{?}Autocrator{\?} {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.akkazi" text="{=nAaT19CC}{?RULER.GENDER}Strategeira{?}Strategos{\?} {RULER.NAME}"/>
+	<string id="str_faction_ruler_term_in_speech.akkazi" text="{=lpbDPuuW}{?RULER.GENDER}the Banbishn{?}the Shahanshah{\?} {RULER.NAME}"/>
 	<string id="str_liege_title.empire_w" text="{=LBb7YgXU}Despot of the Calradians">
 		<tags>
 			<tag tag_name="EmpireTag"/>
@@ -390,6 +410,16 @@
 		</tags>
 	</string>
 	<string id="str_liege_title_female.zwadane" text="{=Tvy4UvJC}Kwen of the Zwadanes">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_liege_title.akkazi" text="{=80C0gWJ4}Mepes of the Akkazi">
+		<tags>
+			<tag tag_name="VlandianTag"/>
+		</tags>
+	</string>
+	<string id="str_liege_title_female.akkazi" text="{=Tvy4UvJC}Mepes of the Akkazi">
 		<tags>
 			<tag tag_name="VlandianTag"/>
 		</tags>

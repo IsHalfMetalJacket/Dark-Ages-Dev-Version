@@ -1210,42 +1210,82 @@
                     civilian="true" />
     </Equipments>
 	    </xsl:template>
+		
+<!-- nahasi -->
+	<!-- Meslar -->
 	<xsl:template match='NPCCharacter[@id="lord_3_19"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="48" weight="0.5355" build="0.5046" key="002BB00F00581A193D566B73B67B261542B7AD6148BA8C4A9B58C9B998B29ACD0098860309C2635B000000000000000000000000000000000000000017247082"/>
+			<BodyProperties version="4" weight="0.7793" build="0.2207"  key="0036600E40B419D3778549EA3D9ED882743F96E3A94A7C41CA5AFE5F8B0676A60063C60306A4C32622246678787787F700000000000015770000000036CC2042"  />
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="46" weight="0.5355" build="0.5046" key="0020B00FC05810013D566B73B67B261542B7AD6148BA8C4A9B58C9B998B29ACD0098860309C2635B000000000000000000000000000000000000000017244083"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046"  key="00236C0D105810043D37769D284D7474536BAD6148BA8C4AA24875C69D56857800588603057A739500000000000000000000000000000000000000005CA43003"  />
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19_2"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="22" weight="0.5355" build="0.5046" key="002EB00FC058001278B8E84784DBA95A42B78B5E434AB5B679C4B42D98B29ACD00988603093A1C88000000000000000000000000000000000000000017241083"/>
+			<BodyProperties version="4" weight="0.4429" build="0.4244"  key="002E600E40B41092C78549EA3D9ED882BACA9AD5A9C2AC97CA5DD6598B06FEC10066760306A4C32622246678787787F700000000000015770000000036CC6042"  />
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_19_3"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="20" weight="0.5355" build="0.5046" key="0036B80F0058100246A874872898854742B718997C57B83B6A8664BD98B29ACD0098860309A655D6000000000000000000000000000000000000000017242043"/>
+			<BodyProperties version="4" weight="0.4244" build="0.696"  key="00236C0D125815C03D37769D284D74D4546BAD6148BA8C4A5FDF71F29617D7D4008A6603087EE3CD00000000000000000000000000000000000000005D0C5003"  />
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_23"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="24" weight="0.5355" build="0.5046" key="0031C80F0058295379B31678635B8A7B42B74D7AA36B6679D857829598B29ACD00988603094DB55C000000000000000000000000000000000000000017247002"/>
+			<BodyProperties version="4" weight="0.3441" build="0.3719"  key="0031E40F1200395279B31678635B8A7B42B74D7AA36B6679D857829598B29ACD00965603094DB55C000000000000000000000000000000000000000017247002"  />
 		</xsl:copy>
 	</xsl:template>
 	<xsl:template match='NPCCharacter[@id="lord_3_23_1"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" age="22" weight="0.5355" build="0.5046" key="0029D80F005810027477587627566A85B9A287A573638BE2A6CBAD79A4A5B3E80098860309C937880000000000000000000000000000000000000000172440C3"/>
+			<BodyProperties version="4" weight="0.5355" build="0.5046"  key="0029DC0F005800029A77587627566A85B9A28C2D8279FA59A6CBAD79A4A5B3E80058860305C93788000000000000000000000000000000000000000016A410C3"  />
 		</xsl:copy>
 	</xsl:template>
+
+<!-- Aserai -->
+	<!-- Unqid -->
+	<xsl:template match='NPCCharacter[@id="lord_3_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_1']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+	    </xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_3_1']/Equipments">
     <Equipments>
       <EquipmentRoster />
@@ -1253,6 +1293,1513 @@
       <EquipmentSet id="ase_civ_template_flamboyant"
                     civilian="true" />
     </Equipments>
+	    </xsl:template>
+	<!-- Jinda -->
+	<xsl:template match='NPCCharacter[@id="lord_3_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0" build="0"  key="0022500FD1000001A7E3C8A64757B4876BA6785E867C96D8249D763F3BB7D86400000C5401A663680000000000000CE600000000000000000000000000286000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_2']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_2']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Dhiyul -->
+	<xsl:template match='NPCCharacter[@id="lord_3_7"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6991" build="0.3164"  key="0020640E40000390AB86473C7577ACD8BB5C83453698737279B68E18780D2B260065A6030668931500000000000000000000000000000000000000001CDC3002"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_7']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_7']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Anidha -->
+	<xsl:template match='NPCCharacter[@id="lord_3_10"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2377" build="0"  key="0026600E5000040497D3427635D69CA7A837954A579662459958A8898646766A0030400303B767790000000000000CE600000000000000000000000052600000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_10']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_10']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Nuqar -->
+	<xsl:template match='NPCCharacter[@id="lord_3_13"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.375" build="0.3534"  key="001EB40D100039D4C782350B3B71AFB7098A8017A2755525A9B9AD468B0C5D6800B560030B64A704000000000000000000000000000000000000000061707042"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_13']/Traits">
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_13']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Sira -->
+	<xsl:template match='NPCCharacter[@id="lord_3_13_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020880E504430048D6DA84AA9B668434696F8AC7F826778683B65553B844B7A007776030785794900000000000000000000000000000000000000005CFC2044"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_13_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_13_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Taamira -->
+	<xsl:template match='NPCCharacter[@id="lord_3_13_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020D40D80FC000279615D88977453634B8B895C74B382164C93D947647785A7006776030625634100000000000000000000000000000000000000006ACC40C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_13_2']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_13_2']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Tais -->
+	<xsl:template match='NPCCharacter[@id="lord_3_5"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.716" build="0.5431"  key="001BE00D000013C09B83263A297C7DE62CD881249354432699A85C598A0A58590088B00308986484000000000000000000000000000000000000000035085041"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_5']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_5']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Haqan -->
+	<xsl:template match='NPCCharacter[@id="lord_3_51"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6914" build="0.4645"  key="001EB00D00003005988235094C7C27AC09598337A14534159A897A068A1E49330047A0030473C822000000000000000000000000000000000000000038807044"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_51']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_51']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Manan -->
+	<xsl:template match='NPCCharacter[@id="lord_3_12"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.7751" build="0.2584"  key="001BD80FC00030055C816132B9B2D7429B34737A82668521BAD6A558884D5C690074C603073568AC00000000000000000000000000000000000000002AEC2044"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_12']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_12']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Karith -->
+	<xsl:template match='NPCCharacter[@id="lord_3_20"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2106" build="0.6775"  key="001B5408000014016B8252793A714DBCB3B58659D77AE165AA792C688B185645009A300309467560000000000000000000000000000000000000000069203084"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_20']/Traits">
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_20']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_sharizani_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Judira -->
+	<xsl:template match='NPCCharacter[@id="lord_3_20_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BA40A521410068A9277BB6B3788C8B8A9C36AB6AAC46A436AB719877B88740077760307A539B7000000000000000000000000000000000000000018EC3003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_20_1']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_20_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Azina -->
+	<xsl:template match='NPCCharacter[@id="lord_3_20_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0029540FD114000ABB6D8984A3778C5557A97866E85A9D87A87587757CA534BB0067760306A5866B00000000000000000000000000000000000000006CCC2003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_20_2']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Ruma -->
+	<xsl:template match='NPCCharacter[@id="lord_3_6"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020D80D8000200E8982510588A2A7348A60717AC375A0229E99C736896F575500846603081CB332000000000000000000000000000000000000000007142043"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_6']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_6']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Usair	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_9"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5293" build="0.6445"  key="001CF40D800029D3988044094881DCF25D518415A18656179A8899478D2C5A5300AA80030A3CC435000000000000000000000000000000000000000037402000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_9']/Traits">
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_9']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Suruq	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_16"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6466" build="0.6072"  key="001CD80E4000030D998335193B81CD944A998317B1718116AA98A7278C098A440099A00309299520000000000000000000000000000000000000000057281041"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_16']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_16']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Thamza	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_14"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.7752" build="0.5081"  key="001CD40D14001480BC10243829815A955AA16339B27543258DB878180B178D450068C0030659885500000000000000000000000000000000000000006AD07081"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_14']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_14']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Sasaitha	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_14"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.7752" build="0.5081"  key="001CD40D14001480BC10243829815A955AA16339B27543258DB878180B178D450068C0030659885500000000000000000000000000000000000000006AD07081"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_14']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_14']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Ghuzid	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_15"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.6"  key="003F000FD6FC29DA0CFC208F1001FBEF2D01FA0000F01110500B1EF068E672B000B970030B0D87810000000000000000000000000000000000000000217800C2"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_15']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_15']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_alsawda_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Shimra	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_15_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00368C0F10881007A395E7AA463A6E134BA943633B1986E5A898E7745CAB736C0067760306667684000000000000000000000000000000000000000066C41003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_15_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_15_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Bushila	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_15_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0036E00E52E4001157A8EAA7469C9552DEABB756A9349BC76A7768A8D898CA880087760308BAA6890000000000000000000000000000000000000000731C0083"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_15_2']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Farina	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_16_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BA80D91FC3001A555B462CE8A55A6578B58BB799A8ACCAA7D8CC7765CB31200277603025AAA3B0000000000000000000000000000000000000000583C4043"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_16_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_16_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Adram	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.7762" build="0.7083"  key="001B600ADA0017D2864C5A8B7780749AAE92A64639947345843A8657C94A23E900BBC0030B9687970000000000000CE60000000000000000000000002D680000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_3']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_3']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Addas	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_8"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4769" build="0.6713"  key="001ED00A520019549A8325164C717EB41DB68247C1766706898A27398C1C6557004A7003046695710000000000000000000000000000000000000000308850C5"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_8']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_8']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_heavy_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Arwa	-->
+	<xsl:template match='NPCCharacter[@id="lord_3_11"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4861" build="0.9738"  key="0020CC0C51FC30066982442CABD127719C46724BA187A130BBA3EA457A6C5747007F76030702B35C000000000000000000000000000000000000000058DC4001"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_11']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_11']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Tariq -->
+	<xsl:template match='NPCCharacter[@id="lord_3_3_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4861" build="0.9738"  key="001B900D80FC18868689D3314233048488E588765AA3947958825CAD467C7D47008406030857A12A0000000000000000000000000000000000000000490C3044"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_3_1']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_3_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Maraa -->
+	<xsl:template match='NPCCharacter[@id="lord_3_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0509" build="0"  key="001ED40E40000001869C5A8B7786749AAB77564639947345843A8657994575E500E010030E9687970000000000000CE600000000000000000000000001E00000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_4']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_4']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Nimr -->
+	<xsl:template match='NPCCharacter[@id="dead_lord_3_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.1343" build="0.9923"  key="001B5C0D183C3A4064666A926C75C85988588A453C598D6A663AC7AB7D9B6B7A003F2A030396C8950000037F0000000F00000037049140010000000000583140"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='dead_lord_3_1']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="10" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Valor"
+				value="2" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-2" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='dead_lord_3_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_heavy_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Iyalas -->
+	<xsl:template match='NPCCharacter[@id="lord_3_17"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.568" build="0.5195"  key="001E0808C00038857881460A2B7129E25BAA85149355561688997A298E1D795300689003064BC72600000000000000000000000000000000000000001CC070C5"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_17']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_17']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Shaima -->
+	<xsl:template match='NPCCharacter[@id="lord_3_17_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001E8808C0B4000422AA8868B68367A9346A54A66984B75BB1AA59782B2B6773005776030586542600000000000000000000000000000000000000003E9C2043"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_17_1']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="16" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_17_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Sanit -->
+	<xsl:template match='NPCCharacter[@id="lord_3_17_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001E400A4044300D7B7421B1984A6141392DDD94B48251365E6857BBD67B978B0077760307968385000000000000000000000000000000000000000032F42003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_17_2']/Equipments">
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Ukhai -->
+	<xsl:template match='NPCCharacter[@id="lord_3_21"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5818" build="0.5617"  key="001CD40D80001302C9823315378118F46C84843482727016978A6A088D2B4E480088900308774A7100000000000000000000000000000000000000003F182084"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_21']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_21']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Ashisa -->
+	<xsl:template match='NPCCharacter[@id="lord_3_21_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0029580D1100000598A7094768948C7BBC777A3B9939A865A968C3CE8A95D3CA0037760303865A560000000000000000000000000000000000000000587440C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_21_1']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="2" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_21_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Talas -->
+	<xsl:template match='NPCCharacter[@id="lord_3_18"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6768" build="0.6779"  key="001BA40B80001704A982443A39718ED53DA28416A353712599A86A478E184657006AA003065A8854000000000000000000000000000000000000000008C040C4"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18']/Traits">
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="10" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Farzana -->
+	<xsl:template match='NPCCharacter[@id="lord_3_18_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00313C0E502C100A7A75B5227776955DAA32B8696C098CE8698934134582A3780037760303C954A5000000000000000000000000000000000000000052740003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Hafisa -->
+	<xsl:template match='NPCCharacter[@id="lord_3_18_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00281C0B40FC10014495955AC76645777ACE633B7A944788995887A99C8DDBA50157761305557C45000000000000000000000000000000000000000030B410C3" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_2']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="10" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_2']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Zuad -->
+	<xsl:template match='NPCCharacter[@id="lord_3_18_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6953" build="0.9619"  key="001BA40B90003704A982443A39718E6B3DA28416A353712599A86A478E184657006EA003065A8854000000000000000000000000000000000000000008C04004"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_3']/Traits">
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="3" />
+			<Trait
+				id="Manager"
+				value="3" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_3']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Jalfar -->
+	<xsl:template match='NPCCharacter[@id="lord_3_18_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.3441" build="0.5633"  key="0029580E40CC39527557978A334A25E982C384356C3687C239B7CAA58768795800A856030AA69CA60000000000000000000000000000000000000000314C1002"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_18_4']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Hashan -->
+	<xsl:template match='NPCCharacter[@id="lord_3_22"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0015F80D8000339028708BD6CDC81195D3698B82BDFE9443D22D7DD538898868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22']/Traits">
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="2" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_heavy_shujin_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Yamina -->
+	<xsl:template match='NPCCharacter[@id="lord_3_22_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BD80DA15810064737A5886AE5564AACB6874E689C1979B7965D8AC653462500877603086278970000000000000000000000000000000000000000270C3043"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_1']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="1" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_1']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Suna -->
+	<xsl:template match='NPCCharacter[@id="lord_3_22_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001BF80D9000338228708BD6CDC8119568898B82BDFE9443D22D7DD53889D868007776030796723B00000000000000000000000000000000000000003EF41002"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_2']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="6" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_2']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_flamboyant"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Zanuwa -->
+	<xsl:template match='NPCCharacter[@id="lord_3_22_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="0020700D8014344E88B8C87941868498779B3DF0E9955638C2778EB8C8AE7595008776030895A6650000000000000000000000000000000000000000391490C2"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_3']/Traits">
+		<Traits>
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_3']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Hajara -->
+	<xsl:template match='NPCCharacter[@id="lord_3_22_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="001E800E5088300E38B5E59AB258BA6668952E7A5AD5B8797BC7A8E8796233690077760307C6896400000000000000000000000000000000000000003EEC10C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_4']/Traits">
+		<Traits>
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_3_22_4']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Aqar -->
+	<xsl:template match='NPCCharacter[@id="lord_A9_l"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.912" build="0.7793"  key="001E700D1114340EE7D8AD83875C35B9EA43774B969D87007CCCC1676A89755A005CE60305B03A99000000000000000000000000000000000000000038A49004"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_l']/Traits">
+		<Traits>
+			<Trait
+				id="BalancedFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="5" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<!-- Banu Ruwaid. Patriarch who dominate his clan by fear and the force of his personality. -->
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-2" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_l']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_gen_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Thiqa -->
+	<xsl:template match='NPCCharacter[@id="lord_A9_s"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0028240E5088200E38B5E59AB258BA6668952E7A5AD5B8797BC7A8E8796233690177761307C6896400000000000000000000000000000000000000003EEC10C3" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_s']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="7" />
+			<Trait
+				id="Manager"
+				value="3" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_s']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Dhila -->
+	<xsl:template match='NPCCharacter[@id="lord_A9_l"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6389" build="0.5926"  key="0023840E401410059AB8C8794186849896635A43A91AA68AC27788B88A37A6B60059A6030595A665000000000000000000000000000000000000000046AC00C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_l']/Traits">
+		<Traits>
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_l']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_lady_battletemplate" />
+			<EquipmentSet
+				id="ase_noncom_template_bedouin"
+				civilian="true" />
+		</Equipments>
+	    </xsl:template>
+	<!-- Qaban -->
+	<xsl:template match='NPCCharacter[@id="lord_A9_u"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.1667" build="0.3349"  key="0020240E4088100D3895E59BB255BA6668952E7A5AD5B8797BC7A8E87962336900E526030EC6896400000000000000000000000000000000000000003FCC10C3"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_u']/Traits">
+		<Traits>
+			<Trait
+				id="CavalryFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<!-- Cousin, part of Nimr's generation -->
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Egalitarian"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_A9_u']/Equipments">
+		<Equipments>
+			<EquipmentSet
+				id="hmj_aserai_light_askari_battletemplate" />
+			<EquipmentSet
+				id="ase_civ_template_default"
+				civilian="true" />
+		</Equipments>
 	    </xsl:template>
 
 <!-- Central Calradians -->
