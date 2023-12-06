@@ -690,7 +690,8 @@
 	<Hero id="hmj_lord_13_20" faction="Faction.clan_sturgia_8" />
 	<Hero id="hmj_lord_13_21" spouse="Hero.hmj_lord_13_17" faction="Faction.clan_sturgia_8" />
 	<!-- Akkazis - Geros -->
-	<Hero id="hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
+	<Hero id="hmj_lord_10_1" spouse="Hero.hmj_lord_10_2" faction="Faction.clan_akkazi_1"/>
+	<Hero id="hmj_lord_10_2" spouse="Hero.hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
 	<!-- Diamonds -->
 	<Hero id="hmj_spc_diamonds_lord_0" faction="Faction.diamonds"/>
 	<!-- BANDITS -->

@@ -5318,12 +5318,6 @@
 			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_default_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.nordic_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_default_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.nordic_tunic"/>
@@ -5374,13 +5368,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_0_byalic">
-		<EquipmentSet>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.nordic_sloven"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_0_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.nordic_sloven"/>
@@ -5438,13 +5425,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_1_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.roughhide_cap"/>
-			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_1_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
@@ -5509,14 +5489,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_2_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.northern_fur_cap"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_2_nord">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -5569,12 +5541,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_3_byalic">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.tundra_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_3_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
 			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
@@ -5635,12 +5601,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_4_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_4_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
@@ -5691,12 +5651,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_5_byalic">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_leather_vest"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_5_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -5757,12 +5711,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_0_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_leather_vest"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_0_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
@@ -5813,12 +5761,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_1_byalic">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_1_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
 			<Equipment slot="Leg" id="Item.leather_boots"/>
@@ -5880,13 +5822,6 @@
 			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_2_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.roughhide_cap"/>
-			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_2_nord">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
@@ -5938,13 +5873,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_3_byalic">
-		<EquipmentSet>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.nordic_sloven"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_3_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.nordic_sloven"/>
@@ -6009,14 +5937,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_4_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.northern_fur_cap"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_4_nord">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -6074,12 +5994,6 @@
 			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_5_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.tundra_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_5_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
@@ -6130,13 +6044,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_0_byalic">
-		<EquipmentSet>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.nordic_sloven"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_0_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.nordic_sloven"/>
@@ -6199,12 +6106,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_1_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_leather_vest"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_1_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_leather_vest"/>
@@ -6255,14 +6156,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_2_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.northern_fur_cap"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_2_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -6327,12 +6220,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_3_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_3_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_tunic"/>
@@ -6388,12 +6275,6 @@
 			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_4_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.tundra_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_4_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.tundra_tunic"/>
@@ -6444,13 +6325,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_5_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.roughhide_cap"/>
-			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
-			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_5_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
@@ -6513,13 +6387,6 @@
 			<Equipment slot="Leg" id="Item.leather_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_default_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_default_nord">
 		<EquipmentSet>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -6570,13 +6437,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_child_byalic">
-		<EquipmentSet>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_child_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
@@ -6656,12 +6516,6 @@
 			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_0_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.nordic_hauberk"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_0_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.nordic_hauberk"/>
@@ -6717,13 +6571,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_1_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
-			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_1_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
 			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
@@ -6790,13 +6637,6 @@
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_2_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.northern_fur_cap"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_2_nord">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -6854,13 +6694,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_3_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.roughhide_cap"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_3_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
@@ -6932,12 +6765,6 @@
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_4_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
-			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_4_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
@@ -6999,14 +6826,6 @@
 			<Equipment slot="Leg" id="Item.strapped_shoes"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_5_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.northern_leather_vest"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_5_nord">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
@@ -7059,13 +6878,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_child_byalic">
-		<EquipmentSet>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_child_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Cape" id="Item.scarf"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
@@ -7145,12 +6957,6 @@
 			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_0_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.nordic_hauberk"/>
-			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_0_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.nordic_hauberk"/>
@@ -7206,13 +7012,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_1_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
-			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_1_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
 			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
@@ -7279,13 +7078,6 @@
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_2_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.northern_fur_cap"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
-			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_2_nord">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.northern_fur_cap"/>
@@ -7343,13 +7135,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_3_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.roughhide_cap"/>
-			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_3_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.roughhide_cap"/>
 			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
@@ -7421,12 +7206,6 @@
 			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_4_akkazi">
-		<EquipmentSet>
-			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
-			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
-		</EquipmentSet>
-	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_4_nord">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
@@ -7481,14 +7260,6 @@
 		</EquipmentSet>
 	</EquipmentRoster>
 	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_5_byalic">
-		<EquipmentSet>
-			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
-			<Equipment slot="Cape" id="Item.scarf"/>
-			<Equipment slot="Body" id="Item.northern_leather_vest"/>
-			<Equipment slot="Leg" id="Item.strapped_shoes"/>
-		</EquipmentSet>
-	</EquipmentRoster>
-	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_5_akkazi">
 		<EquipmentSet>
 			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
 			<Equipment slot="Cape" id="Item.scarf"/>
@@ -11447,6 +11218,692 @@
 	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_5_zwadane">
 		<EquipmentSet>
 			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_default_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_0_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_1_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_1_page_2_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_default_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_child_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_0_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_child_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_1_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_child_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_2_page_2_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_default_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.bandit_fur_a"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.light_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.vlandia_bandit_cape_b"/>
+			<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_0_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.fur_hat"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.heavy_nordic_coat"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_1_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.light_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.long_woolen_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_3_page_2_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_default_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_0_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.nordic_sloven"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.roughhide_cap"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Gloves" id="Item.armwraps"/>
+			<Equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_1_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.layered_leather_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Body" id="Item.tundra_tunic"/>
+			<Equipment slot="Leg" id="Item.rough_tied_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.vlandia_bandit_cape_b"/>
+			<Equipment slot="Body" id="Item.roughcloth_shortcoat"/>
+			<Equipment slot="Leg" id="Item.leather_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_4_page_2_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_default_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.woven_leather_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.goggled_helmet_over_leather"/>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_0_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.goggled_helmet_over_leather"/>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_1_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_0_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.goggled_helmet_over_leather"/>
+			<Equipment slot="Body" id="Item.nordic_hauberk"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_1_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Body" id="Item.merchants_fur_coat"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_2_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.northern_fur_cap"/>
+			<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_3_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Body" id="Item.northern_leather_tabard"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_4_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_fur_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Leg" id="Item.strapped_shoes"/>
+		</EquipmentSet>
+	</EquipmentRoster>
+	<EquipmentRoster id="child_education_equipments_stage_5_page_2_branch_5_akkazi">
+		<EquipmentSet>
+			<Equipment slot="Head" id="Item.nordic_leather_cap"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.northern_leather_vest"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
 			<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 		</EquipmentSet>
 	</EquipmentRoster>

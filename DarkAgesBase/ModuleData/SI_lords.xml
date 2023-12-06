@@ -1938,6 +1938,55 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
+		  <EquipmentSet id="akkazi_bat_template_medium" />
+		  <EquipmentSet id="akkazi_civ_template_default"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_2"
+		name="{=r3oIoCr8}Georgina"
+		age="44"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
 		  <EquipmentSet id="hmj_ase_king_battletemplate" />
 		  <EquipmentSet id="ase_civ_template_flamboyant"
 						civilian="true" />
@@ -15263,6 +15312,19 @@
 			<EquipmentRoster civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_0_akkazi" name="{=!}stage_2_page_0_branch_0_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.akkazi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.nordic_hauberk"/>
+				<equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_0_massa" name="{=!}stage_2_page_0_branch_0_vlandia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.zwadane" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -15363,6 +15425,20 @@
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_1_vaegiri" name="{=!}stage_2_page_0_branch_1_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.nordic_leather_cap"/>
+				<equipment slot="Body" id="Item.merchants_fur_coat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_1_akkazi" name="{=!}stage_2_page_0_branch_1_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.akkazi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -15483,6 +15559,20 @@
 			<EquipmentRoster civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_2_akkazi" name="{=!}stage_2_page_0_branch_2_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.akkazi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.northern_fur_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_tunic"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_2_massa" name="{=!}stage_2_page_0_branch_2_vlandia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.zwadane" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -15584,6 +15674,20 @@
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_3_vaegiri" name="{=!}stage_2_page_0_branch_3_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.roughhide_cap"/>
+				<equipment slot="Body" id="Item.heavy_nordic_coat"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_3_akkazi" name="{=!}stage_2_page_0_branch_3_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.akkazi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills/>
 		<Equipments>
@@ -15709,6 +15813,19 @@
 			<EquipmentRoster civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_4_akkazi" name="{=!}stage_2_page_0_branch_4_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.akkazi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Body" id="Item.northern_leather_tabard"/>
+				<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_4_massa" name="{=!}stage_2_page_0_branch_4_vlandia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.zwadane" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_vlandia"/>
@@ -15808,6 +15925,21 @@
 	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_5_vaegiri" name="{=!}stage_2_page_0_branch_5_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.byalic" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
 		<face>
 			<face_key_template value="BodyProperty.fighter_sturgia"/>
+		</face>
+		<skills/>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Head" id="Item.nordic_fur_cap"/>
+				<equipment slot="Cape" id="Item.scarf"/>
+				<equipment slot="Body" id="Item.northern_leather_vest"/>
+				<equipment slot="Leg" id="Item.strapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="child_education_templates_stage_2_page_0_branch_5_akkazi" name="{=!}stage_2_page_0_branch_5_sturgia" age="45" default_group="Infantry" is_hero="false" occupation="Lord" culture="Culture.akkazi" skill_template="SkillSet.infantry_heavyinfantry_level1_template_skills" is_template="true">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
 		</face>
 		<skills/>
 		<Equipments>
