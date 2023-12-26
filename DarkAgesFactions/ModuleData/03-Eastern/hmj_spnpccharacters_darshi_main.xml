@@ -512,7 +512,7 @@
 			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="darshi_hmj_ct3"
-			default_group="Ranged"
+			default_group="HorseArcher"
 			level="16"
 			name="{=Dehqan Footman}Dehqan Scout"
 			occupation="Soldier"
@@ -584,7 +584,7 @@
 			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="darshi_hmj_ct4"
-			default_group="Ranged"
+			default_group="HorseArcher"
 			level="21"
 			name="{=Dehqan Footman}Dehqan Horseman"
 			occupation="Soldier"

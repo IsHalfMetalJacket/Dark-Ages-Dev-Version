@@ -1405,7 +1405,7 @@
 			occupation="Soldier"
 			culture="Culture.sturgia">
 			<face>
-				<face_key_template value="BodyProperty.villager_sturgia"/>
+				<face_key_template value="BodyProperty.fighter_sturgia"/>
 			</face>
 			<skills >
 				<skill id="Athletics" value="100"/>

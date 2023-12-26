@@ -288,14 +288,14 @@
 				<face_key_template value="BodyProperty.villager_aserai"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="60"/>
+				<skill id="Athletics" value="30"/>
 				<skill id="Riding" value="5"/>
-				<skill id="OneHanded" value="20"/>
+				<skill id="OneHanded" value="10"/>
 				<skill id="TwoHanded" value="5"/>
-				<skill id="Polearm" value="10"/>
-				<skill id="Bow" value="100"/>
-				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="20"/>
+				<skill id="Polearm" value="5"/>
+				<skill id="Bow" value="50"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="10"/>
 			</skills>
 			<upgrade_targets>
 				<upgrade_target id="NPCCharacter.aserai_hmj_mat3"/>
@@ -351,14 +351,14 @@
 				<face_key_template value="BodyProperty.villager_aserai"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="100"/>
+				<skill id="Athletics" value="20"/>
 				<skill id="Riding" value="10"/>
-				<skill id="OneHanded" value="60"/>
-				<skill id="TwoHanded" value="20"/>
-				<skill id="Polearm" value="40"/>
-				<skill id="Bow" value="160"/>
-				<skill id="Crossbow" value="40"/>
-				<skill id="Throwing" value="40"/>
+				<skill id="OneHanded" value="20"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="10"/>
+				<skill id="Bow" value="60"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="20"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
