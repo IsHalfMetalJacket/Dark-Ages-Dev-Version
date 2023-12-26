@@ -692,6 +692,18 @@
 	<!-- Akkazis - Geros -->
 	<Hero id="hmj_lord_10_1" spouse="Hero.hmj_lord_10_2" faction="Faction.clan_akkazi_1"/>
 	<Hero id="hmj_lord_10_2" spouse="Hero.hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
+	<!-- Akkazis - Geros -->
+	<Hero id="hmj_lord_10_3" spouse="Hero.hmj_lord_10_4" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_4" spouse="Hero.hmj_lord_10_3" faction="Faction.clan_akkazi_2"/>
+	<!-- Akkazis - Geros -->
+	<Hero id="hmj_lord_10_5" spouse="Hero.hmj_lord_10_6" faction="Faction.clan_akkazi_3"/>
+	<Hero id="hmj_lord_10_6" spouse="Hero.hmj_lord_10_5" faction="Faction.clan_akkazi_3"/>
+	<!-- Akkazis - Geros -->
+	<Hero id="hmj_lord_10_7" spouse="Hero.hmj_lord_10_8" faction="Faction.clan_akkazi_4"/>
+	<Hero id="hmj_lord_10_8" spouse="Hero.hmj_lord_10_7" faction="Faction.clan_akkazi_4"/>
+	<!-- Akkazis - Geros -->
+	<Hero id="hmj_lord_10_9" spouse="Hero.hmj_lord_10_10" faction="Faction.clan_akkazi_5"/>
+	<Hero id="hmj_lord_10_10" spouse="Hero.hmj_lord_10_9" faction="Faction.clan_akkazi_5"/>
 	<!-- Diamonds -->
 	<Hero id="hmj_spc_diamonds_lord_0" faction="Faction.diamonds"/>
 	<!-- BANDITS -->

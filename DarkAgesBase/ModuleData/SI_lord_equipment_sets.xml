@@ -5623,6 +5623,23 @@
 		</EquipmentSet>
 		<Flags IsNobleTemplate="true" IsFemaleTemplate="true" />
 	</EquipmentRoster>
+	
+<!-- Nahasi -->
+	<EquipmentRoster id="hmj_nahasi_queen_battletemplate" culture="Culture.nahasi">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.composite_steppe_bow"/>
+			<Equipment slot="Item1" id="Item.GRE_blunt_arrows"/>
+			<Equipment slot="Item2" id="Item.AR_empire_noble_sword_4_t5"/>
+			<Equipment slot="Item3" id="Item.AR_shield_infantry_zzd"/>
+			<Equipment slot="Head" id="Item.ao_imperial_pointed_helmet_with_cloth_wrap"/>
+			<Equipment slot="Cape" id="Item.ao_imperial_noblemans_sash"/>
+			<Equipment slot="Body" id="Item.aserai_full_scale_armor_on_chain"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.special_camel"/>
+			<Equipment slot="HorseHarness" id="Item.tv_camel_armor_a"/>
+		</EquipmentSet>
+		<Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
 	<EquipmentRoster id="AR_spa_bat_template_medium" culture="Culture.nahasi">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5"/>

@@ -1992,6 +1992,395 @@
 						civilian="true" />
 		</Equipments>
 	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_3"
+		name="{=r3oIoCr8}George"
+		age="44"
+		voice="ironic"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="akkazi_bat_template_medium" />
+		  <EquipmentSet id="akkazi_civ_template_default"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_4"
+		name="{=r3oIoCr8}Georgina"
+		age="44"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="hmj_ase_king_battletemplate" />
+		  <EquipmentSet id="ase_civ_template_flamboyant"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_5"
+		name="{=r3oIoCr8}George"
+		age="44"
+		voice="ironic"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="akkazi_bat_template_medium" />
+		  <EquipmentSet id="akkazi_civ_template_default"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_6"
+		name="{=r3oIoCr8}Georgina"
+		age="44"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="hmj_ase_king_battletemplate" />
+		  <EquipmentSet id="ase_civ_template_flamboyant"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_7"
+		name="{=r3oIoCr8}George"
+		age="44"
+		voice="ironic"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="akkazi_bat_template_medium" />
+		  <EquipmentSet id="akkazi_civ_template_default"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_8"
+		name="{=r3oIoCr8}Georgina"
+		age="44"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="hmj_ase_king_battletemplate" />
+		  <EquipmentSet id="ase_civ_template_flamboyant"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_9"
+		name="{=r3oIoCr8}George"
+		age="44"
+		voice="ironic"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="akkazi_bat_template_medium" />
+		  <EquipmentSet id="akkazi_civ_template_default"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="hmj_lord_10_10"
+		name="{=r3oIoCr8}Georgina"
+		age="44"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.akkazi"
+		occupation="Lord"
+		is_hero="true"
+		default_group="Cavalry"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00282b5fd7fc23c299c2761c4ac1a5954778548899a66659788878746a9d96290006165d06a7699c0000000000000000000000000000000000000000011c7140" /-->
+			<BodyProperties version="4" weight="0.1373" build="0.341"  key="0023640FD7FC19C299C2761C4AC1A5954778548899A66659788878746A9D96290095260309A7699C0000000000000000000000000000000000000000012C7140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="HorseArcherFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Politician"
+				value="18" />
+			<Trait
+				id="Manager"
+				value="20" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Oligarchic"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+		  <EquipmentSet id="hmj_ase_king_battletemplate" />
+		  <EquipmentSet id="ase_civ_template_flamboyant"
+						civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
 
 	<!--NPCCharacter id="AR_dead_lord_AA" name="{=AR100002}Apolytea" age="46" voice="softspoken" is_female="true" is_hero="true" culture="Culture.empire_n" occupation="Lord" default_group="Cavalry" face_mesh_cache="true">
 		<face>
@@ -13327,7 +13716,7 @@
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_12_1" name="Athenais" voice="earnest" age="22" is_female="true" default_group="Ranged" is_hero="true" culture="Culture.nahasi" occupation="Lord">
+	<NPCCharacter id="hmj_lord_12_1" name="Athenais" voice="earnest" age="22" is_female="true" default_group="HorseArcher" is_hero="true" culture="Culture.nahasi" occupation="Lord">
 		<face>
 			<BodyProperties version="4" weight="0.1929" build="0.1466"  key="003CF40FD0000A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0042360304F3E7F722246678787787F70000000000001577000000006E742043"  />
 		</face>
@@ -13343,7 +13732,7 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster/>
-			<EquipmentSet id="AR_spa_bat_template_heavy"/>
+			<EquipmentSet id="hmj_nahasi_queen_battletemplate"/>
 			<EquipmentSet id="ase_civ_template_flamboyant" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>

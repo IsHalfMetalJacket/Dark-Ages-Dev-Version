@@ -991,17 +991,13 @@
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.nahasi_hmj_st2"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.nahasi_hmj_st3"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nahasi_hmj_st4"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.nahasi_hmj_hst3"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nahasi_hmj_hst4"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.nahasi_hmj_hit2"/>
+=			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.nahasi_hmj_hit2"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.nahasi_hmj_hit3"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nahasi_hmj_hit4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nahasi_hmj_hit5"/>
 			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.nahasi_hmj_nrt3"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nahasi_hmj_nrt4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nahasi_hmj_nrt5"/>
-			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nahasi_hmj_nct4"/>
-			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nahasi_hmj_nct5"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.nahasi_hmj_nht4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.nahasi_hmj_nht5"/>
 			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.nahasi_hmj_nht6"/>

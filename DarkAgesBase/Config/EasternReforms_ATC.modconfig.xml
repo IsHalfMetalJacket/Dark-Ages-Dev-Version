@@ -508,6 +508,260 @@
 			</eliteTroops>
 		</Culture>
 	</MapFaction>
+	<MapFaction id="akkazia">
+		<!-- Standard Akkazi configuration -->
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<!-- Khuzait for captured Aserai settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="darshi">
+			<!-- Khuzait for captured Darshi settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_n">
+			<!-- Khuzait for captured Northern Empire settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire">
+			<!-- Khuzait for captured Southern Empire settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="empire_w">
+			<!-- Khuzait for captured Western Empire settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="shariz">
+			<!-- Khuzait for captured Shariz settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="nahasi">
+			<!-- Khuzait for captured Nahasi settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<!-- Khuzait for captured Sturgia settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vakken">
+			<!-- Khuzait for captured Vakken settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<!-- Khuzait for captured Vlandia settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="zwadane">
+			<!-- Khuzait for captured Zwadane settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<!-- Khuzait for captured Battania settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="oldcalradian">
+			<!-- Khuzait for captured Old Calradia settlements -->
+			<basicTroops>
+				<volunteer id="akkazi_hmj_mit1" percent="25"/>
+				<volunteer id="akkazi_hmj_mst1" percent="25"/>
+				<volunteer id="akkazi_hmj_mrt2" percent="14"/>
+				<volunteer id="akkazi_hmj_mat2" percent="12"/>
+				<volunteer id="akkazi_hmj_it2" percent="9"/>
+				<volunteer id="akkazi_hmj_hat2" percent="7"/>
+				<volunteer id="akkazi_hmj_rt3" percent="5"/>
+				<volunteer id="akkazi_hmj_fit4" percent="3"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="akkazi_hmj_pit2" percent="40"/>
+				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
 	<!-- MINOR FACTIONS -->
 	<Clan id="karakhuzaits">
 		<Culture id="default">
