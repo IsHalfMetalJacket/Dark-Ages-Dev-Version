@@ -15106,6 +15106,71 @@
 		</Equipments>
 	</NPCCharacter>
 
+	<!-- lochanians -->
+	<NPCCharacter id="hmj_lord_khevsur_0" name="of the Venatio" voice="earnest" is_template="true" age="42" default_group="Infantry" is_hero="false" culture="Culture.akkazi" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Generosity" value="+1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="HopliteFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_spc_venatio_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_khevsur_1" name="of the Venatio" voice="softspoken" is_female="true" is_template="true" age="22" default_group="Infantry" is_hero="false" culture="Culture.akkazi" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="+1"/>
+			<Trait id="Mercy" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="Commander" value="7"/>
+			<Trait id="HopliteFightingSkills" value="8"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_spc_venatio_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_khevsur_2" name="of the Venatio" voice="curt" is_template="true" age="28" default_group="Infantry" is_hero="false" culture="Culture.akkazi" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_empire"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Commander" value="6"/>
+			<Trait id="HopliteFightingSkills" value="9"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_spc_venatio_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_khevsur_3" name="of the Venatio" voice="ironic" is_template="true" age="35" default_group="Infantry" is_hero="false" culture="Culture.akkazi" occupation="Lord">
+		<face>
+			<face_key_template value="BodyProperty.fighter_gotarni"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="HopliteFightingSkills" value="6"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_spc_venatio_leaders"/>
+			<EquipmentSet id="bat_civ_template_wild" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
 	<!-- kankharit -->
 	<NPCCharacter id="AR_spc_karakhuzaits_leader_0" name="{=bpw8fOs5}of the Caravans" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.zhan" occupation="Lord">
 		<face>

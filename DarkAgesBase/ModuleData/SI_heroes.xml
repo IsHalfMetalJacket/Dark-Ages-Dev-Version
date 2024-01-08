@@ -284,7 +284,7 @@
 	<Hero id="lord_3_21" spouse="Hero.lord_3_21_1" faction="Faction.clan_aserai_5"/>
 	<Hero id="lord_3_21_1" spouse="Hero.lord_3_21" faction="Faction.clan_aserai_5"/>
 	<!-- Aserai 6, Banu Atij-->
-	<Hero id="lord_3_18" spouse="Hero.AR_lord_3_18" faction="Faction.clan_aserai_6"/>
+	<Hero id="lord_3_18" spouse="Hero.lord_3_18_1" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_1" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_2" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>
 	<Hero id="lord_3_18_3" father="Hero.lord_3_18" faction="Faction.clan_aserai_6"/>

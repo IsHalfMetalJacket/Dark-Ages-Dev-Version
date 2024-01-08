@@ -1484,7 +1484,7 @@
 	         basic_troop="NPCCharacter.battanian_hmj_mpt1"
 	         melee_militia_troop="NPCCharacter.battanian_hmj_mst2"
 	         ranged_militia_troop="NPCCharacter.battanian_hmj_mst2"
-	         melee_elite_militia_troop="NPCCharacter.battania_hmj_mht3"
+	         melee_elite_militia_troop="NPCCharacter.battanian_hmj_mht3"
 	         ranged_elite_militia_troop="NPCCharacter.battanian_hmj_rt4"
 	         can_have_settlement="true"
 	         town_edge_number="16"

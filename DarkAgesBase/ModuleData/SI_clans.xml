@@ -1191,7 +1191,7 @@
 			 text="There is doubt that a 'Zendic' tribe ever existed. If anything, the Zends are more a collective of disgruntled Calradians who saw opportunity in the Secession. Yet they are not aimless, seeking one day to build a city-state of the own- Zendar."/>
 	<!-- Akkazia - Mountainers -->
 	<Faction id="clan_akkazi_1"
-	         name="{=*!}Geros1"
+	         name="{=*!}Akkan"
 	         tier="6"
 	         owner="Hero.hmj_lord_10_1"
 	         culture="Culture.akkazi"
@@ -1200,7 +1200,7 @@
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"
 			 text="Placeholder."/>
 	<Faction id="clan_akkazi_2"
-	         name="{=*!}Geros2"
+	         name="{=*!}Tanasisyan"
 	         tier="6"
 	         owner="Hero.hmj_lord_10_3"
 	         culture="Culture.akkazi"
@@ -1209,7 +1209,7 @@
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"
 			 text="Placeholder."/>
 	<Faction id="clan_akkazi_3"
-	         name="{=*!}Geros3"
+	         name="{=*!}Barshvili"
 	         tier="4"
 	         owner="Hero.hmj_lord_10_5"
 	         culture="Culture.akkazi"
@@ -1218,7 +1218,7 @@
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"
 			 text="Placeholder."/>
 	<Faction id="clan_akkazi_4"
-	         name="{=*!}Geros4"
+	         name="{=*!}Tzangaty"
 	         tier="4"
 	         owner="Hero.hmj_lord_10_7"
 	         culture="Culture.akkazi"
@@ -1227,7 +1227,7 @@
 	         banner_key="11.2.38.2000.2000.764.764.1.0.0.408.2.38.509.509.764.764.1.0.0"
 			 text="Placeholder."/>
 	<Faction id="clan_akkazi_5"
-	         name="{=*!}Geros5"
+	         name="{=*!}Iltandzhe"
 	         tier="4"
 	         owner="Hero.hmj_lord_10_9"
 	         culture="Culture.akkazi"

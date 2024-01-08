@@ -9,10 +9,10 @@
 		<xsl:attribute name="name">{=AR_empirefaction_culture_name}Calradian</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@elite_basic_troop">
-		<xsl:attribute name="elite_basic_troop">NPCCharacter.simperial_hmj_nrt2</xsl:attribute>
+		<xsl:attribute name="elite_basic_troop">NPCCharacter.simperial_hmj_nrt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@basic_troop">
-		<xsl:attribute name="basic_troop">NPCCharacter.simperial_hmj_mst1</xsl:attribute>
+		<xsl:attribute name="basic_troop">NPCCharacter.simperial_hmj_mit1</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@melee_militia_troop">
 		<xsl:attribute name="melee_militia_troop">NPCCharacter.simperial_hmj_mit2</xsl:attribute>
@@ -51,16 +51,16 @@
 		<xsl:attribute name="villager">NPCCharacter.hmj_s_emp_villager</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@caravan_master">
-		<xsl:attribute name="caravan_master">NPCCharacter.AR_s_emp_caravan_master</xsl:attribute>
+		<xsl:attribute name="caravan_master">NPCCharacter.simperial_hmj_cgt5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@armed_trader">
-		<xsl:attribute name="armed_trader">NPCCharacter.AR_s_emp_armed_trader</xsl:attribute>
+		<xsl:attribute name="armed_trader">NPCCharacter.simperial_hmj_tt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@caravan_guard">
-		<xsl:attribute name="caravan_guard">NPCCharacter.AR_s_emp_caravan_guard</xsl:attribute>
+		<xsl:attribute name="caravan_guard">NPCCharacter.simperial_hmj_cgt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@veteran_caravan_guard">
-		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_s_emp_vet_caravan_guard</xsl:attribute>
+		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.simperial_hmj_cgt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='empire']/@prison_guard">
 		<xsl:attribute name="prison_guard">NPCCharacter.hmj_s_emp_guard</xsl:attribute>
@@ -96,16 +96,16 @@
 		<xsl:attribute name="villager">NPCCharacter.hmj_aserai_villager</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@caravan_master">
-		<xsl:attribute name="caravan_master">NPCCharacter.AR_ase_caravan_master</xsl:attribute>
+		<xsl:attribute name="caravan_master">NPCCharacter.aserai_hmj_cgt5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@armed_trader">
-		<xsl:attribute name="armed_trader">NPCCharacter.AR_ase_armed_trader</xsl:attribute>
+		<xsl:attribute name="armed_trader">NPCCharacter.aserai_hmj_tt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@caravan_guard">
-		<xsl:attribute name="caravan_guard">NPCCharacter.AR_ase_caravan_guard</xsl:attribute>
+		<xsl:attribute name="caravan_guard">NPCCharacter.aserai_hmj_cgt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@veteran_caravan_guard">
-		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_ase_vet_caravan_guard</xsl:attribute>
+		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.aserai_hmj_cgt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='aserai']/@townswoman">
 		<xsl:attribute name="townswoman">NPCCharacter.hmj_aserai_townswoman</xsl:attribute>
@@ -144,13 +144,13 @@
 		<xsl:attribute name="caravan_master">NPCCharacter.sturgia_hmj_cgt5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@armed_trader">
-		<xsl:attribute name="armed_trader">NPCCharacter.AR_stu_armed_trader</xsl:attribute>
+		<xsl:attribute name="armed_trader">NPCCharacter.sturgia_hmj_tt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@caravan_guard">
-		<xsl:attribute name="caravan_guard">NPCCharacter.AR_stu_caravan_guard</xsl:attribute>
+		<xsl:attribute name="caravan_guard">NPCCharacter.sturgia_hmj_cgt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@veteran_caravan_guard">
-		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_stu_vet_caravan_guard</xsl:attribute>
+		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.sturgia_hmj_cgt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='sturgia']/@townswoman">
 		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_sturgia</xsl:attribute>
@@ -189,16 +189,16 @@
 		<xsl:attribute name="villager">NPCCharacter.hmj_villager_vlandia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@caravan_master">
-		<xsl:attribute name="caravan_master">NPCCharacter.AR_vla_caravan_master</xsl:attribute>
+		<xsl:attribute name="caravan_master">NPCCharacter.vlandia_hmj_cgt5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@armed_trader">
-		<xsl:attribute name="armed_trader">NPCCharacter.AR_vla_armed_trader</xsl:attribute>
+		<xsl:attribute name="armed_trader">NPCCharacter.vlandia_hmj_tt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@caravan_guard">
-		<xsl:attribute name="caravan_guard">NPCCharacter.AR_vla_caravan_guard</xsl:attribute>
+		<xsl:attribute name="caravan_guard">NPCCharacter.vlandia_hmj_cgt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@veteran_caravan_guard">
-		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_vla_vet_caravan_guard</xsl:attribute>
+		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.vlandia_hmj_cgt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@townswoman">
 		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_vlandia</xsl:attribute>
@@ -225,7 +225,7 @@
 		<xsl:attribute name="ranged_militia_troop">NPCCharacter.battanian_hmj_mrt2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@melee_elite_militia_troop">
-		<xsl:attribute name="melee_elite_militia_troop">NPCCharacter.battania_hmj_mht3</xsl:attribute>
+		<xsl:attribute name="melee_elite_militia_troop">NPCCharacter.battanian_hmj_mht3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@ranged_elite_militia_troop">
 		<xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.battanian_hmj_rt4</xsl:attribute>
@@ -234,16 +234,16 @@
 		<xsl:attribute name="villager">NPCCharacter.hmj_villager_battania</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@caravan_master">
-		<xsl:attribute name="caravan_master">NPCCharacter.AR_bat_caravan_master</xsl:attribute>
+		<xsl:attribute name="caravan_master">NPCCharacter.battanian_hmj_cgt5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@armed_trader">
-		<xsl:attribute name="armed_trader">NPCCharacter.AR_bat_armed_trader</xsl:attribute>
+		<xsl:attribute name="armed_trader">NPCCharacter.battanian_hmj_tt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@caravan_guard">
-		<xsl:attribute name="caravan_guard">NPCCharacter.AR_bat_caravan_guard</xsl:attribute>
+		<xsl:attribute name="caravan_guard">NPCCharacter.battanian_hmj_cgt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@veteran_caravan_guard">
-		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_bat_vet_caravan_guard</xsl:attribute>
+		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.battanian_hmj_cgt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='battania']/@townswoman">
 		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_battania</xsl:attribute>
@@ -285,16 +285,16 @@
 		<xsl:attribute name="villager">NPCCharacter.hmj_villager_khuzait</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@caravan_master">
-		<xsl:attribute name="caravan_master">NPCCharacter.AR_khu_caravan_master</xsl:attribute>
+		<xsl:attribute name="caravan_master">NPCCharacter.khuzait_hmj_cgt5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@armed_trader">
-		<xsl:attribute name="armed_trader">NPCCharacter.AR_khu_armed_trader</xsl:attribute>
+		<xsl:attribute name="armed_trader">NPCCharacter.khuzait_hmj_tt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@caravan_guard">
-		<xsl:attribute name="caravan_guard">NPCCharacter.AR_khu_caravan_guard</xsl:attribute>
+		<xsl:attribute name="caravan_guard">NPCCharacter.khuzait_hmj_cgt3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@veteran_caravan_guard">
-		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.AR_khu_vet_caravan_guard</xsl:attribute>
+		<xsl:attribute name="veteran_caravan_guard">NPCCharacter.khuzait_hmj_cgt4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@townswoman">
 		<xsl:attribute name="townswoman">NPCCharacter.hmj_townswoman_khuzait</xsl:attribute>

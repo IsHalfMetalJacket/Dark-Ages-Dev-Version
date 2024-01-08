@@ -404,7 +404,7 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="char_creation_player_party_template_khuzait">
 		<stacks>
-			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.khuzait_hmj_mit3"/>
+			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.khuzait_hmj_it3"/>
 			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.khuzait_hmj_hat2"/>
 		</stacks>
 	</MBPartyTemplate>
@@ -442,8 +442,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="vassal_reward_troops_khuzait">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_nhat5"/>
-			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.khuzait_hmj_nct3"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.khuzait_hmj_nhct5"/>
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.khuzait_hmj_nhat3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="villager_khuzait_template">
