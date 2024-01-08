@@ -739,7 +739,6 @@
 			level="16"
 			name="{=Qizeshaar Veteran}Qizeshaar Veteran"
 			occupation="Soldier"
-			is_basic_troop="true"
 			culture="Culture.darshi">
 			<face>
 				<face_key_template value="BodyProperty.fighter_darshi"/>
