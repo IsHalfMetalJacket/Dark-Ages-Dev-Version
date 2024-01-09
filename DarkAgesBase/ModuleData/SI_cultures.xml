@@ -1756,7 +1756,7 @@
 	         basic_troop="NPCCharacter.khuzait_hmj_mct1"
 	         melee_militia_troop="NPCCharacter.khuzait_hmj_mit2"
 	         ranged_militia_troop="NPCCharacter.khuzait_hmj_mst2"
-	         melee_elite_militia_troop="NPCCharacter.khuzait_hmj_mit3"
+	         melee_elite_militia_troop="NPCCharacter.khuzait_hmj_it3"
 	         ranged_elite_militia_troop="NPCCharacter.khuzait_hmj_hat4"
 	         can_have_settlement="true"
 	         town_edge_number="4"

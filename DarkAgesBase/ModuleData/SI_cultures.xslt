@@ -261,7 +261,7 @@
 		<xsl:attribute name="color">0xff1a1a1a</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@elite_basic_troop">
-		<xsl:attribute name="elite_basic_troop">NPCCharacter.khuzait_hmj_nct3</xsl:attribute>
+		<xsl:attribute name="elite_basic_troop">NPCCharacter.khuzait_hmj_nct2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@basic_troop">
 		<xsl:attribute name="basic_troop">NPCCharacter.khuzait_hmj_mct2</xsl:attribute>
@@ -273,7 +273,7 @@
 		<xsl:attribute name="ranged_militia_troop">NPCCharacter.khuzait_hmj_mst2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@melee_elite_militia_troop">
-		<xsl:attribute name="melee_elite_militia_troop">NPCCharacter.khuzait_hmj_mit3</xsl:attribute>
+		<xsl:attribute name="melee_elite_militia_troop">NPCCharacter.khuzait_hmj_it3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='khuzait']/@ranged_elite_militia_troop">
 		<xsl:attribute name="ranged_elite_militia_troop">NPCCharacter.khuzait_hmj_rt4</xsl:attribute>
