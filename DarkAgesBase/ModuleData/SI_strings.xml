@@ -201,21 +201,48 @@
 	<string id="str_faction_formal_name_for_culture.khuzait" text="{=bF7HmNGQ}Khuzait Khanate"/>
 	<string id="str_faction_formal_name_for_culture.sturgia" text="{=iYCR3xuQ}Principality of Sturgia"/>
 	<string id="str_faction_formal_name_for_culture.aserai" text="{=eb0nLx5E}Aserai Sultanate"/>
-	<string id="str_faction_formal_name_for_culture.empire" text="{=AIh1Ik4A}Calradian Empire"/>
+	<string id="str_faction_formal_name_for_culture.empire" text="{=AIh1Ik4A}North Calradian Republic"/>
+	<string id="str_faction_formal_name_for_culture.empire_w" text="{=5b4b44fgfff}West Calradian Dominate"/>
+	<string id="str_faction_formal_name_for_culture.empire_s" text="{=fefa32}South Calradian Empire"/>
+	<string id="str_faction_formal_name_for_culture.akkazi" text="{=4kk15a}Akkazian March"/>
+	<string id="str_faction_formal_name_for_culture.byalic" text="{=6y4tt4ga}Byalic Union"/>
+	<string id="str_faction_formal_name_for_culture.oldcalradian" text="{=td3r4t4t4t4}Secession of Old Calradia"/>
+	<string id="str_faction_formal_name_for_culture.darshi" text="{=55553rsh}Darshi Shahdom"/>
+	<string id="str_faction_formal_name_for_culture.nahasi" text="{=624rrfff}Exarchate of the Nahasa"/>
+	<string id="str_faction_formal_name_for_culture.nord" text="{=btbtb54545}Nordic Territories"/>
+	<string id="str_faction_formal_name_for_culture.zwadane" text="{=zt4tawade}Zwadane League"/>
 	<!-- "The language and laws of the Empire" -->
 	<string id="str_faction_informal_name_for_culture.vlandia" text="{=vZRYAvYH}the Vlandians"/>
 	<string id="str_faction_informal_name_for_culture.battania" text="{=eRqURgZY}the Battanians"/>
 	<string id="str_faction_informal_name_for_culture.khuzait" text="{=OzazmGBi}the Khuzait"/>
 	<string id="str_faction_informal_name_for_culture.sturgia" text="{=2UCptBFi}the Sturgians"/>
 	<string id="str_faction_informal_name_for_culture.aserai" text="{=fApjg2ae}the Aserai"/>
-	<string id="str_faction_informal_name_for_culture.empire" text="{=6UUymZhL}the Calradian Empire"/>
+	<string id="str_faction_informal_name_for_culture.empire" text="{=6UUymZhL}the Laconians"/>
+	<string id="str_faction_informal_name_for_culture.empire_w" text="{=8886i6}the Temeans"/>
+	<string id="str_faction_informal_name_for_culture.empire_s" text="{=oo8o8o}the Lycareans"/>
+	<string id="str_faction_informal_name_for_culture.akkazi" text="{=jyjyjyjyjyj3}the Akkazi"/>
+	<string id="str_faction_informal_name_for_culture.byalic" text="{=2234343434rff}the Byals"/>
+	<string id="str_faction_informal_name_for_culture.oldcalradian" text="{=jjh44wd}the Old Calradians"/>
+	<string id="str_faction_informal_name_for_culture.darshi" text="{=ht3y53y5}the Darshi"/>
+	<string id="str_faction_informal_name_for_culture.nahasi" text="{=3y3ygg}the Nahasi"/>
+	<string id="str_faction_informal_name_for_culture.nord" text="{=75tgafa}the Nords"/>
+	<string id="str_faction_informal_name_for_culture.zwadane" text="{=aer4r4}the Zwadane"/>
 	<!-- I will teach you imperial ways -->
 	<string id="str_adjective_for_culture.khuzait" text="{=sZLd6VHi}Khuzait"/>
 	<string id="str_adjective_for_culture.aserai" text="{=NaNMRPv4}Aserai"/>
 	<string id="str_adjective_for_culture.battania" text="{=ZvoyX6DX}Battanian"/>
 	<string id="str_adjective_for_culture.vlandia" text="{=Ohdrbpiw}Vlandian"/>
 	<string id="str_adjective_for_culture.sturgia" text="{=OxiaKT0G}Sturgian"/>
-	<string id="str_adjective_for_culture.empire" text="{=5S1zPgTm}Calradian"/>
+	<string id="str_adjective_for_culture.empire" text="{=5S1zPgTm}Laconian"/>
+	<string id="str_adjective_for_culture.empire_w" text="{=77j5y}Temean"/>
+	<string id="str_adjective_for_culture.empire_s" text="{=jjj66j}Lycarean"/>
+	<string id="str_adjective_for_culture.akkazi" text="{=6hb5g}the Akkazi"/>
+	<string id="str_adjective_for_culture.byalic" text="{=2234343434rff}Byalic"/>
+	<string id="str_adjective_for_culture.oldcalradian" text="{=zjhj5}Old Calradian"/>
+	<string id="str_adjective_for_culture.darshi" text="{=55y5y5jjjj}Darshi"/>
+	<string id="str_adjective_for_culture.nahasi" text="{=aaf34uj}Nahasi"/>
+	<string id="str_adjective_for_culture.nord" text="{=w4efefe}Nordic"/>
+	<string id="str_adjective_for_culture.zwadane" text="{=66u6uujjj}Zwadane"/>
 	<!-- I don't care for the imperials and their big, decadent cities -->
 	<string id="str_neutral_term_for_culture.khuzait" text="{=vJOWy1QF}Khuzait"/>
 	<string id="str_neutral_term_for_culture.aserai" text="{=aseraimembers}Aserai"/>

@@ -689,21 +689,39 @@
 	<Hero id="hmj_lord_13_19" faction="Faction.clan_sturgia_8" />
 	<Hero id="hmj_lord_13_20" faction="Faction.clan_sturgia_8" />
 	<Hero id="hmj_lord_13_21" spouse="Hero.hmj_lord_13_17" faction="Faction.clan_sturgia_8" />
-	<!-- Akkazis - Geros -->
+	<!-- Akkazis - Akkan -->
+	<Hero id="hmj_lord_10_2d" alive="false" spouse="Hero.hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
 	<Hero id="hmj_lord_10_1" spouse="Hero.hmj_lord_10_2" faction="Faction.clan_akkazi_1"/>
 	<Hero id="hmj_lord_10_2" spouse="Hero.hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
-	<!-- Akkazis - Geros -->
-	<Hero id="hmj_lord_10_3" spouse="Hero.hmj_lord_10_4" faction="Faction.clan_akkazi_2"/>
-	<Hero id="hmj_lord_10_4" spouse="Hero.hmj_lord_10_3" faction="Faction.clan_akkazi_2"/>
-	<!-- Akkazis - Geros -->
-	<Hero id="hmj_lord_10_5" spouse="Hero.hmj_lord_10_6" faction="Faction.clan_akkazi_3"/>
-	<Hero id="hmj_lord_10_6" spouse="Hero.hmj_lord_10_5" faction="Faction.clan_akkazi_3"/>
-	<!-- Akkazis - Geros -->
-	<Hero id="hmj_lord_10_7" spouse="Hero.hmj_lord_10_8" faction="Faction.clan_akkazi_4"/>
-	<Hero id="hmj_lord_10_8" spouse="Hero.hmj_lord_10_7" faction="Faction.clan_akkazi_4"/>
-	<!-- Akkazis - Geros -->
-	<Hero id="hmj_lord_10_9" spouse="Hero.hmj_lord_10_10" faction="Faction.clan_akkazi_5"/>
-	<Hero id="hmj_lord_10_10" spouse="Hero.hmj_lord_10_9" faction="Faction.clan_akkazi_5"/>
+	<Hero id="hmj_lord_10_3" father="Hero.hmj_lord_10_2d" mother="Hero.hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
+	<Hero id="hmj_lord_10_4" father="Hero.hmj_lord_10_2" mother="Hero.hmj_lord_10_1" faction="Faction.clan_akkazi_1"/>
+	<Hero id="hmj_lord_10_5" spouse="Hero.hmj_lord_10_6" faction="Faction.clan_akkazi_1"/>
+	<Hero id="hmj_lord_10_6" spouse="Hero.hmj_lord_10_5" faction="Faction.clan_akkazi_1"/>
+	<!-- Akkazis - Tanasisyan -->
+	<Hero id="hmj_lord_10_7" spouse="Hero.hmj_lord_10_8" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_8" spouse="Hero.hmj_lord_10_7" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_9" father="Hero.hmj_lord_10_7" mother="Hero.hmj_lord_10_8" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_10d" alive="false" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_10" father="Hero.hmj_lord_10_10d" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_11" faction="Faction.clan_akkazi_2"/>
+	<Hero id="hmj_lord_10_12" father="Hero.hmj_lord_10_10d" faction="Faction.clan_akkazi_2"/>
+	<!-- Akkazis - Barshvili -->
+	<Hero id="hmj_lord_10_13" spouse="Hero.hmj_lord_10_14" faction="Faction.clan_akkazi_3"/>
+	<Hero id="hmj_lord_10_14" spouse="Hero.hmj_lord_10_13" faction="Faction.clan_akkazi_3"/>
+	<Hero id="hmj_lord_10_15" faction="Faction.clan_akkazi_3"/>
+	<Hero id="hmj_lord_10_16" faction="Faction.clan_akkazi_3"/>
+	<Hero id="hmj_lord_10_17" faction="Faction.clan_akkazi_3"/>
+	<!-- Akkazis - Tzangaty -->
+	<Hero id="hmj_lord_10_18" spouse="Hero.hmj_lord_10_19" faction="Faction.clan_akkazi_4"/>
+	<Hero id="hmj_lord_10_19" spouse="Hero.hmj_lord_10_18" faction="Faction.clan_akkazi_4"/>
+	<Hero id="hmj_lord_10_20" faction="Faction.clan_akkazi_4"/>
+	<Hero id="hmj_lord_10_21" faction="Faction.clan_akkazi_4"/>
+	<Hero id="hmj_lord_10_22" father="Hero.hmj_lord_10_18" mother="Hero.hmj_lord_10_19" faction="Faction.clan_akkazi_4"/>
+	<!-- Akkazis - Iltandzhe -->
+	<Hero id="hmj_lord_10_23" spouse="Hero.hmj_lord_10_24" faction="Faction.clan_akkazi_5"/>
+	<Hero id="hmj_lord_10_24" spouse="Hero.hmj_lord_10_23" faction="Faction.clan_akkazi_5"/>
+	<Hero id="hmj_lord_10_25" father="Hero.hmj_lord_10_23" mother="Hero.hmj_lord_10_24" faction="Faction.clan_akkazi_5"/>
+	<Hero id="hmj_lord_10_26" father="Hero.hmj_lord_10_23" mother="Hero.hmj_lord_10_24" faction="Faction.clan_akkazi_5"/>
 	<!-- Diamonds -->
 	<Hero id="hmj_spc_diamonds_lord_0" faction="Faction.diamonds"/>
 	<!-- BANDITS -->

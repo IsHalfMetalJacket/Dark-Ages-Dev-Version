@@ -177,6 +177,7 @@
 		<xsl:attribute name='culture'>Culture.aserai</xsl:attribute>
 	</xsl:template>
 
+<!-- Akkazia -->
 	<xsl:template match="Settlement[@id='town_K3']/@culture">
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
 	</xsl:template>
@@ -196,7 +197,7 @@
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='town_K5']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_akkazi_1</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_akkazi_2</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_K5_2']/@culture">
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
@@ -211,7 +212,7 @@
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_K1']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_akkazi_1</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_akkazi_3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K1_1']/@culture">
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
@@ -223,7 +224,7 @@
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_K2']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_akkazi_1</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_akkazi_5</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K2_1']/@culture">
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
@@ -235,7 +236,7 @@
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_K4']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_akkazi_1</xsl:attribute>
+		<xsl:attribute name='owner'>Faction.clan_akkazi_4</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='castle_village_K4_1']/@culture">
 		<xsl:attribute name='culture'>Culture.akkazi</xsl:attribute>

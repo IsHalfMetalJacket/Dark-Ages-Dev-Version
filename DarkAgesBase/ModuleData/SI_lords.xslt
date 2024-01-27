@@ -3537,7 +3537,7 @@
 	    </xsl:template>
 	<!-- Maritzios -->
 	<xsl:template match="NPCCharacter[@id='lord_NE8_l']/@culture">
-		<xsl:attribute name="culture">Culture.khuzait</xsl:attribute>
+		<xsl:attribute name="culture">Culture.akkazi</xsl:attribute>
 	</xsl:template>
  	<xsl:template match='NPCCharacter[@id="lord_NE8_l"]/face'>
 		<xsl:copy>

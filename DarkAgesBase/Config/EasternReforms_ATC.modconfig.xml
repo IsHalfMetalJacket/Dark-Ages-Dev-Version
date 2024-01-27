@@ -524,7 +524,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="aserai">
@@ -542,7 +542,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="darshi">
@@ -560,7 +560,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="empire_n">
@@ -578,7 +578,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="empire">
@@ -596,7 +596,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="empire_w">
@@ -614,7 +614,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="shariz">
@@ -632,7 +632,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="nahasi">
@@ -650,7 +650,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="sturgia">
@@ -668,7 +668,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="vakken">
@@ -686,7 +686,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="vlandia">
@@ -704,7 +704,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="zwadane">
@@ -722,7 +722,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="battania">
@@ -740,7 +740,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="oldcalradian">
@@ -758,7 +758,7 @@
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="akkazi_hmj_pit2" percent="40"/>
 				<volunteer id="akkazi_hmj_nhat2" percent="40"/>
-				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+				<volunteer id="akkazi_hmj_nct4" percent="20"/>
 			</eliteTroops>
 		</Culture>
 	</MapFaction>

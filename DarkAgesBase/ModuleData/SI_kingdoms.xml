@@ -443,7 +443,7 @@
 	         short_name="{=hmj_kingdom_akkazi_short_name}Akkazis"
 	         title="{=hmj_kingdom_akkazi_title}The Akkazian March"
 	         ruler_title="{=hmj_kingdom_akkazi_ruler_title}Mepe"
-	         text="{=hmj_kingdom_akkazi_text}Caucasus people.">
+	         text="{=hmj_kingdom_akkazi_text}Since ancient times the Akkazi clans dwelled within the Akkan Hills. Despite seclusion from the machinations of great empires, the hotblooded Akkazi took part in the great Darshi-Calradian wars where they earned their fearsome reputation. Their expansion to Lake Tanaesis granted them opportunity for trade, and over time they became a respected March Kingdom. The great nomadic hordes of Urkhun however would overrun their lands, driving them to ruin. Devastation and the yoke of nomad reins had seemed all but certain until the rise of Tavid the Unifier. His great leadership, strengthened relations with the Calradian Empire and the resilience of the Akkazi peoples brought the March to its golden age. Now with Calradia in turmoil, the Akkazi fights for its sovereignty once more.">
 		<relationships>
 			<relationship kingdom="Kingdom.empire_s"
 			              value="1"/>
