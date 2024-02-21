@@ -2187,18 +2187,17 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-				<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-				<Equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
-				<Equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+				<Equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Head" id="Item.tied_head_wrapping"/>
+				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Body" id="Item.layered_robe"/>
 				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Body" id="Item.short_padded_robe"/>
 				<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -2209,18 +2208,17 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-				<Equipment slot="Item2" id="Item.eastern_spear_1_t2"/>
-				<Equipment slot="Item1" id="Item.bound_desert_round_sparring_shield"/>
-				<Equipment slot="Head" id="Item.loose_wrapped_desert_helmet"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
+				<Equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Head" id="Item.tied_head_wrapping"/>
+				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Body" id="Item.layered_robe"/>
 				<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.aseran_village_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
+				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Body" id="Item.short_padded_robe"/>
 				<Equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
 				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
@@ -2234,7 +2232,7 @@
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.hunting_bow"/>
 				<Equipment slot="Item2" id="Item.barbed_arrows"/>
-				<Equipment slot="Item3" id="Item.long_makhaira"/>
+				<Equipment slot="Item3" id="Item.aserai_mace_1_t2"/>
 				<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
 				<Equipment slot="Body" id="Item.aserai_civil_e"/>
 				<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
@@ -2254,7 +2252,7 @@
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.hunting_bow"/>
 				<Equipment slot="Item2" id="Item.barbed_arrows"/>
-				<Equipment slot="Item3" id="Item.long_makhaira"/>
+				<Equipment slot="Item3" id="Item.aserai_mace_1_t2"/>
 				<Equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
 				<Equipment slot="Body" id="Item.aserai_civil_e"/>
 				<Equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
@@ -2321,9 +2319,9 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-				<Equipment slot="Item1" id="Item.oval_shield"/>
+				<Equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
 				<Equipment slot="Item2" id="Item.aserai_mace_1_t2"/>
-				<Equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
+				<Equipment slot="Head" id="Item.TV_aserai_helmet_g"/>
 				<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
 				<Equipment slot="Body" id="Item.AR_aserai_armor_h"/>
 				<Equipment slot="Gloves" id="Item.armwraps"/>
@@ -2342,9 +2340,9 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-				<Equipment slot="Item1" id="Item.oval_shield"/>
+				<Equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
 				<Equipment slot="Item2" id="Item.aserai_mace_1_t2"/>
-				<Equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
+				<Equipment slot="Head" id="Item.TV_aserai_helmet_g"/>
 				<Equipment slot="Cape" id="Item.desert_fabric_shoulderpad"/>
 				<Equipment slot="Body" id="Item.AR_aserai_armor_h"/>
 				<Equipment slot="Gloves" id="Item.armwraps"/>
@@ -2364,10 +2362,12 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
-				<Equipment slot="Item3" id="Item.eastern_javelin_2_t3"/>
-				<Equipment slot="Item2" id="Item.adarga"/>
-				<Equipment slot="Head" id="Item.desert_cap"/>
-				<Equipment slot="Body" id="Item.aserai_civil_c"/>
+				<Equipment slot="Item2" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<Equipment slot="Item1" id="Item.adarga"/>
+				<Equipment slot="Item3" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<Equipment slot="Head" id="Item.tight_head_scarf"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Body" id="Item.desert_padded_cloth"/>
 				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
@@ -2383,10 +2383,12 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.aserai_mace_1_t2"/>
-				<Equipment slot="Item3" id="Item.eastern_javelin_2_t3"/>
-				<Equipment slot="Item2" id="Item.adarga"/>
-				<Equipment slot="Head" id="Item.desert_cap"/>
-				<Equipment slot="Body" id="Item.aserai_civil_c"/>
+				<Equipment slot="Item2" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<Equipment slot="Item1" id="Item.adarga"/>
+				<Equipment slot="Item3" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<Equipment slot="Head" id="Item.tight_head_scarf"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Body" id="Item.desert_padded_cloth"/>
 				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
@@ -2413,9 +2415,10 @@
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.woven_turban"/>
-				<Equipment slot="Body" id="Item.aserai_civil_f"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Item1" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Head" id="Item.aserai_civil_c_head"/>
+				<Equipment slot="Body" id="Item.aserai_civil_b"/>
+				<Equipment slot="Leg" id="Item.southern_moccasins"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -2434,9 +2437,10 @@
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.aserai_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.woven_turban"/>
-				<Equipment slot="Body" id="Item.aserai_civil_f"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Item1" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<Equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<Equipment slot="Leg" id="Item.southern_moccasins"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -2803,14 +2807,15 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
-				<Equipment slot="Body" id="Item.AR_empire_armor_d"/>
-				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
-				<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+				<Equipment slot="Body" id="Item.padded_cloth_with_strips"/>
+				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+				<Equipment slot="Leg" id="Item.fine_town_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zc"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_a"/>
 				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
@@ -2823,14 +2828,15 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<Equipment slot="Head" id="Item.AR_roman_hat_c"/>
-				<Equipment slot="Body" id="Item.AR_empire_armor_d"/>
-				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
-				<Equipment slot="Leg" id="Item.sturgia_boots_c"/>
+				<Equipment slot="Head" id="Item.AR_roman_hat_a2"/>
+				<Equipment slot="Body" id="Item.AR_empire_dress_armor_a"/>
+				<Equipment slot="Cape" id="Item.female_scarf"/>
+				<Equipment slot="Leg" id="Item.fine_town_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.AR_horse_armor_zc"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
+				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
 				<Equipment slot="Head" id="Item.head_wrapped"/>
 				<Equipment slot="Body" id="Item.empire_dress"/>
 				<Equipment slot="Leg" id="Item.ladys_shoe"/>
@@ -2843,13 +2849,11 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<Equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<Equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<Equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<Equipment slot="Cape" id="Item.ao_focale"/>
-				<Equipment slot="Body" id="Item.AR_empire_armor_k"/>
-				<Equipment slot="Leg" id="Item.fine_town_boots"/>
+				<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<Equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+				<Equipment slot="Body" id="Item.AO_imperial_scouts_tunic"/>
+				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
@@ -2865,13 +2869,12 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
-				<Equipment slot="Item1" id="Item.AR_shield_infantry_m"/>
-				<Equipment slot="Item2" id="Item.empire_lance_1_t3"/>
-				<Equipment slot="Head" id="Item.imperial_open_mail_coif"/>
-				<Equipment slot="Cape" id="Item.ao_focale"/>
-				<Equipment slot="Body" id="Item.AR_empire_armor_k"/>
-				<Equipment slot="Leg" id="Item.fine_town_boots"/>
+				<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<Equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<Equipment slot="Item2" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+				<Equipment slot="Body" id="Item.AO_imperial_scouts_tunic"/>
+				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
 				<Equipment slot="Horse" id="Item.sumpter_horse"/>
 				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
@@ -2890,10 +2893,11 @@
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.crossbow_a"/>
 				<Equipment slot="Item1" id="Item.bolt_e"/>
-				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+				<Equipment slot="Item3" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Head" id="Item.laced_cloth_coif"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Body" id="Item.footmans_tunic"/>
-				<Equipment slot="Leg" id="Item.folded_town_boots"/>
+				<Equipment slot="Leg" id="Item.vs_tied_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
@@ -2910,10 +2914,11 @@
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.crossbow_a"/>
 				<Equipment slot="Item1" id="Item.bolt_e"/>
-				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Head" id="Item.imperial_cloth_coif"/>
+				<Equipment slot="Item3" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Head" id="Item.laced_cloth_coif"/>
+				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Body" id="Item.footmans_tunic"/>
-				<Equipment slot="Leg" id="Item.folded_town_boots"/>
+				<Equipment slot="Leg" id="Item.vs_tied_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
@@ -2929,7 +2934,7 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
+				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Item0" id="Item.composite_bow"/>
 				<Equipment slot="Item1" id="Item.barbed_arrows"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_b2"/>
@@ -2941,7 +2946,7 @@
 				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -2953,7 +2958,7 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item3" id="Item.iron_spatha_sword_t2"/>
+				<Equipment slot="Item3" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Item0" id="Item.composite_bow"/>
 				<Equipment slot="Item1" id="Item.barbed_arrows"/>
 				<Equipment slot="Head" id="Item.AR_roman_hat_b2"/>
@@ -2965,7 +2970,7 @@
 				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
+				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
 				<Equipment slot="Gloves" id="Item.leather_gloves"/>
@@ -2978,15 +2983,14 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
-				<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
-				<Equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
-				<Equipment slot="Item3" id="Item.AR_plumbata"/>
-				<Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+				<Equipment slot="Item2" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Item1" id="Item.oval_shield"/>
+				<Equipment slot="Item0" id="Item.AR_imperial_spear_t2"/>
+				<Equipment slot="Head" id="Item.ao_imperial_heavy_spangenhelm_with_leather"/>
+				<Equipment slot="Cape" id="Item.ao_focale"/>
+				<Equipment slot="Body" id="Item.empire_warrior_padded_armor_f"/>
 				<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
-				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<Equipment slot="Leg" id="Item.vs_tied_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
@@ -3001,15 +3005,14 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.iron_spatha_sword_t2"/>
-				<Equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
-				<Equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
-				<Equipment slot="Item3" id="Item.AR_plumbata"/>
-				<Equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
-				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Body" id="Item.empire_warrior_padded_armor_b"/>
+				<Equipment slot="Item2" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Item1" id="Item.oval_shield"/>
+				<Equipment slot="Item0" id="Item.AR_imperial_spear_t2"/>
+				<Equipment slot="Head" id="Item.ao_imperial_heavy_spangenhelm_with_leather"/>
+				<Equipment slot="Cape" id="Item.ao_focale"/>
+				<Equipment slot="Body" id="Item.empire_warrior_padded_armor_f"/>
 				<Equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
-				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<Equipment slot="Leg" id="Item.vs_tied_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
 				<Equipment slot="Item0" id="Item.iron_spatha_sword_t2"/>
@@ -3025,19 +3028,21 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-				<Equipment slot="Item1" id="Item.western_javelin_1_t2"/>
-				<Equipment slot="Body" id="Item.footmans_tunic"/>
-				<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<Equipment slot="Item2" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<equipment slot="Item1" id="Item.light_horsemans_kite_shield"/>
+				<Equipment slot="Item0" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Item3" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<Equipment slot="Head" id="Item.TV_phrygian_cap_b"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Body" id="Item.leather_tunic"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
-				<Equipment slot="Body" id="Item.footmans_tunic"/>
+				<Equipment slot="Item0" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Head" id="Item.TV_phrygian_cap_b"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
-				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<Equipment slot="Body" id="Item.leather_tunic"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3045,19 +3050,21 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.empire_mace_1_t2"/>
-				<Equipment slot="Item1" id="Item.western_javelin_1_t2"/>
-				<Equipment slot="Body" id="Item.footmans_tunic"/>
-				<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
-				<Equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				<Equipment slot="Item2" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Item1" id="Item.makeshift_hmj_javelin_1_t1"/>
+				<Equipment slot="Item0" id="Item.light_horsemans_kite_shield"/>
+				<Equipment slot="Item3" id="Item.makeshift_hmj_javelin_1_t1"/>				
+				<Equipment slot="Head" id="Item.TV_phrygian_cap_b"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<Equipment slot="Body" id="Item.leather_tunic"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.empire_mace_1_t2"/>
-				<Equipment slot="Body" id="Item.footmans_tunic"/>
+				<Equipment slot="Item0" id="Item.AR_imperial_axe_t2"/>
+				<Equipment slot="Head" id="Item.TV_phrygian_cap_b"/>
 				<Equipment slot="Cape" id="Item.wrapped_scarf"/>
-				<Equipment slot="Gloves" id="Item.leather_gloves"/>
-				<Equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				<Equipment slot="Body" id="Item.leather_tunic"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3066,15 +3073,22 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item1" id="Item.western_javelin_1_t2"/>
-				<Equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<Equipment slot="Body" id="Item.hemp_tunic"/>
+				<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<Equipment slot="Item2" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Item3" id="Item.empire_sword_1_t2"/>
+				<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Leg" id="Item.leather_shoes"/>
-				<Equipment slot="Head" id="Item.AR_hat_a"/>
+				<Equipment slot="Horse" id="Item.mule"/>
+				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.hemp_tunic"/>
+				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<Equipment slot="Item1" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Head" id="Item.AR_phrygian_cap_a"/>
+				<Equipment slot="Cape" id="Item.TV_battania_cloak_m"/>
+				<Equipment slot="Body" id="Item.fine_town_tunic"/>
 				<Equipment slot="Leg" id="Item.leather_shoes"/>
 			</EquipmentSet>
 		</xsl:copy>
@@ -3083,15 +3097,20 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item1" id="Item.western_javelin_1_t2"/>
-				<Equipment slot="Item0" id="Item.imperial_spear_t2"/>
-				<Equipment slot="Body" id="Item.hemp_tunic"/>
+				<Equipment slot="Item0" id="Item.western_spear_2_t2"/>
+				<Equipment slot="Item2" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Item3" id="Item.empire_sword_1_t2"/>
+				<Equipment slot="Cape" id="Item.female_scarf"/>
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
 				<Equipment slot="Leg" id="Item.leather_shoes"/>
-				<Equipment slot="Head" id="Item.AR_hat_a"/>
+				<Equipment slot="Horse" id="Item.mule"/>
+				<Equipment slot="HorseHarness" id="Item.imperial_riding_harness"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.hemp_tunic"/>
+				<Equipment slot="Item0" id="Item.empire_sword_1_t2"/>
+				<Equipment slot="Item1" id="Item.desert_throwing_knife"/>				
+				<Equipment slot="Cape" id="Item.female_scarf"/>
+				<Equipment slot="Body" id="Item.vlandian_dress"/>
 				<Equipment slot="Leg" id="Item.leather_shoes"/>
 			</EquipmentSet>
 		</xsl:copy>
@@ -3103,7 +3122,6 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
-				<Equipment slot="Item1" id="Item.tribal_steppe_shield"/>
 				<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 				<Equipment slot="Head" id="Item.plumed_nomad_helmet"/>
 				<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
@@ -3127,7 +3145,6 @@
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
 				<Equipment slot="Item0" id="Item.khuzait_sword_2_t3"/>
-				<Equipment slot="Item1" id="Item.tribal_steppe_shield"/>
 				<Equipment slot="Body" id="Item.khuzait_civil_coat"/>
 				<Equipment slot="Head" id="Item.plumed_nomad_helmet"/>
 				<Equipment slot="Gloves" id="Item.studded_leather_vambraces"/>
@@ -3384,17 +3401,19 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
-				<Equipment slot="Item1" id="Item.makeshift_hmj_javelin_1_t1"/>
 				<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-				<equipment slot="Head" id="Item.nomad_padded_hood"/>
-				<equipment slot="Body" id="Item.steppe_robe"/>
-				<equipment slot="Leg" id="Item.ragged_boots"/>
+				<Equipment slot="Item2" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Item3" id="Item.simple_sabre_sword_t2"/>
+				<Equipment slot="Head" id="Item.nomad_padded_hood"/>
+				<Equipment slot="Body" id="Item.steppe_robe"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+				<Equipment slot="Item0" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
+				<Equipment slot="Head" id="Item.nomad_padded_hood"/>
 				<Equipment slot="Body" id="Item.steppe_robe"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3402,17 +3421,19 @@
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<EquipmentSet>
-				<Equipment slot="Item2" id="Item.simple_sabre_sword_t2"/>
-				<Equipment slot="Item1" id="Item.makeshift_hmj_javelin_1_t1"/>
 				<Equipment slot="Item0" id="Item.eastern_spear_1_t2"/>
-				<equipment slot="Head" id="Item.nomad_padded_hood"/>
-				<equipment slot="Body" id="Item.khuzait_dress"/>
-				<equipment slot="Leg" id="Item.ragged_boots"/>
+				<Equipment slot="Item2" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Item3" id="Item.simple_sabre_sword_t2"/>
+				<Equipment slot="Head" id="Item.fur_hat"/>
+				<Equipment slot="Body" id="Item.khuzait_dress"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 			<EquipmentSet civilian="true">
-				<Equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
-				<Equipment slot="Body" id="Item.steppe_robe"/>
-				<Equipment slot="Leg" id="Item.khuzait_curved_boots"/>
+				<Equipment slot="Item0" id="Item.desert_throwing_knife"/>
+				<Equipment slot="Item1" id="Item.simple_sabre_sword_t2"/>
+				<Equipment slot="Head" id="Item.fur_hat"/>
+				<Equipment slot="Body" id="Item.khuzait_dress"/>
+				<Equipment slot="Leg" id="Item.ragged_boots"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>

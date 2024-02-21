@@ -429,10 +429,10 @@
 			<template name="NPCCharacter.spc_empire_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_0"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_1"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_2"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_3"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_0"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_1"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_2"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_3"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_0"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_1"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_2"/>
@@ -447,10 +447,10 @@
 			<template name="NPCCharacter.AR_spc_eleftheroi_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_0"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_1"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_2"/>
-			<template name="NPCCharacter.AR_spc_legion_of_the_betrayed_leader_3"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_0"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_1"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_2"/>
+			<template name="NPCCharacter.hmj_spc_diamonds_leader_3"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_0"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_1"/>
 			<template name="NPCCharacter.AR_spc_hidden_hand_leader_2"/>
@@ -2129,145 +2129,144 @@
 			<policy id="policy_senate"/>
 		</default_policies>
 		<male_names>
-			<name name="{=v9B50R0Q}Acarion"/>
-			<name name="{=aeLgc0cU}Acthon"/>
+			<name name="{=v9B50R0Q}Acarius"/>
+			<name name="{=aeLgc0cU}Acthus"/>
 			<name name="{=tWDyWroN}Amnon"/>
-			<name name="{=uTFjknE2}Andros"/>
-			<name name="{=fXgftgNv}Aphanys"/>
+			<name name="{=uTFjknE2}Andrus"/>
+			<name name="{=fXgftgNv}Aphanus"/>
 			<name name="{=QjJAbaoT}Apys"/>
-			<name name="{=zInIqBD0}Arenicos"/>
-			<name name="{=W1uwgvAQ}Arion"/>
-			<name name="{=5VzWRMTn}Artimendros"/>
+			<name name="{=zInIqBD0}Arenicus"/>
+			<name name="{=W1uwgvAQ}Arian"/>
+			<name name="{=5VzWRMTn}Artimendrus"/>
 			<name name="{=rGuYLmez}Ascyron"/>
 			<name name="{=J1nh9YiN}Atilon"/>
-			<name name="{=NBAGX54b}Avigos"/>
-			<name name="{=9cDw6vPF}Cadomenos"/>
-			<name name="{=R11i2uVl}Calytos"/>
+			<name name="{=NBAGX54b}Avigus"/>
+			<name name="{=9cDw6vPF}Cadomenus"/>
+			<name name="{=R11i2uVl}Calytus"/>
 			<name name="{=lD1sl2XC}Camnon"/>
-			<name name="{=LP7yYoGQ}Caribos"/>
+			<name name="{=LP7yYoGQ}Caribus"/>
 			<name name="{=VhbasI9J}Castor"/>
 			<name name="{=VG9ng2n2}Chandion"/>
 			<name name="{=aezwJGvY}Chenon"/>
 			<name name="{=acp2IcMs}Crotor"/>
-			<name name="{=XKxeaF0I}Dalidos"/>
-			<name name="{=pCBkH35Q}Danos"/>
+			<name name="{=XKxeaF0I}Dalidus"/>
+			<name name="{=pCBkH35Q}Danus"/>
 			<name name="{=2OJEyP0d}Dasys"/>
-			<name name="{=SoTUisL3}Deltisos"/>
-			<name name="{=2uKoNaSG}Denos"/>
+			<name name="{=SoTUisL3}Deltisus"/>
+			<name name="{=2uKoNaSG}Denus"/>
 			<name name="{=HfuAdGQX}Destor"/>
-			<name name="{=lEHtUGed}Diocosos"/>
+			<name name="{=lEHtUGed}Diocosus"/>
 			<name name="{=5EiKEdi5}Dorion"/>
-			<name name="{=yAZC6F7P}Ecsorios"/>
+			<name name="{=yAZC6F7P}Ecsorius"/>
 			<name name="{=hyOgAehG}Emarys"/>
 			<name name="{=rUvnbDi2}Encurion"/>
 			<name name="{=KjzJjj5n}Eronys"/>
 			<name name="{=gYit4RTe}Euchor"/>
 			<name name="{=oQCZp9qv}Eumenys"/>
 			<name name="{=uW38UtSH}Eupitor"/>
-			<name name="{=WfAuSpJq}Eutos"/>
+			<name name="{=WfAuSpJq}Eutus"/>
 			<name name="{=RyorjCXF}Galon"/>
-			<name name="{=ZFlIT1tH}Ganimynos"/>
+			<name name="{=ZFlIT1tH}Ganimynus"/>
 			<name name="{=f3hTGKIP}Garitops"/>
 			<name name="{=nqxxr9We}Gavalon"/>
 			<name name="{=iDxygnVF}Gerotheon"/>
-			<name name="{=rFbAjSWM}Gorigos"/>
-			<name name="{=NxDJcR2c}Haratheos"/>
+			<name name="{=rFbAjSWM}Gorigus"/>
+			<name name="{=NxDJcR2c}Haratheus"/>
 			<name name="{=tgVJZ1Uc}Hecaron"/>
-			<name name="{=wQJGxBJI}Hophtalamos"/>
-			<name name="{=4lEEqyCg}Jacorios"/>
+			<name name="{=wQJGxBJI}Hophtalamus"/>
+			<name name="{=4lEEqyCg}Jacorius"/>
 			<name name="{=DwzrsJxS}Jamanys"/>
 			<name name="{=IU63oxWD}Jemynon"/>
-			<name name="{=t1OpnZph}Jeremos"/>
+			<name name="{=t1OpnZph}Jeremus"/>
 			<name name="{=katzUyMI}Joron"/>
-			<name name="{=GWaJ7Ksq}Joculos"/>
-			<name name="{=iJvIH6NP}Jutheros"/>
+			<name name="{=GWaJ7Ksq}Joculus"/>
+			<name name="{=iJvIH6NP}Jutherus"/>
 			<name name="{=BCy1KpvR}Lacalion"/>
 			<name name="{=6LMiTKZz}Lamenon"/>
-			<name name="{=F13aYbuk}Lavalios"/>
-			<name name="{=NFIQZOPQ}Leosios"/>
-			<name name="{=lbTMVAcI}Lerosion"/>
-			<name name="{=bHbR5Mgy}Losys"/>
-			<name name="{=CbxLZdVg}Lycos"/>
-			<name name="{=HCXHcBzT}Mattis"/>
-			<name name="{=X21PahQn}Menaclys"/>
+			<name name="{=F13aYbuk}Lavalius"/>
+			<name name="{=NFIQZOPQ}Leusius"/>
+			<name name="{=lbTMVAcI}Lerusion"/>
+			<name name="{=bHbR5Mgy}Lusys"/>
+			<name name="{=CbxLZdVg}Lycus"/>
+			<name name="{=X21PahQn}Menaclius"/>
 			<name name="{=am2UnbAK}Menor"/>
 			<name name="{=tTuaiLS6}Meritor"/>
-			<name name="{=qqW5n5Ox}Milos"/>
+			<name name="{=qqW5n5Ox}Milus"/>
 			<name name="{=5yFy4U4i}Morynon"/>
-			<name name="{=ud6rhXbn}Mostiros"/>
-			<name name="{=04zSjaRe}Nartiros"/>
+			<name name="{=ud6rhXbn}Mustirus"/>
+			<name name="{=04zSjaRe}Nartirus"/>
 			<name name="{=FF3dQKc1}Nethor"/>
-			<name name="{=u1lTJoPO}Nemos"/>
-			<name name="{=sDFb1PRI}Nortos"/>
+			<name name="{=u1lTJoPO}Nemus"/>
+			<name name="{=sDFb1PRI}Nortus"/>
 			<name name="{=QGIAbglw}Obron"/>
-			<name name="{=AEaRpupL}Ocheros"/>
+			<name name="{=AEaRpupL}Ocherus"/>
 			<name name="{=ZmQx4gT3}Olichor"/>
-			<name name="{=pq0w8kry}Orachos"/>
-			<name name="{=JFVseSa3}Oros"/>
-			<name name="{=7UkzXWTQ}Osarios"/>
-			<name name="{=cZIhxH9e}Pacarios"/>
-			<name name="{=9sokmYMZ}Padmos"/>
+			<name name="{=pq0w8kry}Orachus"/>
+			<name name="{=JFVseSa3}Orus"/>
+			<name name="{=7UkzXWTQ}Osarius"/>
+			<name name="{=cZIhxH9e}Pacarius"/>
+			<name name="{=9sokmYMZ}Padmus"/>
 			<name name="{=NXOOJs2X}Patrys"/>
-			<name name="{=plx8kkxa}Pelicos"/>
+			<name name="{=plx8kkxa}Pelicus"/>
 			<name name="{=1cKxsHSh}Penton"/>
 			<name name="{=vgBRa2BE}Poraclys"/>
 			<name name="{=q186AQHt}Phadon"/>
-			<name name="{=yhfJVEe0}Phelenos"/>
-			<name name="{=LMWiJi6V}Phirentos"/>
+			<name name="{=yhfJVEe0}Phelenus"/>
+			<name name="{=LMWiJi6V}Phirentus"/>
 			<name name="{=XZxIpCQH}Phorys"/>
-			<name name="{=VJbAdJe4}Purios"/>
-			<name name="{=M9CWBbMe}Rhanos"/>
+			<name name="{=VJbAdJe4}Purius"/>
+			<name name="{=M9CWBbMe}Rhanus"/>
 			<name name="{=P1zsoSPN}Rhovarion"/>
 			<name name="{=Ho6zsGTI}Sachanion"/>
 			<name name="{=5eTb2xr7}Sanion"/>
-			<name name="{=Zm4a2xsf}Salusios"/>
+			<name name="{=Zm4a2xsf}Salusius"/>
 			<name name="{=egCbjHDT}Semnon"/>
 			<name name="{=GeJobcre}Sinor"/>
 			<name name="{=E4WhEvu7}Sotherys"/>
-			<name name="{=FClEZIkT}Sovos"/>
-			<name name="{=rVUhYuvE}Suterios"/>
+			<name name="{=FClEZIkT}Sovus"/>
+			<name name="{=rVUhYuvE}Suterius"/>
 			<name name="{=PDK4FHAx}Suvys"/>
 			<name name="{=Axe5FkET}Talison"/>
 			<name name="{=PR4IqkTW}Temeon"/>
-			<name name="{=9xyXdX4I}Tharos"/>
-			<name name="{=zfUhnG7y}Themestios"/>
+			<name name="{=9xyXdX4I}Tharus"/>
+			<name name="{=zfUhnG7y}Themestius"/>
 			<name name="{=9mQuSI3c}Thucasys"/>
-			<name name="{=P7iNhhPl}Turiados"/>
+			<name name="{=P7iNhhPl}Turiadus"/>
 			<name name="{=kfNW01y5}Tynops"/>
-			<name name="{=amlzciqP}Ucasios"/>
-			<name name="{=wbJzSg3X}Ulbesos"/>
-			<name name="{=SRncaw79}Urios"/>
-			<name name="{=pRbKbPK3}Vadrios"/>
-			<name name="{=TiJOjUi5}Valaos"/>
+			<name name="{=amlzciqP}Ucasius"/>
+			<name name="{=wbJzSg3X}Ulbesus"/>
+			<name name="{=SRncaw79}Urius"/>
+			<name name="{=pRbKbPK3}Vadrius"/>
+			<name name="{=TiJOjUi5}Valaus"/>
 			<name name="{=5nEh20ju}Vasylops"/>
 			<name name="{=VN1D1Qps}Velanor"/>
-			<name name="{=QNtdUfis}Vemioros"/>
-			<name name="{=bWb245zO}Voleos"/>
-			<name name="{=aH2ncPbK}Zalasos"/>
+			<name name="{=QNtdUfis}Vemiorus"/>
+			<name name="{=bWb245zO}Voleus"/>
+			<name name="{=aH2ncPbK}Zalasus"/>
 			<name name="{=WTePYMNF}Zaraclys"/>
 			<name name="{=p0hcyZdp}Zenon"/>
-			<name name="{=3RBVn5yi}Zoros"/>
-			<name name="{=uCyAnus4}Zostios"/>
-			<name name="{=7hYr7jQ7}Leutros"/>
+			<name name="{=3RBVn5yi}Zorus"/>
+			<name name="{=uCyAnus4}Zustius"/>
+			<name name="{=7hYr7jQ7}Leutrus"/>
 			<name name="{=e7dayl1i}Mavinon"/>
 			<name name="{=3EZMoUlp}Narmys"/>
-			<name name="{=PvoTcJHa}Naselos"/>
-			<name name="{=QumqvLnP}Ochivos"/>
+			<name name="{=PvoTcJHa}Naselus"/>
+			<name name="{=QumqvLnP}Ochivus"/>
 			<name name="{=gxHrt6bC}Phamynor"/>
-			<name name="{=6IDmRZ5k}Phestos"/>
+			<name name="{=6IDmRZ5k}Phestus"/>
 			<name name="{=ek1Q2TJz}Polon"/>
-			<name name="{=!*}Aemilios"/>
-			<name name="{=!*}Alexios"/>
-			<name name="{=!*}Eusebios"/>
-			<name name="{=!*}Justinios"/>
-			<name name="{=!*}Suetonios"/>
-			<name name="{=!*}Theophilos"/>
-			<name name="{=!*}Vitalios"/>
-			<name name="{=!*}Aurelios"/>
-			<name name="{=!*}Ciceros"/>
-			<name name="{=!*}Constantianos"/>
-			<name name="{=!*}Georgios"/>
-			<name name="{=!*}Gnaeos"/>
+			<name name="{=!*}Aemilius"/>
+			<name name="{=!*}Alexius"/>
+			<name name="{=!*}Eusebius"/>
+			<name name="{=!*}Justinius"/>
+			<name name="{=!*}Suetonius"/>
+			<name name="{=!*}Theophilus"/>
+			<name name="{=!*}Vitalius"/>
+			<name name="{=!*}Aurelius"/>
+			<name name="{=!*}Cicerus"/>
+			<name name="{=!*}Constantianus"/>
+			<name name="{=!*}Georgius"/>
+			<name name="{=!*}Gnaeus"/>
 			<name name="{=!*}Galerian"/>
 		</male_names>
 		<female_names>
@@ -2366,24 +2365,24 @@
 			<name name="{=!*}Tulia"/>
 		</female_names>
 		<clan_names>
-			<name name="{=pRA9EzNv}Acapanos"/>
+			<name name="{=pRA9EzNv}Acapanus"/>
 			<name name="{=ogq9oxDn}Angarys"/>
-			<name name="{=MgDUudOx}Balastisos"/>
-			<name name="{=Rvww4Kxi}Corstases"/>
-			<name name="{=kWiQaFLM}Delicos"/>
-			<name name="{=DiB4ukeK}Elysos"/>
-			<name name="{=pUvrTrHT}Gessios"/>
-			<name name="{=fsOUhzLv}Jalos"/>
-			<name name="{=CuocGtTq}Lestharos"/>
+			<name name="{=MgDUudOx}Balastisus"/>
+			<name name="{=Rvww4Kxi}Corstasus"/>
+			<name name="{=kWiQaFLM}Delicus"/>
+			<name name="{=DiB4ukeK}Elysus"/>
+			<name name="{=pUvrTrHT}Gessius"/>
+			<name name="{=fsOUhzLv}Jalus"/>
+			<name name="{=CuocGtTq}Lestharus"/>
 			<name name="{=FVl3D2qT}Meones"/>
 			<name name="{=fAKa9JfU}Nathanys"/>
-			<name name="{=RhwPmahK}Opynates"/>
-			<name name="{=OL6fbZRY}Paltos"/>
-			<name name="{=HPrHkie6}Phenigos"/>
-			<name name="{=DYdI0faN}Stracanasthes"/>
-			<name name="{=g7etVhSO}Sumessos"/>
-			<name name="{=oGf1fUpP}Therycos"/>
-			<name name="{=AeNqteUX}Zebales"/>
+			<name name="{=RhwPmahK}Opynatus"/>
+			<name name="{=OL6fbZRY}Paltus"/>
+			<name name="{=HPrHkie6}Phenigus"/>
+			<name name="{=DYdI0faN}Stracanasthus"/>
+			<name name="{=g7etVhSO}Sumessus"/>
+			<name name="{=oGf1fUpP}Therycus"/>
+			<name name="{=AeNqteUX}Zebalus"/>
 		</clan_names>
 		<cultural_feats>
 			<feat id="empire_decreased_garrison_wage"/>
@@ -2445,29 +2444,29 @@
 			<template name="NPCCharacter.spc_wanderer_empire_w_9"/>
 			<template name="NPCCharacter.spc_wanderer_empire_w_10"/>
 			<template name="NPCCharacter.spc_wanderer_empire_w_11"/>
-			<template name="NPCCharacter.spc_notable_empire_0"/>
-			<template name="NPCCharacter.spc_notable_empire_0b"/>
-			<template name="NPCCharacter.spc_notable_empire_1"/>
-			<template name="NPCCharacter.spc_notable_empire_1b"/>
-			<template name="NPCCharacter.spc_notable_empire_2"/>
-			<template name="NPCCharacter.spc_notable_empire_2b"/>
-			<template name="NPCCharacter.spc_notable_empire_3"/>
-			<template name="NPCCharacter.spc_notable_empire_3b"/>
-			<template name="NPCCharacter.spc_notable_empire_4"/>
-			<template name="NPCCharacter.spc_notable_empire_4b"/>
-			<template name="NPCCharacter.spc_notable_empire_5"/>
-			<template name="NPCCharacter.spc_notable_empire_6"/>
-			<template name="NPCCharacter.spc_notable_empire_7"/>
-			<template name="NPCCharacter.spc_notable_empire_8"/>
-			<template name="NPCCharacter.spc_notable_empire_9"/>
-			<template name="NPCCharacter.spc_notable_empire_10"/>
-			<template name="NPCCharacter.spc_notable_empire_11"/>
-			<template name="NPCCharacter.spc_notable_empire_12"/>
-			<template name="NPCCharacter.spc_notable_empire_13"/>
-			<template name="NPCCharacter.spc_notable_empire_21"/>
-			<template name="NPCCharacter.spc_notable_empire_22"/>
-			<template name="NPCCharacter.spc_notable_empire_gl1"/>
-			<template name="NPCCharacter.spc_notable_empire_gl4"/>
+			<template name="NPCCharacter.spc_notable_w_empire_0"/>
+			<template name="NPCCharacter.spc_notable_w_empire_0b"/>
+			<template name="NPCCharacter.spc_notable_w_empire_1"/>
+			<template name="NPCCharacter.spc_notable_w_empire_1b"/>
+			<template name="NPCCharacter.spc_notable_w_empire_2"/>
+			<template name="NPCCharacter.spc_notable_w_empire_2b"/>
+			<template name="NPCCharacter.spc_notable_w_empire_3"/>
+			<template name="NPCCharacter.spc_notable_w_empire_3b"/>
+			<template name="NPCCharacter.spc_notable_w_empire_4"/>
+			<template name="NPCCharacter.spc_notable_w_empire_4b"/>
+			<template name="NPCCharacter.spc_notable_w_empire_5"/>
+			<template name="NPCCharacter.spc_notable_w_empire_6"/>
+			<template name="NPCCharacter.spc_notable_w_empire_7"/>
+			<template name="NPCCharacter.spc_notable_w_empire_8"/>
+			<template name="NPCCharacter.spc_notable_w_empire_9"/>
+			<template name="NPCCharacter.spc_notable_w_empire_10"/>
+			<template name="NPCCharacter.spc_notable_w_empire_11"/>
+			<template name="NPCCharacter.spc_notable_w_empire_12"/>
+			<template name="NPCCharacter.spc_notable_w_empire_13"/>
+			<template name="NPCCharacter.spc_notable_w_empire_21"/>
+			<template name="NPCCharacter.spc_notable_w_empire_22"/>
+			<template name="NPCCharacter.spc_notable_w_empire_gl1"/>
+			<template name="NPCCharacter.spc_notable_w_empire_gl4"/>
 			<template name="NPCCharacter.spc_empire_headman_1"/>
 			<template name="NPCCharacter.spc_empire_headman_2"/>
 			<template name="NPCCharacter.spc_empire_headman_3"/>
@@ -2931,20 +2930,12 @@
 			<template name="NPCCharacter.spc_n_empire_headman_3"/>
 		</notable_and_wanderer_templates>
 		<lord_templates>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_0"/>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_1"/>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_2"/>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_3"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_0"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_3"/>
 		</lord_templates>
 		<rebellion_hero_templates>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_0"/>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_1"/>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_2"/>
-			<template name="NPCCharacter.hmj_spc_diamonds_leader_3"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_0"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_1"/>
 			<template name="NPCCharacter.AR_spc_embers_of_flame_leader_2"/>
@@ -2966,7 +2957,6 @@
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.nimperial_hmj_rt4"/>
 			<template name="NPCCharacter.ember_hmj_it2"/>
-			<template name="NPCCharacter.diamond_hmj_ct2"/>
 			<template name="NPCCharacter.eleftheroi_hmj_st2"/>
 		</basic_mercenary_troops>
 	</Culture>
@@ -5132,8 +5122,8 @@
 		</clan_names>
 		<cultural_feats>
 			<feat id="battanian_forest_speed"/>
-			<feat id="battanian_militia_production"/>
-			<feat id="battanian_slower_construction"/>
+			<feat id="sturgian_decreased_cohesion_rate"/>
+			<feat id="khuzait_decreased_town_tax"/>
 		</cultural_feats>
 		<possible_clan_banner_icon_ids>
 			<icon id="131"/>
@@ -5402,9 +5392,9 @@
 			<name name="{=!*}Zeos"/>
 		</clan_names>
 		<cultural_feats>
-			<feat id="battanian_forest_speed"/>
-			<feat id="battanian_militia_production"/>
-			<feat id="battanian_slower_construction"/>
+			<feat id="vlandian_renown_mercenary_income"/>
+			<feat id="empire_decreased_garrison_wage"/>
+			<feat id="empire_slower_hearth_production"/>
 		</cultural_feats>
 		<possible_clan_banner_icon_ids>
 			<icon id="131"/>

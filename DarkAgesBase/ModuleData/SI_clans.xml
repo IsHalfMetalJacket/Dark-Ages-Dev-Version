@@ -352,6 +352,31 @@
 			<template id="NPCCharacter.AR_spc_wolfskins_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
+	<Faction id="outbloods"
+	         initial_posX="261.0"
+	         initial_posY="509.0"
+	         banner_key="28.149.2.1502.1490.764.764.0.0.0.345.135.13.267.286.764.664.0.0.0.307.135.13.267.286.744.914.0.0.45.307.135.13.267.286.784.914.0.1.-45"
+	         label_color="FF848B65"
+	         color="FF848B65"
+	         color2="FF848B65"
+	         alternative_color="FF848B65"
+	         alternative_color2="FF848B65"
+	         culture="Culture.battania"
+	         default_party_template="PartyTemplate.kingdom_hero_party_mercenary_battania_template"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_clan_type_mercenary="true"
+	         name="{=nh4Y3LOc}Outblood Fianna"
+	         short_name="Outbloods"
+	         tier="4"
+	         text="{=7bhNgOKd}The Outbloods are the biggest Battanian 'Fianna' in the Northern lands. Noted for both their foreign heritage and their mailed might, they have become highly sought after as mercenaries.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_0"/>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_1"/>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_2"/>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
 	<Faction id="brotherhood_of_woods"
 	         initial_posX="170.0"
 	         initial_posY="414.0"
@@ -481,6 +506,32 @@
 	         is_nomad="true"
 	         name="{=8ba4tpRU}Vyagrhavega"
 	         short_name="Vyagrhavega "
+	         tier="4"
+	         text="{=RWOYui01}The Vyagrhavega , or “Roamers,” are the main bedouin confederacy in the Nahasa desert. They wander from highland to lowland grazing grounds, declaring huge swathes of the desert their “territory” in which any caravan must offer protection money. They compose poems of their deeds and mock other clans of the Banu Asera for having given up the “freedom” of black wool tents for stone houses in the oases. The other clans consider them boastful nuisances, though grudgingly respecting them as protectors of the old Aserai ways.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.AR_spc_jawwal_leader_0"/>
+			<template id="NPCCharacter.AR_spc_jawwal_leader_1"/>
+			<template id="NPCCharacter.AR_spc_jawwal_leader_2"/>
+			<template id="NPCCharacter.AR_spc_jawwal_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
+	<Faction id="asawira"
+	         initial_posX="692.0"
+	         initial_posY="217.0"
+	         banner_key="34.154.89.1536.1536.772.768.1.0.0.411.155.0.600.600.764.764.0.0.0.329.40.40.153.153.765.765.0.0.0"
+	         label_color="FFAC5F2E"
+	         color="FFAC5F2E"
+	         color2="FFAC5F2E"
+	         alternative_color="FFAC5F2E"
+	         alternative_color2="FFAC5F2E"
+	         culture="Culture.darshi"
+	         default_party_template="PartyTemplate.kingdom_hero_party_jawwal_template"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_outlaw="true"
+	         is_nomad="true"
+	         name="{=8ba4tpRU}The Last Asawira"
+	         short_name="Asawira"
 	         tier="4"
 	         text="{=RWOYui01}The Vyagrhavega , or “Roamers,” are the main bedouin confederacy in the Nahasa desert. They wander from highland to lowland grazing grounds, declaring huge swathes of the desert their “territory” in which any caravan must offer protection money. They compose poems of their deeds and mock other clans of the Banu Asera for having given up the “freedom” of black wool tents for stone houses in the oases. The other clans consider them boastful nuisances, though grudgingly respecting them as protectors of the old Aserai ways.">
 		<minor_faction_character_templates>
@@ -770,7 +821,7 @@
 	         color2="0xFF332c4d"
 	         alternative_color="0xFF332c4d"
 	         alternative_color2="0xFF332c4d"
-	         culture="Culture.empire_n"
+	         culture="Culture.empire"
 	         default_party_template="PartyTemplate.kingdom_hero_party_diamonds_template"
 	         settlement_banner_mesh="encounter_flag_f"
 	         is_minor_faction="true"
@@ -972,6 +1023,102 @@
 			   super_faction="Kingdom.empire"
 			   is_noble="true"
 			   banner_key="11.71.4.8690.8690.764.764.1.0.0.401.5.0.287.287.764.764.0.0.15.401.5.0.145.145.764.764.0.0.29.503.5.0.50.48.764.764.0.0.15.423.5.0.428.438.764.764.0.0.0" />
+
+	<!-- Populist starting kingdom - WEST-->
+	<Faction
+		id="clan_empire_west_1"
+		name="{=OVQoC9fn}Comnos"
+		tier="6"
+		owner="Hero.lord_1_7"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.776.777.1.0.0.203.5.0.305.305.764.774.0.0.0.323.5.0.509.509.764.764.0.0.0" />
+	<Faction
+		id="clan_empire_west_2"
+		name="{=a4GxTbPD}Varros"
+		tier="5"
+		owner="Hero.lord_1_9"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.764.764.1.0.0.337.5.0.272.272.764.672.0.0.0.301.5.0.292.292.764.916.0.0.90.301.5.0.292.292.764.844.0.0.270" />
+	<!--
+	Fully unsympathetic clan - terrorizes their valley
+	Apokos, Father - debauched, based on Alexius Apokaukos, master schemer	
+	Heir 25 - charismatic psychopath
+	Heiress leads armies - equally charismatic psychopath	
+	MINOR FACTION: POSITIVE ties to Hidden Ones
+  -->
+	<Faction
+		id="clan_empire_west_3"
+		name="{=tdGvElSy}Dionicos"
+		tier="4"
+		owner="Hero.lord_1_11"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.764.764.1.0.0.103.5.0.454.454.764.764.0.0.0" />
+	<!--
+	Sympathetic - Border guards - many sacrifices but much sense of entitlement
+	Ancestor was Asurai emir
+	Draw on Akritic ballads
+	-->
+	<Faction
+		id="clan_empire_west_4"
+		name="{=xqkKtWqa}Elaches"
+		tier="4"
+		owner="Hero.lord_1_40"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.764.764.1.0.0.201.5.0.454.454.914.764.0.0.180.201.5.0.454.454.764.764.0.0.0.201.5.0.454.454.614.764.0.0.180" />
+	<Faction
+		id="clan_empire_west_5"
+		name="{=cd0yDTM1}Lonalion"
+		tier="3"
+		owner="Hero.lord_1_45"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.776.777.1.0.0.418.5.0.285.285.764.764.0.0.0.500.5.0.454.454.764.764.0.0.0.500.5.0.380.380.764.762.0.0.0" />
+	<Faction
+		id="clan_empire_west_6"
+		name="{=ApJrV7bA}Sorados"
+		tier="3"
+		owner="Hero.lord_1_52"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.764.764.1.0.0.336.5.0.454.454.764.764.0.1.180.340.5.0.171.171.764.564.0.0.0" />
+	<Faction
+		id="clan_empire_west_7"
+		name="{=bjemmmcF}Corenios"
+		tier="3"
+		owner="Hero.lord_1_53"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.764.764.1.0.0.423.5.0.454.454.764.764.0.0.1.340.5.0.300.300.764.754.0.0.0" />
+	<Faction
+		id="clan_empire_west_8"
+		name="{=pdz4YsEf}Maneolis"
+		tier="1"
+		owner="Hero.lord_1_71"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.764.764.1.0.0.419.5.0.454.454.764.764.0.0.0.335.5.0.143.143.873.642.0.0.325.335.5.0.143.143.655.642.0.0.42.335.5.0.143.143.651.882.0.0.134.335.5.0.143.143.877.882.0.0.214" />
+	<Faction
+		id="clan_empire_west_9"
+		name="{=LTWTTQ71}Palladios"
+		tier="2"
+		owner="Hero.lord_WE9_l"
+		culture="Culture.empire_w"
+		super_faction="Kingdom.empire_w"
+		is_noble="true"
+		banner_key="11.24.4.4922.4922.776.777.1.0.0.343.5.0.419.348.764.910.0.0.0.106.5.0.422.411.764.651.0.0.0.505.5.0.87.47.764.805.0.0.0" />
+
 	<!--
 	Quyaz
 	Arab/Latin/Norman fusion

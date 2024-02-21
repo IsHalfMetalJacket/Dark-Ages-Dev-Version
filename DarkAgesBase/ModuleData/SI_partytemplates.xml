@@ -83,8 +83,8 @@
 	<MBPartyTemplate id="kingdom_hero_party_akkazi_template">
 		<stacks>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_nrt3"/>
-			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.simperial_hmj_mit2"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.simperial_hmj_mst2"/>
+			<PartyTemplateStack min_value="8" max_value="16" troop="NPCCharacter.akkazi_hmj_mit2"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.akkazi_hmj_mst2"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_fit5"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.simperial_hmj_it3"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.simperial_hmj_mat3"/>
@@ -98,8 +98,8 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_akkazi_template">
 		<stacks>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.simperial_hmj_mit2"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.simperial_hmj_mst2"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.akkazi_hmj_mit2"/>
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.akkazi_hmj_mst2"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="char_creation_player_party_template_akkazi">
@@ -1256,6 +1256,16 @@
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_outlaw_battania_template">
+		<stacks>
+			<PartyTemplateStack min_value="18" max_value="18" troop="NPCCharacter.wolfskin_hmj_it2"/>
+			<PartyTemplateStack min_value="14" max_value="14" troop="NPCCharacter.wolfskin_hmj_it3"/>
+			<PartyTemplateStack min_value="12" max_value="12" troop="NPCCharacter.wolfskin_hmj_rt3"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.wolfskin_hmj_rt4"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.wolfskin_hmj_it4"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.wolfskin_hmj_it5"/>
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="kingdom_hero_party_mercenary_battania_template">
 		<stacks>
 			<PartyTemplateStack min_value="18" max_value="18" troop="NPCCharacter.wolfskin_hmj_it2"/>
 			<PartyTemplateStack min_value="14" max_value="14" troop="NPCCharacter.wolfskin_hmj_it3"/>
