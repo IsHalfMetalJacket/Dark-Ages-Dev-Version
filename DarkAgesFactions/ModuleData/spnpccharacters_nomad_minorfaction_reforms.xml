@@ -5976,7 +5976,7 @@
 			name="{=Diamond Guildsman}Diamond Guildsman"
 			occupation="Mercenary"
 			is_basic_troop="true"
-			culture="Culture.empire_n">
+			culture="Culture.empire">
 			<face>
 				<face_key_template value="BodyProperty.villager_empire"/>
 			</face>
@@ -6041,7 +6041,7 @@
 			level="16"
 			name="{=Diamond Arbalest}Diamond Arbalest"
 			occupation="Mercenary"
-			culture="Culture.empire_n">
+			culture="Culture.empire">
 			<face>
 				<face_key_template value="BodyProperty.villager_empire"/>
 			</face>
@@ -6110,7 +6110,7 @@
 			level="21"
 			name="{=Diamond Marine}Diamond Marine"
 			occupation="Mercenary"
-			culture="Culture.empire_n">
+			culture="Culture.empire">
 			<face>
 				<face_key_template value="BodyProperty.fighter_empire"/>
 			</face>
@@ -6181,7 +6181,7 @@
 			level="26"
 			name="{=Diamond Gasmulios}Diamond Gasmulios"
 			occupation="Mercenary"
-			culture="Culture.empire_n">
+			culture="Culture.empire">
 			<face>
 				<face_key_template value="BodyProperty.fighter_empire"/>
 			</face>
@@ -6249,7 +6249,7 @@
 			level="21"
 			name="{=Diamond Sergeant}Diamond Sergeant"
 			occupation="Mercenary"
-			culture="Culture.empire_n">
+			culture="Culture.empire">
 			<face>
 				<face_key_template value="BodyProperty.fighter_empire"/>
 			</face>

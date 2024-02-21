@@ -2132,10 +2132,7 @@
 			<BodyPropertiesMax version="4" age="22.57" weight="0.5" build="0.5" key="003FF40FC0B40A593888B78E7777187656FA7BCBE044FFAF8FFFE6EE8001677A0067760306F3E7F722246678787787F70000000000001577000000002ECC4043"/>
 		</face>
 		<skills/>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.AR_spa_militia_spearman"/>
-			<upgrade_target id="NPCCharacter.AR_spa_militia_archer"/>
-		</upgrade_targets>
+		<upgrade_targets></upgrade_targets>
 		<Equipments>
 			<EquipmentRoster civilian="true">
 				<equipment slot="Head" id="Item.ao_mabili_leather_headband"/>

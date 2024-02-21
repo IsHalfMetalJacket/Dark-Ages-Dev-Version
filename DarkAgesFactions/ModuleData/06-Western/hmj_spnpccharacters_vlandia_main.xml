@@ -1675,10 +1675,10 @@
 					<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 					<equipment slot="Item1" id="Item.tall_heater_shield"/>
 					<equipment slot="Item2" id="Item.vlandia_sword_5_t5"/>
-					<equipment slot="Head" id="Item.TV_vlandia_helmet_o"/>
-					<equipment slot="Cape" id="Item.Western_chain_shoulders"/>
-					<equipment slot="Body" id="Item.AR_vlandia_lamellar_a"/>
-					<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+					<equipment slot="Head" id="Item.paintednormannasalnew6"/>
+					<equipment slot="Cape" id="Item.vs_long_noble_cape"/>
+					<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+					<equipment slot="Gloves" id="Item.mail_mitten"/>
 					<equipment slot="Leg" id="Item.mail_chausses"/>
 					<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 					<equipment slot="HorseHarness" id="Item.chain_barding"/>
@@ -1687,11 +1687,11 @@
 					<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 					<equipment slot="Item1" id="Item.tall_heater_shield"/>
 					<equipment slot="Item2" id="Item.vlandia_mace_3_t5"/>
-					<equipment slot="Head" id="Item.TV_vlandia_helmet_p"/>
-					<equipment slot="Cape" id="Item.AR_wolf_shoulder_f2"/>
-					<equipment slot="Body" id="Item.coat_of_plates_over_mail"/>
-					<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-					<equipment slot="Leg" id="Item.mail_chausses"/>
+					<equipment slot="Head" id="Item.spoleto_helmet2"/>
+					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+					<equipment slot="Body" id="Item.hauberk_sergeant"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
 					<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 					<equipment slot="HorseHarness" id="Item.AR_horse_armor_j"/>
 				</EquipmentRoster>
@@ -1699,10 +1699,10 @@
 					<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 					<equipment slot="Item1" id="Item.tall_heater_shield"/>
 					<equipment slot="Item2" id="Item.vlandia_axe_2_t4"/>
-					<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_b"/>
-					<equipment slot="Cape" id="Item.mail_shoulders"/>
-					<equipment slot="Body" id="Item.AR_vlandia_scale_a"/>
-					<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+					<equipment slot="Head" id="Item.diamond_fluted_helm_heavy"/>
+					<equipment slot="Cape" id="Item.vlandia_knightly_cape"/>
+					<equipment slot="Body" id="Item.TV_vlandia_armor_f"/>
+					<equipment slot="Gloves" id="Item.mail_mitten"/>
 					<equipment slot="Leg" id="Item.mail_chausses"/>
 					<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 					<equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
@@ -1711,11 +1711,11 @@
 					<equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
 					<equipment slot="Item1" id="Item.tall_heater_shield"/>
 					<equipment slot="Item2" id="Item.vlandia_sword_5_t5"/>
-					<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_c"/>
-					<equipment slot="Cape" id="Item.TV_vlandia_shoulders_a"/>
-					<equipment slot="Body" id="Item.ao_imperial_southern_scale_armor_over_mail"/>
-					<equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
-					<equipment slot="Leg" id="Item.mail_chausses"/>
+					<equipment slot="Head" id="Item.tv_vlandia_lord_helmet_l"/>
+					<equipment slot="Cape" id="Item.TV_vlandia_shoulders_i"/>
+					<equipment slot="Body" id="Item.TV_vlandia_armor_h"/>
+					<equipment slot="Gloves" id="Item.TV_sturgia_gloves_d"/>
+					<equipment slot="Leg" id="Item.plated_strip_boots"/>
 					<equipment slot="Horse" id="Item.t2_vlandia_horse"/>
 					<equipment slot="HorseHarness" id="Item.chain_barding"/>
 				</EquipmentRoster>
