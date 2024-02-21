@@ -253,6 +253,24 @@
 				<volunteer id="khuzait_hmj_nct2" percent="20"/>
 			</eliteTroops>
 		</Culture>
+		<Culture id="akkazi">
+			<!-- Khuzait for captured Akkazi settlements -->
+			<basicTroops>
+				<volunteer id="khuzait_hmj_mit1" percent="25"/>
+				<volunteer id="khuzait_hmj_mst1" percent="25"/>
+				<volunteer id="khuzait_hmj_it2" percent="14"/>
+				<volunteer id="khuzait_hmj_mct1" percent="14"/>
+				<volunteer id="khuzait_hmj_ct2" percent="7"/>
+				<volunteer id="khuzait_hmj_hat2" percent="7"/>
+				<volunteer id="khuzait_hmj_rt4" percent="7"/>
+				<volunteer id="khuzait_hmj_xt4" percent="1"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="khuzait_hmj_it4" percent="40"/>
+				<volunteer id="khuzait_hmj_hct3" percent="40"/>
+				<volunteer id="khuzait_hmj_nct2" percent="20"/>
+			</eliteTroops>
+		</Culture>
 	</MapFaction>
 	<MapFaction id="shahdom">
 		<!-- Standard Cizygian configuration -->
@@ -491,6 +509,24 @@
 		</Culture>
 		<Culture id="oldcalradian">
 			<!-- Cizygian for captured Gotarni settlements -->
+			<basicTroops>
+				<volunteer id="darshi_hmj_mit1" percent="28"/>
+				<volunteer id="darshi_hmj_mst1" percent="28"/>
+				<volunteer id="darshi_hmj_mpt2" percent="16"/>
+				<volunteer id="darshi_hmj_hat2" percent="8"/>
+				<volunteer id="darshi_hmj_pt3" percent="8"/>
+				<volunteer id="darshi_hmj_ct2" percent="5"/>
+				<volunteer id="darshi_hmj_rt3" percent="5"/>
+				<volunteer id="darshi_hmj_xt3" percent="2"/>
+			</basicTroops>
+			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
+				<volunteer id="darshi_hmj_nit2" percent="40"/>
+				<volunteer id="darshi_hmj_hct3" percent="40"/>
+				<volunteer id="darshi_hmj_nct3" percent="20"/>
+			</eliteTroops>
+		</Culture>
+		<Culture id="akkazi">
+			<!-- Cizygian for captured Akkazi settlements -->
 			<basicTroops>
 				<volunteer id="darshi_hmj_mit1" percent="28"/>
 				<volunteer id="darshi_hmj_mst1" percent="28"/>
