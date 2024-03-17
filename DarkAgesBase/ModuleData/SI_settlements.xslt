@@ -1735,19 +1735,6 @@
 		<xsl:attribute name='culture'>Culture.khuzait</xsl:attribute>
 	</xsl:template>
 	
-	<xsl:template match="Settlement[@id='castle_SI_V4']/@culture">
-		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_SI_V4']/@owner">
-		<xsl:attribute name='owner'>Faction.clan_vlandia_1</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_SI_V4_1']/@culture">
-		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
-	</xsl:template>
-	<xsl:template match="Settlement[@id='castle_village_SI_V4_2']/@culture">
-		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
-	</xsl:template>
-
 	<xsl:template match="Settlement[@id='town_V3']/@culture">
 		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
 	</xsl:template>
@@ -1764,6 +1751,108 @@
 		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Settlement[@id='village_SI_V1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_V2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_V2']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_1</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V2_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V2_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	
+	<xsl:template match="Settlement[@id='town_V1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='town_V1']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_4</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V6_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V3']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V3']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_4</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V3_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V3_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+
+	<xsl:template match="Settlement[@id='castle_V7']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_V7']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_5</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V7_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_V7_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+
+	<xsl:template match="Settlement[@id='castle_V8']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_V8']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_8</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V1_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='village_V1_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V5']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V5']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_8</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V5_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V5_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V2']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_9</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V2_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V2_2']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V4']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_SI_V4']/@owner">
+		<xsl:attribute name='owner'>Faction.clan_vlandia_10</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V4_1']/@culture">
+		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Settlement[@id='castle_village_SI_V4_2']/@culture">
 		<xsl:attribute name='culture'>Culture.vlandia</xsl:attribute>
 	</xsl:template>
 </xsl:stylesheet>

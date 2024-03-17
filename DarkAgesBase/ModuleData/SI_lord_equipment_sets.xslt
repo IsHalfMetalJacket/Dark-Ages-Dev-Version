@@ -3422,7 +3422,6 @@
 				<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.highland_boots"/>
-				<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>
@@ -3443,7 +3442,6 @@
 				<Equipment slot="Body" id="Item.heavy_nordic_tunic"/>
 				<Equipment slot="Cape" id="Item.scarf"/>
 				<Equipment slot="Leg" id="Item.highland_boots"/>
-				<Equipment slot="Gloves" id="Item.highland_gloves"/>
 			</EquipmentSet>
 		</xsl:copy>
 	</xsl:template>

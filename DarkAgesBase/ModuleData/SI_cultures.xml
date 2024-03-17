@@ -1473,6 +1473,8 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.boar_hmj_it2"/>
+			<template name="NPCCharacter.perassic_hmj_hit2"/>
+
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="battania"
@@ -2499,6 +2501,7 @@
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.wimperial_hmj_rt4"/>
 			<template name="NPCCharacter.betrayed_hmj_st2"/>
+			<template name="NPCCharacter.perassic_hmj_hit2"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="empire_n"
@@ -2968,9 +2971,9 @@
 	         elite_basic_troop="NPCCharacter.shariz_hmj_nst5"
 	         basic_troop="NPCCharacter.shariz_hmj_st2"
 	         melee_militia_troop="NPCCharacter.shariz_hmj_mit2"
-	         ranged_militia_troop="NPCCharacter.shariz_hmj_mst2"
-	         melee_elite_militia_troop="NPCCharacter.shariz_hmj_st4"
-	         ranged_elite_militia_troop="NPCCharacter.shariz_hmj_mat3"
+	         ranged_militia_troop="NPCCharacter.shariz_hmj_mrt2"
+	         melee_elite_militia_troop="NPCCharacter.shariz_hmj_st3"
+	         ranged_elite_militia_troop="NPCCharacter.shariz_hmj_rt4"
 	         can_have_settlement="true"
 	         town_edge_number="16"
 	         villager_party_template="PartyTemplate.villager_shariz_template"
@@ -3346,6 +3349,7 @@
 		</tournament_team_templates_four_participant>
 		<basic_mercenary_troops>
 			<template name="NPCCharacter.khuzopole_hmj_hat2"/>
+			<template name="NPCCharacter.perassic_hmj_hit2"/>
 		</basic_mercenary_troops>
 	</Culture>
 	<Culture id="nord"

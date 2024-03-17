@@ -641,22 +641,6 @@
            super_faction="Kingdom.vlandia"
            is_noble="true"
            banner_key="11.142.142.1536.1536.768.768.1.0.0.160.132.132.512.512.769.764.1.0.0" />
-  <Faction id="clan_vlandia_3"
-           name="{=mpjp1MT2}dey Arromanc"
-           tier="4"
-           owner="Hero.lord_4_6"
-           culture="Culture.vlandia"
-           super_faction="Kingdom.vlandia"
-           is_noble="true"
-           banner_key="1.148.148.1823.1808.764.764.0.0.0.102.140.140.408.408.764.764.0.0.0" />
-  <!--
-	Calatild was her father's only child, and was named heir of the House of Arromanc in contrary to normal Vlandian custom. The claim to her lands staked by Ingalther of Cortain has allowed her to rally her relatives to her banner, overcoming any objections they might have to a female liege. 
-	Patriarch - Untheric, consort of queen
-	Queen - Calatild
-	Heir, Thomund - valiant but hotheaded, conventional
-	Uncle, Hecard
-	Heiress 
-	-->
   <Faction id="clan_vlandia_4"
            name="{=CS4rSk99}dey Cortain"
            tier="5"
@@ -665,22 +649,30 @@
            super_faction="Kingdom.vlandia"
            is_noble="true"
            banner_key="12.100.140.1823.1808.764.764.0.0.0.424.100.140.300.300.839.839.0.0.0.424.140.140.300.300.689.689.0.0.0" />
-  <Faction id="clan_vlandia_5"
-           name="{=9qAUWcfa}dey Gunric"
-           tier="2"
-           owner="Hero.lord_4_21"
+  <!--
+	Calatild was her father's only child, and was named heir of the House of Arromanc in contrary to normal Vlandian custom. The claim to her lands staked by Ingalther of Cortain has allowed her to rally her relatives to her banner, overcoming any objections they might have to a female liege. 
+	Patriarch - Untheric, consort of queen
+	Queen - Calatild
+	Heir, Thomund - valiant but hotheaded, conventional
+	Uncle, Hecard
+	Heiress 
+	-->
+  <Faction id="clan_vlandia_3"
+           name="{=mpjp1MT2}dey Arromanc"
+           tier="4"
+           owner="Hero.lord_4_6"
            culture="Culture.vlandia"
            super_faction="Kingdom.vlandia"
            is_noble="true"
-           banner_key="11.142.140.1500.1500.764.764.1.0.-90.505.140.140.2000.100.764.764.0.0.0.505.140.140.2000.100.764.764.0.0.90" />
+           banner_key="1.148.148.1823.1808.764.764.0.0.0.102.140.140.408.408.764.764.0.0.0" />
   <Faction id="clan_vlandia_7"
            name="{=LZVzzczs}dey Fortes"
-           tier="3"
+           tier="4"
            owner="Hero.lord_4_23"
            culture="Culture.vlandia"
            super_faction="Kingdom.vlandia"
            is_noble="true"
-           banner_key="1.142.12.1772.2235.764.764.1.0.-90.158.127.116.312.312.764.913.1.0.0.503.127.116.231.231.764.585.1.1.0" />
+           banner_key="4.141.140.1500.1500.764.764.1.0.-90.125.142.140.500.500.764.764.0.0.0" />
   <Faction id="clan_vlandia_8"
            name="{=9NWQNInC}dey Molarn"
            tier="3"
@@ -689,6 +681,14 @@
            super_faction="Kingdom.vlandia"
            is_noble="true"
            banner_key="11.131.12.1772.2235.764.764.1.0.-90.146.116.116.250.250.764.914.0.0.0.146.116.116.250.250.899.714.0.0.0.146.116.116.250.250.629.714.0.0.0" />
+  <Faction id="clan_vlandia_5"
+           name="{=9qAUWcfa}dey Gunric"
+           tier="2"
+           owner="Hero.lord_4_21"
+           culture="Culture.vlandia"
+           super_faction="Kingdom.vlandia"
+           is_noble="true"
+           banner_key="11.142.140.1500.1500.764.764.1.0.-90.505.140.140.2000.100.764.764.0.0.0.505.140.140.2000.100.764.764.0.0.90" />
   <Faction id="clan_vlandia_9"
            name="{=LygSwU3i}dey Jelind"
            tier="2"
@@ -699,12 +699,12 @@
            banner_key="11.2.2.1772.2235.764.764.1.0.-90.138.116.2.500.500.764.764.1.0.0" />
   <Faction id="clan_vlandia_10"
            name="{=yQcZrUYi}dey Folcun"
-           tier="1"
+           tier="2"
            owner="Hero.lord_4_28"
            culture="Culture.vlandia"
            super_faction="Kingdom.vlandia"
            is_noble="true"
-           banner_key="4.141.140.1500.1500.764.764.1.0.-90.125.142.140.500.500.764.764.0.0.0" />
+           banner_key="1.142.12.1772.2235.764.764.1.0.-90.158.127.116.312.312.764.913.1.0.0.503.127.116.231.231.764.585.1.1.0" />
 	
 	<Faction id="clan_khuzait_9"
 	         name="{=cYTdzMQ4}Hozdar"
