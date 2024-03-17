@@ -893,6 +893,30 @@ For examples please refer to: SandBoxCore/ModuleData/spitems/arm_armors.xml.-->
 		<Flags UseTeamColor="true" Civilian="true" />
 	</Item>
 	<!-- Weapons-->
+	<CraftedItem
+		id="hmj_war_cleaver_2hsword_t4"
+		name="{=4RTsybkx}Great Cleaver"
+		crafting_template="TwoHandedSword"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="cleaver_blade_3"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="vlandian_guard_5"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_grip_7"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="empire_pommel_5"
+				Type="Pommel"
+				scale_factor="110" />
+		</Pieces>
+	</CraftedItem>
 	<CraftedItem id="peasant_maul_t1_4" 
 				 name="{=gYpNILVC}Reinforced Maul" 
 				 crafting_template="TwoHandedMace" 
