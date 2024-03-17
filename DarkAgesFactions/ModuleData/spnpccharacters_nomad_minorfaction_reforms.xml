@@ -718,7 +718,7 @@
 		</NPCCharacter>
 	<!-- #region Forresters Marksman Line -->
 		<NPCCharacter id="vakken_hmj_it2"
-			default_group="Ranged"
+			default_group="Infantry"
 			level="11"
 			name="{=Vakken Hunter}Vakken Hunter"
 			occupation="Mercenary"
@@ -777,7 +777,7 @@
 			</Equipments>
 		</NPCCharacter>
 		<NPCCharacter id="vakken_hmj_it3"
-			default_group="Ranged"
+			default_group="Infantry"
 			level="16"
 			name="{=Vakken Warrior}Vakken Warrior"
 			occupation="Mercenary"

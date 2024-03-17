@@ -1,5 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
+		<NPCCharacter id="perassic_hmj_hit2"
+			default_group="Infantry"
+			level="11"
+			name="{=Perassic Marine}Perassic Marine"
+			occupation="Mercenary"
+			is_basic_troop="true"
+			culture="Culture.neutral_culture">
+			<face>
+				<face_key_template value="BodyProperty.fighter_vlandia"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="50"/>
+				<skill id="Riding" value="5"/>
+				<skill id="OneHanded" value="60"/>
+				<skill id="TwoHanded" value="80"/>
+				<skill id="Polearm" value="20"/>
+				<skill id="Bow" value="5"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="10"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.perassic_hmj_hit3"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+					<equipment slot="Head" id="Item.guards_kettle_over_laced_coif"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.imperial_padded_cloth"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.battania_mace_1_t3"/>
+					<equipment slot="Head" id="Item.kettle_helm_1_v1"/>
+					<equipment slot="Body" id="Item.sleeveless_padded_coat"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+					<equipment slot="Head" id="Item.guards_kettle_over_padded_coif"/>
+					<equipment slot="Body" id="Item.desert_padded_cloth"/>
+					<equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.battania_mace_1_t3"/>
+					<equipment slot="Head" id="Item.kettle_helm_1_v1"/>
+					<equipment slot="Cape" id="Item.green_hood"/>
+					<equipment slot="Body" id="Item.patched_gambeson"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentSet id="vlandia_troop_civilian_template_t1"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="perassic_hmj_hit3"
+			default_group="Infantry"
+			level="16"
+			name="{=Perassic Marine Veteran}Perassic Marine Veteran"
+			occupation="Mercenary"
+			culture="Culture.neutral_culture">
+			<face>
+				<face_key_template value="BodyProperty.fighter_vlandia"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="60"/>
+				<skill id="Riding" value="10"/>
+				<skill id="OneHanded" value="70"/>
+				<skill id="TwoHanded" value="90"/>
+				<skill id="Polearm" value="40"/>
+				<skill id="Bow" value="10"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="20"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+					<equipment slot="Head" id="Item.TV_vlandia_helmet_h"/>
+					<equipment slot="Cape" id="Item.hood"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_p"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.battania_mace_1_t3"/>
+					<equipment slot="Head" id="Item.guards_kettle_over_padded_coif"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.empire_warrior_padded_armor_e"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.aserai_axe_1_t2"/>
+					<equipment slot="Head" id="Item.TV_vlandia_helmet_h"/>
+					<equipment slot="Cape" id="Item.scarf"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_h"/>
+					<equipment slot="Leg" id="Item.DZ_empire_boots_a"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.hmj_war_cleaver_2hsword_t4"/>
+					<equipment slot="Item1" id="Item.battania_mace_1_t3"/>
+					<equipment slot="Head" id="Item.kettle_helm_1_v1"/>
+					<equipment slot="Cape" id="Item.green_hood"/>
+					<equipment slot="Body" id="Item.sleeveless_padded_coat"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentSet id="vlandia_troop_civilian_template_t2"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
 	<NPCCharacter id="mercenary_1" default_group="Infantry" level="11" name="{=RYP9hzIy}Sellsword" occupation="Mercenary" is_basic_troop="true" culture="Culture.neutral_culture">
 		<face>
 			<face_key_template value="BodyProperty.fighter_multirace"/>
