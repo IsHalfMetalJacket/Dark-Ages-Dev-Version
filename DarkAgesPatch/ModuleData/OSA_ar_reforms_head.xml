@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
+	<!-- MTM Adjustment -->
+	<Item id="AR_goth_helmet_h" name="{=osa_ar_goth_helmet_h}Steppe Lamellar Cap" mesh="AR_goth_helmet_h" culture="Culture.khuzait" weight="1.4" appearance="1.6" Type="HeadArmor" difficulty="0" subtype="head_armor">
+		<ItemComponent>
+			<Armor head_armor="22" has_gender_variations="false" hair_cover_type="type1" modifier_group="plate" beard_cover_type="none" material_type="Plate"/>
+		</ItemComponent>
+		<Flags/>
+	</Item>
+	
 	<!-- RBM BALANCE -->
 	<!-- Hats -->
 	<Item id="AR_roman_hat_a" name="{=osa_ar_roman_hat_a}Imperial Decorated Hat" subtype="head_armor" mesh="AR_roman_hat_a" culture="Culture.empire" weight="1.4" difficulty="0" appearance="1.3" Type="HeadArmor">
