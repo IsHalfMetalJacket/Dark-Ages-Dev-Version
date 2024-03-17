@@ -273,7 +273,7 @@
 		</NPCCharacter>
 
 	<!-- T1 Recruit Light Skill 5-20 -->
-	<NPCCharacter id="AR_kan_villager" default_group="Infantry" level="6" name="{=si_AR_kan_villager}(PH) Sharizan Civis" occupation="Villager" culture="Culture.shariz" is_basic_troop="true">
+	<NPCCharacter id="AR_kan_villager" default_group="Infantry" level="1" name="{=si_AR_kan_villager}(PH) Sharizan Civis" occupation="Villager" culture="Culture.shariz" is_basic_troop="true">
 		<face>
 			<face_key_template value="BodyProperty.villager_kannic"/>
 		</face>
