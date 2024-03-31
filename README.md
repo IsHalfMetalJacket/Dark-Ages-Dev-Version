@@ -50,27 +50,51 @@ Currently on the lookout for a OnHeroComesOfAge related crash. If this happens, 
 Load order should look like:
 
 Harmony
+
 Better Exception Window
+
 Butter Lib
+
 UIExtenderEx
+
 ModConfiguration Menu v5
+
 Adonnay's Troop Changer
+
 RBM
+
 Open Source Armory
+
 Open Source Saddlery
+
 Open Source Weaponry
+
 Diamond's Stuff
+
 Norman Armory
+
 Norman Armory RBM Patch
+
 Open Source Armory (RBM Patch)
+
 Open Source Saddlery (RBM Patch)
+
 Open Source Weaponry (RBM Patch)
+
 Dark Ages Item Pack
+
 Vlandian Steel Items
+
 Vaegir Armory
+
 Saxon Helmet
+
 Swadian Armory
+
 Shattered Imperium: World Map
+
 Dark Ages: OSA/RBM Patch
+
 Dark Ages: Base Files
+
 Dark Ages: Factions
