@@ -7,6 +7,14 @@ Harmony
 
 BetterExceptionWindow
 
+ButterLib
+
+UI Extender EX
+
+Mod Configuration Menu V5
+
+Adonnay's Troop Changer
+
 (RBM) Realistic Battle Mod
 
 Open Source Armoury (Armoury, Weaponry, Saddlery)
@@ -23,9 +31,9 @@ Norman Armoury
 
 Vlandian Steel
 
-Norman Armory RBM Patch and Shield Holster fix
+Shattered Imperium Map (Found in the Open Source Armory Discord)
 
-Adonnay's Troop Changer
+Norman Armory RBM Patch and Shield Holster fix
 
 Open Source Armoury RBM Patch
 
