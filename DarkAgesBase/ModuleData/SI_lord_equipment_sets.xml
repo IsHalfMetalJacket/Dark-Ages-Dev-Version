@@ -3181,6 +3181,264 @@
 		</EquipmentSet>
 		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
 	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_raul_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Head" id="Item.hmj_aserai_helmet_a"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
+			<Equipment slot="Body" id="Item.vlandia_chainmail_baron"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Leg" id="Item.plated_strip_boots"/>
+			<Equipment slot="Horse" id="Item.t3_aserai_horse"/>
+			<Equipment slot="HorseHarness" id="Item.halfchain_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_luis_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_t4"/>
+			<Equipment slot="Head" id="Item.tv_vlandia_lord_helmet_h2"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Body" id="Item.asero_vlandic_robe"/>
+			<Equipment slot="Gloves" id="Item.mail_mitten"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.t3_aserai_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_b2"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_thalez_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_heavy_javelin_t2"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_2_t5"/>
+			<Equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Head" id="Item.southern_helmet_IIII"/>
+			<Equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+			<Equipment slot="Body" id="Item.desert_robe_over_mail"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_c"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+			<Equipment slot="Horse" id="Item.t3_aserai_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_l"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_cait_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_4_t5"/>
+			<Equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Head" id="Item.DZ_vlandia_helmet_a"/>
+			<Equipment slot="Cape" id="Item.TV_vlandia_shoulders_i"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_c"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_ze"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_oscar_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_4_t5"/>
+			<Equipment slot="Item2" id="Item.heavy_heater_shield"/>
+			<Equipment slot="Item3" id="Item.vlandia_2hsword_2_t5"/>
+			<Equipment slot="Head" id="Item.tv_vlandia_lord_helmet_k2"/>
+			<Equipment slot="Cape" id="Item.vs_long_cape"/>
+			<Equipment slot="Body" id="Item.TV_vlandia_armor_r"/>
+			<Equipment slot="Gloves" id="Item.lordly_mail_mitten"/>
+			<Equipment slot="Leg" id="Item.mail_cavalier_boots"/>
+			<Equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.chain_barding"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_hylda_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.vlandia_noble_sword_4_t5"/>
+			<Equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+			<Equipment slot="Item3" id="Item.imperial_heavy_javelin_t2"/>
+			<Equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
+			<Equipment slot="Cape" id="Item.scarf"/>
+			<Equipment slot="Body" id="Item.LE_vlandia_armor_a"/>
+			<Equipment slot="Gloves" id="Item.reinforced_leather_vambraces"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t2"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_gemistios_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.crossbow_cavalry_heavy"/>
+			<Equipment slot="Item1" id="Item.bolt_b"/>
+			<Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+			<Equipment slot="Head" id="Item.southern_helmet_IIII"/>
+			<Equipment slot="Cape" id="Item.ao_imperial_noblemans_sash"/>
+			<Equipment slot="Body" id="Item.aserai_archer_armor"/>
+			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<Equipment slot="Leg" id="Item.folded_town_boots"/>
+			<Equipment slot="Horse" id="Item.t3_empire_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_ze"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_castin_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.studded_round_shield"/>
+			<Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+			<Equipment slot="Head" id="Item.TV_vlandia_helmet_n"/>
+			<Equipment slot="Cape" id="Item.ao_imperial_noblemans_sash"/>
+			<Equipment slot="Body" id="Item.ao_imperial_southern_scale_armor_over_mail"/>
+			<Equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers"/>
+			<Equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+			<Equipment slot="Horse" id="Item.t3_empire_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_k"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_zoe_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.crossbow_cavalry_heavy"/>
+			<Equipment slot="Item1" id="Item.bolt_b"/>
+			<Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+			<Equipment slot="Head" id="Item.TV_vlandia_helmet_s"/>
+			<Equipment slot="Body" id="Item.AR_empire_armor_r"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.t3_empire_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_ze"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_manu_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.empire_lance_3_t5"/>
+			<Equipment slot="Item1" id="Item.studded_round_shield"/>
+			<Equipment slot="Item2" id="Item.empire_noble_sword_2_t5"/>
+			<Equipment slot="Head" id="Item.AR_empire_desert_helmet_c"/>
+			<Equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_e"/>
+			<Equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.t3_empire_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_ze"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_amen_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.shishpar_mace_t4"/>
+			<Equipment slot="Item1" id="Item.studded_round_shield"/>
+			<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+			<Equipment slot="Head" id="Item.aserai_crown"/>
+			<Equipment slot="Cape" id="Item.vs_long_noble_cape"/>
+			<Equipment slot="Body" id="Item.dz_aserai_armor_2"/>
+			<Equipment slot="Gloves" id="Item.TV_vlandia_gloves_c"/>
+			<Equipment slot="Leg" id="Item.leather_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_q2"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_hamaz_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_noble_sword_3_t5"/>
+			<Equipment slot="Item1" id="Item.studded_round_shield"/>
+			<Equipment slot="Item2" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Item3" id="Item.imperial_heavy_javelin_t2"/>
+			<Equipment slot="Head" id="Item.TV_aserai_helmet_f"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Body" id="Item.aserai_archer_armor"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.turndown_leather_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_u"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_radd_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.shishpar_mace_t4"/>
+			<Equipment slot="Item1" id="Item.studded_round_shield"/>
+			<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+			<Equipment slot="Item3" id="Item.aserai_lance_1_t5"/>
+			<Equipment slot="Head" id="Item.tv_vlandia_helmet_i3"/>
+			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+			<Equipment slot="Gloves" id="Item.northern_brass_bracers"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_u"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_sama_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_noble_sword_3_t5"/>
+			<Equipment slot="Item1" id="Item.studded_round_shield"/>
+			<Equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
+			<Equipment slot="Head" id="Item.southern_helmet_IIII"/>
+			<Equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+			<Equipment slot="Leg" id="Item.steppe_leather_boots"/>
+			<Equipment slot="Horse" id="Item.noble_horse_southern"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_r2"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_jawth_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.aserai_2haxe_3_t5"/>
+			<Equipment slot="Item1" id="Item.ornate_adarga"/>
+			<Equipment slot="Item2" id="Item.aserai_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.AR_vlandian_throwing_spear_2_t4"/>
+			<Equipment slot="Head" id="Item.tv_vlandia_helmet_i4"/>
+			<Equipment slot="Cape" id="Item.AR_aserai_shoulder_q"/>
+			<Equipment slot="Body" id="Item.ao_eorling_iron_scale_over_mail"/>
+			<Equipment slot="Gloves" id="Item.TV_aserai_gloves_b"/>
+			<Equipment slot="Leg" id="Item.TV_aserai_boots_d"/>
+			<Equipment slot="Horse" id="Item.t3_vlandia_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_t"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_haza_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.imperial_heavy_javelin_t3"/>
+			<Equipment slot="Item1" id="Item.ornate_adarga"/>
+			<Equipment slot="Item2" id="Item.aserai_noble_sword_1_t5"/>
+			<Equipment slot="Head" id="Item.TV_aserai_helmet_f"/>
+			<Equipment slot="Cape" id="Item.wrapped_scarf"/>
+			<Equipment slot="Body" id="Item.tv_aserai_lamellar_c2"/>
+			<Equipment slot="Gloves" id="Item.padded_vambrace"/>
+			<Equipment slot="Leg" id="Item.fine_town_boots"/>
+			<Equipment slot="Horse" id="Item.t3_aserai_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_r"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
+	<EquipmentRoster id="hmj_shariz_umar_battletemplate" culture="Culture.shariz">
+		<EquipmentSet>
+			<Equipment slot="Item0" id="Item.vlandia_lance_2_t4"/>
+			<Equipment slot="Item1" id="Item.ornate_adarga"/>
+			<Equipment slot="Item2" id="Item.aserai_noble_sword_1_t5"/>
+			<Equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3"/>
+			<Equipment slot="Head" id="Item.southern_light_helmet_a"/>
+			<Equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_b"/>
+			<Equipment slot="Body" id="Item.AR_aserai_armor_f"/>
+			<Equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+			<Equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+			<Equipment slot="Horse" id="Item.t3_aserai_horse"/>
+			<Equipment slot="HorseHarness" id="Item.AR_horse_armor_r2"/>
+		</EquipmentSet>
+		<Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="false" />
+	</EquipmentRoster>
 	<EquipmentRoster id="hmj_shariz_surcoat_battletemplate" culture="Culture.shariz">
 		<EquipmentSet>
 			<Equipment slot="Item0" id="Item.vlandia_lance_3_t5"/>

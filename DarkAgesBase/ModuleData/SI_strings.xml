@@ -293,7 +293,7 @@
 	<string id="str_culture_description.akkazi" text="{=str.str_culture_description.akkazi}The Calradian Empire is in crisis. Political rivalries have torn the land in three, with claimants attempting to seize power for themselves, whilst enemies close on all sides, carving new kingdoms from imperial territory. They are technologically more advanced than their neighbors and their mastery of engineering is not just evident in their aqueducts, beautiful architecture and massive city walls. It also makes them experts in siege warfare."/>
 	<string id="str_faction_official.empire_w" text="{=2CgZVkDj}a Praetor"/>
 	<string id="str_faction_official.empire_w_f" text="{=u3c9M8vx}a Praeteira"/>
-	<string id="str_faction_ruler.empire_w" text="{=jbQ3LYBl}Domestikos"/>
+	<string id="str_faction_ruler.empire_w" text="{=785785uu}Domestikos"/>
 	<string id="str_faction_ruler.empire_w_f" text="{=tDA5dhn3}Domestikissa"/>
 	<string id="str_faction_official.empire_s" text="{=2CgZVkDj}an Archon"/>
 	<string id="str_faction_official.empire_s_f" text="{=u3c9M8vx}an Archousa"/>
@@ -326,13 +326,13 @@
 	<string id="str_faction_ruler_name_with_title.cizygian" text="{=VoZBLWay}{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
 	<string id="str_faction_noble_name_with_title.cizygian" text="{=BbYFboh2}{RULER.NAME} {?RULER.GENDER}Begum{?}Beg{\?}"/>
 	<string id="str_faction_ruler_term_in_speech.cizygian" text="{=VoZBLWay}{RULER.NAME} {?RULER.GENDER}Khatun{?}Khan{\?}"/>
-	<string id="str_faction_official.shariz" text="{=2CgZVkDj}an Archon"/>
-	<string id="str_faction_official.shariz_f" text="{=u3c9M8vx}an Archousa"/>
-	<string id="str_faction_ruler.shariz" text="{=jbQ3LYBl}Basileos"/>
-	<string id="str_faction_ruler.shariz_f" text="{=tDA5dhn3}Basilissa"/>
-	<string id="str_faction_ruler_name_with_title.shariz" text="{=7pAZatbz}{?RULER.GENDER}Basilissa{?}Basileos{\?} {RULER.NAME}"/>
-	<string id="str_faction_noble_name_with_title.shariz" text="{=nAaT19CC}{?RULER.GENDER}Archousa{?}Archon{\?} {RULER.NAME}"/>
-	<string id="str_faction_ruler_term_in_speech.shariz" text="{=lpbDPuuW}{?RULER.GENDER}the Basilissa{?}the Basileos{\?} {RULER.NAME}"/>
+	<string id="str_faction_official.shariz" text="{=2CgZVkDj}a Lord"/>
+	<string id="str_faction_official.shariz_f" text="{=u3c9M8vx}a Lady"/>
+	<string id="str_faction_ruler.shariz" text="{=5g42445tt}King"/>
+	<string id="str_faction_ruler.shariz_f" text="{=tDA5dhn3}Queen"/>
+	<string id="str_faction_ruler_name_with_title.shariz" text="{=7pAZatbz}{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}"/>
+	<string id="str_faction_noble_name_with_title.shariz" text="{=nAaT19CC}{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}"/>
+	<string id="str_faction_ruler_term_in_speech.shariz" text="{=lpbDPuuW}{?RULER.GENDER}the Queen{?}the King{\?} {RULER.NAME}"/>
 	<string id="str_faction_official.vakken" text="{=2CgZVkDj}a Boyar"/>
 	<string id="str_faction_official.vakken_f" text="{=u3c9M8vx}a Bojarka"/>
 	<string id="str_faction_ruler.vakken" text="{=jbQ3LYBl}High Boyar"/>
@@ -393,12 +393,12 @@
 	</string>
 	<string id="str_liege_title.shariz" text="{=LBb7YgXU}King of the Sharizans">
 		<tags>
-			<tag tag_name="VlandianTag"/>
+			<tag tag_name="SharizanTag"/>
 		</tags>
 	</string>
 	<string id="str_liege_title_female.shariz" text="{=tUa5WBpp}Queen of the Sharizans">
 		<tags>
-			<tag tag_name="VlandianTag"/>
+			<tag tag_name="SharizanTag"/>
 		</tags>
 	</string>
 	<string id="str_liege_title.byalic" text="{=ZH04pkV6}High Chief of the Byals">

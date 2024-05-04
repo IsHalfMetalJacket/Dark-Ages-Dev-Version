@@ -168,7 +168,7 @@
 		<xsl:attribute name="color">0xff6b2929</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@elite_basic_troop">
-		<xsl:attribute name="elite_basic_troop">NPCCharacter.vlandia_hmj_nit2</xsl:attribute>
+		<xsl:attribute name="elite_basic_troop">NPCCharacter.vlandia_hmj_nit3</xsl:attribute>
 	</xsl:template>
 	<xsl:template match="Culture[@id='vlandia']/@basic_troop">
 		<xsl:attribute name="basic_troop">NPCCharacter.vlandia_hmj_mit2</xsl:attribute>

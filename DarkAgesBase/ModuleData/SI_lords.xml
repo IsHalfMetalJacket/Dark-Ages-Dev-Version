@@ -10770,14 +10770,14 @@
 		</face>
 		<skills></skills>
 		<Traits>
-		  <Trait id="BalancedFightingSkills"
+		  <Trait id="KnightFightingSkills"
 				 value="4" />
 		  <Trait id="Commander"
-				 value="6" />
+				 value="12" />
 		  <Trait id="Politician"
-				 value="7" />
+				 value="15" />
 		  <Trait id="Manager"
-				 value="9" />
+				 value="17" />
 		  <Trait id="Calculating"
 				 value="1" />
 		  <Trait id="Mercy"
@@ -10792,42 +10792,298 @@
 						civilian="true" />
 		</Equipments>
 	  </NPCCharacter>
-	<NPCCharacter id="AR_lord_4_23" name="{=C1LIflK9}Richelda" age="43" voice="curt" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+	
+	<!-- Philenora - benevolent -->
+	<NPCCharacter
+		id="lord_4_2"
+		name="{=5N6i1jQP}Philenora"
+		age="47"
+		voice="ironic"
+		is_female="true"
+		culture="Culture.vlandia"
+		is_hero="true"
+		default_group="Cavalry"
+		occupation="Lord"
+		face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" weight="0.5" build="0.5" key="0005240A002C300B65878AA361487BE89C5DA5467D8C9167894C6C892799E3780167761306C636A600000000000000000000000000000000000000002CBC3083"/>
+			<!--face_key value="000044000000000577707780b7c07777c2bb71f7eff77aa7956746991c7775c70000000005c7966a000000000000000000000000000000000000000000000100" /-->
+			<BodyProperties version="4" key="000044000000000577707780B7C07777C2BB71F7EFF77AA7956746991C7775C70000000505C7966A000000000000000000000000000000000000000000000100" />
 		</face>
-		<skills/>
 		<Traits>
-			<Trait id="Politician" value="3"/>
-			<Trait id="Manager" value="3"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="-1"/>
-			<Trait id="Calculating" value="-1"/>
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster/>
-			<EquipmentSet id="vla_bat_template_medium"/>
-			<EquipmentSet id="vla_noncom_template_default" civilian="true"/>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="AR_lord_4_28" name="{=BVNCWAai}Adalindis" age="56" is_female="true" voice="curt" default_group="Cavalry" is_hero="true" culture="Culture.vlandia" occupation="Lord">
+	
+	<!-- Alary, heir to Vlandian clan 1. Skilled and driven, but unimaginative -->
+	<NPCCharacter
+		id="lord_4_7"
+		name="{=bHTdXTwC}Alary"
+		age="26"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
 		<face>
-			<BodyProperties version="4" weight="0.5664" build="0.6713" key="0005AC07004431CE4457B349656598876429217587CA893AB647627B3BA51745089A86890992B8D6000000000000000000000000000000000000000001205041"/>
+			<BodyProperties version="4" weight="0.5667" build="0.7221"  key="000510020000110232731956310564E637157818708138648CEB5D2873357035006B800306571C8200000000000000000000000000000000000000004AD88081"  />
 		</face>
-		<skills/>
 		<Traits>
-			<Trait id="BalancedFightingSkills" value="7"/>
-			<Trait id="Commander" value="7"/>
-			<Trait id="Politician" value="8"/>
-			<Trait id="Manager" value="4"/>
-			<Trait id="Generosity" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Mercy" value="1"/>
+			<Trait
+				id="KnightFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
 		</Traits>
 		<Equipments>
-			<EquipmentRoster/>
-			<EquipmentSet id="vla_bat_template_heavy"/>
-			<EquipmentSet id="vla_civ_template_default" civilian="true"/>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_heavy" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	
+	<!-- Elys, Heiress for clan 1. Decent and thoughtful, a better ruler than her brother -->
+	<NPCCharacter
+		id="lord_4_10"
+		name="{=FR2wUMdb}Elys"
+		age="22"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="000080000000000b67874369563b575737063939bc84896c773744465293778c000000000f97cdd9000000000000000000000000000000000000000000000000" /-->
+			<BodyProperties version="4" key="000080000000000B67874369563B575737063939BC84896C773744465293778C000000030F97CDD9000000000000000000000000000000000000000000000000" />
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Romund, blunt and conventional -->
+	<NPCCharacter
+		id="lord_4_13"
+		name="{=abCBBVaU}Romund"
+		age="35"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6404" build="0.6682"  key="0005B0081100339B48802D04476A22F69E19714BC2BB1B05FF6F00777B853103007AA0030759705000000000000000000000000000000000000000007CE82001"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Politician"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_heavy" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- Morcon, cautious and icy. Honest, but takes every advantage in combat -->
+	<NPCCharacter
+		id="lord_4_14"
+		name="{=EHalkcEU}Morcon"
+		age="28"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.092" build="0.4151"  key="000510028000020B52722B57125576F5232384586361A9027B355D24705272340096100309682751000000000000000000000000000000000000000073301040"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="14" />
+			<Trait
+				id="Politician"
+				value="2" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_141"
+		name="{=enuXNYIl}Amorcon"
+		age="18"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4969" build="0.3904"  key="000580000000010C6787473B5637279299647933BC84B9667737974284A7B790004670030456C73300000000000000000000000000000000000000003A885000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="4" />
+			<Trait
+				id="Politician"
+				value="3" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Endurand, brave but bad-tempered -->
+	<NPCCharacter
+		id="lord_4_15"
+		name="{=PuRfbiW3}Erdurand"
+		age="27"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4583" build="0.5381"  key="00004C040000034323834B56123476B60987754B71517D2544947746753675230078700307648B8400000000000000000000000000000000000000006CE84102"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="7" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_heavy" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -12237,12 +12493,12 @@
 	</NPCCharacter>
 	<NPCCharacter id="hmj_lord_9_2" name="{=d6aTWH9m}Roshana" age="47" is_female="true" voice="softspoken" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="47" weight="0.5" build="0.5" key="001E800F000000158E7A8827833C659966E8A6D598CB97D957C74B8C67374888007776030794976600000000000000000000000000000000000000003AF42003"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="001E800F000000158E7A8827833C659966E8A6D598CB97D957C74B8C67374888007776030794976600000000000000000000000000000000000000003AF42003"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Politician" value="4"/>
-			<Trait id="Manager" value="3"/>
+			<Trait id="Politician" value="13"/>
+			<Trait id="Manager" value="17"/>
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
@@ -12250,34 +12506,33 @@
 			<EquipmentSet id="ase_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_3" name="{=zaHnL2It}Raul" age="18" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_3" name="{=zaHnL2It}Raul" age="18" voice="ironic" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="19" weight="0.5" build="0.5" key="00205C09800002C669AB5659B95AD479B84B8967A2D875AB59E75BB85E74673C00777603076ABD6800000000000000000000000000000000000000003AE49142"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00205C09800002C669AB5659B95AD479B84B8967A2D875AB59E75BB85E74673C00777603076ABD6800000000000000000000000000000000000000003AE49142"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="4"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="1"/>
-			<Trait id="Manager" value="1"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_surcoat_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_raul_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_4" name="{=zaHnL2It}Leon" age="48" is_female="false" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_4" name="{=zaHnL2It}Leon" age="48" is_female="false" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="48" weight="0.679" build="0.7022"  key="0020400D94FC371C6AC2761C4AC1A595469C8217781A9A96B88278758967962300BBA6030BA769580000000000000000000000000000000000000000016C3142"  />
+			<BodyProperties version="4" weight="0.679" build="0.7022"  key="0020400D94FC371C6AC2761C4AC1A595469C8217781A9A96B88278758967962300BBA6030BA769580000000000000000000000000000000000000000016C3142"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="7"/>
-			<Trait id="Commander" value="8"/>
-			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="4"/>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="13"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="7"/>
 			<Trait id="Valor" value="+1"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
@@ -12289,68 +12544,83 @@
 	</NPCCharacter>
 	<NPCCharacter id="hmj_lord_9_5" name="{=waQPRCaT}Guilhem" age="63" voice="curt" is_hero="true" culture="Culture.vlandia" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="63" weight="0.4125" build="0.93"  key="001B580AD0581341846D887B9AA769A73978B5D7B8BB76787896666978A7A386017E6613F7677987476655555555554400000000000000170000000054FC4042"  />
+			<BodyProperties version="4" weight="0.4125" build="0.93"  key="001B580AD0581341846D887B9AA769A73978B5D7B8BB76787896666978A7A386017E6613F7677987476655555555554400000000000000170000000054FC4042"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="KnightFightingSkills" value="8"/>
-			<Trait id="Commander" value="8"/>
-			<Trait id="Politician" value="5"/>
-			<Trait id="Manager" value="4"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="6"/>
 			<Trait id="Valor" value="1"/>
-			<Trait id="Generosity" value="1"/>
+			<Trait id="Honor" value="1"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="hmj_thank_you_maverick_knight"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_6" name="{=d6aTWH9m}Catlin" age="63" is_female="true" voice="softspoken" is_hero="true" culture="Culture.vlandia" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_6" name="{=d6aTWH9m}Catlin" age="60" is_female="true" voice="softspoken" is_hero="true" culture="Culture.vlandia" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="63" weight="0.4861" build="0.6327"  key="000A5C0340A01001759C42AE79644546B8A86478C87746863477BBA686C7657900197603012769C900000000000000000000000000000000000000003E2C4043"  />
+			<BodyProperties version="4" weight="0.4861" build="0.6327"  key="000A5C0340A01001759C42AE79644546B8A86478C87746863477BBA686C7657900197603012769C900000000000000000000000000000000000000003E2C4043"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="5"/>
+			<Trait id="KnightFightingSkills" value="3"/>
+			<Trait id="Commander" value="15"/>
 			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="5"/>
+			<Trait id="Manager" value="13"/>
 			<Trait id="Mercy" value="2"/>
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_surcoat_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_cait_battletemplate"/>
 			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_7" name="{=zaHnL2It}Oscar" age="25" voice="ironic" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_7" name="{=zaHnL2It}Oscar" age="25" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.12" weight="0.5" build="0.5" key="00159C014000128B899678B3E7CA9729553558C458875A785262494C82934DBC0077760307E71CB700000000000000000000000000000000000000003AE44042"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00159C014000128B899678B3E7CA9729553558C458875A785262494C82934DBC0077760307E71CB700000000000000000000000000000000000000003AE44042"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="4"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="1"/>
-			<Trait id="Manager" value="1"/>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="9"/>
+			<Trait id="Politician" value="5"/>
 			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
+			<Trait id="Honor" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_surcoat_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_oscar_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hmj_lord_9_8" name="{=zaHnL2It}Hylda" age="22" is_female="true" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22.12" weight="0.5" build="0.5" key="000A5C0200A0100A75958948A5A874A768986478C8774686C592B437CD4B78A600177603019355A300000000000000000000000000000000000000003E2C0083"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000A5C0200A0100A75958948A5A874A768986478C8774686C592B437CD4B78A600177603019355A300000000000000000000000000000000000000003E2C0083"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="4"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="1"/>
-			<Trait id="Manager" value="1"/>
-			<Trait id="Mercy" value="-1"/>
+			<Trait id="CavalryFightingSkills" value="7"/>
+			<Trait id="Commander" value="12"/>
+			<Trait id="Manager" value="2"/>
+			<Trait id="Honor" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_shariz_hylda_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_8a" name="{=rg445o5}Rahim" age="28" voice="softspoken" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" weight="0.1337" build="0.4738"  key="0023C00D800033CDB5A93A89DA736AA3659ABC1ADC9868446266D38E98A6765900A726030A2AC9570000000000000000000000000000000000000000354C9042"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Politician" value="16"/>
+			<Trait id="Manager" value="14"/>
+			<Trait id="Honor" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
@@ -12358,122 +12628,156 @@
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_9" name="Gemistios" voice="ironic" age="42" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
+	<NPCCharacter id="hmj_lord_9_9" name="Gemistios" voice="softspoken" age="42" default_group="Cavalry" is_hero="true" culture="Culture.empire" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="23.18" weight="0" build="0" key="0026700FC070000655BA3E6699662B99A7679BAC8A68743A27287897375778AA007006030799C7860000037F0000000F00000037049140010000000000F04000"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="5"/>
-			<Trait id="KnightFightingSkills" value="3"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
-			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_10" name="Dalinia" voice="softspoken" is_female="true" age="41" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
-		<face>
-			<BodyProperties version="4" age="41" weight="0.2415" build="0.4635" key="0025800FC07C104A37858DC679643869A16885782994685B272878976175867C000746530899C7860000037F0000000F00000037049140010000000000503000"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Valor" value="+1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Generosity" value="+1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
-			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_11" name="Castinos" voice="earnest" age="23" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
-		<face>
-			<BodyProperties version="4" age="23" weight="0.2415" build="0.4635" key="0025800FC07C104A37858DC679643869A16885782994685B272878976175867C000746530899C7860000037F0000000F00000037049140010000000000503000"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="Calculating" value="1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_heavy"/>
-			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_12" name="Zoe" voice="softspoken" age="23" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
-		<face>
-			<BodyProperties version="4" age="24.95" weight="0" build="0" key="0015B0078070300B6AE38A5394256526897B66695875A1AA6C75B9B56B3ABB8601700613F78B963D0000037F0000000F00000037049140010000000000E810C0"/>
+			<BodyProperties version="4" weight="0.5571" build="0.1219"  key="0023700D8070338655BA3E6699662B99A7679BAC8A68743A27287897375778AA007286030799C7860000037F0000000F00000037049140010000000000F04000"  />
 		</face>
 		<skills/>
 		<Traits>
 			<Trait id="Valor" value="-1"/>
-			<Trait id="Honor" value="1"/>
-			<Trait id="Calculating" value="-1"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="BalancedFightingSkills" value="4"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="4"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Politician" value="10"/>
+			<Trait id="Manager" value="20"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_shariz_gemistios_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_10" name="Dalinia" voice="earnest" is_female="true" age="41" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.2415" build="0.4635"  key="001E800D007C104A37858DC679643869A16885782994685B272878976175867C000746530899C7860000037F0000000F00000037049140010000000000503000"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Politician" value="18"/>
+			<Trait id="Manager" value="12"/>
 		</Traits>
 		<Equipments>
 			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
 			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_13" name="{=zaHnL2It}Amenhab" age="36" voice="earnest" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_11" name="Castinos" voice="curt" age="33" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="34.44" weight="0.5417" build="0.4923"  key="0020D00F000017926376648B675C888E9FB1A66B5875A643C4B6B73B8795AC270287862408A74A1421000000000000000000000000000018000000003B1C3002"  />
+			<BodyProperties version="4" weight="0.2415" build="0.4635"  key="0023800D0070120037858DC679643869A16885782994685B272878976175867C000746530899C7860000037F0000000F00000037049140010000000000503002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="2"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="7"/>
-			<Trait id="Manager" value="8"/>
+			<Trait id="Calculating" value="1"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="KnightFightingSkills" value="5"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_shariz_castin_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_12" name="Zoe" voice="softspoken" age="28" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0" build="0" key="0015B0078070300B6AE38A5394256526897B66695875A1AA6C75B9B56B3ABB8601700613F78B963D0000037F0000000F00000037049140010000000000E810C0"/>
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Generosity" value="1"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="10"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_shariz_zoe_battletemplate"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_10a" name="Manuel" voice="earnest" age="18" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.2411" build="0.4412"  key="0020980B802C300E1C75B91EAA83576B7E85784598C852989995587C6C64D5690067460306A4D3650000037F0000000F00000037049140010000000012C04100"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="KnightFightingSkills" value="4"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="4"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_shariz_manu_battletemplate"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_10b" name="Sophia" voice="ironic" is_female="true" age="18" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
+		<face>
+			<BodyProperties version="4" weight="0.2411" build="0.4412"  key="0020980B802C300E1C75B91EAA83576B7E85784598C852989995587C6C64D5690067460306A4D3650000037F0000000F00000037049140010000000012C04100"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+			<Trait id="BalancedFightingSkills" value="3"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="4"/>
+			<Trait id="Manager" value="4"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
+			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_13" name="{=zaHnL2It}Amenhab" age="38" voice="ironic" is_hero="true" culture="Culture.aserai" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" weight="0.5417" build="0.4923"  key="0020D00F000017926376648B675C888E9FB1A66B5875A643C4B6B73B8795AC270287862408A74A1421000000000000000000000000000018000000003B1C3002"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="CavalryFightingSkills" value="3"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="18"/>
+			<Trait id="Manager" value="18"/>
 			<Trait id="Honor" value="-1"/>
 			<Trait id="Calculating" value="2"/>
 			<Trait id="Authoritarian" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_aserai_light_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_amen_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_14" name="{=waQPRCaT}Hamezan" age="19" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_14" name="{=waQPRCaT}Hamezan" age="19" voice="softspoken" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="22" weight="0.0602" build="0.0787"  key="0020D00F000013426382252E634545559FB1A66B5875A643C496515B8795AC270051160305274A1421000000000000000000000000000018000000003AAC2002"  />
+			<BodyProperties version="4" weight="0.0602" build="0.0787"  key="0020D00F000013426382252E634545559FB1A66B5875A643C496515B8795AC270051160305274A1421000000000000000000000000000018000000003AAC2002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="CavalryFightingSkills" value="5"/>
 			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="3"/>
-			<Trait id="Manager" value="3"/>
+			<Trait id="Politician" value="6"/>
 			<Trait id="Mercy" value="1"/>
-			<Trait id="Generosity" value="1"/>
+			<Trait id="Generosity" value="-1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_javelin_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_hamaz_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_15" name="{=d6aTWH9m}Asmin" age="18" is_female="true" voice="softspoken" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_15" name="{=d6aTWH9m}Asmin" age="18" is_female="true" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="23.24" weight="0.9151" build="0.2438"  key="0026700E40883002A95B8BAC85EEB7648A6BCAB579A7CA393A8673777E318E480044E60304871BB600000000000000000000000000000000000000003A8C0003"  />
+			<BodyProperties version="4" weight="0.9151" build="0.2438"  key="0026700E40883002A95B8BAC85EEB7648A6BCAB579A7CA393A8673777E318E480044E60304871BB600000000000000000000000000000000000000003A8C0003"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Politician" value="4"/>
-			<Trait id="Manager" value="3"/>
+			<Trait id="Politician" value="14"/>
+			<Trait id="Manager" value="16"/>
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
@@ -12481,31 +12785,32 @@
 			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_16" name="Jaysh" voice="earnest" age="45" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
+	<NPCCharacter id="hmj_lord_9_16" name="Jaw'thar" voice="earnest" age="45" default_group="Cavalry" is_hero="true" culture="Culture.byalic" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="45" weight="0.5633" build="0.8873"  key="0005280280000380397664884754DCBAA35E866295A0967374414A498C89C60600AD86030AA7B7A500000000000000000000000000000000000000003D543002"  />
+			<BodyProperties version="4" weight="0.5633" build="0.8873"  key="0005280280000380397664884754DCBAA35E866295A0967374414A498C89C60600AD86030AA7B7A500000000000000000000000000000000000000003D543002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Valor" value="-1"/>
-			<Trait id="Mercy" value="-1"/>
-			<Trait id="Calculating" value="2"/>
-			<Trait id="Commander" value="6"/>
-			<Trait id="KnightFightingSkills" value="2"/>
+			<Trait id="BalancedFightingSkills" value="10"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Generosity" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_flamboyant"/>
+			<EquipmentSet id="hmj_shariz_jawth_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_17" name="Razana" voice="softspoken" age="40" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.shariz" occupation="Lord">
+	<NPCCharacter id="hmj_lord_9_17" name="Razana" voice="softspoken" age="40" is_female="true" default_group="Cavalry" is_hero="true" culture="Culture.aserai" occupation="Lord">
 		<face>
-			<BodyProperties version="4" age="40" weight="0.7731" build="0.2392"  key="0020940D807020036E28C55B4666D86B799ABA6465396DA5CA356768A43939690084C60308ADDA97000000000000000000000000000000000000000028FC0003"  />
+			<BodyProperties version="4" weight="0.7731" build="0.2392"  key="0020940D807020036E28C55B4666D86B799ABA6465396DA5CA356768A43939690084C60308ADDA97000000000000000000000000000000000000000028FC0003"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="6"/>
+			<Trait id="Politician" value="15"/>
+			<Trait id="Manager" value="5"/>
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
@@ -12515,32 +12820,30 @@
 	</NPCCharacter>
 	<NPCCharacter id="hmj_lord_9_18" name="{=waQPRCaT}Hazan" age="29" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="29" weight="0.7238" build="0.3966"  key="001B80040070239C6E28C55B4666D86B799ABA6465396DA5CA356768A439396900A6B6030AADDA97000000000000000000000000000000000000000029443003"  />
+			<BodyProperties version="4" weight="0.7238" build="0.3966"  key="001B80040070239C6E28C55B4666D86B799ABA6465396DA5CA356768A439396900A6B6030AADDA97000000000000000000000000000000000000000029443003"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="HorseArcherFightingSkills" value="6"/>
-			<Trait id="Commander" value="7"/>
-			<Trait id="Politician" value="4"/>
-			<Trait id="Manager" value="5"/>
+			<Trait id="CavalryFightingSkills" value="4"/>
+			<Trait id="Commander" value="6"/>
+			<Trait id="Politician" value="8"/>
+			<Trait id="Manager" value="8"/>
 			<Trait id="Calculating" value="1"/>
 			<Trait id="Generosity" value="2"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
+			<EquipmentSet id="hmj_shariz_haza_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
 	<NPCCharacter id="hmj_lord_9_19" name="{=zaHnL2It}Haylana" age="27" is_female="true" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="27" weight="0.3845" build="0.4753" key="001E780800440006547535B98954C4689B9A655474B89A8787794838B483592900776603F762B96C00000000000000000000000000000000000000004EEC2003"/>
+			<BodyProperties version="4" weight="0.3845" build="0.4753" key="001E780800440006547535B98954C4689B9A655474B89A8787794838B483592900776603F762B96C00000000000000000000000000000000000000004EEC2003"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="HorseArcherFightingSkills" value="8"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="1"/>
-			<Trait id="Manager" value="1"/>
+			<Trait id="Politician" value="5"/>
+			<Trait id="Manager" value="5"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 		</Traits>
@@ -12551,55 +12854,51 @@
 	</NPCCharacter>
 	<NPCCharacter id="hmj_lord_9_20" name="{=waQPRCaT}Umar" age="25" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="25" weight="0.2238" build="0.4923"  key="0005280E40000683397664884754DCBAA35E866295A0967374414A498C89C60600B736030B99A79500000000000000000000000000000000000000003D6C0002"  />
+			<BodyProperties version="4" weight="0.2762" build="0.591"  key="0005940D807033C26E28CD5B4666D86D799ABA6465396DA5CA356768A439396900A946030AADDA97000000000000000000000000000000000000000029441002"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="HorseArcherFightingSkills" value="4"/>
+			<Trait id="CavalryFightingSkills" value="6"/>
 			<Trait id="Commander" value="8"/>
-			<Trait id="Politician" value="6"/>
-			<Trait id="Manager" value="3"/>
+			<Trait id="Mercy" value="1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentSet id="hmj_shariz_umar_battletemplate"/>
+			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="hmj_lord_9_22" name="{=waQPRCaT}Raddoun" age="35" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+		<face>
+			<BodyProperties version="4" weight="0.0231" build="0.6049"  key="0026700E40FC09941984745333A05232A995CAB579A7CA0465386146A1636C7C00C906030CA7738800000000000000000000000000000000000000003B8C4103"  />
+		</face>
+		<skills/>
+		<Traits>
+			<Trait id="BalancedFightingSkills" value="6"/>
+			<Trait id="Commander" value="14"/>
+			<Trait id="Manager" value="4"/>
 			<Trait id="Mercy" value="1"/>
 			<Trait id="Generosity" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="AR_kan_bat_template_southfrontier"/>
+			<EquipmentSet id="hmj_shariz_radd_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_22" name="{=waQPRCaT}Raddoun" age="35" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_23" name="{=zaHnL2It}Sama" age="33" is_female="true" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="35" weight="0.0231" build="0.6049"  key="0026700E40FC09941984745333A05232A995CAB579A7CA0465386146A1636C7C00C906030CA7738800000000000000000000000000000000000000003B8C4103"  />
+			<BodyProperties version="4" weight="0.3256" build="0.2361" key="0020400F00880006465B3773C89ABB976AA7C9E6483BDBA6654BBCD659B4B7CC00545603F55B75C900000000000000000000000000000000000000003AB41083"/>
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="CavalryFightingSkills" value="8"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="3"/>
+			<Trait id="CavalryFightingSkills" value="2"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="5"/>
 			<Trait id="Manager" value="3"/>
-			<Trait id="Mercy" value="1"/>
-			<Trait id="Generosity" value="1"/>
-		</Traits>
-		<Equipments>
-			<EquipmentSet id="hmj_shariz_javelin_battletemplate"/>
-			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
-		</Equipments>
-	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_23" name="{=zaHnL2It}Sama" age="33" is_female="true" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
-		<face>
-			<BodyProperties version="4" age="33" weight="0.3256" build="0.2361" key="0020400F00880006465B3773C89ABB976AA7C9E6483BDBA6654BBCD659B4B7CC00545603F55B75C900000000000000000000000000000000000000003AB41083"/>
-		</face>
-		<skills/>
-		<Traits>
-			<Trait id="CavalryFightingSkills" value="4"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="1"/>
-			<Trait id="Manager" value="1"/>
-			<Trait id="Mercy" value="-1"/>
+			<Trait id="Generosity" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_javelin_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_sama_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
@@ -12618,32 +12917,32 @@
 			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_25" name="{=waQPRCaT}Luis" age="47" voice="earnest" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_25" name="{=waQPRCaT}Luis" age="47" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="47" weight="0.4352" build="0.6574"  key="0020400B8000220B98ACB5D754E99B8BB84BA669836A395578259B655E74673C00AA76030AAC88B600000000000000000000000000000000000000003B4C4142"  />
+			<BodyProperties version="4" weight="0.4352" build="0.6574"  key="0020400B8000220B98ACB5D754E99B8BB84BA669836A395578259B655E74673C00AA76030AAC88B600000000000000000000000000000000000000003B4C4142"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="HorseArcherFightingSkills" value="6"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="3"/>
-			<Trait id="Manager" value="3"/>
+			<Trait id="CavalryFightingSkills" value="6"/>
+			<Trait id="Commander" value="8"/>
+			<Trait id="Politician" value="6"/>
+			<Trait id="Manager" value="4"/>
 			<Trait id="Mercy" value="1"/>
 			<Trait id="Generosity" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_king_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_luis_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_26" name="{=d6aTWH9m}Sara" age="46" is_female="true" voice="softspoken" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_26" name="{=d6aTWH9m}Sara" age="46" is_female="true" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="46" weight="0.788" build="0.4522"  key="00186808C000100E842648D4DA4666A7B84B1A889757B8B69AA674645E74673C0057760305A48AA900000000000000000000000000000000000000003ABC4003"  />
+			<BodyProperties version="4" weight="0.788" build="0.4522"  key="00186808C000100E842648D4DA4666A7B84B1A889757B8B69AA674645E74673C0057760305A48AA900000000000000000000000000000000000000003ABC4003"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="Politician" value="4"/>
-			<Trait id="Manager" value="3"/>
+			<Trait id="Politician" value="12"/>
+			<Trait id="Manager" value="8"/>
 			<Trait id="Mercy" value="1"/>
 		</Traits>
 		<Equipments>
@@ -12651,21 +12950,21 @@
 			<EquipmentSet id="emp_noncom_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>
-	<NPCCharacter id="hmj_lord_9_27" name="{=zaHnL2It}Thalez" age="26" voice="curt" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
+	<NPCCharacter id="hmj_lord_9_27" name="{=zaHnL2It}Thalez" age="26" voice="softspoken" is_hero="true" culture="Culture.shariz" occupation="Lord" default_group="Cavalry">
 		<face>
-			<BodyProperties version="4" age="26" weight="0.3287" build="0.3472"  key="001B9C0A4000168584BB89617843864AB84B969BBB767B749AA67F645E74673C00A556030AA48AA900000000000000000000000000000000000000003B441102"  />
+			<BodyProperties version="4" weight="0.3287" build="0.3472"  key="001B9C0A4000168584BB89617843864AB84B969BBB767B749AA67F645E74673C00A556030AA48AA900000000000000000000000000000000000000003B441102"  />
 		</face>
 		<skills/>
 		<Traits>
-			<Trait id="KnightFightingSkills" value="4"/>
-			<Trait id="Commander" value="4"/>
-			<Trait id="Politician" value="1"/>
-			<Trait id="Manager" value="1"/>
+			<Trait id="CavalryFightingSkills" value="4"/>
+			<Trait id="Commander" value="18"/>
+			<Trait id="Politician" value="2"/>
+			<Trait id="Manager" value="2"/>
 			<Trait id="Mercy" value="-1"/>
 			<Trait id="Calculating" value="1"/>
 		</Traits>
 		<Equipments>
-			<EquipmentSet id="hmj_shariz_surcoat_battletemplate"/>
+			<EquipmentSet id="hmj_shariz_thalez_battletemplate"/>
 			<EquipmentSet id="emp_civ_template_default" civilian="true"/>
 		</Equipments>
 	</NPCCharacter>

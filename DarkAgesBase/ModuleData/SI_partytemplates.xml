@@ -602,20 +602,15 @@
 	</MBPartyTemplate>
 	<MBPartyTemplate id="kingdom_hero_party_vlandia_template">
 		<stacks>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.vlandia_hmj_nit2"/>
-			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.vlandia_hmj_mct4"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.vlandia_hmj_nit3"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.vlandia_hmj_mct3"/>
 			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.vlandia_hmj_ct5"/>
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.vlandia_hmj_mit2"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.vlandia_hmj_it2"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.vlandia_hmj_hit5"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.vlandia_hmj_mrt3"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.vlandia_hmj_nrt4"/>
 			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.vlandia_hmj_hit4"/>
 			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.vlandia_hmj_it4"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.vlandia_hmj_at4"/>
-			<PartyTemplateStack min_value="4" max_value="6" troop="NPCCharacter.vlandia_hmj_at3"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.vlandia_hmj_nrt3"/>
-			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.vlandia_hmj_nct4"/>
+			<PartyTemplateStack min_value="4" max_value="8" troop="NPCCharacter.vlandia_hmj_nct5"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.vlandia_hmj_nct6"/>
 			<PartyTemplateStack min_value="6" max_value="8" troop="NPCCharacter.vlandia_hmj_nrt5"/>
 
@@ -630,7 +625,7 @@
 	<MBPartyTemplate id="char_creation_player_party_template_vlandia">
 		<stacks>
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.vlandia_hmj_mit3"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.vlandia_hmj_mct4"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.vlandia_hmj_mct3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_vlandia_template">
@@ -780,19 +775,23 @@
 	<!-- party templates for kannic minor faction (1) -->
 	<MBPartyTemplate id="kingdom_hero_party_shariz_template">
 		<stacks>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.shariz_hmj_mit2"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.shariz_hmj_mrt2"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.shariz_hmj_st2"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.shariz_hmj_st3"/>
-			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.shariz_hmj_mht3"/>
-			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.shariz_hmj_rt2"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.shariz_hmj_rt4"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.shariz_hmj_mct2"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.shariz_hmj_mct3"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.shariz_hmj_hit4"/>
-			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.shariz_hmj_hit5"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.shariz_hmj_nst5"/>
-			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.shariz_hmj_nst6"/>
+			<PartyTemplateStack min_value="0" max_value="6" troop="NPCCharacter.shariz_hmj_nst6"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.shariz_hmj_nst5"/>
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.shariz_hmj_nct5"/>
+			<PartyTemplateStack min_value="1" max_value="3" troop="NPCCharacter.shariz_hmj_nht5"/>
+			<PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.shariz_hmj_hit5"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.shariz_hmj_nct4"/>
+			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.shariz_hmj_hit4"/>
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.shariz_hmj_rt4"/>
+			<PartyTemplateStack min_value="4" max_value="5" troop="NPCCharacter.shariz_hmj_pt4"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.shariz_hmj_nst3"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.shariz_hmj_nct3"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.shariz_hmj_mct2"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.shariz_hmj_hit3"/>
+			<PartyTemplateStack min_value="3" max_value="4" troop="NPCCharacter.shariz_hmj_mct3"/>
+			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.shariz_hmj_pt3"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.shariz_hmj_mht3"/>
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.shariz_hmj_st3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="militia_shariz_template">

@@ -484,8 +484,7 @@
   <Hero id="lord_7_8_3"  father="Hero.lord_7_8" mother="Hero.lord_7_8_1" faction="Faction.clan_vlandia_11" />
   -->
 	<Hero id="AR_lord_5_1" spouse="Hero.lord_5_1" faction="Faction.clan_battania_1"/>
-	<Hero id="AR_lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<Hero id="AR_lord_4_28" alive="false" faction="Faction.clan_vlandia_10"/>
+
 	<!-- KHUZAIT -->
 	
 	<!-- Byals - Vagiraving -->
@@ -531,11 +530,14 @@
 	<Hero id="hmj_lord_9_6" spouse="Hero.hmj_lord_9_5" faction="Faction.clan_quyaz_2"/>
 	<Hero id="hmj_lord_9_7" father="Hero.hmj_lord_9_5" mother="Hero.hmj_lord_9_6" faction="Faction.clan_quyaz_2"/>
 	<Hero id="hmj_lord_9_8" father="Hero.hmj_lord_9_5" mother="Hero.hmj_lord_9_6" faction="Faction.clan_quyaz_2"/>
+	<Hero id="hmj_lord_9_8a" faction="Faction.clan_quyaz_2"/>
 	<!-- QUYAZ - Vastros -->
 	<Hero id="hmj_lord_9_9" spouse="Hero.hmj_lord_9_10" faction="Faction.clan_quyaz_3"/>
 	<Hero id="hmj_lord_9_10" spouse="Hero.hmj_lord_9_9" faction="Faction.clan_quyaz_3"/>
-	<Hero id="hmj_lord_9_11" father="Hero.hmj_lord_9_9" mother="Hero.hmj_lord_9_10" spouse="Hero.hmj_lord_9_12" faction="Faction.clan_quyaz_3"/>
+	<Hero id="hmj_lord_9_11" spouse="Hero.hmj_lord_9_12" faction="Faction.clan_quyaz_3"/>
 	<Hero id="hmj_lord_9_12" spouse="Hero.hmj_lord_9_11" faction="Faction.clan_quyaz_3"/>
+	<Hero id="hmj_lord_9_10a" father="Hero.hmj_lord_9_9" mother="Hero.hmj_lord_9_10" faction="Faction.clan_quyaz_3"/>
+	<Hero id="hmj_lord_9_10b" father="Hero.hmj_lord_9_11" mother="Hero.hmj_lord_9_12" faction="Faction.clan_quyaz_3"/>
 	<!-- QUYAZ - Banu Perraz -->
 	<Hero id="hmj_lord_9_13" faction="Faction.clan_quyaz_4" text="Amenhab is the leader of the Banu Perraz. Though regarded as a prominent Aserai figure within the court of Al Shariz, he sees himself as the descendent of a great Kannic people. On the surface, he continues to serve Al Shariz with his clan's seafaring prowess. But deep down, many believe his true ambition to restore the Quyazic Republic. Deeper still, to become King of Quyaz."/>
 	<Hero id="hmj_lord_9_14" father="Hero.hmj_lord_9_13" faction="Faction.clan_quyaz_4"/>
