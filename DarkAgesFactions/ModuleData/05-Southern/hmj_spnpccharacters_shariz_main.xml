@@ -929,7 +929,7 @@
 		<NPCCharacter id="shariz_hmj_mct2"
 			default_group="Cavalry"
 			level="11"
-			name="{=Sharizan Scout}Quyazan Scout"
+			name="{=Sharizan Scout}Sharizan Scout"
 			occupation="Soldier"
 			is_basic_troop="true"
 			culture="Culture.shariz">
@@ -999,7 +999,7 @@
 		<NPCCharacter id="shariz_hmj_mct3"
 			default_group="Cavalry"
 			level="16"
-			name="{=Sharizan Vanguard}Quyazan Jinete"
+			name="{=Sharizan Vanguard}Sharizan Jinete"
 			occupation="Soldier"
 			culture="Culture.shariz">
 			<face>
@@ -1835,143 +1835,546 @@
 			</Equipments>
 		</NPCCharacter>
 
-		<NPCCharacter id="shariz_hmj_nst5"
+<!-- Lysian Auxilia -->
+		<NPCCharacter id="lysian_hmj_mst2"
 			default_group="Infantry"
-			level="26"
-			name="{=Sharizan Noble Raider}Sharizan Noble Raider"
+			level="11"
+			name="{=Lysian Footman}Lysian Footman"
 			occupation="Soldier"
 			is_basic_troop="true"
-			culture="Culture.shariz">
+			culture="Culture.empire_w">
 			<face>
-				<face_key_template value="BodyProperty.fighter_vlandia"/>
+				<face_key_template value="BodyProperty.villager_empire"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="75"/>
-				<skill id="Riding" value="40"/>
-				<skill id="OneHanded" value="95"/>
-				<skill id="TwoHanded" value="40"/>
-				<skill id="Polearm" value="95"/>
-				<skill id="Bow" value="20"/>
-				<skill id="Crossbow" value="20"/>
-				<skill id="Throwing" value="95"/>
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="5"/>
+				<skill id="OneHanded" value="55"/>
+				<skill id="TwoHanded" value="10"/>
+				<skill id="Polearm" value="55"/>
+				<skill id="Bow" value="5"/>
+				<skill id="Crossbow" value="5"/>
+				<skill id="Throwing" value="10"/>
 			</skills>
 			<upgrade_targets>
-				<upgrade_target id="NPCCharacter.shariz_hmj_nst6"/>
+				<upgrade_target id="NPCCharacter.lysian_hmj_mst3"/>
 			</upgrade_targets>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.broad_falchion_sword_t3"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_t"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Head" id="Item.saracen_helmet_d_ii"/>
-					<equipment slot="Cape" id="Item.wrapped_scarf"/>
-					<equipment slot="Body" id="Item.ao_mail_shirt_sleeveless"/>
-					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
-					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
-				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.aserai_axe_2_t2"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_t"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Head" id="Item.TV_vlandia_helmet_o"/>
-					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
-					<equipment slot="Body" id="Item.desert_robe_over_mail"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+					<equipment slot="Item2" id="Item.battania_mace_1_t2"/>
+					<equipment slot="Head" id="Item.imperial_cloth_coif"/>
+					<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
 					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_t"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+					<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+					<equipment slot="Item2" id="Item.battania_mace_1_t2"/>
+					<equipment slot="Head" id="Item.padded_cap"/>
+					<equipment slot="Body" id="Item.sackcloth_tunic"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+					<equipment slot="Body" id="Item.hemp_tunic"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+					<equipment slot="Head" id="Item.desert_cap"/>
 					<equipment slot="Cape" id="Item.hood"/>
-					<equipment slot="Body" id="Item.mail_shirt"/>
+					<equipment slot="Body" id="Item.cloth_tunic"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+					<equipment slot="Head" id="Item.imperial_cloth_coif"/>
+					<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_spear_t2"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_d"/>
+					<equipment slot="Head" id="Item.padded_cap"/>
+					<equipment slot="Body" id="Item.sackcloth_tunic"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentSet id="empire_troop_civilian_template_t1"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lysian_hmj_mst3"
+			default_group="Infantry"
+			level="16"
+			name="{=Lysian Spearman}Lysian Spearman"
+			occupation="Soldier"
+			culture="Culture.empire_w">
+			<face>
+				<face_key_template value="BodyProperty.fighter_empire"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="20"/>
+				<skill id="Riding" value="10"/>
+				<skill id="OneHanded" value="55"/>
+				<skill id="TwoHanded" value="20"/>
+				<skill id="Polearm" value="55"/>
+				<skill id="Bow" value="10"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="20"/>
+			</skills>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+					<equipment slot="Item1" id="Item.studded_bound_kite_shield"/>
+					<equipment slot="Item2" id="Item.empire_mace_2_t4"/>
+					<equipment slot="Head" id="Item.tv_vlandia_helmet_k3"/>
+					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+					<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+					<equipment slot="Leg" id="Item.leather_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+					<equipment slot="Item1" id="Item.studded_bound_kite_shield"/>
+					<equipment slot="Item2" id="Item.empire_mace_2_t4"/>
+					<equipment slot="Head" id="Item.tv_vlandia_helmet_o2"/>
+					<equipment slot="Cape" id="Item.hood"/>
+					<equipment slot="Body" id="Item.padded_leather_shirt"/>
 					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_axe_1_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_t"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_1_t3"/>
-					<equipment slot="Head" id="Item.mail_coif"/>
-					<equipment slot="Cape" id="Item.ao_light_fur_shoulder"/>
-					<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
-					<equipment slot="Gloves" id="Item.armwraps"/>
-					<equipment slot="Leg" id="Item.ragged_boots"/>
+					<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+					<equipment slot="Item1" id="Item.studded_bound_kite_shield"/>
+					<equipment slot="Head" id="Item.AR_roman_helmet_a"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.leather_strips_over_padded_robe"/>
+					<equipment slot="Gloves" id="Item.buttoned_leather_bracers"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
 				</EquipmentRoster>
-				<EquipmentSet id="vlandia_troop_civilian_template_t2"
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+					<equipment slot="Item1" id="Item.studded_bound_kite_shield"/>
+					<equipment slot="Head" id="Item.segmented_cervelliere_over_mail"/>
+					<equipment slot="Cape" id="Item.green_hood"/>
+					<equipment slot="Body" id="Item.woven_leather_vest"/>
+					<equipment slot="Gloves" id="Item.padded_vambrace"/>
+					<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+					<equipment slot="Item1" id="Item.studded_bound_kite_shield"/>
+					<equipment slot="Head" id="Item.tv_vlandia_helmet_k3"/>
+					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+					<equipment slot="Body" id="Item.AR_vlandia_armor_n"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+					<equipment slot="Leg" id="Item.leather_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.triangluar_spear_t3"/>
+					<equipment slot="Item1" id="Item.studded_bound_kite_shield"/>
+					<equipment slot="Head" id="Item.tv_vlandia_helmet_o2"/>
+					<equipment slot="Cape" id="Item.hood"/>
+					<equipment slot="Body" id="Item.padded_leather_shirt"/>
+					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentSet id="empire_troop_civilian_template_t2"
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
-		<NPCCharacter id="shariz_hmj_nst6"
+
+		<NPCCharacter id="lysian_hmj_it2"
 			default_group="Infantry"
-			level="31"
-			name="{=Sharizan Almocaden}Sharizan Almocaden"
+			level="11"
+			name="{=Lysian Juvenus}Lysian Juvenus"
 			occupation="Soldier"
-			culture="Culture.shariz">
+			is_basic_troop="true"
+			culture="Culture.empire_w">
 			<face>
-				<face_key_template value="BodyProperty.fighter_vlandia"/>
+				<face_key_template value="BodyProperty.fighter_empire"/>
 			</face>
 			<skills >
-				<skill id="Athletics" value="150"/>
-				<skill id="Riding" value="80"/>
-				<skill id="OneHanded" value="190"/>
+				<skill id="Athletics" value="30"/>
+				<skill id="Riding" value="5"/>
+				<skill id="OneHanded" value="40"/>
+				<skill id="TwoHanded" value="20"/>
+				<skill id="Polearm" value="30"/>
+				<skill id="Bow" value="5"/>
+				<skill id="Crossbow" value="5"/>
+				<skill id="Throwing" value="40"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.lysian_hmj_hit4"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t2"/>
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+					<equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+					<equipment slot="Head" id="Item.AR_roman_helmet_cap"/>
+					<equipment slot="Body" id="Item.footmans_tunic"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t2"/>
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+					<equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+					<equipment slot="Head" id="Item.ao_imperial_spangenhelm_with_leather"/>
+					<equipment slot="Cape" id="Item.ao_focale"/>
+					<equipment slot="Body" id="Item.tunic_with_rolled_cloth"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t2"/>
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+					<equipment slot="Item2" id="Item.empire_sword_1_t2"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+					<equipment slot="Head" id="Item.ao_imperial_heavy_spangenhelm_with_leather"/>
+					<equipment slot="Body" id="Item.tunic_with_shoulder_pads"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.leather_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t2"/>
+					<equipment slot="Item1" id="Item.northern_round_sparring_shield"/>
+					<equipment slot="Item2" id="Item.empire_mace_1_t2"/>
+					<equipment slot="Item3" id="Item.western_javelin_1_t2"/>
+					<equipment slot="Head" id="Item.imperial_open_mail_coif"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.tied_cloth_tunic"/>
+					<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+				</EquipmentRoster>
+				<EquipmentSet id="empire_troop_civilian_template_t1"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lysian_hmj_hit4"
+			default_group="Infantry"
+			level="21"
+			name="{=Lysian Legionary}Lysian Legionarius"
+			occupation="Soldier"
+			culture="Culture.empire_w">
+			<face>
+				<face_key_template value="BodyProperty.fighter_empire"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="110"/>
+				<skill id="Riding" value="40"/>
+				<skill id="OneHanded" value="160"/>
 				<skill id="TwoHanded" value="80"/>
-				<skill id="Polearm" value="190"/>
+				<skill id="Polearm" value="110"/>
+				<skill id="Bow" value="20"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="120"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.lysian_hmj_hit5"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Item2" id="Item.empire_mace_2_t4"/>
+					<equipment slot="Head" id="Item.imperial_nasal_helm"/>
+					<equipment slot="Cape" id="Item.ao_generic_short_cape"/>
+					<equipment slot="Body" id="Item.imperial_lamellar_over_leather"/>
+					<equipment slot="Gloves" id="Item.guarded_padded_vambrace"/>
+					<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Item2" id="Item.empire_sword_3_t3"/>
+					<equipment slot="Head" id="Item.ao_imperial_nasal_helmet_over_mail_coif"/>
+					<equipment slot="Cape" id="Item.ao_focale"/>
+					<equipment slot="Body" id="Item.AR_empire_brass_lamellar_c"/>
+					<equipment slot="Gloves" id="Item.leather_gloves"/>
+					<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Item2" id="Item.empire_mace_2_t4"/>
+					<equipment slot="Head" id="Item.ao_imperial_heavy_nasal_spangenhelm_over_mail_coif"/>
+					<equipment slot="Cape" id="Item.wrapped_scarf"/>
+					<equipment slot="Body" id="Item.imperial_mail_over_leather"/>
+					<equipment slot="Gloves" id="Item.padded_mitten"/>
+					<equipment slot="Leg" id="Item.leather_cavalier_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_1_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Item2" id="Item.empire_sword_2_t3"/>
+					<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_padding"/>
+					<equipment slot="Body" id="Item.ao_imperial_lamellar_vest"/>
+					<equipment slot="Gloves" id="Item.leather_gloves"/>
+					<equipment slot="Leg" id="Item.empire_horseman_boots"/>
+				</EquipmentRoster>
+				<EquipmentSet id="empire_troop_civilian_template_t2"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lysian_hmj_hit5"
+			default_group="Infantry"
+			level="26"
+			name="{=Lysian Elite Legionary}Lysian Elite Legionarius"
+			occupation="Soldier"
+			culture="Culture.empire_w">
+			<face>
+				<face_key_template value="BodyProperty.fighter_empire"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="180"/>
+				<skill id="Riding" value="60"/>
+				<skill id="OneHanded" value="220"/>
+				<skill id="TwoHanded" value="140"/>
+				<skill id="Polearm" value="220"/>
 				<skill id="Bow" value="40"/>
 				<skill id="Crossbow" value="40"/>
-				<skill id="Throwing" value="190"/>
+				<skill id="Throwing" value="180"/>
+			</skills>
+			<upgrade_targets></upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail"/>
+					<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+					<equipment slot="Body" id="Item.legionary_mail"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_mace_3_t4"/>
+					<equipment slot="Head" id="Item.leatherlame_feathered_spangenhelm_over_mail"/>
+					<equipment slot="Cape" id="Item.varangian_bra_basic"/>
+					<equipment slot="Body" id="Item.AR_empire_scale_armor_b"/>
+					<equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
+					<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.AR_vlandia_helmet_q"/>
+					<equipment slot="Cape" id="Item.AR_wolf_shoulder_e"/>
+					<equipment slot="Body" id="Item.AR_empire_armor_h"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_mace_3_t4"/>
+					<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_coif"/>
+					<equipment slot="Cape" id="Item.AR_imperial_leather_cape_b"/>
+					<equipment slot="Body" id="Item.AR_empire_armor_j"/>
+					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
+					<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+					<equipment slot="Cape" id="Item.AR_imperial_shoulders_p"/>
+					<equipment slot="Body" id="Item.empire_horseman_armor"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.plated_strip_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_mace_3_t4"/>
+					<equipment slot="Head" id="Item.AR_empire_lord_helmet_i"/>
+					<equipment slot="Cape" id="Item.AR_wolf_shoulder_e2"/>
+					<equipment slot="Body" id="Item.imperial_mail_vest"/>
+					<equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
+					<equipment slot="Leg" id="Item.strapped_mail_chausses"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_noble_sword_1_t5"/>
+					<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_mail"/>
+					<equipment slot="Cape" id="Item.AR_battanian_shoulder_d"/>
+					<equipment slot="Body" id="Item.empire_legion_a"/>
+					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
+					<equipment slot="Leg" id="Item.tv_empire_plate_c"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_throwing_spear_2_t4"/>
+					<equipment slot="Item1" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Item2" id="Item.empire_mace_3_t4"/>
+					<equipment slot="Head" id="Item.AR_vlandia_helmet_m"/>
+					<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+					<equipment slot="Body" id="Item.tv_empire_armor_a"/>
+					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers_b"/>
+					<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+				</EquipmentRoster>
+				<EquipmentSet id="empire_troop_civilian_template_t3"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+
+		<NPCCharacter id="lysian_hmj_ct4"
+			default_group="Cavalry"
+			level="21"
+			name="{=Lysian Equite Horseman}Lysian Equite Horseman"
+			occupation="Soldier"
+			is_basic_troop="true"
+			culture="Culture.empire_w">
+			<face>
+				<face_key_template value="BodyProperty.fighter_empire"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="80"/>
+				<skill id="Riding" value="160"/>
+				<skill id="OneHanded" value="160"/>
+				<skill id="TwoHanded" value="80"/>
+				<skill id="Polearm" value="160"/>
+				<skill id="Bow" value="10"/>
+				<skill id="Crossbow" value="10"/>
+				<skill id="Throwing" value="40"/>
+			</skills>
+			<upgrade_targets>
+				<upgrade_target id="NPCCharacter.lysian_hmj_ct5"/>
+			</upgrade_targets>
+			<Equipments>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+					<equipment slot="Item1" id="Item.empire_sword_3_t3"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Head" id="Item.ao_imperial_redcrest_bronze_spangenhelm_over_mail_coif"/>
+					<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder"/>
+					<equipment slot="Body" id="Item.imperial_lamellar_over_leather"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+					<equipment slot="Leg" id="Item.sturgia_boots_d"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+					<equipment slot="Item1" id="Item.empire_sword_3_t3"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_mail"/>
+					<equipment slot="Cape" id="Item.a_empire_plated_shoulder_a"/>
+					<equipment slot="Body" id="Item.imperial_mail_over_stripped_leather"/>
+					<equipment slot="Gloves" id="Item.leather_gloves"/>
+					<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+					<equipment slot="Item1" id="Item.empire_sword_3_t3"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_leather"/>
+					<equipment slot="Cape" id="Item.AR_imperial_shoulders_p"/>
+					<equipment slot="Body" id="Item.ao_imperial_lamellar_vest"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_a"/>
+					<equipment slot="Leg" id="Item.sturgia_boots_d"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.western_spear_3_t3"/>
+					<equipment slot="Item1" id="Item.empire_sword_3_t3"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_b"/>
+					<equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif"/>
+					<equipment slot="Cape" id="Item.AR_imperial_shoulders_m"/>
+					<equipment slot="Body" id="Item.imperial_mail_over_leather"/>
+					<equipment slot="Gloves" id="Item.leather_gloves"/>
+					<equipment slot="Leg" id="Item.sturgia_boots_c"/>
+					<equipment slot="Horse" id="Item.empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_zb"/>
+				</EquipmentRoster>
+				<EquipmentSet id="empire_troop_civilian_template_t2"
+							  civilian="true" />
+			</Equipments>
+		</NPCCharacter>
+		<NPCCharacter id="lysian_hmj_ct5"
+			default_group="Cavalry"
+			level="26"
+			name="{=Lysian Equite Guard}Lysian Equite Guard"
+			upgrade_requires="ItemCategory.war_horse"
+			occupation="Soldier"
+			culture="Culture.empire_w">
+			<face>
+				<face_key_template value="BodyProperty.fighter_empire"/>
+			</face>
+			<skills >
+				<skill id="Athletics" value="140"/>
+				<skill id="Riding" value="240"/>
+				<skill id="OneHanded" value="250"/>
+				<skill id="TwoHanded" value="140"/>
+				<skill id="Polearm" value="250"/>
+				<skill id="Bow" value="20"/>
+				<skill id="Crossbow" value="20"/>
+				<skill id="Throwing" value="80"/>
 			</skills>
 			<Equipments>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_u"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Head" id="Item.dz_shariz_helm_2"/>
-					<equipment slot="Cape" id="Item.TV_vlandia_shoulders_h"/>
-					<equipment slot="Body" id="Item.aserai_robe_c_chain"/>
+					<equipment slot="Item0" id="Item.imperial_spear_4_t4"/>
+					<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Head" id="Item.AR_vlandia_helmet_q"/>
+					<equipment slot="Cape" id="Item.pauldron_cape_a"/>
+					<equipment slot="Body" id="Item.empire_horseman_armor"/>
+					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers"/>
+					<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+					<equipment slot="Horse" id="Item.t2_empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.imperial_half_chain_harness"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.imperial_spear_4_t4"/>
+					<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_mail"/>
+					<equipment slot="Cape" id="Item.AR_wolf_shoulder_e"/>
+					<equipment slot="Body" id="Item.empire_legion_a"/>
 					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 					<equipment slot="Leg" id="Item.plated_strip_boots"/>
+					<equipment slot="Horse" id="Item.t2_empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_b"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_u"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Head" id="Item.tv_vlandia_helmet_i4"/>
-					<equipment slot="Cape" id="Item.leopard_pelt"/>
-					<equipment slot="Body" id="Item.desert_robe_over_mail"/>
-					<equipment slot="Gloves" id="Item.northern_brass_bracers"/>
-					<equipment slot="Leg" id="Item.mail_chausses"/>
+					<equipment slot="Item0" id="Item.imperial_spear_4_t4"/>
+					<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Head" id="Item.AR_empire_lord_helmet_i"/>
+					<equipment slot="Cape" id="Item.AR_imperial_leather_cape_a"/>
+					<equipment slot="Body" id="Item.AR_empire_armor_j"/>
+					<equipment slot="Gloves" id="Item.ao_imperial_decorated_bracers"/>
+					<equipment slot="Leg" id="Item.decorated_imperial_boots"/>
+					<equipment slot="Horse" id="Item.t2_empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.imperial_half_chain_harness"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_sword_3_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_u"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
-					<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
-					<equipment slot="Body" id="Item.vlandia_chainmail"/>
+					<equipment slot="Item0" id="Item.imperial_spear_4_t4"/>
+					<equipment slot="Item1" id="Item.empire_sword_4_t4"/>
+					<equipment slot="Item2" id="Item.AR_shield_infantry_c"/>
+					<equipment slot="Head" id="Item.heavy_nasalhelm_over_imperial_mail"/>
+					<equipment slot="Cape" id="Item.varangian_bra_basic"/>
+					<equipment slot="Body" id="Item.imperial_mail_vest"/>
 					<equipment slot="Gloves" id="Item.plated_strip_gauntlets"/>
 					<equipment slot="Leg" id="Item.plated_strip_boots"/>
+					<equipment slot="Horse" id="Item.t2_empire_horse"/>
+					<equipment slot="HorseHarness" id="Item.AR_horse_armor_b"/>
 				</EquipmentRoster>
-				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.vlandia_axe_2_t4"/>
-					<equipment slot="Item1" id="Item.AR_shield_infantry_u"/>
-					<equipment slot="Item2" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Item3" id="Item.eastern_throwing_spear_2_t4"/>
-					<equipment slot="Head" id="Item.tv_vlandia_helmet_o4"/>
-					<equipment slot="Cape" id="Item.TV_vlandia_shoulders_i"/>
-					<equipment slot="Body" id="Item.mail_with_tabbard3"/>
-					<equipment slot="Gloves" id="Item.AR_sturgia_gloves_c"/>
-					<equipment slot="Leg" id="Item.mail_chausses"/>
-				</EquipmentRoster>
-				<EquipmentSet id="vlandia_troop_civilian_template_t3"
+				<EquipmentSet id="empire_troop_civilian_template_t3"
 							  civilian="true" />
 			</Equipments>
 		</NPCCharacter>
