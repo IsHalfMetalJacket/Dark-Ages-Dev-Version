@@ -242,7 +242,7 @@
 	</MapFaction>
 	<!-- AL SHARIZ FACTION -->
 	<MapFaction id="alshariz">
-		<!-- Standard Quyazic configuration -->
+		<!-- Standard Sharizan configuration -->
 		<Culture id="default">
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
@@ -250,7 +250,7 @@
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -261,14 +261,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="empire">
-			<!-- Quyazic for captured Northern Empire settlements -->
+			<!-- Sharizan for captured Northern Empire settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -279,14 +279,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="empire_n">
-			<!-- Quyazic for captured Southern Empire settlements -->
+			<!-- Sharizan for captured Southern Empire settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -297,32 +297,32 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="empire_w">
-			<!-- Quyazic for captured Western Empire settlements -->
+			<!-- Sharizan for captured Western Empire settlements -->
 			<basicTroops>
-				<volunteer id="shariz_hmj_mit1" percent="24"/>
+				<volunteer id="shariz_hmj_mit1" percent="26"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
-				<volunteer id="shariz_hmj_st2" percent="16"/>
-				<volunteer id="shariz_hmj_pt2" percent="9"/>
-				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
-				<volunteer id="shariz_hmj_mct2" percent="5"/>
-				<volunteer id="shariz_hmj_hit3" percent="5"/>
+				<volunteer id="shariz_hmj_st2" percent="12"/>
+				<volunteer id="lysian_hmj_mst2" percent="14"/>
+				<volunteer id="shariz_hmj_mht2" percent="6"/>
+				<volunteer id="shariz_hmj_rt2" percent="6"/>
+				<volunteer id="lysian_hmj_it2" percent="8"/>
+				<volunteer id="shariz_hmj_mct2" percent="4"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="shariz_hmj_nht3" percent="40"/>
-				<volunteer id="shariz_hmj_nct3" percent="40"/>
+				<volunteer id="lysian_hmj_ct4" percent="40"/>
 				<volunteer id="shariz_hmj_nst3" percent="20"/>
 			</eliteTroops>
 		</Culture>
 		<Culture id="aserai">
-			<!-- Quyazic for captured Aserai settlements -->
+			<!-- Sharizan for captured Aserai settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -333,14 +333,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="darshi">
-			<!-- Quyazic for captured Darshi settlements -->
+			<!-- Sharizan for captured Darshi settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -351,14 +351,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="khuzait">
-			<!-- Quyazic for captured Khuzait settlements -->
+			<!-- Sharizan for captured Khuzait settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -369,14 +369,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="nahasi">
-			<!-- Quyazic for captured Nahasan settlements -->
+			<!-- Sharizan for captured Nahasan settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -387,14 +387,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="vlandia">
-			<!-- Quyazic for captured Vlandia settlements -->
+			<!-- Sharizan for captured Vlandia settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -405,14 +405,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="zwadane">
-			<!-- Quyazic for captured Zwadane settlements -->
+			<!-- Sharizan for captured Zwadane settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -423,14 +423,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="battania">
-			<!-- Quyazic for captured Battania settlements -->
+			<!-- Sharizan for captured Battania settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -441,14 +441,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="oldcalradian">
-			<!-- Quyazic for captured Old Calradian settlements -->
+			<!-- Sharizan for captured Old Calradian settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -459,14 +459,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="sturgia">
-			<!-- Quyazic for captured Sturgia settlements -->
+			<!-- Sharizan for captured Sturgia settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
@@ -477,14 +477,14 @@
 			</eliteTroops>
 		</Culture>
 		<Culture id="vakken">
-			<!-- Quyazic for captured Vakken settlements -->
+			<!-- Sharizan for captured Vakken settlements -->
 			<basicTroops>
 				<volunteer id="shariz_hmj_mit1" percent="24"/>
 				<volunteer id="shariz_hmj_mrt1" percent="24"/>
 				<volunteer id="shariz_hmj_st2" percent="16"/>
 				<volunteer id="shariz_hmj_pt2" percent="9"/>
 				<volunteer id="shariz_hmj_mht2" percent="8"/>
-				<volunteer id="shariz_hmj_rt3" percent="9"/>
+				<volunteer id="shariz_hmj_rt2" percent="9"/>
 				<volunteer id="shariz_hmj_mct2" percent="5"/>
 				<volunteer id="shariz_hmj_hit3" percent="5"/>
 			</basicTroops>
