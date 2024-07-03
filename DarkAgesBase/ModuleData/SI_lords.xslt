@@ -7272,7 +7272,7 @@
 		  <Trait id="KnightFightingSkills"
 				 value="4" />
 		  <Trait id="Commander"
-				 value="12" />
+				 value="14" />
 		  <Trait id="Politician"
 				 value="15" />
 		  <Trait id="Manager"
@@ -7304,10 +7304,10 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="4" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="6" />
+				value="9" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -7325,23 +7325,23 @@
     </Equipments>
 	</xsl:template>
 	<!-- Alary -->
-	<xsl:template match='NPCCharacter[@id="lord_4_10"]/face'>
+	<xsl:template match='NPCCharacter[@id="lord_4_7"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
 			<BodyProperties version="4" weight="0.5667" build="0.7221"  key="000510020000110232731956310564E637157818708138648CEB5D2873357035006B800306571C8200000000000000000000000000000000000000004AD88081"  />
 		</xsl:copy>
 	</xsl:template>
-    <xsl:template match="NPCCharacter[@id='lord_4_10']/Traits">
+    <xsl:template match="NPCCharacter[@id='lord_4_7']/Traits">
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
 				value="5" />
 			<Trait
 				id="Commander"
-				value="11" />
+				value="13" />
 			<Trait
 				id="Manager"
-				value="9" />
+				value="11" />
 			<Trait
 				id="Calculating"
 				value="1" />
@@ -7353,10 +7353,10 @@
 				value="-1" />
 		</Traits>
 	    </xsl:template>
-    <xsl:template match="NPCCharacter[@id='lord_4_10']/Equipments">
+    <xsl:template match="NPCCharacter[@id='lord_4_7']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_vlandia_alary_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7365,17 +7365,17 @@
 	<xsl:template match='NPCCharacter[@id="lord_4_10"]/face'>
 		<xsl:copy>
 			<xsl:apply-templates select="@*"/>
-			<BodyProperties version="4" key="000080000000000B67874369563B575737063939BC84896C773744465293778C000000030F97CDD9000000000000000000000000000000000000000000000000" />
+			<BodyProperties version="4" weight="0.3071" build="0.3997"  key="0002400552FC220258C56743D5B5AB56396A82E7DEF77E66C7B287AB79C2A84B0046500304C96766000000000000000000000000000000000000000052881000"  />
 		</xsl:copy>
 	</xsl:template>
     <xsl:template match="NPCCharacter[@id='lord_4_10']/Traits">
 		<Traits>
 			<Trait
 				id="Politician"
-				value="15" />
+				value="17" />
 			<Trait
 				id="Manager"
-				value="5" />
+				value="8" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -7421,9 +7421,9 @@
     <xsl:template match="NPCCharacter[@id='lord_4_13']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
-      <EquipmentSet id="vla_civ_template_default"
-                    civilian="true" />
+		  <EquipmentSet id="hmj_vla_king_battletemplate" />
+		  <EquipmentSet id="hmj_vla_king_civtemplate"
+						civilian="true" />
     </Equipments>
 	</xsl:template>
 	<!-- Morcon -->
@@ -7440,10 +7440,7 @@
 				value="3" />
 			<Trait
 				id="Commander"
-				value="14" />
-			<Trait
-				id="Politician"
-				value="2" />
+				value="15" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -7458,7 +7455,7 @@
     <xsl:template match="NPCCharacter[@id='lord_4_14']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_vlandia_morcon_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7477,10 +7474,10 @@
 				value="3" />
 			<Trait
 				id="Commander"
-				value="4" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="3" />
+				value="12" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -7492,7 +7489,7 @@
     <xsl:template match="NPCCharacter[@id='lord_4_141']/Equipments">
     <Equipments>
       <EquipmentRoster />
-      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="hmj_vlandia_amorcon_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>
@@ -7511,10 +7508,13 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="7" />
+				value="12" />
 			<Trait
 				id="Politician"
-				value="4" />
+				value="5" />
+			<Trait
+				id="Manager"
+				value="10" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -7529,7 +7529,1078 @@
     <xsl:template match="NPCCharacter[@id='lord_4_15']/Equipments">
     <Equipments>
       <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_erdur_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Ingalther -->
+	<xsl:template match='NPCCharacter[@id="lord_4_16"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6333" build="0.6651"  key="000500054000321B38716B50212852B8845A7E6426849A2395757F277207138600AA90030A848C3400000000000000000000000000000000000000006B580002"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_16']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="17" />
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="11" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_16']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_ingalth_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Mitela -->
+	<xsl:template match='NPCCharacter[@id="lord_4_16_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00006807104410036436583353C5743893B76C7627786754569AB47979575AE800A776030A7A225F00000000000000000000000000000000000000001D441083"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_16_1']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_16_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_mitela_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Elbet -->
+	<xsl:template match='NPCCharacter[@id="lord_4_17"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6956" build="0.6722"  key="0000280800CC000572603755334384AA85A98979B1628696AAB6E9298A3B9358009AA6030944AAB5000000000000000000000000000000000000000025344003"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_17']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_17']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
       <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Amalgun -->
+	<xsl:template match='NPCCharacter[@id="lord_4_18"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" key="00055c4880bc0245678789a8c8b5c2728588854b98886843b5dcd6c879c68937000a576109844933000000000000000000000000000000000000000000008000" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_18']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_18']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_amal_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Arthamund -->
+	<xsl:template match='NPCCharacter[@id="lord_4_181"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2917" build="0.6898"  key="0002280400CC001C72607755334384AAAA958979B1628696756624BD8A3B9373009A460309C98A59000000000000000000000000000000000000000025342140"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_181']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_181']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_arthum_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Asela -->
+	<xsl:template match='NPCCharacter[@id="lord_4_19"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6483" build="0.7136"  key="0000440440CC000B92611464264492D99ADB8BA86151568799A9EE218B4A6456008BA60308363A26000000000000000000000000000000000000000061042084"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_19']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_19']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Unthery -->
+	<xsl:template match='NPCCharacter[@id="lord_4_5"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5517" build="0.5949"  key="000B60080000270D65734C57613665A5354588837351AC1455E8373672131432007980030768BB63000000000000000000000000000000000000000026E01082"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_5']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="11" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_5']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_unthh_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Calatild -->
+    <xsl:template match="NPCCharacter[@id='lord_4_6']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="17" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_6']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Odofeld -->
+    <xsl:template match="NPCCharacter[@id='lord_4_6_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="11" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_6_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Thomund -->
+	<xsl:template match='NPCCharacter[@id="lord_4_9"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5324" build="0.6943"  key="00021C080000310535819C56515565A738B778496341BE2334D879367332569800AA80030A8BBD910000000000000000000000000000000000000000373830C0"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_9']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="9" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_9']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_thomm_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Silvind -->
+    <xsl:template match="NPCCharacter[@id='lord_4_12']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_12']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_silvv_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Belgir -->
+	<xsl:template match='NPCCharacter[@id="lord_4_23"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.7299" build="0.7299"  key="00009806C0FC1384848B7125A859DB558B675C76B79663B8DA84987576B6484D009BB90309BB5788000000000000000000000000000000000000000001308000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="11" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-2" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_belg_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Richelda -->
+	<xsl:template match='NPCCharacter[@id="lord_4_23_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005240A002C300B65878AA361487BE89C5DA5467D8C9167894C6C892799E3780167761306C636A600000000000000000000000000000000000000002CBC3083" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Anstruda -->
+	<xsl:template match='NPCCharacter[@id="lord_4_23_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000800700E4200E6A7938ACAABBC636B19B894B4EF8878987AC657B57532B3701877613089ADB2300000000000000000000000000000000000000003F140083" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23_2']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="7" />
+			<Trait
+				id="Manager"
+				value="18" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23_2']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Eleduran -->
+	<xsl:template match='NPCCharacter[@id="lord_4_23_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00007406C044000B3969339927553498A84BB8A877D96D6645597984592A439500477603046A3907000000000000000000000000000000000000000050942043"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23_3']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="11" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_23_3']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_eledura_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Lasand -->
+	<xsl:template match='NPCCharacter[@id="lord_4_121"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2176" build="0.4306"  key="0005440440FC301B332B7C6D83477475176D4D6784343CC69E8A9A53843641850096360309AC99B80000000000000000000000000000000000000000012C3144"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_121']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="15" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_121']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_lasand_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Reingarda -->
+	<xsl:template match='NPCCharacter[@id="lord_4_26_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00164005802C100244849395E765385463ABA4846AA46E7A788D797974658C8901777613077C2D3C00000000000000000000000000000000000000002CEC40C3" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_26_1']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="15" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+	<!-- Hecard -->
+	<xsl:template match='NPCCharacter[@id="lord_4_24"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5015" build="0.642"  key="00050C0B800021DC63736854110572C5323476187351A733532756297234263500AA80030A696863000000000000000000000000000000000000000011483080"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="15" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_hecar_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Adaltrud -->
+	<xsl:template match='NPCCharacter[@id="lord_4_24_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00052C089314100B599B39385A8372459867775D8A397A98773789A84B355847019776130946854400000000000000000000000000000000000000003F1C3044" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="15" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Gudonhelda -->
+	<xsl:template match='NPCCharacter[@id="lord_4_24_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2515" build="0.5"  key="00052C0B9214100A599B3932544653429867775D3A392A987737809A4B355847007746030746854400000000000000000000000000000000000000003EF42044"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_2']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_2']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Ingunde -->
+	<xsl:template match='NPCCharacter[@id="lord_4_24_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6358" build="0.642"  key="00050C0B910021DC63736854110572C5323476187351A7335327562972342635005AA00305696863000000000000000000000000000000000000000010A83080"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_3']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_3']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Irmgard -->
+	<xsl:template match='NPCCharacter[@id="lord_4_24_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0231" build="0.0031"  key="00052808D2140006BA3C732CC252589138978B4867B284A17737809A77365CB3004006030446854400000000000000000000000000000000000000003E844044"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_4']/Traits">
+		<Traits>
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_24_4']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Peric -->
+	<xsl:template match='NPCCharacter[@id="lord_4_26"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.2515" build="0.3256"  key="000B480AC0FC300C78E42AAB88C6A5BD924B6988339398973D8EA8676AA7686500854D0308336C86000000000000000000000000000000000000000001101000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_26']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="13" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_26']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_perry_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Ospir -->
+	<xsl:template match='NPCCharacter[@id="lord_4_21"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.4244" build="0.4645"  key="0005780AD144120B5EB3A9AA48B5487295C668767888682DDB89A87662A4415A00576603057746E8000000000000000000000000000000000000000000A02000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_21']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_21']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_osp_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Lucand -->
+	<xsl:template match='NPCCharacter[@id="lord_4_25"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.6867" build="0.7269"  key="0000100556B4021BC66F69A052632C57D98458CAA8CA55C96B66BB47ACB9C85400ABA6030A886647000000000000000000000000000000000000000001602000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_25']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_25']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_luc_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Bertliana -->
+	<xsl:template match='NPCCharacter[@id="lord_4_25_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000540E4070100B9D95A3A74EA8C8B848778365688C85437456344D43777968014776130475B2940000000000000000000000000000000000000000268C30C4" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_25_1']/Traits">
+		<Traits>
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_25_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Vartin -->
+	<xsl:template match='NPCCharacter[@id="lord_4_27"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.767" build="0"  key="000C70029C0007CC33BD62C7862239599C824998719E7EB543B588B88B13688B0070C203075A1122000000000000000000000000000000000000000000F00000"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_27']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="2" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_27']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_vart_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Lietgardis -->
+	<xsl:template match='NPCCharacter[@id="lord_4_27_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B30071014200B845CA2CD6B97D578576756477263BCB7C7664675989C2A94019776130944A9870000000000000000000000000000000000000000593440C3" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_27_1']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_27_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Urundulf -->
+	<xsl:template match='NPCCharacter[@id="lord_V9_u"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00029808C0A0119C63766ADC1D59A44A7896A4AF2678D66A64B6B5926A7C849500D776030DCCB6D5000000000000000000000000000000000000000063B47002"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_V9_u']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_V9_u']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_urun_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Ecarand -->
+	<xsl:template match='NPCCharacter[@id="lord_4_28"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5664" build="0.6713" key="0005AC07004431CE4457B349656598876429217587CA893AB647627B3BA51745089A86890992B8D6000000000000000000000000000000000000000001205041" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_28']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_28']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_ecarad_battletemplate" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Adalindis -->
+	<xsl:template match='NPCCharacter[@id="lord_4_28_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00113C0891880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B35770177761307A5606700000000000000000000000000000000000000003EDC0083" />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_28_1']/Traits">
+		<Traits>
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_28_1']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="vla_bat_template_medium" />
+      <EquipmentSet id="vla_civ_template_default"
+                    civilian="true" />
+    </Equipments>
+	</xsl:template>
+	<!-- Mauriana -->
+	<xsl:template match='NPCCharacter[@id="lord_4_28_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.3069" build="0.3733"  key="00006006C0582001514B597CA728355646C9988C88458877B7967747B97967AD0066560306457BC5000000000000000000000000000000000000000050DC0084"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_28_2']/Traits">
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+	    </xsl:template>
+    <xsl:template match="NPCCharacter[@id='lord_4_28_2']/Equipments">
+    <Equipments>
+      <EquipmentRoster />
+      <EquipmentSet id="hmj_vlandia_maur_battletemplate" />
       <EquipmentSet id="vla_civ_template_default"
                     civilian="true" />
     </Equipments>

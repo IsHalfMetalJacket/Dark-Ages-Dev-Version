@@ -308,7 +308,7 @@
 	<Hero id="lord_4_2" spouse="Hero.lord_4_1" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_7" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_10" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
-	<Hero id="lord_4_13" faction="Faction.clan_vlandia_1"/>
+	<Hero id="lord_4_13" alive="false" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_14" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_141" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
 	<Hero id="lord_4_15" father="Hero.lord_4_1" mother="Hero.lord_4_2" faction="Faction.clan_vlandia_1"/>
@@ -325,7 +325,6 @@
 	<Hero id="lord_4_5" faction="Faction.clan_vlandia_3" spouse="Hero.lord_4_6"/>
 	<Hero id="lord_4_9" father="Hero.lord_4_5" mother="Hero.lord_4_6" faction="Faction.clan_vlandia_3"/>
 	<Hero id="lord_4_12" father="Hero.lord_4_5" mother="Hero.lord_4_6" faction="Faction.clan_vlandia_3"/>
-	<Hero id="lord_4_121" father="Hero.lord_4_5" mother="Hero.lord_4_6" faction="Faction.clan_vlandia_3"/>
 	<!-- Vlandia clan 4 -->
 	<Hero id="lord_4_16" spouse="Hero.lord_4_17" faction="Faction.clan_vlandia_4"/>
 	<Hero id="lord_4_16_1" father="Hero.lord_4_16" mother="Hero.lord_4_17" faction="Faction.clan_vlandia_4"/>
@@ -345,10 +344,12 @@
 	<Hero id="lord_4_22_1" spouse="Hero.lord_4_22" faction="Faction.clan_vlandia_6"/>
 	<Hero id="hmj_zwadane_11_8" mother="Hero.hmj_zwadane_11_8d" faction="Faction.clan_vlandia_6"/>
 	<!-- Vlandia clan 7, der fortis-->
-	<Hero id="lord_4_23" faction="Faction.clan_vlandia_7" />
-	<Hero id="lord_4_23_1" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<Hero id="lord_4_23_2" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
-	<Hero id="lord_4_23_3" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23" spouse="Hero.lord_4_26_1" faction="Faction.clan_vlandia_7" />
+	<Hero id="lord_4_26_1" spouse="Hero.lord_4_23" alive="false" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23_1" father="Hero.lord_4_23" mother="Hero.lord_4_26_1" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23_2" father="Hero.lord_4_23" mother="Hero.lord_4_26_1" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_23_3" father="Hero.lord_4_23" mother="Hero.lord_4_26_1" faction="Faction.clan_vlandia_7"/>
+	<Hero id="lord_4_121" father="Hero.lord_4_23" faction="Faction.clan_vlandia_7"/>
 	<!-- dey Molarn -->
 	<Hero id="lord_4_24" spouse="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
 	<Hero id="lord_4_24_1" spouse="Hero.lord_4_24" faction="Faction.clan_vlandia_8"/>
@@ -356,7 +357,6 @@
 	<Hero id="lord_4_24_3" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
 	<Hero id="lord_4_24_4" father="Hero.lord_4_24" mother="Hero.lord_4_24_1" faction="Faction.clan_vlandia_8"/>
 	<Hero id="lord_4_26" faction="Faction.clan_vlandia_8"/>
-	<Hero id="lord_4_26_1" faction="Faction.clan_vlandia_8"/>
 	<!-- Dey Jelind -->
 	<Hero id="lord_4_27" spouse="Hero.lord_4_27_1" faction="Faction.clan_vlandia_9"/>
 	<Hero id="lord_4_27_1" spouse="Hero.lord_4_27" faction="Faction.clan_vlandia_9"/>

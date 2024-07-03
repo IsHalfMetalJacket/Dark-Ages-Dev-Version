@@ -29,9 +29,18 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='empire']/relationships">
 		<relationships>
-			<relationship kingdom="Kingdom.byals" value="-1"/>
-			<relationship kingdom="Kingdom.empire_s" value="-1" isAtWar="true"/>
-			<relationship kingdom="Kingdom.empire_w" value="-1" isAtWar="true"/>
+			<relationship kingdom="Kingdom.empire_w"
+			              value="-90"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.oldcalradia"
+			              value="-90"
+			              isAtWar="true"/>			
+			<relationship kingdom="Kingdom.empire_s"
+			              value="-90"
+			              isAtWar="true"/>	
+			<relationship kingdom="Kingdom.akkazia"
+			              value="60"
+						  isAtWar="false"/>
 		</relationships>
 	</xsl:template>
 	<!-- Western Empire -->
@@ -58,8 +67,18 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='empire']/relationships">
 		<relationships>
-			<relationship kingdom="Kingdom.empire_s" value="-1" isAtWar="true"/>
-			<relationship kingdom="Kingdom.empire" value="-1" isAtWar="true"/>
+			<relationship kingdom="Kingdom.empire"
+			              value="-90"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.aserai"
+			              value="60"
+						  isAtWar="false"/>
+			<relationship kingdom="Kingdom.oldcalradia"
+			              value="-90"
+			              isAtWar="true"/>			
+			<relationship kingdom="Kingdom.empire_s"
+			              value="-90"
+			              isAtWar="true"/>	
 		</relationships>
 	</xsl:template>
 	<!-- Calradic Empire -->
@@ -86,9 +105,18 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='empire_s']/relationships">
 		<relationships>
-			<relationship kingdom="Kingdom.aserai" value="-1" isAtWar="true"/>
-			<relationship kingdom="Kingdom.empire_s" value="-1" isAtWar="true"/>
-			<relationship kingdom="Kingdom.empire_w" value="-1" isAtWar="true"/>
+			<relationship kingdom="Kingdom.empire_w"
+			              value="-90"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.nahasa"
+			              value="60"
+			              isAtWar="false"/>	
+			<relationship kingdom="Kingdom.oldcalradia"
+			              value="-90"
+			              isAtWar="true"/>			
+			<relationship kingdom="Kingdom.empire"
+			              value="-90"
+			              isAtWar="true"/>	
 		</relationships>
 	</xsl:template>
 	<!-- Sturgia -->
@@ -115,7 +143,15 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='sturgia']/relationships">
 		<relationships>
-			<relationship kingdom="Kingdom.byals" value="-1" isAtWar="true"/>
+			<relationship kingdom="Kingdom.byals"
+			              value="-30"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.khuzait"
+			              value="-60"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.norden"
+			              value="30"
+			              isAtWar="false"/>		
 		</relationships>
 	</xsl:template>
 	<!-- Aserai -->
@@ -136,6 +172,19 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='aserai']/@text">
 		<xsl:attribute name="text">{=qggtvf8Y}The Nahasa is an unforgiving place of shifting sands, and so to are its people strong and changeable. Centuries ago, the Padishah of the Darshi led an army into the Nahasa from the east, conquering the Aserai clans along the fringe of the desert. In doing so, he brought Darshi culture and laws to the Nahasa, which many Aserai clans adopted. Soon, the Padishah retreated again, and the Aserai have since formed a loose union under the rule of the head of the Banu Atij, taking Darshi titles of Shah and Banbishn. The Calradic Empire has ensured the instability of the region by pitting the clans of the Banu Asera against each other, forcing the weak out into the desert to raise goats and raid caravans. However, change is once again afoot, and a prophet from a distant oasis whispers in the court of the Banu Hulyan of treachery and a new way in which the clans of the Aserai may be united.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Kingdom[@id='aserai']/relationships">
+		<relationships>
+			<relationship kingdom="Kingdom.byals"
+			              value="-30"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.khuzait"
+			              value="-60"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.norden"
+			              value="30"
+			              isAtWar="false"/>			
+		</relationships>
 	</xsl:template>
 	<!-- Vlandia -->
 	<xsl:template match="Kingdom[@id='vlandia']/@owner">
@@ -170,7 +219,15 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='vlandia']/relationships">
 		<relationships>
-			<relationship kingdom="Kingdom.empire_w" value="-1" isAtWar="true"/>
+			<relationship kingdom="Kingdom.battania"
+			              value="-30"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.alshariz"
+			              value="-30"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.zwadane"
+			              value="-30"
+			              isAtWar="true"/>	
 		</relationships>
 	</xsl:template>
 	<!-- Battania -->
@@ -194,5 +251,53 @@
 	</xsl:template>
 	<xsl:template match="Kingdom[@id='battania']/@text">
 		<xsl:attribute name="text">{=ZjaaAoxd}From time immemorial there has been a High King of Battania, crowned with great ceremony on the sacred hill of Dunthanach. Ask any Battanian chieftain, however, whose ”kingdom” he lives in, and he will look around at his hall and his fields and his pastures, his flocks and his retainers, and answer ”Mine, of course.” Only lately, following the example of the Empire, have the High Kings made any effort to exert their authority. ”Such unruly cattle as my people require a strong herdsman's hand to steer them from the ravine and protect them from the wolf,” said the last high king, just before he was betrayed by a jealous cousin and taken in chains to the nearest imperial outpost.</xsl:attribute>
+	</xsl:template>
+	<xsl:template match="Kingdom[@id='battania']/relationships">
+		<relationships>
+			<relationship kingdom="Kingdom.byals"
+			              value="30"
+			              isAtWar="false"/>		
+			<relationship kingdom="Kingdom.oldcalradia"
+			              value="90"
+			              isAtWar="false"/>
+			<relationship kingdom="Kingdom.norden"
+			              value="-30"
+			              isAtWar="true"/>
+			<relationship kingdom="Kingdom.vlandia"
+			              value="-30"
+			              isAtWar="true"/>		
+			<relationship kingdom="Kingdom.zwadane"
+			              value="-30"
+			              isAtWar="true"/>	
+		</relationships>
+	</xsl:template>
+	<xsl:template match="Kingdom[@id='khuzait']/relationships">
+		<relationships>
+			<relationship kingdom="Kingdom.akkazia"
+			              value="-90"
+			              isAtWar="true"/>			
+			<relationship kingdom="Kingdom.shahdom"
+			              value="-90"
+			              isAtWar="true"/>		
+			<relationship kingdom="Kingdom.sturgia"
+			              value="-60"
+			              isAtWar="true"/>
+		</relationships>
+	</xsl:template>
+	<xsl:template match="Kingdom[@id='aserai']/relationships">
+		<relationships>
+			<relationship kingdom="Kingdom.empire_w"
+			              value="60"
+						  isAtWar="false"/>
+			<relationship kingdom="Kingdom.shahdom"
+			              value="-30"
+			              isAtWar="true"/>		
+			<relationship kingdom="Kingdom.nahasa"
+			              value="-30"
+			              isAtWar="true"/>	
+			<relationship kingdom="Kingdom.alshariz"
+			              value="-30"
+			              isAtWar="true"/>
+		</relationships>
 	</xsl:template>
 </xsl:stylesheet>

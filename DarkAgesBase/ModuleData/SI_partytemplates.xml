@@ -386,7 +386,7 @@
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.wimperial_hmj_rt4"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.wimperial_hmj_st4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.wimperial_hmj_st5"/>
-			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.wimperial_hmj_mct4"/>
+			<PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.wimperial_hmj_mct3"/>
 			<PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.wimperial_hmj_nct4"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.wimperial_hmj_ct5"/>
 			<PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.wimperial_hmj_nit6"/>
@@ -401,7 +401,7 @@
 	<MBPartyTemplate id="char_creation_player_party_template_w_empire">
 		<stacks>
 			<PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.wimperial_hmj_st3"/>
-			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.wimperial_hmj_mct4"/>
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.wimperial_hmj_mct3"/>
 		</stacks>
 	</MBPartyTemplate>
 	<MBPartyTemplate id="rebels_w_empire_template">

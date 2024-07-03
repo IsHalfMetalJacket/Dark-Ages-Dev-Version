@@ -10762,18 +10762,14 @@
 					face_mesh_cache="true">
 		<face>
 		  <!--face_key value="0000fe42c000220458c56743d5b5ab56396a8c717b876e66c7b287ab79c2a84b0005400905c96766000000000000000000000000000000000000000001282000" /-->
-			<BodyProperties version="4" 
-							age="48" 
-							weight="0.233" 
-							build="0.1219"  
-							key="0000FC054000220458C56743D5B5AB56396A8C717B876E66C7B287AB79C2A84B00C230030CC96766000000000000000000000000000000000000000001A02000"  />
+			<BodyProperties version="4" age="48" weight="0.233" build="0.1219" key="0000FC054000220458C56743D5B5AB56396A8C717B876E66C7B287AB79C2A84B00C230030CC96766000000000000000000000000000000000000000001A02000"  />
 		</face>
 		<skills></skills>
 		<Traits>
 		  <Trait id="KnightFightingSkills"
 				 value="4" />
 		  <Trait id="Commander"
-				 value="12" />
+				 value="14" />
 		  <Trait id="Politician"
 				 value="15" />
 		  <Trait id="Manager"
@@ -10798,7 +10794,7 @@
 		id="lord_4_2"
 		name="{=5N6i1jQP}Philenora"
 		age="47"
-		voice="ironic"
+		voice="earnest"
 		is_female="true"
 		culture="Culture.vlandia"
 		is_hero="true"
@@ -10812,10 +10808,10 @@
 		<Traits>
 			<Trait
 				id="Politician"
-				value="4" />
+				value="8" />
 			<Trait
 				id="Manager"
-				value="6" />
+				value="9" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -10837,7 +10833,7 @@
 		id="lord_4_7"
 		name="{=bHTdXTwC}Alary"
 		age="26"
-		voice="earnest"
+		voice="curt"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.vlandia"
@@ -10852,10 +10848,10 @@
 				value="5" />
 			<Trait
 				id="Commander"
-				value="11" />
+				value="13" />
 			<Trait
 				id="Manager"
-				value="9" />
+				value="11" />
 			<Trait
 				id="Calculating"
 				value="1" />
@@ -10869,7 +10865,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="vla_bat_template_heavy" />
+				id="hmj_vlandia_alary_battletemplate" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -10890,16 +10886,16 @@
 		face_mesh_cache="true">
 		<face>
 			<!--face_key value="000080000000000b67874369563b575737063939bc84896c773744465293778c000000000f97cdd9000000000000000000000000000000000000000000000000" /-->
-			<BodyProperties version="4" key="000080000000000B67874369563B575737063939BC84896C773744465293778C000000030F97CDD9000000000000000000000000000000000000000000000000" />
+			<BodyProperties version="4" weight="0.3071" build="0.3997"  key="0002400552FC220258C56743D5B5AB56396A82E7DEF77E66C7B287AB79C2A84B0046500304C96766000000000000000000000000000000000000000052881000"  />
 		</face>
 		<Traits>
 			<!-- NONCOMBATANT FEMALE -->
 			<Trait
 				id="Politician"
-				value="15" />
+				value="17" />
 			<Trait
 				id="Manager"
-				value="5" />
+				value="8" />
 			<Trait
 				id="Mercy"
 				value="1" />
@@ -10923,7 +10919,7 @@
 	<NPCCharacter
 		id="lord_4_13"
 		name="{=abCBBVaU}Romund"
-		age="35"
+		age="50"
 		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
@@ -10937,10 +10933,10 @@
 		<Traits>
 			<Trait
 				id="KnightFightingSkills"
-				value="6" />
+				value="10" />
 			<Trait
 				id="Commander"
-				value="8" />
+				value="20" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -10950,11 +10946,9 @@
 		</Traits>
 		<Equipments>
 			<EquipmentRoster />
-			<EquipmentSet
-				id="vla_bat_template_heavy" />
-			<EquipmentSet
-				id="vla_civ_template_default"
-				civilian="true" />
+			  <EquipmentSet id="hmj_vla_king_battletemplate" />
+			  <EquipmentSet id="hmj_vla_king_civtemplate"
+							civilian="true" />
 		</Equipments>
 	</NPCCharacter>
 
@@ -10963,7 +10957,7 @@
 		id="lord_4_14"
 		name="{=EHalkcEU}Morcon"
 		age="28"
-		voice="curt"
+		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.vlandia"
@@ -10979,10 +10973,7 @@
 				value="3" />
 			<Trait
 				id="Commander"
-				value="14" />
-			<Trait
-				id="Politician"
-				value="2" />
+				value="15" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -10996,7 +10987,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="vla_bat_template_medium" />
+				id="hmj_vlandia_morcon_battletemplate" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -11006,7 +10997,7 @@
 		id="lord_4_141"
 		name="{=enuXNYIl}Amorcon"
 		age="18"
-		voice="curt"
+		voice="earnest"
 		default_group="Cavalry"
 		is_hero="true"
 		culture="Culture.vlandia"
@@ -11022,10 +11013,10 @@
 				value="3" />
 			<Trait
 				id="Commander"
-				value="4" />
+				value="8" />
 			<Trait
 				id="Politician"
-				value="3" />
+				value="12" />
 			<Trait
 				id="Honor"
 				value="1" />
@@ -11036,7 +11027,7 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
-				id="vla_bat_template_medium" />
+				id="hmj_vlandia_amorcon_battletemplate" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />
@@ -11063,10 +11054,13 @@
 				value="6" />
 			<Trait
 				id="Commander"
-				value="7" />
+				value="12" />
 			<Trait
 				id="Politician"
-				value="4" />
+				value="5" />
+			<Trait
+				id="Manager"
+				value="10" />
 			<Trait
 				id="Valor"
 				value="1" />
@@ -11080,7 +11074,1324 @@
 		<Equipments>
 			<EquipmentRoster />
 			<EquipmentSet
+				id="hmj_vlandia_erdur_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ingalther, William character -->
+	<NPCCharacter
+		id="lord_4_16"
+		name="{=iaUQ9lt9}Ingalther"
+		age="45"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6333" build="0.6651"  key="000500054000321B38716B50212852B8845A7E6426849A2395757F277207138600AA90030A848C3400000000000000000000000000000000000000006B580002"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="17" />
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="11" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_ingalth_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ingalther's daughter -->
+	<NPCCharacter
+		id="lord_4_16_1"
+		name="{=eoTzkbbv}Mitela"
+		age="18"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00006807104410036436583353C5743893B76C7627786754569AB47979575AE800A776030A7A225F00000000000000000000000000000000000000001D441083"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_mitela_battletemplate" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Elbet, matriarch, warmer, but still devoted to aggrandizenment of the clan -->
+	<NPCCharacter
+		id="lord_4_17"
+		name="{=bpl9EXWY}Elbet"
+		age="45"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6956" build="0.6722"  key="0000280800CC000572603755334384AA85A98979B1628696AAB6E9298A3B9358009AA6030944AAB5000000000000000000000000000000000000000025344003"  />
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="14" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Amalgun, heir, sadistic, takes things very personally -->
+	<NPCCharacter
+		id="lord_4_18"
+		name="{=D6sMSANW}Amalgun"
+		age="21"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="00055c4880bc0245678789a8c8b5c2728588854b98886843b5dcd6c879c68937000a576109844933000000000000000000000000000000000000000000008000" /-->
+			<BodyProperties version="4" key="00055c4880bc0245678789a8c8b5c2728588854b98886843b5dcd6c879c68937000a576109844933000000000000000000000000000000000000000000008000" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_amal_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_181"
+		name="{=FBa3bDcl}Arthamund"
+		age="19"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.2917" build="0.6898"  key="0002280400CC001C72607755334384AAAA958979B1628696756624BD8A3B9373009A460309C98A59000000000000000000000000000000000000000025342140"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="7" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_arthum_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Heiress, Asela -->
+	<NPCCharacter
+		id="lord_4_19"
+		name="{=dkEJCrzi}Asela"
+		age="22"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6483" build="0.7136"  key="0000440440CC000B92611464264492D99ADB8BA86151568799A9EE218B4A6456008BA60308363A26000000000000000000000000000000000000000061042084"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- NONCOMBATANT FEMALE -->
+			<Trait
+				id="Politician"
+				value="12" />
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_5"
+		name="{=voimockT}Unthery"
+		age="44"
+		voice="earnest"
+		culture="Culture.vlandia"
+		is_hero="true"
+		default_group="Cavalry"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5517" build="0.5949"  key="000B60080000270D65734C57613665A5354588837351AC1455E8373672131432007980030768BB63000000000000000000000000000000000000000026E01082"  />
+		</face>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="11" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_unthh_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_6"
+		name="{=KsBoNHW5}Calatild"
+		age="45"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.3517"
+				build="0.5988"
+				key="0004640700CC000A937028572492B2C7877F875AA7536C989859FD27797983B304995646096E3949000000000000000000000000000000000000000071243043" />
+		</face>
+		<Traits>
+			<!-- NONCOMBATANT LEADER -->
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="17" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_6_1"
+		name="{=J2LE3595}Odofled"
+		age="22"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.5"
+				build="0.5"
+				key="000B040B4070300A59453CA886740D767888B63281AA8878BC957C5659C2945701777613078AB58600000000000000000000000000000000000000006AF420C3" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="14" />
+			<Trait
+				id="Manager"
+				value="11" />
+			<!-- Arrogant, but does have authority -->
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Thomund, heir to clan 3. Hotheaded but loyal to his friends -->
+	<NPCCharacter
+		id="lord_4_9"
+		name="{=qtwYBHIn}Thomund"
+		age="23"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5324" build="0.6943"  key="00021C080000310535819C56515565A738B778496341BE2334D879367332569800AA80030A8BBD910000000000000000000000000000000000000000373830C0"  />
+		</face>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="9" />
+			<Trait
+				id="Commander"
+				value="6" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_thomm_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Silvind, daughter of clan 3 led by the Countess -->
+	<NPCCharacter
+		id="lord_4_12"
+		name="{=sikx0BFu}Silvind"
+		age="24"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		is_female="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties
+				version="4"
+				weight="0.4524"
+				build="0.5804"
+				key="0005340140CC00017071527435736265B7BE7A79B0614997BAB7F9397C2A987203597635053CBA5A00000000000000000000000000000000000000005CB41044" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<!-- COMBATANT FEMALE -->
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_vlandia_silvv_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+		<!-- Belgir, bad-tempered -->
+	<NPCCharacter
+		id="lord_4_23"
+		name="{=T2JS44bJ}Belgir"
+		age="44"
+		voice="curt"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.7299" build="0.7299"  key="00009806C0FC1384848B7125A859DB558B675C76B79663B8DA84987576B6484D009BB90309BB5788000000000000000000000000000000000000000001308000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="4" />
+			<Trait
+				id="Commander"
+				value="9" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="11" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-2" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_belg_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Belgir's daughter -->
+	<NPCCharacter
+		id="lord_4_23_1"
+		name="{=C1LIflK9}Richelda"
+		age="24"
+		voice="curt"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0005240A002C300B65878AA361487BE89C5DA5467D8C9167894C6C892799E3780167761306C636A600000000000000000000000000000000000000002CBC3083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="15" />
+			<Trait
+				id="Manager"
+				value="9" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Belgir's other daughter -->
+	<NPCCharacter
+		id="lord_4_23_2"
+		name="{=voa4jkxo}Anstruda"
+		age="22"
+		voice="ironic"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000800700E4200E6A7938ACAABBC636B19B894B4EF8878987AC657B57532B3701877613089ADB2300000000000000000000000000000000000000003F140083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="7" />
+			<Trait
+				id="Manager"
+				value="18" />
+			<Trait
+				id="Honor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Belgir's son -->
+	<NPCCharacter
+		id="lord_4_23_3"
+		name="{=codK1ezX}Eleduran"
+		age="19"
+		voice="softspoken"
+		is_female="false"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00007406C044000B3969339927553498A84BB8A877D96D6645597984592A439500477603046A3907000000000000000000000000000000000000000050942043"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="11" />
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_eledura_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_121"
+		name="{=YaHhZccz}Lasand"
+		age="19"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.2176" build="0.4306"  key="0005440440FC301B332B7C6D83477475176D4D6784343CC69E8A9A53843641850096360309AC99B80000000000000000000000000000000000000000012C3144"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="15" />
+			<Trait
+				id="Politician"
+				value="4" />
+			<Trait
+				id="Manager"
+				value="4" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentSet
+				id="hmj_vlandia_lasand_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_26_1"
+		name="{=uD0BU83l}Reingarda"
+		age="37"
+		voice="softspoken"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00164005802C100244849395E765385463ABA4846AA46E7A788D797974658C8901777613077C2D3C00000000000000000000000000000000000000002CEC40C3" />
+		</face>
+		<Traits>
+			<!-- kind but antisocial -->
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Hecard, martial. Attentive to his men but ruthless -->
+	<NPCCharacter
+		id="lord_4_24"
+		name="{=6ZQ8nUwj}Hecard"
+		age="42"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5015" build="0.642"  key="00050C0B800021DC63736854110572C5323476187351A733532756297234263500AA80030A696863000000000000000000000000000000000000000011483080"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="8" />
+			<Trait
+				id="Commander"
+				value="15" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_hecar_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_24_1"
+		name="{=XSfDaaFp}Adaltrud"
+		age="38"
+		is_female="true"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00052C089314100B599B39385A8372459867775D8A397A98773789A84B355847019776130946854400000000000000000000000000000000000000003F1C3044" />
+		</face>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="15" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_24_2"
+		name="{=UQg7UijR}Gudonhelda"
+		age="22"
+		is_female="true"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.2515" build="0.5"  key="00052C0B9214100A599B3932544653429867775D3A392A987737809A4B355847007746030746854400000000000000000000000000000000000000003EF42044"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="6" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_24_3"
+		name="{=it6GDDPw}Ingunde"
+		age="20"
+		is_female="true"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6358" build="0.642"  key="00050C0B910021DC63736854110572C5323476187351A7335327562972342635005AA00305696863000000000000000000000000000000000000000010A83080"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_24_4"
+		name="{=k7vF5gWy}Irmgard"
+		age="17"
+		is_female="true"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.0231" build="0.0031"  key="00052808D2140006BA3C732CC252589138978B4867B284A17737809A77365CB3004006030446854400000000000000000000000000000000000000003E844044"  />
+		</face>
+		<Traits>
+			<!-- TEENAGER, NO SKILLS OR TRAITS -->
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
 				id="vla_bat_template_heavy" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Peric, decent but not very directed   000013fe16bc020dc66f69a052662c57d98458caa8ca55c96b66bb47acb9c854000866bf8b886647000000000000000000000000000000000000000000002000-->
+	<NPCCharacter
+		id="lord_4_26"
+		name="{=aJhRX6Lz}Peric"
+		age="27"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="000b4bf58ffc300578e42aab88c5a5bd924b6988339398973d8ea8676aa76865000d5d2f07336c86000000000000000000000000000000000000000000001000" /-->
+			<BodyProperties version="4" weight="0.2515" build="0.3256"  key="000B480AC0FC300C78E42AAB88C6A5BD924B6988339398973D8EA8676AA7686500854D0308336C86000000000000000000000000000000000000000001101000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="3" />
+			<Trait
+				id="Commander"
+				value="13" />
+			<Trait
+				id="Politician"
+				value="5" />
+			<Trait
+				id="Manager"
+				value="5" />
+			<Trait
+				id="Valor"
+				value="-1" />
+			<Trait
+				id="Generosity"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_perry_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ospir, conventionally martial -->
+	<NPCCharacter
+		id="lord_4_21"
+		name="{=LwbqCwne}Ospir"
+		age="30"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.4244" build="0.4645"  key="0005780AD144120B5EB3A9AA48B5487295C668767888682DDB89A87662A4415A00576603057746E8000000000000000000000000000000000000000000A02000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="8" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Calculating"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_osp_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Lucand, gallant. One-eyed -->
+	<NPCCharacter
+		id="lord_4_25"
+		name="{=l1Ac8s1T}Lucand"
+		age="27"
+		voice="earnest"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.6867" build="0.7269"  key="0000100556B4021BC66F69A052632C57D98458CAA8CA55C96B66BB47ACB9C85400ABA6030A886647000000000000000000000000000000000000000001602000"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="10" />
+			<Trait
+				id="Mercy"
+				value="1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Valor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_luc_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_25_1"
+		name="{=yl6y9ua7}Bertliana"
+		age="22"
+		voice="earnest"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="0000540E4070100B9D95A3A74EA8C8B848778365688C85437456344D43777968014776130475B2940000000000000000000000000000000000000000268C30C4" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Politician"
+				value="9" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Honor"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Clan 9, Dey Jelind. Vartin, debauched. -->
+	<NPCCharacter
+		id="lord_4_27"
+		name="{=8LuUksQg}Vartin"
+		age="27"
+		voice="ironic"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!--face_key value="000c73f31a0003cd33bd62c7862c39599c824998719e7eb543b588b88b13688b0007c2af855a1122000000000000000000000000000000000000000000000000" /-->
+			<BodyProperties version="4" weight="0.767" build="0"  key="000C70029C0007CC33BD62C7862239599C824998719E7EB543B588B88B13688B0070C203075A1122000000000000000000000000000000000000000000F00000"  />
+		</face>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="2" />
+			<Trait
+				id="Commander"
+				value="8" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="-1" />
+			<Trait
+				id="Valor"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_vart_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_27_1"
+		name="{=dqSpWdO9}Lietgardis"
+		age="23"
+		voice="curt"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="000B30071014200B845CA2CD6B97D578576756477263BCB7C7664675989C2A94019776130944A9870000000000000000000000000000000000000000593440C3" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_medium" />
+			<EquipmentSet
+				id="vla_noncom_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_V9_u"
+		name="{=eghwtdDx}Urundulf"
+		age="47"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<!-- PLACEHOLDER FACE KEY-->
+			<BodyProperties version="4" weight="0.5" build="0.5"  key="00029808C0A0119C63766ADC1D59A44A7896A4AF2678D66A64B6B5926A7C849500D776030DCCB6D5000000000000000000000000000000000000000063B47002"  />
+		</face>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="-1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_urun_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<!-- Ecarand, rigid but kind. -->
+	<NPCCharacter
+		id="lord_4_28"
+		name="{=BVNCWAai}Ecarand"
+		age="40"
+		voice="softspoken"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5664" build="0.6713" key="0005AC07004431CE4457B349656598876429217587CA893AB647627B3BA51745089A86890992B8D6000000000000000000000000000000000000000001205041" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="6" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<Trait
+				id="Politician"
+				value="11" />
+			<Trait
+				id="Manager"
+				value="8" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_ecarad_battletemplate" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_28_1"
+		name="{=Q4kJ8PTh}Adalindis"
+		age="20"
+		voice="curt"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.5" build="0.5" key="00113C0891880002654AAC95A9972C89D33975D5959CC9D4C9754C08398B35770177761307A5606700000000000000000000000000000000000000003EDC0083" />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="Manager"
+				value="12" />
+			<Trait
+				id="Generosity"
+				value="-1" />
+			<Trait
+				id="Honor"
+				value="1" />
+			<Trait
+				id="Mercy"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="vla_bat_template_heavy" />
+			<EquipmentSet
+				id="vla_civ_template_default"
+				civilian="true" />
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="lord_4_28_2"
+		name="{=PYacMIxz}Mauriana"
+		age="19"
+		voice="ironic"
+		is_female="true"
+		default_group="Cavalry"
+		is_hero="true"
+		culture="Culture.vlandia"
+		occupation="Lord"
+		face_mesh_cache="true">
+		<face>
+			<BodyProperties version="4" weight="0.3069" build="0.3733"  key="00006006C0582001514B597CA728355646C9988C88458877B7967747B97967AD0066560306457BC5000000000000000000000000000000000000000050DC0084"  />
+		</face>
+		<skills></skills>
+		<Traits>
+			<Trait
+				id="KnightFightingSkills"
+				value="5" />
+			<Trait
+				id="Commander"
+				value="12" />
+			<!-- ambitious and good at it -->
+			<Trait
+				id="Generosity"
+				value="1" />
+			<Trait
+				id="Calculating"
+				value="1" />
+		</Traits>
+		<Equipments>
+			<EquipmentRoster />
+			<EquipmentSet
+				id="hmj_vlandia_maur_battletemplate" />
 			<EquipmentSet
 				id="vla_civ_template_default"
 				civilian="true" />

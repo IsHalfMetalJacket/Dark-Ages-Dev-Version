@@ -377,6 +377,31 @@
 			<template id="NPCCharacter.hmj_spc_outbloods_leader_3"/>
 		</minor_faction_character_templates>
 	</Faction>
+	<Faction id="bastards"
+	         initial_posX="261.0"
+	         initial_posY="509.0"
+	         banner_key="28.149.2.1502.1490.764.764.0.0.0.345.135.13.267.286.764.664.0.0.0.307.135.13.267.286.744.914.0.0.45.307.135.13.267.286.784.914.0.1.-45"
+	         label_color="FF848B65"
+	         color="FF848B65"
+	         color2="FF848B65"
+	         alternative_color="FF848B65"
+	         alternative_color2="FF848B65"
+	         culture="Culture.zwadane"
+	         default_party_template="PartyTemplate.kingdom_hero_party_mercenary_battania_template"
+	         settlement_banner_mesh="encounter_flag_f"
+	         is_minor_faction="true"
+	         is_clan_type_mercenary="true"
+	         name="{=b4tqdsdr}Bastards of Balion"
+	         short_name="Bastards"
+	         tier="4"
+	         text="{=efefef222322}From a nation to the west comes a band of roaming knights. Dressed in archaic Vlandian fashion, their fighting skills as cavalry remain relevant in the age of mounted warfare.">
+		<minor_faction_character_templates>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_0"/>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_1"/>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_2"/>
+			<template id="NPCCharacter.hmj_spc_outbloods_leader_3"/>
+		</minor_faction_character_templates>
+	</Faction>
 	<Faction id="brotherhood_of_woods"
 	         initial_posX="170.0"
 	         initial_posY="414.0"
