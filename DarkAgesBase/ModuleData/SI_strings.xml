@@ -466,4 +466,134 @@
 		<tag tag_name="DefaultTag" />
 		</tags>
 	</string>
+	
+	<!-- of the Wastes - 'the searing gravel plain knows me' -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_6a"
+		text="{=7jyjyjyjyjyjyrr}A lonely soul. But there is more to it." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_6a"
+		text="{=6ueghregg}I am a desert guide. Without me, the hots sands will claim you. I know all the oases, all the canyons and everything else beyond the horizon." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_6a"
+		text="{=fELWdbuL}More than just the heat, I also protect travelers from other dangers. Whether they be nasty pests like vipers and scorpions or even sandstorms, I make sure they reach their destinations. And I won't be found rummaging your bags either- you have my word that your goods will be safe too." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_6a"
+		text="{=u4hhhfdffdfd}The name's {MET_WANDERER.FIRSTNAME}, a simple finder of oases and your most valuable companion in the desert... unlike that other wastrel. That one talks too much." />
+	<string
+		id="response_1.spc_wanderer_aserai_6a"
+		text="{=aa33543ggd}Just {MET_WANDERER.FIRSTNAME} works. So, what brings you here?" />
+	<string
+		id="response_2.spc_wanderer_aserai_6a"
+		text="{=trg44g}A Jawwal then. Your kind are barely more valuable than sand." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_6a"
+		text="{=y6878864gf}My... bretheren do not look kindly on me, nor any travelers. And with all this war going on, there just isn't enough protection against them. And as an outcast of outcasts, I must say that it has become quite lonely." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_6a"
+		text="{=ser3341}Make no mistake though, I can handle myself in a fight. Oh and I'm sure you will find use for my scouting skills." />
+
+<!-- The Wanderer (MALE) -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_0"
+		text="{=EMkaeD9M}Its an unhappy story, but perhaps it will make you feel better about your luck." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_0"
+		text="{=RaSZtTqh}I was the son of a slave. My master raised me in his house, but it was clear that he wasn't interested in my sucess. Still, I was educated with his other sons, and while they got all the attention I made up for it with focus. I thought once I was freed, I could be a merchant." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_0"
+		text="{=9AIyvTmF}I thank my father for making sure that even in death, the debt that he left me was small. But alas, I had nothing else. As it turns out, a merchant starting out in the world must either have a great deal of money, or connections to leverage. I had neither, but I would not let that stop me. No, I took work as a hired hand, guarding a caravan." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_0"
+		text="{=ZuHolx2r}Now I will not say it to their faces, but my old master’s brats toughened me up good. Life on the road was no fun, but at least I was hardened and could handle myself in a fight. The Caravan Master took a liking to me, he said I should lead my own caravan one day. And so that became my goal." />
+	<string
+		id="response_1.spc_wanderer_aserai_0"
+		text="{=A9r6SnWx}You've done alright for yourself. But what now?" />
+	<string
+		id="response_2.spc_wanderer_aserai_0"
+		text="{=B7cMisFf}Then why are you wasting away here?" />
+	<string
+		id="backstory_d.spc_wanderer_aserai_0"
+		text="{=HaQlEZPq}A Jawwal ambush has set my plans back a little. Yes, I've not much friends, gold or dignity left, but at least I am alive. Perhaps if I were to join a more capable party, I could try again." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_0"
+		text="{=vgcTdEvc}I was the son of a slave, but my father bought me my freedom. I came from nothing, but I can only grow from here. Times are tough now, but they are tough for everyone. Perhaps I can benefit from joining the war rather than enduring it." />
+
+<!-- The Golden -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_1"
+		text="{=d9qUbj3I}I shall tell you... Ahem..." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_1"
+		text="{=xNPAZdtX}My father is Aytham, son of Thamuq, who was son of Munbilas - the elder son, mind you, not the younger - and he was son of Numayn - Numayn of the Mountain, that is, not the less illustrious ones of that name - and he was son of Zais." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_1"
+		text="{=ikWAfIHX}Now some people will tell you that Zais was born of out wedlock, but those are lies. He was the legitimate son of Ghutan, and Rasad 'Ban Ghutan' doesn't deserve that name, he should be called the 'Bastard,' not Zais. Anyway, as for Ghutan's father... Well, not everyone knows this, but..." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_1"
+		text="{=Wz71n66t}I'm sorry. Are you not paying attention?" />
+	<string
+		id="response_1.spc_wanderer_aserai_1"
+		text="{=N9rVRfaW}Oh.. Of course I am! This is fascinating. But tell me about your own ventures." />
+	<string
+		id="response_2.spc_wanderer_aserai_1"
+		text="{=SYBe3aIC}Do you have a trade? Any skills? Or just a string of ancestors?" />
+	<string
+		id="backstory_d.spc_wanderer_aserai_1"
+		text="{=KGa4gmDW}Ah, yes. See, as inheritor of such legacy I have made myself excellent with denars. My enterprises were so successful that I became known as 'the Golden', see? But alas, war has devastated my businesses. So, I work for those who pay me my value in denars, good noble denars." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_1"
+		text="{=vKSGJNxT}I am a merchant, and a fine one. I would recite to you my lineage, but that would take an hour. I would tell you my ventures, but that would take two. So, instead - if you pay me - I shall come with you and manage your logistics, your business and your denars. Then you will know why they call me the Golden." />
+
+<!-- The Elephant -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_10"
+		text="{=rgSWtZ0w}Well I have nothing better to do, and seems you don't either. So listen..." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_10"
+		text="{=ZSaGzgmN}I was a slave soldier in training. No, not one of Unqid's new Mamelukes, but the old order. Back then, warrior slaves were heavy infantry, and we were damned good at it. Could have given the Calradian Legionaries a real fight I reckon! But we were rendered obsolete before that." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_10"
+		text="{=cyjb9lmm}When Unqid came into power, he did so with eastern slaves trained in horse archery. To him, elite slave infantry was a thing of the past, daresay it was never truly the Aserai way. Slave soldiers like us only ever happened because none of the Aseri were willing to slog it out on foot. Why waste themselves when they could use slaves instead?" />
+	<string
+		id="backstory_c.spc_wanderer_aserai_10"
+		text="{=PKzUUVKC}But besides all that, Unqid had to remove us because we had become too influential. Quite a few of us had become lords as a matter of fact. Unqid couldn't have that for his new Sultanate. But if you ask me, if his Mamelukes are half the men we were, they'll be no less ambitious. Oh they may be his loyal dogs now, but it won't be long before Unqid's grandchildren have to deal with a Mameluke Sultanate." />
+	<string
+		id="response_1.spc_wanderer_aserai_10"
+		text="{=gMiceyRl}Quite unfortunate to be denied a future not once, but twice." />
+	<string
+		id="response_2.spc_wanderer_aserai_10"
+		text="{=KrXlrnsg}The quarries are hiring. If you're not up for banditry, then that might be all you're good for." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_10"
+		text="{=XKsjweaA}I was made to be a soldier. There is no fun in being a rich fool's bodyguard or booting rowdy drunks from stinky taverns. But you know what? At least I am free... free to choose another master anyway." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_10"
+		text="{=wQRSM1lz}I can fight well, and I've some learning too. Us slave warriors hadn't much of a life besides training. Take me in and I'll more than earn my keep." />
+
+<!-- The Hippo -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_10a"
+		text="{=5hh234ff}Alright then, where to begin..." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_10a"
+		text="{=awe222yyyr}I am not a smart nor a charming lass. But I am big and strong. Big and strong enough to beat heads in and keep the prisoners in line. The Hippo they called me, and I wear that name with pride- nothing scarier in the South than a Hippo I tell you!" />
+	<string
+		id="backstory_b.spc_wanderer_aserai_10a"
+		text="{=575h4hh4e}Yeah, I was a slaver. Couldn't exactly whore myself out, and I was not born to a good family. There was nothing much I could do. I didn't go out of my way to push no one into slavery either, I simply guarded the goods is all. I'm no monster, so yeah I had some pity. But you get used to it." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_10a"
+		text="{=t4trr3r3}... at least that's what I tell myself. Do I give a damn about debtors, crooks and the war prisoners? Nah, they risked it and so their misfortune is their's. But the women and children? I've always had a soft spot for them. Never is fair when gotta suffer for the failings of the men you know?" />
+	<string
+		id="response_1.spc_wanderer_aserai_10a"
+		text="{=mk6u54}I suppose you weren't a complete villain then." />
+	<string
+		id="response_2.spc_wanderer_aserai_10a"
+		text="{=22refuuu76u6}Too bad you weren't decent enough to leave the slave trade." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_10a"
+		text="{=ke4hc}No, but I had enough when some of the slavers started taking... 'liberties' with some of the children. That was more than enough for me to remind them why they called me the Hippo... needless to say my boss was not too happy." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_10a"
+		text="{=t4jvvrrtt4}I can fight well, and I reckon I have a decent handle of trade. Take me in and I'll more than earn my keep." />
 </strings>
