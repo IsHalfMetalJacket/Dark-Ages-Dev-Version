@@ -5,7 +5,674 @@
 			<xsl:apply-templates select="@*|node()"/>
 		</xsl:copy>
 	</xsl:template>
-	
+
+<!-- Wanderer XSLT -->
+	<!-- Aserai -->
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_0"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.054" build="0.2793"  key="001EA40C4E0003810100110121111110053000001111000000000001480101330044100304100000000000000000000000000000000000000000000000901000"  />
+			<BodyPropertiesMax version="4" weight="0.537" build="0.9491"  key="002EFC0FDA003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00CE80030CEEEFFF00000000000000000000000000000000000000006F909105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_0']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_1"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.054" build="0.054"  key="001EA40C400003800100110121111110053000001111000000000001480101330001100300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.9769" build="0.5"  key="002EFC0FC0003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00F7F0030FEEEFFF00000000000000000000000000000000000000006FF09105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_1']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.long_makhaira"/>
+			<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+			<equipment slot="Body" id="Item.aserai_civil_b"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<equipment slot="Horse" id="Item.pack_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.long_makhaira"/>
+			<equipment slot="Head" id="Item.aserai_civil_c_head"/>
+			<equipment slot="Body" id="Item.aserai_civil_a"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			<equipment slot="Horse" id="Item.pack_camel"/>
+			<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+		</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_2"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0324" build="0.3842"  key="001EA40C4E0009120100110121111110053000001111000000000001480101330066000306100000000000000000000000000000000000000000000000C01000"  />
+			<BodyPropertiesMax version="4" weight="0.5417" build="0.9892"  key="0031FC0FDA003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BF80030BEEEFFF00000000000000000000000000000000000000006F789105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_2']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_3"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.054" build="0.2793"  key="001EA40C4E0003800100110121111110053000001111000000000001480101330044100304100000000000000000000000000000000000000000000000901000"  />
+			<BodyPropertiesMax version="4" weight="0.537" build="0.9491"  key="002EFC0FDA003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00CE80030CEEEFFF00000000000000000000000000000000000000006F909105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_3']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_4"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.054" build="0.2793"  key="001EA40C4E0003810100110121111110053000001111000000000001480101330044100304100000000000000000000000000000000000000000000000901000"  />
+			<BodyPropertiesMax version="4" weight="0.4722" build="0.7577"  key="002EFC0FDA003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BB70030BEEEFFF00000000000000000000000000000000000000006F709105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_4']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+			<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+			<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+			<equipment slot="Body" id="Item.aserai_civil_c"/>
+			<equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+			<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+			<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
+			<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+			<equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_5"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0324" build="0.0355"  key="001EA40C400000010100110121111110053000001111000000000001480101330001000300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.8629" build="0.8565"  key="002EFC0FC0003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BDD0030BEEEFFF00000000000000000000000000000000000000006F609105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_5']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_6"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0324" build="0.196"  key="0026A40C4E0009120100110121111110053000001111000000000001480101330023000302100000000000000000000000000000000000000000000000401000"  />
+			<BodyPropertiesMax version="4" weight="0.1373" build="0.6559"  key="0034FC0FDA003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00CA20030CEEEFFF00000000000000000000000000000000000000006F809105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_6']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.southern_makhaira_dagger"/>
+			<equipment slot="Item2" id="Item.barbed_arrows"/>
+			<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+			<equipment slot="Body" id="Item.tassled_southern_robes"/>
+			<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_javelin_1_t2"/>
+			<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+			<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+			<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+			<equipment slot="Body" id="Item.desert_padded_cloth"/>
+			<equipment slot="Gloves" id="Item.armwraps"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+			<equipment slot="Item1" id="Item.southern_makhaira_dagger"/>
+			<equipment slot="Item2" id="Item.default_arrows"/>
+			<equipment slot="Head" id="Item.tight_head_scarf"/>
+			<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+			<equipment slot="Body" id="Item.layered_robe"/>
+			<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_javelin_1_t2"/>
+			<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+			<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+			<equipment slot="Head" id="Item.tuareg"/>
+			<equipment slot="Body" id="Item.desert_padded_cloth"/>
+			<equipment slot="Gloves" id="Item.armwraps"/>
+			<equipment slot="Leg" id="Item.wrapped_shoes"/>
+		</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_7"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0324" build="0.0355"  key="001EA40C400000010100110121111110053000001111000000000001480101330001000300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.8629" build="0.8565"  key="002EFC0FC0003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BDD0030BEEEFFF00000000000000000000000000000000000000006F609105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_7']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_8"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.054" build="0.054"  key="001EA40C500003810100110121111110053000001111000000000001480101330001100300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.9738" build="0.5"  key="002EFC0FD4003007DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE0087F00308EEEFFF00000000000000000000000000000000000000006F104103"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_8']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.long_makhaira"/>
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+				<equipment slot="Horse" id="Item.pack_camel"/>
+				<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.long_makhaira"/>
+				<equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+				<equipment slot="Horse" id="Item.pack_camel"/>
+				<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+			</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_9"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0324" build="0.0355"  key="001EA40C500000010100110121111110053000001111000000000001480101330001000300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.6003" build="0.8565"  key="002EFC0FE1003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00AD90030AEEEFFF00000000000000000000000000000000000000006F609105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_9']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+			<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+			<equipment slot="Head" id="Item.headscarf_d"/>
+			<equipment slot="Body" id="Item.aserai_civil_f"/>
+			<equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentRoster>
+		<EquipmentRoster>
+			<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+			<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+			<equipment slot="Head" id="Item.head_scarf"/>
+			<equipment slot="Body" id="Item.desert_robe"/>
+			<equipment slot="Leg" id="Item.ragged_boots"/>
+		</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+	<xsl:template match='NPCCharacter[@id="spc_wanderer_aserai_10"]/face'>
+		<xsl:copy>
+			<xsl:apply-templates select="@*"/>
+			<BodyProperties version="4" weight="0.0478" build="0.7515"  key="001EA40C4E00091201001101211111100530000011110000000000014801013300AB10030A100000000000000000000000000000000000000000000001501000"  />
+			<BodyPropertiesMax version="4" weight="0.9892" build="0.9491"  key="002EFC0FDA003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00FEF0030FEEEFFF00000000000000000000000000000000000000006FF89105"  />
+		</xsl:copy>
+	</xsl:template>
+    <xsl:template match="NPCCharacter[@id='spc_wanderer_aserai_10']/Equipments">
+    <Equipments>
+		<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.desert_cap"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_n"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+					<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+					<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+					<equipment slot="Leg" id="Item.ragged_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.wrapped_desert_cap"/>
+					<equipment slot="Body" id="Item.aserai_civil_c"/>
+					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.turban"/>
+					<equipment slot="Body" id="Item.layered_robe"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+    </Equipments>
+	</xsl:template>
+
 	<xsl:template match="NPCCharacter[@id='caravan_master_aserai']/@name">
 			<xsl:attribute name="name">{=Aserai Caravan Master}Aserai Caravan Master</xsl:attribute>
 		</xsl:template>

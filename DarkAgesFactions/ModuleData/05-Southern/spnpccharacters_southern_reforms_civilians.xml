@@ -3184,4 +3184,1498 @@
 			<EquipmentSet id="npc_companion_equipment_template_aserai"/>
 		</Equipments>
 	</NPCCharacter>
+	
+	<!-- WANDERERS OF SHARIZ -->
+	<!-- Engineer who refused to comply with guild backscratching -->
+	<NPCCharacter id="spc_wanderer_kannic_0" name="{FIRSTNAME} the Test" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_0" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Very boastful -->
+	<NPCCharacter id="spc_wanderer_kannic_1" name="{FIRSTNAME} the Test" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_1" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Family lost military land grant, must work for merchants -->
+	<NPCCharacter id="spc_wanderer_kannic_2" name="{FIRSTNAME} the Test" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_2" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--  Die-hard legionary -->
+	<NPCCharacter id="spc_wanderer_kannic_3" name="{FIRSTNAME} the Test" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_3" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- Bandit who found bandits too sociopathic -->
+	<NPCCharacter id="spc_wanderer_kannic_4" name="{FIRSTNAME} the Test" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_4" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- the butcher, doesn't give much away about himself -->
+	<NPCCharacter id="spc_wanderer_kannic_5" name="{FIRSTNAME} the Test" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_5" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- maquisard, ex-messianic rebel turned mafiosi -->
+	<NPCCharacter id="spc_wanderer_kannic_6" name="{FIRSTNAME} of the Test" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_6" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- posed as man to join army. needed the money -->
+	<NPCCharacter id="spc_wanderer_kannic_7" name="{FIRSTNAME} the Test" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_7" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- upper-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+	<NPCCharacter id="spc_wanderer_kannic_8" name="{FIRSTNAME} the Test" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_8" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+	<NPCCharacter id="spc_wanderer_kannic_9" name="{FIRSTNAME} the Test" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_9" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!-- extra imperials -->
+	<!--  Doctor, forced to torture -->
+	<NPCCharacter id="spc_wanderer_kannic_10" name="{FIRSTNAME} the Test" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_10" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+	<!--upper-class dispossessed, refused a bad marriage -->
+	<NPCCharacter id="spc_wanderer_kannic_11" name="{FIRSTNAME} the Test" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.shariz" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.5571" build="0.9846"  key="001880080000111C9976648E6774B835537DA29992A52531DCB177278A84F66700FF86030F96DAC600000000000000000000000000000000000000003FFC2002"  />
+		</face>
+		<!--<Hero id="spc_wanderer_empire_11" faction="Kingdom.empire"  is_template="true" />-->
+		<Traits>
+			<Trait id="KnightFightingSkills" value="8"/>
+			<Trait id="Commander" value="5"/>
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<Equipments>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_lance_1_t5"/>
+				<equipment slot="Item1" id="Item.vlandia_mace_3_t5"/>
+				<equipment slot="Item2" id="Item.chivalric_kite_shield"/>
+				<equipment slot="Item3" id="Item.aserai_2haxe_2_t4"/>
+				<equipment slot="Head" id="Item.TV_vlandia_helmet_p2"/>
+				<equipment slot="Cape" id="Item.AR_empire_shoulders_a"/>
+				<equipment slot="Body" id="Item.vlandia_chainmail_knight2"/>
+				<equipment slot="Gloves" id="Item.woven_leather_bracers"/>
+				<equipment slot="Leg" id="Item.vs_black_cavalier_boots"/>
+				<equipment slot="Horse" id="Item.desert_war_horse"/>
+				<equipment slot="HorseHarness" id="Item.chain_barding"/>
+			</EquipmentRoster>
+			<EquipmentSet id="npc_companion_equipment_template_empire" civilian="true"/>
+		</Equipments>
+	</NPCCharacter>
+
+	<!-- WANDERERS OF ASERAI -->
+	<!-- Engineer who refused to comply with guild backscratching -->
+	<NPCCharacter id="spc_wanderer_aserai_0" name="{=bvjFhiDr}{FIRSTNAME} the Wanderer" voice="earnest" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.2793"  key="001EA40C4E0003810100110121111110053000001111000000000001480101330044100304100000000000000000000000000000000000000000000000901000"  />
+			<BodyPropertiesMax version="4" weight="0.537" build="0.9491"  key="002EFC0FDA003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00CE80030CEEEFFF00000000000000000000000000000000000000006F909105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="15"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="30"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="20" />
+			<skill id="Scouting" value="40" />
+			<skill id="Tactics" value="20"/>
+			<skill id="Roguery" value="40"/>
+			<skill id="Charm" value="60"/>
+			<skill id="Leadership" value="40"/>
+			<skill id="Trade" value="60"/>
+			<skill id="Steward" value="40"/>
+			<skill id="Medicine" value="40"/>
+			<skill id="Engineering" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--Obsessed with own genealogy -->
+	<NPCCharacter id="spc_wanderer_aserai_1" name="{=vtXRptVa}{FIRSTNAME} the Golden" voice="earnest" age="42" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.054"  key="001EA40C400003800100110121111110053000001111000000000001480101330001100300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.9769" build="0.5"  key="002EFC0FC0003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00F7F0030FEEEFFF00000000000000000000000000000000000000006FF09105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="15"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="30"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="40" />
+			<skill id="Scouting" value="0" />
+			<skill id="Tactics" value="0"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Trade" value="140"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.long_makhaira"/>
+					<equipment slot="Head" id="Item.aserai_civil_d_hscarf"/>
+					<equipment slot="Body" id="Item.aserai_civil_b"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					<equipment slot="Horse" id="Item.pack_camel"/>
+					<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.long_makhaira"/>
+					<equipment slot="Head" id="Item.aserai_civil_c_head"/>
+					<equipment slot="Body" id="Item.aserai_civil_a"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+					<equipment slot="Horse" id="Item.pack_camel"/>
+					<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+				</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--The falcon, chivalrous, but thinks great clans hog the glory -->
+	<NPCCharacter id="spc_wanderer_aserai_2" name="{=TyxXbqVw}{FIRSTNAME} the Falcon" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.3842"  key="001EA40C4E0009120100110121111110053000001111000000000001480101330066000306100000000000000000000000000000000000000000000000C01000"  />
+			<BodyPropertiesMax version="4" weight="0.5417" build="0.9892"  key="0031FC0FDA003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BF80030BEEEFFF00000000000000000000000000000000000000006F789105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="150"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="10" />
+			<skill id="Scouting" value="40" />
+			<skill id="Tactics" value="100"/>
+			<skill id="Roguery" value="10"/>
+			<skill id="Charm" value="40"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="40"/>
+			<skill id="Engineering" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--The falcon, chivalrous, but thinks great clans hog the glory -->
+	<NPCCharacter id="spc_wanderer_aserai_2a" name="{=TyxXbqVw}{FIRSTNAME} the Gazelle" voice="ironic" age="25" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.3164"  key="001EA40C500009010100110121111110053000001111000000000001480101330035000303100000000000000000000000000000000000000000000000601000"  />
+			<BodyPropertiesMax version="4" weight="0.6034" build="0.9892"  key="0031FC0FE1003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BF90030BEEEFFF00000000000000000000000000000000000000006F789105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Valor" value="1"/>
+			<Trait id="Honor" value="1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="120"/>
+			<skill id="Riding" value="120"/>
+			<skill id="OneHanded" value="150"/>
+			<skill id="TwoHanded" value="60"/>
+			<skill id="Polearm" value="150"/>
+			<skill id="Bow" value="150"/>
+			<skill id="Crossbow" value="60"/>
+			<skill id="Throwing" value="150"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="10" />
+			<skill id="Scouting" value="40" />
+			<skill id="Tactics" value="100"/>
+			<skill id="Roguery" value="10"/>
+			<skill id="Charm" value="40"/>
+			<skill id="Leadership" value="100"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="40"/>
+			<skill id="Engineering" value="10"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+	<NPCCharacter id="spc_wanderer_aserai_3" name="{=4GIoPUen}{FIRSTNAME} the Swordsman" voice="softspoken" age="33" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.2793"  key="001EA40C4E0003800100110121111110053000001111000000000001480101330044100304100000000000000000000000000000000000000000000000901000"  />
+			<BodyPropertiesMax version="4" weight="0.537" build="0.9491"  key="002EFC0FDA003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00CE80030CEEEFFF00000000000000000000000000000000000000006F909105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Valor" value="1" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="200"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="30" />
+			<skill id="Scouting" value="30" />
+			<skill id="Tactics" value="40"/>
+			<skill id="Roguery" value="40"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="40"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+	<NPCCharacter id="spc_wanderer_aserai_4" name="{=rgdi5Sxa}{FIRSTNAME} the Prince" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.2793"  key="001EA40C4E0003810100110121111110053000001111000000000001480101330044100304100000000000000000000000000000000000000000000000901000"  />
+			<BodyPropertiesMax version="4" weight="0.4722" build="0.7577"  key="002EFC0FDA003486DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BB70030BEEEFFF00000000000000000000000000000000000000006F709105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="30"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="90"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="90"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="10" />
+			<skill id="Scouting" value="40" />
+			<skill id="Tactics" value="0"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Charm" value="100"/>
+			<skill id="Leadership" value="10"/>
+			<skill id="Trade" value="40"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+					<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+					<equipment slot="Head" id="Item.aserai_civil_hscarf_b"/>
+					<equipment slot="Body" id="Item.aserai_civil_c"/>
+					<equipment slot="Leg" id="Item.ragged_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+					<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+					<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
+					<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+					<equipment slot="Leg" id="Item.ragged_boots"/>
+				</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- "The Hyena" (contemptuous killer) -->
+	<NPCCharacter id="spc_wanderer_aserai_5" name="{=OFWvD0xe}{FIRSTNAME} the Hyena" voice="softspoken" age="27" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.0355"  key="001EA40C400000010100110121111110053000001111000000000001480101330001000300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.8629" build="0.8565"  key="002EFC0FC0003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BDD0030BEEEFFF00000000000000000000000000000000000000006F609105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Valor" value="1" />
+			<Trait id="Honor" value="1" />
+			<Trait id="Mercy" value="-1" />
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="130"/>
+			<skill id="Riding" value="130"/>
+			<skill id="OneHanded" value="220"/>
+			<skill id="TwoHanded" value="160"/>
+			<skill id="Polearm" value="180"/>
+			<skill id="Bow" value="180"/>
+			<skill id="Crossbow" value="80"/>
+			<skill id="Throwing" value="200"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="30" />
+			<skill id="Scouting" value="30" />
+			<skill id="Tactics" value="40"/>
+			<skill id="Roguery" value="40"/>
+			<skill id="Charm" value="20"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="40"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.turban"/>
+				<equipment slot="Cape" id="Item.TV_battania_cloak_p"/>
+				<equipment slot="Body" id="Item.AR_aserai_armor_b"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_sword_3_t3"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.wrapped_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe_over_mail"/>
+				<equipment slot="Leg" id="Item.TV_aserai_boots_a"/>
+				<equipment slot="Horse" id="Item.sumpter_horse"/>
+				<equipment slot="HorseHarness" id="Item.desert_cloth_harness"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--of the Wastes - 'the searing gravel plain knows me' -->
+	<NPCCharacter id="spc_wanderer_aserai_6" name="{=muC2SGlM}{FIRSTNAME} of the Wastes" voice="curt" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.196"  key="0026A40C4E0009120100110121111110053000001111000000000001480101330023000302100000000000000000000000000000000000000000000000401000"  />
+			<BodyPropertiesMax version="4" weight="0.1373" build="0.6559"  key="0034FC0FDA003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00CA20030CEEEFFF00000000000000000000000000000000000000006F809105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_6" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="125"/>
+			<skill id="Bow" value="125"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="125"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="10" />
+			<skill id="Scouting" value="60" />
+			<skill id="Tactics" value="120"/>
+			<skill id="Roguery" value="60"/>
+			<skill id="Charm" value="0"/>
+			<skill id="Leadership" value="50"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="80"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item1" id="Item.southern_makhaira_dagger"/>
+				<equipment slot="Item2" id="Item.barbed_arrows"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.tassled_southern_robes"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item1" id="Item.southern_makhaira_dagger"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--of the Wastes - 'the searing gravel plain knows me' -->
+	<NPCCharacter id="spc_wanderer_aserai_6a" name="{=muC2SGlM}{FIRSTNAME} of the Oasis" voice="ironic" age="31" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.1127"  key="0026A40C550030070100110121111110053000001111000000000001480101330012000301100000000000000000000000000000000000000000000000284103"  />
+			<BodyPropertiesMax version="4" weight="0.1311" build="0.5941"  key="0034FC0FDA003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE0099200309EEEFFF00000000000000000000000000000000000000006F289105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_6" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="100"/>
+			<skill id="Riding" value="100"/>
+			<skill id="OneHanded" value="125"/>
+			<skill id="TwoHanded" value="50"/>
+			<skill id="Polearm" value="125"/>
+			<skill id="Bow" value="125"/>
+			<skill id="Crossbow" value="50"/>
+			<skill id="Throwing" value="125"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="10" />
+			<skill id="Scouting" value="150" />
+			<skill id="Tactics" value="120"/>
+			<skill id="Roguery" value="50"/>
+			<skill id="Charm" value="0"/>
+			<skill id="Leadership" value="50"/>
+			<skill id="Trade" value="20"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="100"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item1" id="Item.southern_makhaira_dagger"/>
+				<equipment slot="Item2" id="Item.barbed_arrows"/>
+				<equipment slot="Head" id="Item.aserai_civil_e_hscarf"/>
+				<equipment slot="Body" id="Item.tassled_southern_robes"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.steppe_heavy_bow"/>
+				<equipment slot="Item1" id="Item.southern_makhaira_dagger"/>
+				<equipment slot="Item2" id="Item.default_arrows"/>
+				<equipment slot="Head" id="Item.tight_head_scarf"/>
+				<equipment slot="Cape" id="Item.AR_aserai_shoulder_h"/>
+				<equipment slot="Body" id="Item.layered_robe"/>
+				<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.northern_javelin_1_t2"/>
+				<equipment slot="Item1" id="Item.southern_small_axe_t2"/>
+				<equipment slot="Item2" id="Item.bound_desert_round_shield"/>
+				<equipment slot="Head" id="Item.tuareg"/>
+				<equipment slot="Body" id="Item.desert_padded_cloth"/>
+				<equipment slot="Gloves" id="Item.armwraps"/>
+				<equipment slot="Leg" id="Item.wrapped_shoes"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- female member of clan that lost power -->
+	<NPCCharacter id="spc_wanderer_aserai_7" name="{=28tWEFNi}{FIRSTNAME} the Wanderer" voice="earnest" age="25" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.0355"  key="001EA40C400000010100110121111110053000001111000000000001480101330001000300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.8629" build="0.8565"  key="002EFC0FC0003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00BDD0030BEEEFFF00000000000000000000000000000000000000006F609105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="15"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="30"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="20" />
+			<skill id="Scouting" value="40" />
+			<skill id="Tactics" value="20"/>
+			<skill id="Roguery" value="40"/>
+			<skill id="Charm" value="60"/>
+			<skill id="Leadership" value="40"/>
+			<skill id="Trade" value="60"/>
+			<skill id="Steward" value="40"/>
+			<skill id="Medicine" value="40"/>
+			<skill id="Engineering" value="40"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_b" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_d" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hatchet_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.desert_cap" />
+				<equipment
+					slot="Cape"
+					id="Item.wrapped_scarf" />
+				<equipment
+					slot="Body"
+					id="Item.short_padded_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_hammer_2_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_hscarf_a" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_a" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Head"
+					id="Item.aserai_civil_e_hscarf" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_b" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!--unlucky merchant -->
+	<NPCCharacter id="spc_wanderer_aserai_8" name="{=XBJtv4mD}{FIRSTNAME} the Spicevendor" voice="softspoken" age="31" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.054" build="0.054"  key="001EA40C500003810100110121111110053000001111000000000001480101330001100300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.9738" build="0.5"  key="002EFC0FD4003007DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE0087F00308EEEFFF00000000000000000000000000000000000000006F104103"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Calculating" value="1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="15"/>
+			<skill id="Riding" value="15"/>
+			<skill id="OneHanded" value="30"/>
+			<skill id="TwoHanded" value="10"/>
+			<skill id="Polearm" value="25"/>
+			<skill id="Bow" value="25"/>
+			<skill id="Crossbow" value="10"/>
+			<skill id="Throwing" value="30"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="40" />
+			<skill id="Scouting" value="0" />
+			<skill id="Tactics" value="0"/>
+			<skill id="Roguery" value="20"/>
+			<skill id="Charm" value="120"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Trade" value="140"/>
+			<skill id="Steward" value="80"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.long_makhaira"/>
+				<equipment slot="Head" id="Item.aserai_villager_female_headdress"/>
+				<equipment slot="Body" id="Item.aserai_female_civil_b"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+				<equipment slot="Horse" id="Item.pack_camel"/>
+				<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.long_makhaira"/>
+				<equipment slot="Head" id="Item.aserai_female_civil_hscarf"/>
+				<equipment slot="Body" id="Item.aserai_female_civil_a"/>
+				<equipment slot="Leg" id="Item.southern_moccasins"/>
+				<equipment slot="Horse" id="Item.pack_camel"/>
+				<equipment slot="HorseHarness" id="Item.camel_saddle"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<!-- female alley urchin -->
+	<NPCCharacter id="spc_wanderer_aserai_9" name="{=NWuGUi4p}{FIRSTNAME} the Leopardess" voice="ironic" age="22" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0324" build="0.0355"  key="001EA40C500000010100110121111110053000001111000000000001480101330001000300100000000000000000000000000000000000000000000000001000"  />
+			<BodyPropertiesMax version="4" weight="0.6003" build="0.8565"  key="002EFC0FE1003A47DFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00AD90030AEEEFFF00000000000000000000000000000000000000006F609105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Valor" value="-1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="30"/>
+			<skill id="OneHanded" value="120"/>
+			<skill id="TwoHanded" value="30"/>
+			<skill id="Polearm" value="30"/>
+			<skill id="Bow" value="90"/>
+			<skill id="Crossbow" value="30"/>
+			<skill id="Throwing" value="90"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="10" />
+			<skill id="Scouting" value="40" />
+			<skill id="Tactics" value="0"/>
+			<skill id="Roguery" value="100"/>
+			<skill id="Charm" value="100"/>
+			<skill id="Leadership" value="10"/>
+			<skill id="Trade" value="40"/>
+			<skill id="Steward" value="0"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="0"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+				<equipment slot="Head" id="Item.headscarf_d"/>
+				<equipment slot="Body" id="Item.aserai_civil_f"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment slot="Item0" id="Item.aserai_mace_2_t2"/>
+				<equipment slot="Item1" id="Item.desert_throwing_knife"/>
+				<equipment slot="Head" id="Item.head_scarf"/>
+				<equipment slot="Body" id="Item.desert_robe"/>
+				<equipment slot="Leg" id="Item.ragged_boots"/>
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_aserai_10" name="{=ACqta1a5}{FIRSTNAME} the Elephant" voice="curt" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.0478" build="0.7515"  key="001EA40C4E00091201001101211111100530000011110000000000014801013300AB10030A100000000000000000000000000000000000000000000001501000"  />
+			<BodyPropertiesMax version="4" weight="0.9892" build="0.9491"  key="002EFC0FDA003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00FEF0030FEEEFFF00000000000000000000000000000000000000006FF89105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="1"/>
+			<Trait id="Mercy" value="-1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="0" />
+			<skill id="Scouting" value="0" />
+			<skill id="Tactics" value="0"/>
+			<skill id="Roguery" value="0"/>
+			<skill id="Charm" value="0"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="50"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.desert_cap"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_n"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+					<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+					<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+					<equipment slot="Leg" id="Item.ragged_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.wrapped_desert_cap"/>
+					<equipment slot="Body" id="Item.aserai_civil_c"/>
+					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.turban"/>
+					<equipment slot="Body" id="Item.layered_robe"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter id="spc_wanderer_aserai_10a" name="{=ACqta1a5}{FIRSTNAME} the Hippo" voice="curt" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer">
+		<face>
+			<BodyProperties version="4" weight="0.3534" build="0.5509"  key="001EA40C550009000100110121111110053000001111000000000001480101330068500306100000000000000000000000000000000000000000000000D01000"  />
+			<BodyPropertiesMax version="4" weight="0.9892" build="0.9491"  key="002EFC0FE1003A5ADFEEEFEFEEEEFFFFEFF8FFEEFF88FFFFFFFFFFEF8EFEFFFE00FEF0030FEEEFFF00000000000000000000000000000000000000006FF89105"  />
+		</face>
+		<!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+		<Traits>
+			<!--<Trait id="IsTemplate" value="1" />-->
+			<Trait id="Generosity" value="-1"/>
+			<Trait id="Mercy" value="1"/>
+			<Trait id="Calculating" value="-1"/>
+		</Traits>
+		<skills>
+			<skill id="Athletics" value="60"/>
+			<skill id="Riding" value="40"/>
+			<skill id="OneHanded" value="130"/>
+			<skill id="TwoHanded" value="130"/>
+			<skill id="Polearm" value="130"/>
+			<skill id="Bow" value="40"/>
+			<skill id="Crossbow" value="40"/>
+			<skill id="Throwing" value="70"/>
+			<!-- Utility -->
+			<skill id="Crafting" value="0" />
+			<skill id="Scouting" value="0" />
+			<skill id="Tactics" value="0"/>
+			<skill id="Roguery" value="0"/>
+			<skill id="Charm" value="0"/>
+			<skill id="Leadership" value="0"/>
+			<skill id="Trade" value="0"/>
+			<skill id="Steward" value="50"/>
+			<skill id="Medicine" value="0"/>
+			<skill id="Engineering" value="50"/>
+		</skills>
+		<Equipments>
+			<EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true"/>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.desert_cap"/>
+					<equipment slot="Body" id="Item.AR_aserai_armor_n"/>
+					<equipment slot="Gloves" id="Item.armwraps"/>
+					<equipment slot="Leg" id="Item.wrapped_shoes"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.aserai_civil_hscarf_a"/>
+					<equipment slot="Body" id="Item.thick_sleeved_robe"/>
+					<equipment slot="Gloves" id="Item.ragged_armwraps"/>
+					<equipment slot="Leg" id="Item.ragged_boots"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.wrapped_desert_cap"/>
+					<equipment slot="Body" id="Item.aserai_civil_c"/>
+					<equipment slot="Gloves" id="Item.eastern_wrapped_armguards"/>
+					<equipment slot="Leg" id="Item.highland_leg_wrappings"/>
+				</EquipmentRoster>
+				<EquipmentRoster>
+					<equipment slot="Item0" id="Item.peasant_maul_t1_2"/>
+					<equipment slot="Head" id="Item.turban"/>
+					<equipment slot="Body" id="Item.layered_robe"/>
+					<equipment slot="Gloves" id="Item.AR_empire_gloves_e"/>
+					<equipment slot="Leg" id="Item.strapped_leather_boots"/>
+				</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
 </NPCCharacters>
