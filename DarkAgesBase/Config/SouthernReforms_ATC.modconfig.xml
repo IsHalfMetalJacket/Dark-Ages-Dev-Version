@@ -499,14 +499,14 @@
 		<!-- Standard Excarchate configuration -->
 		<Culture id="default">
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -517,14 +517,14 @@
 		<Culture id="aserai">
 			<!-- Spahad for captured Aserai settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -535,14 +535,14 @@
 		<Culture id="khuzait">
 			<!-- Spahad for captured Khuzait settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -553,14 +553,14 @@
 		<Culture id="darshi">
 			<!-- Spahad for captured Darhsi settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -571,14 +571,14 @@
 		<Culture id="empire">
 			<!-- Spahad for captured Northern Empire settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -589,14 +589,14 @@
 		<Culture id="empire_s">
 			<!-- Spahad for captured Southern Empire settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -607,14 +607,14 @@
 		<Culture id="empire_w">
 			<!-- Spahad for captured Western Empire settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -625,14 +625,14 @@
 		<Culture id="shariz">
 			<!-- Spahad for captured Paraoian settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -643,14 +643,14 @@
 		<Culture id="sturgia">
 			<!-- Spahad for captured Sturgia settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -661,14 +661,14 @@
 		<Culture id="vakken">
 			<!-- Spahad for captured Vakken settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -679,14 +679,14 @@
 		<Culture id="vlandia">
 			<!-- Spahad for captured Vlandia settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -697,14 +697,14 @@
 		<Culture id="zwadane">
 			<!-- Spahad for captured Zwadane settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -715,14 +715,14 @@
 		<Culture id="battania">
 			<!-- Spahad for captured Battania settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -733,14 +733,14 @@
 		<Culture id="oldcalradian">
 			<!-- Spahad for captured Old Calradian settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
@@ -751,14 +751,14 @@
 		<Culture id="akkazi">
 			<!-- Spahad for captured Akkazi settlements -->
 			<basicTroops>
-				<volunteer id="nahasi_hmj_mit1" percent="25"/>
-				<volunteer id="nahasi_hmj_mst1" percent="25"/>
+				<volunteer id="nahasi_hmj_mit1" percent="23"/>
+				<volunteer id="nahasi_hmj_mst1" percent="23"/>
 				<volunteer id="nahasi_hmj_mrt1" percent="14"/>
-				<volunteer id="nahasi_hmj_mct1" percent="12"/>
-				<volunteer id="nahasi_hmj_rt2" percent="7"/>
-				<volunteer id="nahasi_hmj_it2" percent="7"/>
-				<volunteer id="nahasi_hmj_st2" percent="7"/>
-				<volunteer id="nahasi_hmj_hit2" percent="2"/>
+				<volunteer id="nahasi_hmj_mct1" percent="13"/>
+				<volunteer id="nahasi_hmj_rt2" percent="8"/>
+				<volunteer id="nahasi_hmj_it2" percent="8"/>
+				<volunteer id="nahasi_hmj_st2" percent="8"/>
+				<volunteer id="nahasi_hmj_hit2" percent="3"/>
 			</basicTroops>
 			<eliteTroops spawnChance="5" atPower="200" spawnChanceCap="20">
 				<volunteer id="nahasi_hmj_nrt3" percent="40"/>
