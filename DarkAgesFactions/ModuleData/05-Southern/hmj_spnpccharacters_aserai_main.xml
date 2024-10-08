@@ -1086,8 +1086,6 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_4_t4"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.aserai_civil_f_cape"/>
 					<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
 					<equipment slot="Body" id="Item.ringed_desert_armor"/>
@@ -1095,10 +1093,8 @@
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
+					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.TV_aserai_helmet_e"/>
 					<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
 					<equipment slot="Body" id="Item.studded_leather_coat"/>
@@ -1106,10 +1102,8 @@
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.seax"/>
+					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_4_t4"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
 					<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 					<equipment slot="Body" id="Item.layered_leather_tunic"/>
@@ -1117,10 +1111,8 @@
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
+					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
 					<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
 					<equipment slot="Body" id="Item.aserai_horseman_armor"/>
@@ -1156,8 +1148,6 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_4_t4"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.aserai_civil_f_cape"/>
 					<equipment slot="Cape" id="Item.desert_leather_shoulderpad"/>
 					<equipment slot="Body" id="Item.ringed_desert_armor"/>
@@ -1167,8 +1157,6 @@
 				<EquipmentRoster>
 					<equipment slot="Item0" id="Item.peasant_hatchet_1_t1"/>
 					<equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.TV_aserai_helmet_e"/>
 					<equipment slot="Cape" id="Item.battania_woodland_cloak"/>
 					<equipment slot="Body" id="Item.studded_leather_coat"/>
@@ -1176,10 +1164,8 @@
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.seax"/>
+					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_4_t4"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.TV_aserai_helmet_d"/>
 					<equipment slot="Cape" id="Item.TV_vlandia_shoulders_g"/>
 					<equipment slot="Body" id="Item.layered_leather_tunic"/>
@@ -1187,10 +1173,8 @@
 					<equipment slot="Leg" id="Item.wrapped_shoes"/>
 				</EquipmentRoster>
 				<EquipmentRoster>
-					<equipment slot="Item0" id="Item.peasant_hammer_2_t1"/>
+					<equipment slot="Item0" id="Item.AR_naptha_pot"/>
 					<equipment slot="Item1" id="Item.aserai_sword_3_t3"/>
-					<equipment slot="Item2" id="Item.AR_naptha_pot"/>
-					<equipment slot="Item3" id="Item.AR_naptha_pot"/>
 					<equipment slot="Head" id="Item.tv_aserai_hscarf_a"/>
 					<equipment slot="Cape" id="Item.aserai_horseman_shoulder"/>
 					<equipment slot="Body" id="Item.aserai_horseman_armor"/>
