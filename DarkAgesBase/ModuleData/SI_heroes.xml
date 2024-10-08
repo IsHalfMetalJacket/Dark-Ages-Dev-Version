@@ -76,21 +76,18 @@
 	<Hero id="lord_1_56_1" spouse="Hero.lord_1_56" faction="Faction.clan_empire_north_9"/>
 	<!-- Empire west 1 (DONE) -->
 	<Hero id="lord_1_7" spouse="Hero.lord_1_8" faction="Faction.clan_empire_west_1" text="{=niI9dpuu}The western third of the Empire is ruled by Garios, a charismatic general who represents a longstanding populist trend in imperial politics. He is deeply loved by his soldiers, both for his solid record in winning battles and for his insistence that his veterans be compensated in land afterwards. He often demands that the 'people' should settle key issues, but in practice this usually means an assembly of his soldiers, where his veterans can be counted on to shut down opposition." />
-	<Hero id="lord_1_75" father="Hero.lord_1_7" faction="Faction.clan_empire_west_1"/>
+	<Hero id="lord_1_75" father="Hero.lord_1_7" mother="Hero.lord_1_8" faction="Faction.clan_empire_west_1"/>
 	<Hero id="lord_1_8" spouse="Hero.lord_1_7" faction="Faction.clan_empire_west_1"/>
-	<Hero id="lord_1_34" father="Hero.lord_1_7" mother="Hero.lord_1_8" faction="Faction.clan_empire_west_1"/>
+	<Hero id="lord_1_34" father="Hero.lord_1_7" faction="Faction.clan_empire_west_1"/>
 	<Hero id="lord_1_24" faction="Faction.clan_empire_west_1"/>
 	<Hero id="lord_1_44" faction="Faction.clan_empire_west_1"/>
-	<Hero id="AR_lord_1_8" spouse="Hero.AR_lord_1_9" faction="Faction.clan_empire_west_1" text="{=arI9dpuu}The Calradian Empire is ruled by Helenea, wife of the late-Emperor Themestios and regent for their son Jamanys. The first female ruler of the Calradian Empire since the lady Zeona, two centuries ago, she will rule until her son comes of age. Generous and wise, she is a popular figure with the Empire's people, though has little support amongst those in the senatorial nobility who remain loyal to her family. Whilst they voted for her son, many in the senate worry that Helenea may take the imperial throne for herself, instead of handing over power when Jamanys is at the rightful age."/>
-	<Hero id="AR_lord_1_9" alive="false" spouse="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpuv}Themestios was the last emperor of a united Calradian Empire. A cunning politician and efficient administrator, he successfully led the Empire in campaigns of expansion to the east, incorporating much of the remaining Palaic territory west of Lake Tanaesis into the imperial fold. However, his reign was cut short when a campaign into the Iltan Portages went awry, with the emperor's camp being overrun by Gotarnian horsemen during the night. In the brief battle, Themestios was slain and the dragon banner of Calradios was carried off by Gotarnian tribesmen as a trophy; the emperor's sudden loss leaving the Empire in a state of disarray."/>
-	<Hero id="AR_lord_1_10" father="Hero.AR_lord_1_9" mother="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpuw}Junia is the eldest child of the late-Emperor Themestios. A natural-born leader, she spent much of her childhood learning the arts of statecraft from her father and mother, being given the high honor of leading an elite unit of her father's lancers at only the age of 18. Passed over for succession to the imperial throne in favor of her younger brother, Junia now follows her own path."/>
-	<Hero id="AR_lord_1_11" father="Hero.AR_lord_1_9" mother="Hero.AR_lord_1_8" faction="Faction.clan_empire_west_1" text="{=arI9dpux}Jamanys is the heir-apparent for the throne of the Calradian Empire. After the untimely death of his father Themestios, the Calradian senate met to vote on the matter of succession. The late-emperor had named his son as heir, though many senators believed that a boy so young was unfit to rule. A vote was held, with Jamanys being nominated Emperor by an incredibly slim margin. Abandoned immediately by nearly half of the senate, who fled to the west, the remaining senators named Jamanys' mother regent until he comes of age. However, with civil war raging on all sides, some say the Empire may not survive long enough for him to take his throne."/>
 	<!-- Empire west 2 (DONE) -->
 	<Hero id="lord_1_9" spouse="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_10" spouse="Hero.lord_1_9" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_35" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_25" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
 	<Hero id="lord_1_23" father="Hero.lord_1_9" mother="Hero.lord_1_10" faction="Faction.clan_empire_west_2"/>
+	<Hero id="lord_1_23a" father="Hero.lord_1_9" faction="Faction.clan_empire_west_2"/>
 	<!-- Empire west 3 (DONE) -->
 	<Hero id="lord_1_11" spouse="Hero.lord_1_12" faction="Faction.clan_empire_west_3" text="Dorios is the head of the Western Empire. A senator from an old family; his people have raised cattle in the fertile western lands of the Calradian Empire for generations. He is a reluctant ruler, driven to secession from the Empire by the weakness of the Emperors to protect his homeland and estates from the growing Vlandian menace. Now, he leads a senate comprising the most powerful western nobles, attempting to reclaim what was lost to the invaders."/>
 	<Hero id="lord_1_111" father="Hero.lord_1_11" mother="Hero.lord_1_12" faction="Faction.clan_empire_west_3"/>
@@ -101,7 +98,7 @@
 	<Hero id="lord_1_40" spouse="Hero.lord_1_40_1" faction="Faction.clan_empire_west_4"/>
 	<Hero id="lord_1_40_1" spouse="Hero.lord_1_40" faction="Faction.clan_empire_west_4"/>
 	<Hero id="lord_1_46" faction="Faction.clan_empire_west_4"/>
-	<Hero id="lord_1_46_1" father="Hero.lord_1_46" faction="Faction.clan_empire_west_4"/>
+	<Hero id="lord_1_46_1" faction="Faction.clan_empire_west_4"/>
 	<!-- empire west 5 (DONE) -->
 	<Hero id="lord_1_45" spouse="Hero.lord_1_45_1" faction="Faction.clan_empire_west_5"/>
 	<Hero id="lord_1_45_1" spouse="Hero.lord_1_45" faction="Faction.clan_empire_west_5"/>

@@ -1110,7 +1110,7 @@
 	<Faction
 		id="clan_empire_west_6"
 		name="{=ApJrV7bA}Sorados"
-		tier="3"
+		tier="2"
 		owner="Hero.lord_1_52"
 		culture="Culture.empire_w"
 		super_faction="Kingdom.empire_w"
@@ -1119,7 +1119,7 @@
 	<Faction
 		id="clan_empire_west_7"
 		name="{=bjemmmcF}Corenios"
-		tier="3"
+		tier="2"
 		owner="Hero.lord_1_53"
 		culture="Culture.empire_w"
 		super_faction="Kingdom.empire_w"
@@ -1128,7 +1128,7 @@
 	<Faction
 		id="clan_empire_west_8"
 		name="{=pdz4YsEf}Maneolis"
-		tier="1"
+		tier="2"
 		owner="Hero.lord_1_71"
 		culture="Culture.empire_w"
 		super_faction="Kingdom.empire_w"

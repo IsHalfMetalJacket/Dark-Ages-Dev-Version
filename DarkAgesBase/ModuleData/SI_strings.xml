@@ -466,7 +466,8 @@
 		<tag tag_name="DefaultTag" />
 		</tags>
 	</string>
-	
+
+<!-- Aserai -->
 	<!-- of the Wastes - 'the searing gravel plain knows me' -->
 	<string
 		id="prebackstory.spc_wanderer_aserai_6a"
@@ -493,7 +494,7 @@
 		id="generic_backstory.spc_wanderer_aserai_6a"
 		text="{=ser3341}Make no mistake though, I can handle myself in a fight. Oh and I'm sure you will find use for my scouting skills." />
 
-<!-- The Wanderer (MALE) -->
+	<!-- The Wanderer (MALE) -->
 	<string
 		id="prebackstory.spc_wanderer_aserai_0"
 		text="{=EMkaeD9M}Its an unhappy story, but perhaps it will make you feel better about your luck." />
@@ -519,7 +520,7 @@
 		id="generic_backstory.spc_wanderer_aserai_0"
 		text="{=vgcTdEvc}I was the son of a slave, but my father bought me my freedom. I came from nothing, but I can only grow from here. Times are tough now, but they are tough for everyone. Perhaps I can benefit from joining the war rather than enduring it." />
 
-<!-- The Golden -->
+	<!-- The Golden -->
 	<string
 		id="prebackstory.spc_wanderer_aserai_1"
 		text="{=d9qUbj3I}I shall tell you... Ahem..." />
@@ -545,7 +546,33 @@
 		id="generic_backstory.spc_wanderer_aserai_1"
 		text="{=vKSGJNxT}I am a merchant, and a fine one. I would recite to you my lineage, but that would take an hour. I would tell you my ventures, but that would take two. So, instead - if you pay me - I shall come with you and manage your logistics, your business and your denars. Then you will know why they call me the Golden." />
 
-<!-- The Elephant -->
+	<!-- The Gazelle, chivalrous, but thinks great clans hog the glory -->
+	<string
+		id="prebackstory.spc_wanderer_aserai_2a"
+		text="{=5geffd4222}I suppose I will. Judge me as you wish, but I am proud of who I am." />
+	<string
+		id="backstory_a.spc_wanderer_aserai_2a"
+		text="{=ee2j5yff}My father is from one of the great clans, but to name him would scandalise him. He is not a terrible man, but alas my mother proved to be his weakness... one that he would at least try to make up for in secret. We looked after well enough in his household, even as simple servants." />
+	<string
+		id="backstory_b.spc_wanderer_aserai_2a"
+		text="{=142fffefefef}My 'real' father however? Now he was a disgrace and bless my mother but she chose poorly. Its a miracle anyone would think that I ever came from that oath, and the more I grew, the more I took after my real father's noble heritage. It did not hurt that I inherited his prowess either." />
+	<string
+		id="backstory_c.spc_wanderer_aserai_2a"
+		text="{=k6fvy5}Well my supposed father is many things, but he is not foolish. He figured out quick. He threatened to expose it, to ruin the clan and I... well after the blood was cleaned I had no choice but to flee. Perhaps one day I can return as a newly made woman." />
+	<string
+		id="response_1.spc_wanderer_aserai_2a"
+		text="{=43hhthth}Such a messy affair, and not any fault of your own." />
+	<string
+		id="response_2.spc_wanderer_aserai_2a"
+		text="{=mi76u633}The lies of nobilty is not worth murdering over." />
+	<string
+		id="backstory_d.spc_wanderer_aserai_2a"
+		text="{=bhhyn774}At any rate, I will find a master who allows me to win fame for myself. Perhaps I can then make a new name for myself." />
+	<string
+		id="generic_backstory.spc_wanderer_aserai_2a"
+		text="{=6yne4t4t}I am but a common warrior, of a great clans I mustn't name. I do not need that name, only to prove it with deeds for a worthy master." />
+
+	<!-- The Elephant -->
 	<string
 		id="prebackstory.spc_wanderer_aserai_10"
 		text="{=rgSWtZ0w}Well I have nothing better to do, and seems you don't either. So listen..." />
@@ -571,7 +598,7 @@
 		id="generic_backstory.spc_wanderer_aserai_10"
 		text="{=wQRSM1lz}I can fight well, and I've some learning too. Us slave warriors hadn't much of a life besides training. Take me in and I'll more than earn my keep." />
 
-<!-- The Hippo -->
+	<!-- The Hippo -->
 	<string
 		id="prebackstory.spc_wanderer_aserai_10a"
 		text="{=5hh234ff}Alright then, where to begin..." />
@@ -596,4 +623,59 @@
 	<string
 		id="generic_backstory.spc_wanderer_aserai_10a"
 		text="{=t4jvvrrtt4}I can fight well, and I reckon I have a decent handle of trade. Take me in and I'll more than earn my keep." />
+		
+<!-- Akkazi -->
+	<!-- Reborn -->
+	<!-- misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
+	<string
+		id="prebackstory.spc_wanderer_akkazi_0"
+		text="{=n4ggdh77}Hmm. Many men would begin their story by reciting their ancestry. I will not do this. A man should be judged on his own deeds, and a long list of ancestors does him no credit. Also, my family does not acknowledge me, so why should I acknowledge them?" />
+	<string
+		id="backstory_a.spc_wanderer_akkazi_0"
+		text="{=5gem6}I was a vagrant wastrel. A disgrace to my poor family, a man with no hope to his life. I begged, mugged and looted my way through life, barely alive. As far as everyone could care, I was doomed. Everyone except one holy man." />
+	<string
+		id="backstory_b.spc_wanderer_akkazi_0"
+		text="{=gdrrrgu766}He took me into his monastery, and had me cleaned up. Gave me a room, fed me. All this in exchange for cleaning up their place. A crook like me deserved none of it, but I'll be damned if I didn't try my best to live well. Before long, they had me helping out with the healing. Turned out to be my true calling, and just like that they taught me how to tend to the wounded." />
+	<string
+		id="backstory_c.spc_wanderer_akkazi_0"
+		text="{=mnn5t4gfdu89}Alas, these things were not to last. A band of Khuzait raiders stormed the monastery and killed all the monks including my dear master. I was made of harder stuff, but not so hard as to save them all. So its much to my shame that I alone survived. A vagrant like me." />
+	<string
+		id="response_1.spc_wanderer_akkazi_0"
+		text="{=3fefe5578}A reminder of what a terrible world we live in." />
+	<string
+		id="response_2.spc_wanderer_akkazi_0"
+		text="{=997gff4}I hope you haven't relasped into old habits." />
+	<string
+		id="backstory_d.spc_wanderer_akkazi_0"
+		text="{=a48ggr45}I ask myself why I, out of all of them survived. It drives me mad at times... but I've chosen to live on in their memory. Make something of myself... even if its joining up in war as a surgeon." />
+	<string
+		id="generic_backstory.spc_wanderer_akkazi_0"
+		text="{=563gfff343}I was vagrant given a chance to make something of myself. I offer my skills to war-leaders, who need the skills of hardy surgeons." />
+	<!-- Forgotten -->
+	<!-- misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
+	<string
+		id="prebackstory.spc_wanderer_akkazi_1"
+		text="{=m4y5y22ee2e2}I'm not that interesting, so forgive my tale..." />
+	<string
+		id="backstory_a.spc_wanderer_akkazi_1"
+		text="{=1fff4j}I was a respected surgeon in an army's camp train, while the love of my life was a rising hero. Our love was no small one and doubtless the camp tired of us! But I save many soldiers, and he would kill many more. But I never resented that, he was a brave and wonderful man. I thought he would be mine, but alas, he was already devoted to another." />
+	<string
+		id="backstory_b.spc_wanderer_akkazi_1"
+		text="{=y5yymm}There was one battle we were not doing so well in, so my lover was ordered out of the camp to bolster the front. When he left, a band of enemy raiders swooped in to try divert him back and keep him from tipping the scales. I could remember watching as agonised over the choice to make- to save us, or turn the tides of the greater battle to save his liege. Well he chose well and now they sing of his deeds." />
+	<string
+		id="backstory_c.spc_wanderer_akkazi_1"
+		text="{=j3aa3}The terrible cost was not unknown to anyone that listen to his legend, but many would agree that it saved our lands and many more people. Even I can agree... but damn it's hard to accept. Can you honestly tell those poor camp followers that their sacrifice was necessary?" />
+	<string
+		id="response_1.spc_wanderer_akkazi_1"
+		text="{=234rr33}It is no easy choice to make, weighing the value of life is a cruel thing." />
+	<string
+		id="response_2.spc_wanderer_akkazi_1"
+		text="{=1urth44}A few whores and cooks are a small price to pay for honour and glory." />
+	<string
+		id="backstory_d.spc_wanderer_akkazi_1"
+		text="{=4117jyjyj}Sometimes I wonder if he misses me. A part of me hopes that he does, and that he regrets that choice. But another part hates that I miss him anyway. So I give my services as an army surgeon, one that you can leave undefended if you must." />
+	<string
+		id="generic_backstory.spc_wanderer_akkazi_1"
+		text="{=u6320y5yes}I am known as a tragic sacrifice. I am the helper of the forgotten, the lost and the weak. But for you, I am an able surgeon and a hardened woman." />
+		
 </strings>
